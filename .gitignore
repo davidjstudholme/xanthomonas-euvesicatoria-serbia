@@ -9,6 +9,11 @@
 */checkm_out
 */*.jsonl
 *.dmanifest
+*.fq
+*.fq.gz
+*.fastq
+*.fastq.gz
+
 
 ### BLAST-related files
 *.nhr
