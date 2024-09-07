@@ -9,7 +9,7 @@ for i in  SRR24958750 SRR24958751 SRR24958752; do echo $i; trim_galore -q 30 --p
 
 
 ### Perform Unicycler assembly for each dataset
-#conda activate uniycler_env
+#conda activate unicycler_env
 for i in  SRR24958750 SRR24958751 SRR24958752; do echo $i;  ./unicycler-runner.py -1 $i"_1_val_1.fq.gz"  -2 $i"_2_val_2.fq.gz" -o $i.unicycler; done
 
 
