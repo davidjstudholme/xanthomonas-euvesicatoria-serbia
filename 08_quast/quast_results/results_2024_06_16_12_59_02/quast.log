@@ -1,0 +1,72 @@
+/data/djs217/anaconda3/envs/quast_env/bin/quast.py X13.contig X22.contig X31.contig
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-5.15.0-101-generic-x86_64-with-glibc2.35 (linux_64)
+  Python version: 3.10.13
+  CPUs number: 32
+
+Started: 2024-06-16 12:59:02
+
+Logging to /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast/quast_results/results_2024_06_16_12_59_02/quast.log
+NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
+
+CWD: /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast
+Main parameters: 
+  MODE: default, threads: 8, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  1  X13.contig ==> X13
+  2  X22.contig ==> X22
+  3  X31.contig ==> X31
+
+2024-06-16 12:59:03
+Running Basic statistics processor...
+  Contig files: 
+    1  X13
+    2  X22
+    3  X31
+  Calculating N50 and L50...
+    1  X13, N50 = 237941, L50 = 7, auN = 278486.8, Total length = 5319543, GC % = 64.55, # N's per 100 kbp =  0.00
+    2  X22, N50 = 244347, L50 = 6, auN = 313703.9, Total length = 5111994, GC % = 64.69, # N's per 100 kbp =  0.00
+    3  X31, N50 = 239948, L50 = 7, auN = 298442.0, Total length = 5107761, GC % = 64.69, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast/quast_results/results_2024_06_16_12_59_02/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast/quast_results/results_2024_06_16_12_59_02/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast/quast_results/results_2024_06_16_12_59_02/basic_stats/GC_content_plot.pdf
+  Drawing X13 GC content plot...
+    saved to /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast/quast_results/results_2024_06_16_12_59_02/basic_stats/X13_GC_content_plot.pdf
+  Drawing X22 GC content plot...
+    saved to /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast/quast_results/results_2024_06_16_12_59_02/basic_stats/X22_GC_content_plot.pdf
+  Drawing X31 GC content plot...
+    saved to /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast/quast_results/results_2024_06_16_12_59_02/basic_stats/X31_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2024-06-16 12:59:05
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2024-06-16 12:59:06
+RESULTS:
+  Text versions of total report are saved to /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast/quast_results/results_2024_06_16_12_59_02/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast/quast_results/results_2024_06_16_12_59_02/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast/quast_results/results_2024_06_16_12_59_02/report.html
+  PDF version (tables and plots) is saved to /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast/quast_results/results_2024_06_16_12_59_02/report.pdf
+  Icarus (contig browser) is saved to /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast/quast_results/results_2024_06_16_12_59_02/icarus.html
+  Log is saved to /data/djs217/PROJECTS/21_Xeu_serbia/Xanthomonas_euvesicatoria_Serbia/08_quast/quast_results/results_2024_06_16_12_59_02/quast.log
+
+Finished: 2024-06-16 12:59:06
+Elapsed time: 0:00:03.373907
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

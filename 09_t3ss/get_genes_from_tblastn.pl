@@ -1,0 +1,1 @@
+effector-profiling-in-bacteria/get_genes_from_tblastn.pl

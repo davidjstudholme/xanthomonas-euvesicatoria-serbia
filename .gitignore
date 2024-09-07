@@ -1,0 +1,23 @@
+*.fna
+*.contig
+*.fasta
+*~
+*.zip
+*/datasets
+*/ncbi_dataset
+*workdir/files
+*/checkm_out
+*/*.jsonl
+*.dmanifest
+
+
+*quast_results/latest
+
+### Large files in the PhaME results
+*workdir/results/gaps
+*workdir/results/miscs
+*workdir/results/snps
+*workdir/results/stats
+*workdir/results/tables
+*workdir/results/alignments
+*workdir/results/temp
