@@ -2,7 +2,7 @@
 fasterq-dump --split-files SRR24958750 SRR24958751 SRR24958752
 
 ### Compress the downloaded FASTQ files
-for i in *.fastq; do echo $i; done
+for i in *.fastq; do echo $i; gzip $i; done
 
 ### Perform TrimGalore on each dataset
 for i in  SRR24958750 SRR24958751 SRR24958752; do echo $i; trim_galore -q 30 --paired  $i*_1.fastq.gz $i*_2.fastq.gz; done
