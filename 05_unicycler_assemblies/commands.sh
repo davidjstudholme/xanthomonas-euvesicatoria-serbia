@@ -13,7 +13,8 @@ for i in  SRR24958750 SRR24958751 SRR24958752; do echo $i; trim_galore -q 30 --p
 for i in  SRR24958750 SRR24958751 SRR24958752; do echo $i;  ./unicycler-runner.py -1 $i"_1_val_1.fq.gz"  -2 $i"_2_val_2.fq.gz" -o $i.unicycler; done
 
 ### Make symbolic links to resulting assemblies
-for i in  SRR24958750 SRR24958751 SRR24958752  ; do echo $i; ln -s $i.unicycler/contigs.fasta $i.unicycler.contigs.fasta; done
+for i in  SRR24958750 SRR24958751 SRR24958752  ; do echo $i; ln -s $i.unicycler/assembly.fasta $i.unicycler.assembly.fasta; done
+
 
 
 
