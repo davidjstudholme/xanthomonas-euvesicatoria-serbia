@@ -1,0 +1,6 @@
+- "left reads":
+  - "/data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958752_1_val_1.fq.gz"
+  "orientation": "fr"
+  "right reads":
+  - "/data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958752_2_val_2.fq.gz"
+  "type": "paired-end"

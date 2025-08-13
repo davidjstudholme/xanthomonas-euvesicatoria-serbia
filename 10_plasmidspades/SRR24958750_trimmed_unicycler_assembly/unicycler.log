@@ -1,0 +1,115 @@
+
+Starting Unicycler (2025-07-25 19:59:48)
+----------------------------------------
+    Welcome to Unicycler, an assembly pipeline for bacterial genomes. Since you provided only short reads, Unicycler will essentially function as a SPAdes-optimiser. It will try many k-mer sizes, choose the best based on contig length and graph connectivity, and scaffold the graph using SPAdes repeat resolution.
+    For more information, please see https://github.com/rrwick/Unicycler
+
+Command: /data/djs217/miniconda3/envs/unicycler_env/bin/unicycler --mode conservative -1 SRR24958750_1_val_1.fq.gz -2 SRR24958750_2_val_2.fq.gz -o SRR24958750_trimmed_unicycler_assembly
+
+Unicycler version: v0.5.1
+Using 8 threads
+
+Making output directory:
+  /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly
+
+Dependencies:
+  Program       Version   Status  
+  spades.py     4.0.0     good    
+  racon                   not used
+  makeblastdb   2.16.0+   good    
+  tblastn       2.16.0+   good    
+
+
+Choosing k-mer range for assembly (2025-07-25 20:00:10)
+-------------------------------------------------------
+    Unicycler chooses a k-mer range for SPAdes based on the length of the input reads. It uses a wide range of many k-mer sizes to maximise the chance of finding an ideal assembly.
+
+SPAdes maximum k-mer: 127
+Median read length: 151
+K-mer range: 27, 53, 71, 87, 99, 111, 119, 127
+
+
+SPAdes assemblies (2025-07-25 20:00:26)
+---------------------------------------
+    Unicycler now uses SPAdes to assemble the short reads. It scores the assembly graph for each k-mer using the number of contigs (fewer is better) and the number of dead ends (fewer is better). The score function is 1/(c*(d+2)), where c is the contig count and d is the dead end count.
+
+spades.py -o /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/spades_assembly -k 27 --threads 8 --gfa11 --isolate -1 /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_1_val_1.fq.gz -2 /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_2_val_2.fq.gz -m 1024
+
+spades.py -o /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/spades_assembly -k 27,53 --threads 8 --gfa11 --restart-from k27 -m 1024
+
+spades.py -o /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/spades_assembly -k 27,53,71 --threads 8 --gfa11 --restart-from k53 -m 1024
+
+spades.py -o /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/spades_assembly -k 27,53,71,87 --threads 8 --gfa11 --restart-from k71 -m 1024
+
+spades.py -o /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/spades_assembly -k 27,53,71,87,99 --threads 8 --gfa11 --restart-from k87 -m 1024
+
+spades.py -o /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/spades_assembly -k 27,53,71,87,99,111 --threads 8 --gfa11 --restart-from k99 -m 1024
+
+spades.py -o /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/spades_assembly -k 27,53,71,87,99,111,119 --threads 8 --gfa11 --restart-from k111 -m 1024
+
+spades.py -o /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/spades_assembly -k 27,53,71,87,99,111,119,127 --threads 8 --gfa11 --restart-from k119 -m 1024
+
+K-mer   Contigs   Dead ends   Score      
+   27                         too complex
+   53       584           6      2.14e-04
+   71       401           6      3.12e-04
+   87       335           6      3.73e-04
+   99       323           6      3.87e-04
+  111       296           6      4.22e-04
+  119       254           7      4.37e-04
+  127       251           7      4.43e-04 <-best
+
+Read depth filter: removed 37 contigs totalling 10778 bp
+Deleting /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/spades_assembly/
+
+
+Determining graph multiplicity (2025-07-25 20:34:27)
+----------------------------------------------------
+    Multiplicity is the number of times a sequence occurs in the underlying sequence. Single-copy contigs (those with a multiplicity of one, occurring only once in the underlying sequence) are particularly useful.
+
+Saving /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/002_depth_filter.gfa
+
+
+Cleaning graph (2025-07-25 20:34:27)
+------------------------------------
+    Unicycler now performs various cleaning procedures on the graph to remove overlaps and simplify the graph structure. The end result is a graph ready for bridging.
+
+Graph overlaps removed
+
+Removed zero-length segments:
+    183, 184, 185, 186, 193, 211, 219, 229, 242
+
+Merged small segments:
+    220, 221, 222, 223, 225, 226, 227, 230, 233, 236, 239, 240, 241, 244, 247, 248, 249, 250
+
+Saving /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/003_overlaps_removed.gfa
+
+    Unicycler now selects a set of anchor contigs from the single-copy contigs. These are the contigs which will be connected via bridges to form the final assembly.
+
+61 anchor segments (5,044,749 bp) out of 224 total segments (5,106,113 bp)
+
+
+Applying bridges (2025-07-25 20:34:28)
+--------------------------------------
+    Unicycler now applies to the graph in decreasing order of quality. This ensures that when multiple, contradictory bridges exist, the most supported option is used.
+
+Bridge type   Start -> end   Path   Quality
+
+Saving /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/004_bridges_applied.gfa
+
+
+Bridged assembly graph (2025-07-25 20:34:28)
+--------------------------------------------
+    The assembly is now mostly finished and no more structural changes will be made. Ideally the assembly graph should now have one contig per replicon and no erroneous contigs (i.e. a complete assembly). If there are more contigs, then the assembly is not complete.
+
+Saving /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/005_final_clean.gfa
+
+Component   Segments   Links   Length      N50       Longest segment   Status    
+        1        222     307   5,105,909   222,215           585,707   incomplete
+
+
+Assembly complete (2025-07-25 20:34:28)
+---------------------------------------
+Saving /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/assembly.gfa
+Saving /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed_unicycler_assembly/assembly.fasta
+

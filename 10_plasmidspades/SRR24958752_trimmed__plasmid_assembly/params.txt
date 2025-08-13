@@ -1,0 +1,37 @@
+Command line: /usr/lib/spades/bin/plasmidspades.py	-1	/data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958752_1_val_1.fq.gz	-2	/data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958752_2_val_2.fq.gz	-o	/data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958752_trimmed__plasmid_assembly	
+
+System information:
+  SPAdes version: 3.13.1
+  Python version: 3.10.12
+  OS: Linux-5.15.0-143-generic-x86_64-with-glibc2.35
+
+Output dir: /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958752_trimmed__plasmid_assembly
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Multi-cell mode (you should set '--sc' flag if input data was obtained with MDA (single-cell) technology or --meta flag if processing metagenomic dataset)
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958752_1_val_1.fq.gz']
+      right reads: ['/data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958752_2_val_2.fq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: automatic selection based on read length
+  Plasmid mode is turned ON
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958752_trimmed__plasmid_assembly/tmp
+  Threads: 16
+  Memory limit (in Gb): 62
+

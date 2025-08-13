@@ -1,0 +1,6 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:37.401   296M / 9G    WARN    General                 (chromosome_removal.cpp    :  91)   More than 20% of long edges have coverage significantly different from median (total 3096651 of 7421264 bases).
+ * 0:00:37.401   296M / 9G    WARN    General                 (chromosome_removal.cpp    :  92)   In most cases it means that either read coverage is uneven or significant contamination is present - both of these two cases make plasmidSPAdes' results unreliable
+ * 0:00:37.401   296M / 9G    WARN    General                 (chromosome_removal.cpp    :  93)   However, that situation may still be OK if you expect to see large plasmids in your dataset, so plasmidSPAdes will continue to work
+======= Warnings saved to /data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958752_trimmed__plasmid_assembly/warnings.log

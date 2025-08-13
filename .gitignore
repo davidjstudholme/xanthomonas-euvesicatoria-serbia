@@ -1,6 +1,8 @@
 *.fna
+*.fna.gz
 *.contig
 *.fasta
+*.fasta.gz
 *~
 *.zip
 */datasets
@@ -10,6 +12,13 @@
 */*.jsonl
 *.dmanifest
 */md5sum.txt
+
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+*.gfa
 
 
 *quast_results/latest
