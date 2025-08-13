@@ -9,11 +9,19 @@
 */checkm_out
 */*.jsonl
 *.dmanifest
-*.fq
-*.fq.gz
-*.fastq
-*.fastq.gz
+*/md5sum.txt
 
+
+*quast_results/latest
+
+### Large files in the PhaME results
+*workdir/results/gaps
+*workdir/results/miscs
+*workdir/results/snps
+*workdir/results/stats
+*workdir/results/tables
+*workdir/results/alignments
+*workdir/results/temp
 
 ### BLAST-related files
 *.nhr
@@ -26,13 +34,3 @@
 
 wget-log
 
-*quast_results/latest
-
-### Large files in the PhaME results
-*workdir/results/gaps
-*workdir/results/miscs
-*workdir/results/snps
-*workdir/results/stats
-*workdir/results/tables
-*workdir/results/alignments
-*workdir/results/temp
