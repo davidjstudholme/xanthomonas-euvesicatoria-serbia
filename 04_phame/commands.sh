@@ -5,7 +5,7 @@
 #conda activate phame_env
 
 ### Assumes that PhaME is already installed
-phame ./phame.fasttree.ctl
+phame ./phame.ctl
 
 
 

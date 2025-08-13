@@ -14,15 +14,11 @@ DC99P1A1_contig
 DC99P1B1_contig
 E3_contig
 FB570_contig
-LMG930_contig
 LMG_27970_contig
 LMG_667_contig
 LMG_905_contig
 LMG_909_contig
-LMG_918_contig
 LMG_933_contig
-NCPPB_1756_contig
-NCPPB_2932_contig
 NI38_contig
 Ps_1_contig
 Ps_7_contig
