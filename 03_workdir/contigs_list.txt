@@ -19,7 +19,6 @@ LMG_667_contig
 LMG_905_contig
 LMG_909_contig
 LMG_933_contig
-NI38_contig
 Ps_1_contig
 Ps_7_contig
 Tu_06_contig
