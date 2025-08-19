@@ -15,5 +15,7 @@ rm README.md
 # conda activate checkm_env
 checkm -h > checkm.version.txt
 checkm taxonomy_wf genus Xanthomonas . checkm_out
-checkm qa  checkm_out/Xanthomonas.ms checkm_out > checkm_qa.txt
-
+for i in 1 2 3 4 5 6 7 8 9; do
+    echo $i
+    checkm qa --out_format $i checkm_out/Xanthomonas.ms checkm_out > checkm_qa.$i.txt
+done

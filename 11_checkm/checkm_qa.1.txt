@@ -1,10 +1,10 @@
-[2025-08-19 13:41:31] INFO: CheckM v1.2.4
-[2025-08-19 13:41:31] INFO: checkm qa checkm_out/Xanthomonas.ms checkm_out
-[2025-08-19 13:41:31] INFO: CheckM data: /data/djs217/miniconda3/envs/checkm_env/checkm_data
-[2025-08-19 13:41:31] INFO: [CheckM - qa] Tabulating genome statistics.
-[2025-08-19 13:41:31] INFO: Calculating AAI between multi-copy marker genes.
-[2025-08-19 13:41:31] INFO: Reading HMM info from file.
-[2025-08-19 13:41:33] INFO: Parsing HMM hits to marker genes:
+[2025-08-19 14:07:55] INFO: CheckM v1.2.4
+[2025-08-19 14:07:55] INFO: checkm qa --out_format 1 checkm_out/Xanthomonas.ms checkm_out
+[2025-08-19 14:07:55] INFO: CheckM data: /data/djs217/miniconda3/envs/checkm_env/checkm_data
+[2025-08-19 14:07:55] INFO: [CheckM - qa] Tabulating genome statistics.
+[2025-08-19 14:07:55] INFO: Calculating AAI between multi-copy marker genes.
+[2025-08-19 14:07:55] INFO: Reading HMM info from file.
+[2025-08-19 14:07:57] INFO: Parsing HMM hits to marker genes:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Bin Id                                     Marker lineage   # genomes   # markers   # marker sets   0     1     2    3   4   5+   Completeness   Contamination   Strain heterogeneity  
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -70,4 +70,4 @@
   GCA_020880375.1_ASM2088037v1_genomic      Xanthomonas (5)       16         1163          401        28   1134   1    0   0   0       97.69            0.03               0.00          
   GCA_001401555.1_Xeu_LMG27970_genomic      Xanthomonas (5)       16         1163          401        32   1092   38   1   0   0       96.98            3.45              63.41          
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-[2025-08-19 13:41:47] INFO: { Current stage: 0:00:16.723 || Total: 0:00:16.723 }
+[2025-08-19 14:08:11] INFO: { Current stage: 0:00:16.348 || Total: 0:00:16.348 }
