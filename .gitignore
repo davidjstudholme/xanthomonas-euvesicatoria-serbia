@@ -8,7 +8,9 @@
 */datasets
 */ncbi_dataset
 *workdir/files
-*/checkm_out
+
+11_checkm/checkm_out/*.ms
+
 */*.jsonl
 *.dmanifest
 */md5sum.txt

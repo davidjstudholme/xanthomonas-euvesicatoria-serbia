@@ -8,6 +8,7 @@ chmod u+x datasets
 ./datasets download genome accession --inputfile xanthomonas_assm_accs.txt --include genome --filename xanthomonas_genome_assemblies.zip
 unzip xanthomonas_genome_assemblies.zip
 ln -s ncbi_dataset/data/GCA_*/GCA_*.fna .
+rm README.md
 
 ### Run checkm
 ### Assumes that checkm is already installed
