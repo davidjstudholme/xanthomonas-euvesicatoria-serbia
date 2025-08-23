@@ -152,3 +152,6 @@ RUN STATISTICS FOR INPUT FILE: SRR16936575_2.fastq.gz
 =============================================
 2019920 sequences processed in total
 
+Total number of sequences analysed for the sequence pair length validation: 2019920
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 77118 (3.82%)
