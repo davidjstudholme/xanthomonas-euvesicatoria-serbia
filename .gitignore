@@ -9,6 +9,11 @@
 */ncbi_dataset
 *workdir/files
 
+*.bam
+*.bai
+*.sam
+
+
 11_checkm/checkm_out/*.ms
 
 */*.jsonl
