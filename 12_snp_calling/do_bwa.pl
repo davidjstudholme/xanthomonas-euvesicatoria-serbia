@@ -7,7 +7,6 @@ my $usage = "Usage: $0 <reference sequence>";
 
 my $ref_file = shift or die "$usage\n";
 
-
 my $bwa_path = 'bwa';
 
 ### Index the reference sequence
@@ -16,8 +15,7 @@ my $ref_prefix = index_reference_genome($ref_file);
 ### Get pairs of fastQ files
 my %fastq_pairs = %{ get_pairs_of_fastq_files('.') };
     
-   
-foreach my $lane_name (sort keys %fastq_pairs) {
+   foreach my $lane_name (sort keys %fastq_pairs) {
     my ($first_fq_file, $second_fq_file) = @{ $fastq_pairs{$lane_name} };
     my @commands;
     warn "considering $first_fq_file\n";
@@ -107,8 +105,7 @@ foreach my $lane_name (sort keys %fastq_pairs) {
     ### Index the BAM files
     push @commands, "samtools index $sorted_bam_file" unless $done_index_bam;
     push @commands, "samtools index $rmdup_bam_file" unless $done_index_rmdup_bam;
-    
-        
+         
     ### Clean-up unnecessary files
     foreach my $file ($aln_outfile,
 		      $bam_outfile,
@@ -119,20 +116,18 @@ foreach my $lane_name (sort keys %fastq_pairs) {
 	
     }
 
-
     ### Create batch files containing commands
     create_batch_submission_file($lane_name, \@commands) if scalar (@commands);
 
     ### Execute the commands
-    foreach my $cmd (@commands) {
-	warn "\n$cmd\n";
-	my $execute = `$cmd`;
-	warn "$execute\n\n";
-    }
-    
+    if (1) {
+	foreach my $cmd (@commands) {
+	    warn "\n$cmd\n";
+	    my $execute = `$cmd`;
+	    warn "$execute\n\n";
+	}
+    }   
 }
-
-
 
 exit;
 
