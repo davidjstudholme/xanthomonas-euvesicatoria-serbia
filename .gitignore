@@ -3,16 +3,17 @@
 *.contig
 *.fasta
 *.fasta.gz
+*.gbff
+*.gbff.gz
 *~
 *.zip
-*/datasets
+datasets
 */ncbi_dataset
 *workdir/files
 
 *.bam
 *.bai
 *.sam
-
 
 11_checkm/checkm_out/*.ms
 
@@ -27,7 +28,6 @@
 
 *.gfa
 
-
 *quast_results/latest
 
 ### Large files in the PhaME results
@@ -38,6 +38,23 @@
 *workdir/results/tables
 *workdir/results/alignments
 *workdir/results/temp
+
+# Large phylogenomics results
+01_phylogenomics/*/03_workdir/results/tables/
+01_phylogenomics/*/03_workdir/results/Xeu_core_stats.txt
+
+# CheckM outputs
+11_checkm/
+
+# SNP calling indexes
+*.bwt
+*.pac
+*.sa
+
+# Parsnp outputs
+parsnp.xmfa
+parsnp.maf
+
 
 ### BLAST-related files
 *.nhr

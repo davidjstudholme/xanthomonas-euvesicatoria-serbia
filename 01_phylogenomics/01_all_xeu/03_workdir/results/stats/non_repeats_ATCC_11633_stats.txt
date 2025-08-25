@@ -1,0 +1,2 @@
+Reference	Length	Non-Repeat	Repeat size
+ATCC_11633	5314922	5299572	15350
