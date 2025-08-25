@@ -83,10 +83,6 @@ for i in CP018463.1.fasta CP170254.1.fasta NC_016053.1.fasta; do
     perl do_bwa.pl $i
 done
 
-
-
-
-
 ### Assume that Qualimap is installed
 conda create -n qualimap_env
 conda activate qualimap_env
@@ -103,5 +99,14 @@ for i in *versus.X22.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > X22.bam_l
 for i in *versus.X31.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > X31.bam_list.txt
 for i in *versus.Xe73.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > Xe73.bam_list.txt
 
+for i in *versus.CP018463.1.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > CP018463.1.bam_list.txt
+for i in *versus.CP170254.1.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > CP170254.1.bam_list.txt
+for i in *versus.NC_016053.1.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > NC_016053.1.1.bam_list.txt
+
 ### Run Qualimap
 qualimap multi-bamqc --run-bamqc --data LMG_930.bam_list.txt -outdir LMG_930.multi-bamqc -outformat PDF
+
+qualimap multi-bamqc --run-bamqc --data CP018463.1.bam_list.txt -outdir CP018463.1.multi-bamqc -outformat PDF
+qualimap multi-bamqc --run-bamqc --data CP170254.1.bam_list.txt -outdir CP170254.1.multi-bamqc -outformat PDF
+qualimap multi-bamqc --run-bamqc --data NC_016053.1.bam_list.txt -outdir NC_016053.1.multi-bamqc -outformat PDF
+
