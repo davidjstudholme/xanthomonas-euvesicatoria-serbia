@@ -1,13 +1,13 @@
 
 ### Get reference genome assemblies
-ln -s ../01_genome_assemblies/Xe173.fasta .
-ln -s ../01_genome_assemblies/85-10.fasta .
-ln -s ../01_genome_assemblies/LMG_930.fasta .
-ln -s ../01_genome_assemblies/X22.fasta .
-ln -s ../01_genome_assemblies/X13.fasta .
-ln -s ../01_genome_assemblies/X31.fasta .
-ln -s ../01_genome_assemblies/66b.fasta .
-ln -s ../01_genome_assemblies/Tu-10.fasta .
+ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/Xe173.fasta .
+ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/85-10.fasta .
+ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/LMG_930.fasta .
+ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/X22.fasta .
+ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/X13.fasta .
+ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/X31.fasta .
+ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/66b.fasta .
+ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/Tu-10.fasta .
 
 ### Serbia Xeu strains
 fasterq-dump SRR24958750 SRR24958751 SRR24958752 
@@ -78,6 +78,14 @@ mv SRR16936540_2_val_2.fq.gz DC_96-3.2.fq.gz
 for i in 66b.fasta  85-10.fasta  LMG_930.fasta  Tu-10.fasta  X13.fasta  X22.fasta  X31.fasta  Xe173.fasta; do
     perl do_bwa.pl $i
 done
+
+for i in CP018463.1.fasta CP170254.1.fasta NC_016053.1.fasta; do
+    perl do_bwa.pl $i
+done
+
+
+
+
 
 ### Assume that Qualimap is installed
 conda create -n qualimap_env
