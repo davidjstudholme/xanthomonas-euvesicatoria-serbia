@@ -19,7 +19,6 @@ md5sum.txt
 *.vcf
 *.bcf
 
-
 *.bam
 *.bai
 *.sam
@@ -59,6 +58,7 @@ md5sum.txt
 # Parsnp outputs
 parsnp.xmfa
 parsnp.maf
+*.ref
 
 ### BLAST-related files
 *.nhr
