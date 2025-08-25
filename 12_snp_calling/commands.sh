@@ -74,8 +74,12 @@ mv SRR16936582_2_val_2.fq.gz DC_96-5.2.fq.gz
 mv SRR16936540_1_val_1.fq.gz DC_96-3.1.fq.gz
 mv SRR16936540_2_val_2.fq.gz DC_96-3.2.fq.gz
 
+### Perform BWA alignments
+for i in 66b.fasta  85-10.fasta  LMG_930.fasta  Tu-10.fasta  X13.fasta  X22.fasta  X31.fasta  Xe173.fasta; do
+    perl do_bwa.pl $i
+done
 
-### Assume that Qualimpa is installed
+### Assume that Qualimap is installed
 conda create -n qualimap_env
 conda activate qualimap_env
 conda install bioconda::qualimap
