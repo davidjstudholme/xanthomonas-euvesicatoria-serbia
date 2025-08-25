@@ -1,0 +1,2 @@
+Reference	Length	Non-Repeat	Repeat size
+Xe173	5354628	5230351	124277
