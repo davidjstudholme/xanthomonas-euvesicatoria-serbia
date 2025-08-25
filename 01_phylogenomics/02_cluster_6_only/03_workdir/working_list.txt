@@ -39,3 +39,4 @@ XCVKK_C_5_contig
 Xcv_DC_96_3_contig
 Xcv_DC_96_5_contig
 Xcv_DC_97_P1A_contig
+Xe173_contig

@@ -110,3 +110,16 @@ qualimap multi-bamqc --run-bamqc --data CP018463.1.bam_list.txt -outdir CP018463
 qualimap multi-bamqc --run-bamqc --data CP170254.1.bam_list.txt -outdir CP170254.1.multi-bamqc -outformat PDF
 qualimap multi-bamqc --run-bamqc --data NC_016053.1.bam_list.txt -outdir NC_016053.1.multi-bamqc -outformat PDF
 
+### Make coverage plots
+for i in *.versus.Xe173.fasta.aln.sorted.rmdup.bam; do
+    echo $i
+    igvtools count $i $i.tdf Xe173.fasta
+done
+for i in *.versus.85-10.fasta.aln.sorted.rmdup.bam; do
+    echo $i
+    igvtools count $i $i.tdf 85-10.fasta
+done
+for i in *.versus.LMG_930.fasta.aln.sorted.rmdup.bam; do
+    echo $i
+    igvtools count $i $i.tdf LMG_930.fasta
+done

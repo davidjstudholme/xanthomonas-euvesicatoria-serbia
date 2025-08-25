@@ -11,6 +11,15 @@ datasets
 */ncbi_dataset
 *workdir/files
 
+*.pileup
+*.mpileup
+
+md5sum.txt
+
+*.vcf
+*.bcf
+
+
 *.bam
 *.bai
 *.sam
@@ -41,16 +50,15 @@ datasets
 01_phylogenomics/*/03_workdir/results/tables/
 01_phylogenomics/*/03_workdir/results/Xeu_core_stats.txt
 
-
 # SNP calling indexes
 *.bwt
 *.pac
 *.sa
+*.fai
 
 # Parsnp outputs
 parsnp.xmfa
 parsnp.maf
-
 
 ### BLAST-related files
 *.nhr
@@ -63,3 +71,4 @@ parsnp.maf
 
 wget-log
 
+checkm_out

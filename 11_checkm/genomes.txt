@@ -1,0 +1,1 @@
+../01_phylogenomics/01_all_xeu/01_genome_assemblies/genomes.txt
