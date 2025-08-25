@@ -18,3 +18,15 @@
 [2025-08-25 08:05:31] INFO: { Current stage: 0:00:04.272 || Total: 0:00:04.272 }
 [2025-08-25 08:05:31] INFO: [CheckM - analyze] Identifying marker genes in bins.
 [2025-08-25 08:05:34] INFO: Identifying marker genes in 112 bins with 1 threads:
+[2025-08-25 15:03:21] INFO: Saving HMM info to file.
+[2025-08-25 15:03:29] INFO: { Current stage: 6:57:57.912 || Total: 6:58:02.184 }
+[2025-08-25 15:03:29] INFO: Parsing HMM hits to marker genes:
+[2025-08-25 15:04:25] INFO: Aligning marker genes with multiple hits in a single bin:
+[2025-08-25 15:05:05] INFO: { Current stage: 0:01:35.964 || Total: 6:59:38.148 }
+[2025-08-25 15:05:05] INFO: Calculating genome statistics for 112 bins with 1 threads:
+[2025-08-25 15:05:29] INFO: { Current stage: 0:00:23.724 || Total: 7:00:01.873 }
+[2025-08-25 15:05:29] INFO: [CheckM - qa] Tabulating genome statistics.
+[2025-08-25 15:05:29] INFO: Calculating AAI between multi-copy marker genes.
+[2025-08-25 15:05:29] INFO: Reading HMM info from file.
+[2025-08-25 15:05:32] INFO: Parsing HMM hits to marker genes:
+[2025-08-25 15:05:59] INFO: { Current stage: 0:00:30.561 || Total: 7:00:32.434 }
