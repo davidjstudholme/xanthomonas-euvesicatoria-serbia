@@ -1,3 +1,5 @@
+
+### Get reference genome assemblies
 ln -s ../01_genome_assemblies/Xe173.fasta .
 ln -s ../01_genome_assemblies/85-10.fasta .
 ln -s ../01_genome_assemblies/LMG_930.fasta .
@@ -73,4 +75,19 @@ mv SRR16936540_1_val_1.fq.gz DC_96-3.1.fq.gz
 mv SRR16936540_2_val_2.fq.gz DC_96-3.2.fq.gz
 
 
+### Assume that Qualimpa is installed
+conda create -n qualimap_env
+conda activate qualimap_env
+conda install bioconda::qualimap
+
+### Generate Qualimap iput files
+for i in *versus.66b.fasta.aln.sorted.rmdup.bam; do echo $i $i; done
+for i in *versus.66b.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > 66b.bam_list.txt
+for i in *versus.85-10.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > 85-10.bam_list.txt
+for i in *versus.LMG_930.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > LMG_930.bam_list.txt
+for i in *versus.TU-10.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > Tu-10.bam_list.txt
+for i in *versus.X13.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > X13.bam_list.txt
+for i in *versus.X22.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > X22.bam_list.txt
+for i in *versus.X31.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > X31.bam_list.txt
+for i in *versus.Xe73.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > Xe73.bam_list.txt
 

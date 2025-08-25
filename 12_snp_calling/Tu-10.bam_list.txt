@@ -1,0 +1,1 @@
+*versus.TU-10.fasta.aln.sorted.rmdup.bam *versus.TU-10.fasta.aln.sorted.rmdup.bam
