@@ -1,5 +1,7 @@
-conda install -c bioconda parsnp
-conda activate harvest_env
+
+#conda activate harvest_env
+#conda install -c bioconda parsnp
+
 
 ### Download Xe173 reference genome in GenBank format
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/042/448/555/GCF_042448555.1_ASM4244855v1/GCF_042448555.1_ASM4244855v1_genomic.gbff.gz
