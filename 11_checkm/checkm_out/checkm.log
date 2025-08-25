@@ -1,0 +1,20 @@
+[2025-08-25 08:05:27] INFO: CheckM v1.2.4
+[2025-08-25 08:05:27] INFO: checkm taxonomy_wf genus Xanthomonas . checkm_out
+[2025-08-25 08:05:27] INFO: CheckM data: /data/djs217/miniconda3/envs/checkm_env/checkm_data
+[2025-08-25 08:05:27] INFO: [CheckM - taxon_set] Generate taxonomic-specific marker set.
+[2025-08-25 08:05:31] INFO: Marker set for Xanthomonas contains 1163 marker genes arranged in 401 sets.
+[2025-08-25 08:05:31] INFO: Marker set inferred from 16 reference genomes.
+[2025-08-25 08:05:31] INFO: Marker set for Xanthomonadaceae contains 540 marker genes arranged in 311 sets.
+[2025-08-25 08:05:31] INFO: Marker set inferred from 58 reference genomes.
+[2025-08-25 08:05:31] INFO: Marker set for Xanthomonadales contains 499 marker genes arranged in 264 sets.
+[2025-08-25 08:05:31] INFO: Marker set inferred from 63 reference genomes.
+[2025-08-25 08:05:31] INFO: Marker set for Gammaproteobacteria contains 280 marker genes arranged in 178 sets.
+[2025-08-25 08:05:31] INFO: Marker set inferred from 1167 reference genomes.
+[2025-08-25 08:05:31] INFO: Marker set for Proteobacteria contains 182 marker genes arranged in 119 sets.
+[2025-08-25 08:05:31] INFO: Marker set inferred from 2343 reference genomes.
+[2025-08-25 08:05:31] INFO: Marker set for Bacteria contains 104 marker genes arranged in 58 sets.
+[2025-08-25 08:05:31] INFO: Marker set inferred from 5449 reference genomes.
+[2025-08-25 08:05:31] INFO: Marker set written to: checkm_out/Xanthomonas.ms
+[2025-08-25 08:05:31] INFO: { Current stage: 0:00:04.272 || Total: 0:00:04.272 }
+[2025-08-25 08:05:31] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2025-08-25 08:05:34] INFO: Identifying marker genes in 112 bins with 1 threads:

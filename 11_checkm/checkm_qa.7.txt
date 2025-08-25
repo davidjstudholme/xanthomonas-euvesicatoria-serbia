@@ -1,0 +1,13 @@
+[2025-08-19 14:09:39] INFO: CheckM v1.2.4
+[2025-08-19 14:09:39] INFO: checkm qa --out_format 7 checkm_out/Xanthomonas.ms checkm_out
+[2025-08-19 14:09:39] INFO: CheckM data: /data/djs217/miniconda3/envs/checkm_env/checkm_data
+[2025-08-19 14:09:39] INFO: [CheckM - qa] Tabulating genome statistics.
+[2025-08-19 14:09:39] INFO: Calculating AAI between multi-copy marker genes.
+[2025-08-19 14:09:39] INFO: Reading HMM info from file.
+[2025-08-19 14:09:41] INFO: Parsing HMM hits to marker genes:
+Bin Id	Marker Id	Gene Ids
+GCA_000009165.1_ASM916v1_genomic	PF00308.13	AM039952.1_1,AM039952.1_3071
+GCA_001854165.1_ASM185416v1_genomic	PF00308.13	CP017190.1_1608,CP017190.1_2961
+GCA_001908795.1_ASM190879v1_genomic	PF00308.13	CP018467.1_3909,CP018467.1_947
+GCA_040202735.2_ASM4020273v2_genomic	PF00308.13	CP167827.1_1,CP167827.1_2956
+[2025-08-19 14:09:55] INFO: { Current stage: 0:00:16.299 || Total: 0:00:16.299 }

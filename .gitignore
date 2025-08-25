@@ -15,8 +15,6 @@ datasets
 *.bai
 *.sam
 
-11_checkm/checkm_out/*.ms
-
 */*.jsonl
 *.dmanifest
 */md5sum.txt
@@ -43,8 +41,6 @@ datasets
 01_phylogenomics/*/03_workdir/results/tables/
 01_phylogenomics/*/03_workdir/results/Xeu_core_stats.txt
 
-# CheckM outputs
-11_checkm/
 
 # SNP calling indexes
 *.bwt
