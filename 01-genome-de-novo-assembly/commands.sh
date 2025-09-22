@@ -19,7 +19,7 @@ conda list -n unicycler_env > unicycler_env_packages.txt
 conda env export > unicycler_env.yaml
 for i in  SRR24958750 SRR24958751 SRR24958752; do
     echo $i
-    ./unicycler-runner.py -1 $i"_1_val_1.fq.gz"  -2 $i"_2_val_2.fq.gz" -o $i.unicycler
+    unicycler -1 $i"_1_val_1.fq.gz"  -2 $i"_2_val_2.fq.gz" -o $i.unicycler
 done
 
 ### Make symbolic links to resulting assemblies

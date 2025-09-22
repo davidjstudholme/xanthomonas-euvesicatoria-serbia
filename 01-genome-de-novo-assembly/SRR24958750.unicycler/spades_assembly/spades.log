@@ -1,0 +1,180 @@
+Command line: /data/djs217/miniconda3/envs/unicycler_env/bin/spades.py	-o	/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750.unicycler/spades_assembly	-k	27	--threads	8	--gfa11	--isolate	-1	/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750_1_val_1.fq.gz	-2	/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750_2_val_2.fq.gz	-m	1024	
+
+System information:
+  SPAdes version: 4.0.0
+  Python version: 3.12.3
+  OS: Linux-5.15.0-153-generic-x86_64-with-glibc2.35
+
+Output dir: /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750.unicycler/spades_assembly
+Mode: ONLY assembling (without read error correction)
+Debug mode is turned OFF
+
+Dataset parameters:
+  Isolate mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750_1_val_1.fq.gz']
+      right reads: ['/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750_2_val_2.fq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Assembly parameters:
+  k: [27]
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+  Assembly graph output will use GFA v1.1 format
+Other parameters:
+  Dir for temp files: /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750.unicycler/spades_assembly/tmp
+  Threads: 8
+  Memory limit (in Gb): 1024
+
+
+======= SPAdes pipeline started. Log can be found here: /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750.unicycler/spades_assembly/spades.log
+
+/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750_1_val_1.fq.gz: max reads length: 151
+/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750_2_val_2.fq.gz: max reads length: 151
+
+Reads length: 151
+
+
+===== Before start started. 
+
+
+===== Assembling started. 
+
+
+===== K27 started. 
+
+
+== Running: /data/djs217/miniconda3/envs/unicycler_env/bin/spades-core /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750.unicycler/spades_assembly/K27/configs/config.info /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750.unicycler/spades_assembly/K27/configs/isolate_mode.info
+
+  0:00:00.000     1M / 18M   INFO    General                 (main.cpp                  :  94)   Loaded config from "/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750.unicycler/spades_assembly/K27/configs/config.info"
+  0:00:00.001     1M / 18M   INFO    General                 (main.cpp                  :  94)   Loaded config from "/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750.unicycler/spades_assembly/K27/configs/isolate_mode.info"
+  0:00:00.001     1M / 18M   INFO    General                 (memory_limit.cpp          :  55)   Memory limit set to 1024 Gb
+  0:00:00.001     1M / 18M   INFO    General                 (main.cpp                  : 102)   Starting SPAdes, built from N/A, git revision N/A
+  0:00:00.001     1M / 18M   INFO    General                 (main.cpp                  : 103)   Maximum k-mer length: 128
+  0:00:00.001     1M / 18M   INFO    General                 (main.cpp                  : 104)   Assembling dataset ("/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750.unicycler/spades_assembly/dataset.info") with K=27
+  0:00:00.001     1M / 18M   INFO    General                 (main.cpp                  : 105)   Maximum # of threads to use (adjusted due to OMP capabilities): 8
+  0:00:00.001     1M / 18M   INFO    General                 (pipeline.cpp              : 212)   SPAdes started
+  0:00:00.001     1M / 18M   INFO    General                 (pipeline.cpp              : 225)   Starting from stage: read_conversion
+  0:00:00.001     1M / 18M   INFO    General                 (pipeline.cpp              : 234)   Two-step repeat resolution disabled
+  0:00:00.002     1M / 18M   INFO   GraphCore                (graph_core.hpp            : 689)   Graph created, vertex min_id: 3, edge min_id: 3
+  0:00:00.002     1M / 18M   INFO   GraphCore                (graph_core.hpp            : 690)   Vertex size: 48, edge size: 40
+  0:00:00.002     1M / 18M   INFO    General                 (edge_index.hpp            : 132)   Size of edge index entries: 12/8
+  0:00:00.002     1M / 18M   INFO    General                 (pipeline.cpp              : 245)   Will need read mapping, kmer mapper will be attached
+  0:00:00.002     1M / 18M   INFO   StageManager             (stage.cpp                 : 189)   STAGE == Binary Read Conversion (id: read_conversion)
+  0:00:00.003     1M / 18M   INFO    General                 (read_converter.cpp        :  78)   Converting reads to binary format for library #0 (takes a while)
+  0:00:00.003     1M / 18M   INFO    General                 (read_converter.cpp        :  99)   Converting paired reads
+  0:00:00.404    82M / 121M  INFO    General                 (binary_converter.cpp      : 127)   16384 reads processed
+  0:00:00.418    82M / 123M  INFO    General                 (binary_converter.cpp      : 127)   32768 reads processed
+  0:00:00.443    82M / 127M  INFO    General                 (binary_converter.cpp      : 127)   65536 reads processed
+  0:00:00.645    82M / 158M  INFO    General                 (binary_converter.cpp      : 127)   131072 reads processed
+  0:00:01.121    51M / 209M  INFO    General                 (binary_converter.cpp      : 127)   262144 reads processed
+  0:00:01.950     0M / 243M  INFO    General                 (binary_converter.cpp      : 127)   524288 reads processed
+  0:00:03.743     0M / 320M  INFO    General                 (binary_converter.cpp      : 127)   1048576 reads processed
+  0:00:07.319     0M / 339M  INFO    General                 (binary_converter.cpp      : 127)   2097152 reads processed
+  0:00:11.037     0M / 357M  INFO    General                 (binary_converter.cpp      : 143)   3104446 reads written
+  0:00:11.058     0M / 357M  INFO    General                 (read_converter.cpp        : 113)   Converting single reads
+  0:00:11.072     0M / 357M  INFO    General                 (binary_converter.cpp      : 143)   0 reads written
+  0:00:11.074     0M / 357M  INFO    General                 (read_converter.cpp        : 119)   Converting merged reads
+  0:00:11.081     0M / 357M  INFO    General                 (binary_converter.cpp      : 143)   0 reads written
+  0:00:11.104     1M / 357M  INFO   StageManager             (stage.cpp                 : 189)   STAGE == de Bruijn graph construction (id: construction)
+  0:00:11.115     1M / 357M  INFO    General                 (construction.cpp          : 150)   Max read length 151
+  0:00:11.115     1M / 357M  INFO    General                 (construction.cpp          : 156)   Average read length 149.523
+  0:00:11.115     1M / 357M  INFO    General                 (stage.cpp                 : 121)   PROCEDURE == k+1-mer counting (id: construction:kpomer_counting)
+  0:00:11.115     1M / 357M  INFO    General                 (kmer_index_builder.hpp    : 258)   Splitting kmer instances into 80 files using 8 threads. This might take a while.
+  0:00:11.115     1M / 357M  INFO    General                 (file_limit.hpp            :  43)   Open file limit set to 1024
+  0:00:11.116     1M / 357M  INFO    General                 (kmer_splitter.hpp         :  94)   Memory available for splitting buffers: 42.6666 Gb
+  0:00:11.116     1M / 357M  INFO    General                 (kmer_splitter.hpp         : 102)   Using cell size of 838860
+  0:00:19.053  4641M / 4641M INFO    General                 (kmer_splitters.hpp        : 128)   Processed 8679556 reads
+  0:00:22.145  4641M / 4641M INFO    General                 (kmer_splitters.hpp        : 128)   Processed 12417784 reads
+  0:00:22.146     1M / 4491M INFO    General                 (kmer_splitters.hpp        : 134)   Used 12417784 reads
+  0:00:22.295     1M / 4491M INFO    General                 (kmer_index_builder.hpp    : 264)   Starting k-mer counting.
+  0:00:22.399     1M / 4491M INFO    General                 (kmer_index_builder.hpp    : 275)   K-mer counting done. There are 32763239 kmers in total.
+  0:00:22.399     1M / 4491M INFO    General                 (stage.cpp                 : 121)   PROCEDURE == Extension index construction (id: construction:extension_index_construction)
+  0:00:22.400     1M / 4491M INFO   K-mer Index Building     (kmer_index_builder.hpp    : 453)   Building kmer index
+  0:00:22.400     1M / 4491M INFO    General                 (kmer_index_builder.hpp    : 258)   Splitting kmer instances into 80 files using 8 threads. This might take a while.
+  0:00:22.400     1M / 4491M INFO    General                 (file_limit.hpp            :  43)   Open file limit set to 1024
+  0:00:22.400     1M / 4491M INFO    General                 (kmer_splitter.hpp         :  94)   Memory available for splitting buffers: 42.6666 Gb
+  0:00:22.400     1M / 4491M INFO    General                 (kmer_splitter.hpp         : 102)   Using cell size of 838860
+  0:00:23.368  4641M / 4641M INFO    General                 (kmer_splitters.hpp        : 197)   Processed 32763239 kmers
+  0:00:23.368  4641M / 4641M INFO    General                 (kmer_splitters.hpp        : 202)   Used 32763239 kmers.
+  0:00:23.369     1M / 4491M INFO    General                 (kmer_index_builder.hpp    : 264)   Starting k-mer counting.
+  0:00:23.444     1M / 4491M INFO    General                 (kmer_index_builder.hpp    : 275)   K-mer counting done. There are 32184145 kmers in total.
+  0:00:23.444     1M / 4491M INFO   K-mer Index Building     (kmer_index_builder.hpp    : 410)   Building perfect hash indices
+  0:00:23.821    25M / 4491M INFO   K-mer Index Building     (kmer_index_builder.hpp    : 446)   Index built. Total 32184145 kmers, 23304784 bytes occupied (5.79286 bits per kmer).
+  0:00:23.821    25M / 4491M INFO    General                 (kmer_index_builder.hpp    : 168)   Merging final buckets.
+  0:00:24.564    55M / 4491M INFO   DeBruijnExtensionIndexBu (kmer_extension_index_build: 101)   Building k-mer extensions from k+1-mers
+  0:00:26.646    55M / 4491M INFO   DeBruijnExtensionIndexBu (kmer_extension_index_build: 106)   Building k-mer extensions from k+1-mers finished.
+  0:00:26.680    55M / 4491M INFO    General                 (stage.cpp                 : 121)   PROCEDURE == Condensing graph (id: construction:graph_condensing)
+  0:00:26.681    55M / 4491M INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 381)   Extracting unbranching paths
+  0:00:28.997   147M / 4491M INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 400)   Extracting unbranching paths finished. 2349168 sequences extracted
+  0:00:30.388   147M / 4491M INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 336)   Collecting perfect loops
+  0:00:30.725   147M / 4491M INFO   UnbranchingPathExtractor (debruijn_graph_constructor: 369)   Collecting perfect loops finished. 0 loops collected
+  0:00:30.790   147M / 4491M INFO   DeBruijnGraphConstructor (debruijn_graph_constructor: 586)   Sorting edges...
+  0:00:30.902   147M / 4491M INFO   DeBruijnGraphConstructor (debruijn_graph_constructor: 588)   Edges sorted
+  0:00:30.903   147M / 4491M INFO    General                 (debruijn_graph_constructor: 516)   Total 4698336 edges to create
+  0:00:30.903   332M / 4491M INFO    General                 (debruijn_graph_constructor: 519)   Collecting link records
+  0:00:33.084   404M / 4491M INFO    General                 (debruijn_graph_constructor: 521)   Ordering link records
+  0:00:33.197   404M / 4491M INFO    General                 (debruijn_graph_constructor: 524)   Sorting done
+  0:00:33.224   420M / 4491M INFO    General                 (debruijn_graph_constructor: 537)   Sorting LinkRecords...
+  0:00:33.280   420M / 4491M INFO    General                 (debruijn_graph_constructor: 540)   LinkRecords sorted
+  0:00:33.281   420M / 4491M INFO    General                 (debruijn_graph_constructor: 542)   Total 1770074 vertices to create
+  0:00:33.281   584M / 4491M INFO    General                 (debruijn_graph_constructor: 545)   Connecting the graph
+  0:00:35.071   460M / 4491M INFO    General                 (stage.cpp                 : 121)   PROCEDURE == Filling coverage indices (PHM) (id: construction:coverage_filling_phm)
+  0:00:35.073   460M / 4491M INFO   K-mer Index Building     (kmer_index_builder.hpp    : 410)   Building perfect hash indices
+  0:00:35.476   484M / 4491M INFO   K-mer Index Building     (kmer_index_builder.hpp    : 446)   Index built. Total 32763239 kmers, 23722312 bytes occupied (5.79242 bits per kmer).
+  0:00:35.536   612M / 4491M INFO    General                 (coverage_hash_map_builder.:  49)   Collecting k-mer coverage information from reads, this takes a while.
+  0:01:00.642   612M / 4491M INFO    General                 (construction.cpp          : 427)   Filling coverage and flanking coverage from PHM
+  0:01:02.990   612M / 4491M INFO    General                 (coverage_filling.hpp      :  83)   Processed 4698298 edges
+  0:01:03.131   406M / 4491M INFO   StageManager             (stage.cpp                 : 189)   STAGE == EC Threshold Finding (id: ec_threshold_finder)
+  0:01:03.132   406M / 4491M INFO    General                 (kmer_coverage_model.cpp   : 182)   Kmer coverage valley at: 20
+  0:01:03.132   406M / 4491M INFO    General                 (kmer_coverage_model.cpp   : 202)   K-mer histogram maximum: 137
+  0:01:03.132   406M / 4491M INFO    General                 (kmer_coverage_model.cpp   : 238)   Estimated median coverage: 137. Coverage mad: 29.652
+  0:01:03.133   406M / 4491M INFO    General                 (kmer_coverage_model.cpp   : 260)   Fitting coverage model
+  0:01:03.315   406M / 4491M INFO    General                 (kmer_coverage_model.cpp   : 296)   ... iteration 2
+  0:01:03.911   406M / 4491M INFO    General                 (kmer_coverage_model.cpp   : 296)   ... iteration 4
+  0:01:05.901   406M / 4491M INFO    General                 (kmer_coverage_model.cpp   : 296)   ... iteration 8
+  0:01:07.313   406M / 4491M INFO    General                 (kmer_coverage_model.cpp   : 310)   Fitted mean coverage: 137.24. Fitted coverage std. dev: 26.24
+  0:01:07.318   406M / 4491M INFO    General                 (kmer_coverage_model.cpp   : 335)   Probability of erroneous kmer at valley: 0.833713
+  0:01:07.318   406M / 4491M INFO    General                 (kmer_coverage_model.cpp   : 359)   Preliminary threshold calculated as: 33
+  0:01:07.318   406M / 4491M INFO    General                 (kmer_coverage_model.cpp   : 363)   Threshold adjusted to: 33
+  0:01:07.318   406M / 4491M INFO    General                 (kmer_coverage_model.cpp   : 376)   Estimated genome size (ignoring repeats): 5095054
+  0:01:07.318   406M / 4491M INFO    General                 (genomic_info_filler.cpp   :  56)   Mean coverage was calculated as 137.24
+  0:01:07.318   406M / 4491M INFO    General                 (genomic_info_filler.cpp   :  71)   EC coverage threshold value was calculated as 33
+  0:01:07.318   406M / 4491M INFO    General                 (genomic_info_filler.cpp   :  72)   Trusted kmer low bound: 0
+  0:01:07.318   406M / 4491M INFO   StageManager             (stage.cpp                 : 189)   STAGE == Gap Closer (id: early_gapcloser)
+  0:01:07.324   419M / 4491M INFO    General                 (edge_index.hpp            : 132)   Size of edge index entries: 12/8
+  0:01:07.425   428M / 4491M INFO    General                 (gap_closer.cpp            : 102)   Total edges in tip neighborhood: 409041 out of 4698298, length: 11351669
+  0:01:07.452   434M / 4491M INFO    General                 (edge_index.hpp            : 196)   Using small index (max_id = 4721830)
+  0:01:07.549   434M / 4491M INFO   K-mer Index Building     (kmer_index_builder.hpp    : 410)   Building perfect hash indices
+  0:01:08.172   441M / 4491M INFO   K-mer Index Building     (kmer_index_builder.hpp    : 446)   Index built. Total 9809418 kmers, 7085704 bytes occupied (5.77869 bits per kmer).
+  0:01:08.211   517M / 4491M INFO    General                 (edge_index_builders.hpp   : 266)   Collecting edge information from graph, this takes a while.
+  0:01:08.521   511M / 4491M INFO    General                 (sequence_mapper_notifier.h:  64)   Starting sequence mapping
+  0:01:21.722   511M / 4491M INFO    General                 (sequence_mapper_notifier.h:  85)   Processed 200000 reads
+  0:01:21.792   511M / 4491M INFO    General                 (sequence_mapper_notifier.h:  85)   Processed 400000 reads
+  0:01:21.815   511M / 4491M INFO    General                 (sequence_mapper_notifier.h:  85)   Processed 600000 reads
+  0:01:22.154   512M / 4491M INFO    General                 (sequence_mapper_notifier.h:  85)   Processed 800000 reads
+  0:01:22.297   512M / 4491M INFO    General                 (sequence_mapper_notifier.h:  85)   Processed 1000000 reads
+  0:01:22.308   512M / 4491M INFO    General                 (sequence_mapper_notifier.h:  85)   Processed 1200000 reads
+  0:01:35.513   513M / 4491M INFO    General                 (sequence_mapper_notifier.h: 103)   Total 3104446 reads processed
+  0:01:35.568   434M / 4491M INFO    General                 (gap_closer.cpp            : 491)   Initializing gap closer
+  0:01:35.569   434M / 4491M INFO   GapCloser                (gap_closer.cpp            : 406)   Collecting gap candidates
+  0:01:35.655   434M / 4491M INFO   GapCloser                (gap_closer.cpp            : 410)   Total 900 tips collected, total 930 connection candidates
+  0:01:35.662   434M / 4491M INFO   GapCloser                (gap_closer.cpp            : 431)   Closing short gaps complete: filled 68 gaps after checking 862 candidates
+  0:01:35.702   434M / 4491M INFO    General                 (gap_closer.cpp            : 495)   Gap closer done
+  0:01:35.710   406M / 4491M INFO   StageManager             (stage.cpp                 : 189)   STAGE == Raw Simplification (id: raw_simplification)
+  0:01:35.710   406M / 4491M INFO    General                 (simplification.cpp        : 129)   PROCEDURE == Initial cleaning
+  0:01:35.710   406M / 4491M INFO    General                 (simplification.cpp        :  63)   Most init cleaning disabled on main iteration
+  0:01:35.710   406M / 4491M INFO   Simplification           (parallel_processing.hpp   : 168)   Running Self conjugate edge remover
+  0:01:35.754   406M / 4491M INFO   Simplification           (parallel_processing.hpp   : 171)   Self conjugate edge remover triggered 0 times
+  0:01:35.754   406M / 4491M INFO   StageManager             (stage.cpp                 : 189)   STAGE == Simplification (id: simplification)
+  0:01:35.754   406M / 4491M INFO    General                 (simplification.cpp        : 397)   Graph simplification started
+  0:01:35.754   406M / 4491M INFO    General                 (graph_simplification.hpp  : 646)   Creating parallel br instance
+  0:01:35.754   406M / 4491M INFO    General                 (simplification.cpp        : 402)   PROCEDURE == Simplification cycle, iteration 1
+  0:01:35.754   406M / 4491M INFO   Simplification           (parallel_processing.hpp   : 168)   Running Tip clipper
+  0:01:37.264   407M / 4491M INFO   Simplification           (parallel_processing.hpp   : 171)   Tip clipper triggered 375424 times
+  0:01:37.273   407M / 4491M INFO   Simplification           (parallel_processing.hpp   : 168)   Running Bulge remover
