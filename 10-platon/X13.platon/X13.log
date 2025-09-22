@@ -1,0 +1,443 @@
+2025-09-22 20:44:24,480 - INFO - MAIN - version 1.7
+2025-09-22 20:44:24,480 - INFO - MAIN - command line: /data/djs217/miniconda3/envs/platon_env/bin/platon --db ./db --prefix X13 --output X13.platon --mode accuracy --verbose --threads 12 GCA_030345975.2_ASM3034597v2_genomic.fna
+2025-09-22 20:44:24,480 - INFO - CONFIG - threads=12
+2025-09-22 20:44:24,480 - INFO - CONFIG - verbose=True
+2025-09-22 20:44:24,480 - DEBUG - CONFIG - test parameter db: db_tmp=./db
+2025-09-22 20:44:24,480 - INFO - CONFIG - database detected: type=parameter, path=/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/10-platon/db
+2025-09-22 20:44:24,480 - INFO - CONFIG - genome-path=/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/10-platon/ncbi_dataset/data/GCA_030345975.2/GCA_030345975.2_ASM3034597v2_genomic.fna
+2025-09-22 20:44:24,481 - INFO - CONFIG - tmp-path=/data/djs217/tmp/tmpab9ahdr7
+2025-09-22 20:44:24,481 - INFO - CONFIG - output-path=/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/10-platon/X13.platon
+2025-09-22 20:44:24,481 - INFO - CONFIG - mode=accuracy
+2025-09-22 20:44:24,481 - INFO - CONFIG - characterize=False
+2025-09-22 20:44:24,481 - INFO - CONFIG - metagenome=False
+2025-09-22 20:44:24,495 - INFO - UTILS - dependency check: tool=prodigal, version=v2.6.3
+2025-09-22 20:44:24,521 - INFO - UTILS - dependency check: tool=diamond, version=v2.1.13
+2025-09-22 20:44:24,614 - INFO - UTILS - dependency check: tool=blastn, version=v2.17.0
+2025-09-22 20:44:24,621 - INFO - UTILS - dependency check: tool=hmmsearch, version=v3.4.0
+2025-09-22 20:44:24,623 - INFO - UTILS - dependency check: tool=nucmer, version=v4.0.1
+2025-09-22 20:44:24,631 - INFO - UTILS - dependency check: tool=cmscan, version=v1.1.5
+2025-09-22 20:44:24,655 - INFO - MAIN - exclude contig: too long: id=JAUALM020000001.1, length=588902
+2025-09-22 20:44:24,675 - INFO - MAIN - exclude contig: too short: id=JAUALM020000084.1, length=963
+2025-09-22 20:44:24,675 - INFO - MAIN - exclude contig: too short: id=JAUALM020000085.1, length=918
+2025-09-22 20:44:24,675 - INFO - MAIN - exclude contig: too short: id=JAUALM020000086.1, length=854
+2025-09-22 20:44:24,675 - INFO - MAIN - exclude contig: too short: id=JAUALM020000087.1, length=835
+2025-09-22 20:44:24,675 - INFO - MAIN - exclude contig: too short: id=JAUALM020000088.1, length=833
+2025-09-22 20:44:24,675 - INFO - MAIN - exclude contig: too short: id=JAUALM020000089.1, length=782
+2025-09-22 20:44:24,676 - INFO - MAIN - exclude contig: too short: id=JAUALM020000090.1, length=730
+2025-09-22 20:44:24,676 - INFO - MAIN - exclude contig: too short: id=JAUALM020000091.1, length=698
+2025-09-22 20:44:24,676 - INFO - MAIN - exclude contig: too short: id=JAUALM020000092.1, length=693
+2025-09-22 20:44:24,676 - INFO - MAIN - exclude contig: too short: id=JAUALM020000093.1, length=690
+2025-09-22 20:44:24,676 - INFO - MAIN - exclude contig: too short: id=JAUALM020000094.1, length=671
+2025-09-22 20:44:24,676 - INFO - MAIN - exclude contig: too short: id=JAUALM020000095.1, length=655
+2025-09-22 20:44:24,676 - INFO - MAIN - exclude contig: too short: id=JAUALM020000096.1, length=601
+2025-09-22 20:44:24,676 - INFO - MAIN - exclude contig: too short: id=JAUALM020000097.1, length=562
+2025-09-22 20:44:24,676 - INFO - MAIN - exclude contig: too short: id=JAUALM020000098.1, length=535
+2025-09-22 20:44:24,676 - INFO - MAIN - length contig filter: # input=98, # discarded=16, # remaining=82
+2025-09-22 20:44:33,331 - INFO - MAIN - ORF detection: # ORFs=4005
+2025-09-22 20:44:33,331 - INFO - MAIN - ORF contig filter disabled! # passed contigs=82
+2025-09-22 20:44:49,622 - INFO - MAIN - MPS detection: # MPS=3657
+2025-09-22 20:44:54,422 - INFO - MAIN - contig RDS: contig=JAUALM020000010.1, RDS=-29.537461, score-sum=-4430.619116, #ORFs=150
+2025-09-22 20:44:54,422 - INFO - MAIN - contig RDS: contig=JAUALM020000011.1, RDS=-23.952927, score-sum=-3329.456800, #ORFs=139
+2025-09-22 20:44:54,423 - INFO - MAIN - contig RDS: contig=JAUALM020000012.1, RDS=-32.771197, score-sum=-4653.509977, #ORFs=142
+2025-09-22 20:44:54,423 - INFO - MAIN - contig RDS: contig=JAUALM020000013.1, RDS=-40.096297, score-sum=-5653.577833, #ORFs=141
+2025-09-22 20:44:54,423 - INFO - MAIN - contig RDS: contig=JAUALM020000014.1, RDS=-29.649872, score-sum=-3557.984686, #ORFs=120
+2025-09-22 20:44:54,423 - INFO - MAIN - contig RDS: contig=JAUALM020000015.1, RDS=-28.090024, score-sum=-2865.182493, #ORFs=102
+2025-09-22 20:44:54,424 - INFO - MAIN - contig RDS: contig=JAUALM020000016.1, RDS=-29.541238, score-sum=-3249.536199, #ORFs=110
+2025-09-22 20:44:54,424 - INFO - MAIN - contig RDS: contig=JAUALM020000017.1, RDS=-22.892435, score-sum=-2335.028322, #ORFs=102
+2025-09-22 20:44:54,424 - INFO - MAIN - contig RDS: contig=JAUALM020000018.1, RDS=-25.875678, score-sum=-2302.935356, #ORFs=89
+2025-09-22 20:44:54,424 - INFO - MAIN - contig RDS: contig=JAUALM020000019.1, RDS=-27.784392, score-sum=-2167.182550, #ORFs=78
+2025-09-22 20:44:54,425 - INFO - MAIN - contig RDS: contig=JAUALM020000002.1, RDS=-23.320070, score-sum=-8791.666421, #ORFs=377
+2025-09-22 20:44:54,425 - INFO - MAIN - contig RDS: contig=JAUALM020000020.1, RDS=-21.531537, score-sum=-1765.586048, #ORFs=82
+2025-09-22 20:44:54,425 - INFO - MAIN - contig RDS: contig=JAUALM020000021.1, RDS=-20.869162, score-sum=-1273.018900, #ORFs=61
+2025-09-22 20:44:54,425 - INFO - MAIN - contig RDS: contig=JAUALM020000022.1, RDS=-26.861651, score-sum=-2014.623832, #ORFs=75
+2025-09-22 20:44:54,425 - INFO - MAIN - contig RDS: contig=JAUALM020000023.1, RDS=-31.852384, score-sum=-1815.585880, #ORFs=57
+2025-09-22 20:44:54,425 - INFO - MAIN - contig RDS: contig=JAUALM020000024.1, RDS=-22.706491, score-sum=-1339.682987, #ORFs=59
+2025-09-22 20:44:54,426 - INFO - MAIN - contig RDS: contig=JAUALM020000025.1, RDS=-1.342244, score-sum=-106.037244, #ORFs=79
+2025-09-22 20:44:54,426 - INFO - MAIN - contig RDS: contig=JAUALM020000026.1, RDS=0.682213, score-sum=51.165948, #ORFs=75
+2025-09-22 20:44:54,426 - INFO - MAIN - contig RDS: contig=JAUALM020000027.1, RDS=-14.535370, score-sum=-610.485555, #ORFs=42
+2025-09-22 20:44:54,426 - INFO - MAIN - contig RDS: contig=JAUALM020000028.1, RDS=-30.333566, score-sum=-970.674102, #ORFs=32
+2025-09-22 20:44:54,426 - INFO - MAIN - contig RDS: contig=JAUALM020000029.1, RDS=-29.725691, score-sum=-862.045049, #ORFs=29
+2025-09-22 20:44:54,426 - INFO - MAIN - contig RDS: contig=JAUALM020000003.1, RDS=-25.948814, score-sum=-8459.313356, #ORFs=326
+2025-09-22 20:44:54,426 - INFO - MAIN - contig RDS: contig=JAUALM020000030.1, RDS=-32.726647, score-sum=-1047.252696, #ORFs=32
+2025-09-22 20:44:54,427 - INFO - MAIN - contig RDS: contig=JAUALM020000031.1, RDS=-18.200585, score-sum=-455.014636, #ORFs=25
+2025-09-22 20:44:54,427 - INFO - MAIN - contig RDS: contig=JAUALM020000032.1, RDS=2.410560, score-sum=84.369592, #ORFs=35
+2025-09-22 20:44:54,427 - INFO - MAIN - contig RDS: contig=JAUALM020000033.1, RDS=-26.714172, score-sum=-667.854294, #ORFs=25
+2025-09-22 20:44:54,427 - INFO - MAIN - contig RDS: contig=JAUALM020000034.1, RDS=-22.293521, score-sum=-468.163946, #ORFs=21
+2025-09-22 20:44:54,427 - INFO - MAIN - contig RDS: contig=JAUALM020000035.1, RDS=1.026971, score-sum=27.728211, #ORFs=27
+2025-09-22 20:44:54,427 - INFO - MAIN - contig RDS: contig=JAUALM020000036.1, RDS=-2.239028, score-sum=-26.868332, #ORFs=12
+2025-09-22 20:44:54,427 - INFO - MAIN - contig RDS: contig=JAUALM020000037.1, RDS=-21.324079, score-sum=-383.833431, #ORFs=18
+2025-09-22 20:44:54,427 - INFO - MAIN - contig RDS: contig=JAUALM020000038.1, RDS=-0.186872, score-sum=-4.111192, #ORFs=22
+2025-09-22 20:44:54,427 - INFO - MAIN - contig RDS: contig=JAUALM020000039.1, RDS=-30.723856, score-sum=-491.581700, #ORFs=16
+2025-09-22 20:44:54,427 - INFO - MAIN - contig RDS: contig=JAUALM020000004.1, RDS=-30.008506, score-sum=-6811.930919, #ORFs=227
+2025-09-22 20:44:54,427 - INFO - MAIN - contig RDS: contig=JAUALM020000040.1, RDS=-3.216860, score-sum=-70.770927, #ORFs=22
+2025-09-22 20:44:54,427 - INFO - MAIN - contig RDS: contig=JAUALM020000041.1, RDS=-6.668460, score-sum=-86.689984, #ORFs=13
+2025-09-22 20:44:54,427 - INFO - MAIN - contig RDS: contig=JAUALM020000042.1, RDS=-19.881028, score-sum=-278.334392, #ORFs=14
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000043.1, RDS=-20.178711, score-sum=-363.216792, #ORFs=18
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000044.1, RDS=1.860042, score-sum=29.760672, #ORFs=16
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000045.1, RDS=-2.768142, score-sum=-30.449562, #ORFs=11
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000046.1, RDS=-2.642144, score-sum=-23.779296, #ORFs=9
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000047.1, RDS=0.472191, score-sum=6.138478, #ORFs=13
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000048.1, RDS=-2.544064, score-sum=-20.352516, #ORFs=8
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000049.1, RDS=-13.674236, score-sum=-150.416591, #ORFs=11
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000005.1, RDS=-30.592604, score-sum=-6118.520863, #ORFs=200
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000050.1, RDS=-3.388704, score-sum=-16.943520, #ORFs=5
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000051.1, RDS=-1.139896, score-sum=-9.119172, #ORFs=8
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000052.1, RDS=-0.642926, score-sum=-3.857555, #ORFs=6
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000053.1, RDS=-0.284688, score-sum=-1.992816, #ORFs=7
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000054.1, RDS=-2.610673, score-sum=-20.885381, #ORFs=8
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000055.1, RDS=4.992521, score-sum=24.962606, #ORFs=5
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000056.1, RDS=0.228389, score-sum=1.598724, #ORFs=7
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000057.1, RDS=-0.741290, score-sum=-2.965160, #ORFs=4
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000058.1, RDS=-1.314927, score-sum=-3.944782, #ORFs=3
+2025-09-22 20:44:54,428 - INFO - MAIN - contig RDS: contig=JAUALM020000059.1, RDS=0.000000, score-sum=0.000000, #ORFs=0
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000006.1, RDS=-29.785183, score-sum=-5837.895854, #ORFs=196
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000060.1, RDS=-5.281096, score-sum=-5.281096, #ORFs=1
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000061.1, RDS=0.000000, score-sum=0.000000, #ORFs=0
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000062.1, RDS=-1.005171, score-sum=-2.010343, #ORFs=2
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000063.1, RDS=-0.540246, score-sum=-1.080492, #ORFs=2
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000064.1, RDS=0.043109, score-sum=0.043109, #ORFs=1
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000065.1, RDS=0.000000, score-sum=0.000000, #ORFs=2
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000066.1, RDS=-49.070193, score-sum=-49.070193, #ORFs=1
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000067.1, RDS=1.224573, score-sum=3.673720, #ORFs=3
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000068.1, RDS=0.000000, score-sum=0.000000, #ORFs=2
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000069.1, RDS=2.463651, score-sum=4.927302, #ORFs=2
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000007.1, RDS=-24.437669, score-sum=-4276.592153, #ORFs=175
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000070.1, RDS=0.035801, score-sum=0.035801, #ORFs=1
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000071.1, RDS=0.000000, score-sum=0.000000, #ORFs=1
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000072.1, RDS=0.000000, score-sum=0.000000, #ORFs=1
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000073.1, RDS=0.000000, score-sum=0.000000, #ORFs=0
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000074.1, RDS=0.000000, score-sum=0.000000, #ORFs=0
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000075.1, RDS=-7.380257, score-sum=-7.380257, #ORFs=1
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000076.1, RDS=-41.367920, score-sum=-82.735841, #ORFs=2
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000077.1, RDS=0.000000, score-sum=0.000000, #ORFs=1
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000078.1, RDS=-130.261086, score-sum=-260.522172, #ORFs=2
+2025-09-22 20:44:54,429 - INFO - MAIN - contig RDS: contig=JAUALM020000079.1, RDS=0.000000, score-sum=0.000000, #ORFs=0
+2025-09-22 20:44:54,430 - INFO - MAIN - contig RDS: contig=JAUALM020000008.1, RDS=-22.611952, score-sum=-3414.404771, #ORFs=151
+2025-09-22 20:44:54,430 - INFO - MAIN - contig RDS: contig=JAUALM020000080.1, RDS=-90.515982, score-sum=-90.515982, #ORFs=1
+2025-09-22 20:44:54,430 - INFO - MAIN - contig RDS: contig=JAUALM020000081.1, RDS=-2.195961, score-sum=-2.195961, #ORFs=1
+2025-09-22 20:44:54,430 - INFO - MAIN - contig RDS: contig=JAUALM020000082.1, RDS=0.000000, score-sum=0.000000, #ORFs=1
+2025-09-22 20:44:54,430 - INFO - MAIN - contig RDS: contig=JAUALM020000083.1, RDS=0.000000, score-sum=0.000000, #ORFs=0
+2025-09-22 20:44:54,430 - INFO - MAIN - contig RDS: contig=JAUALM020000009.1, RDS=-29.273632, score-sum=-4098.308461, #ORFs=140
+2025-09-22 20:44:54,430 - INFO - MAIN - RDS SNT filter: # discarded contigs=39, # remaining contigs=43
+2025-09-22 20:44:54,453 - DEBUG - functions - circularity: contig=JAUALM020000025.1, len=75578, seq-a-len=37789, seq-b-len=37789
+2025-09-22 20:44:54,462 - DEBUG - functions - circularity: contig=JAUALM020000026.1, len=72015, seq-a-len=36007, seq-b-len=36008
+2025-09-22 20:44:54,506 - INFO - functions - circularity: contig=JAUALM020000025.1, is-circ=False
+2025-09-22 20:44:54,508 - INFO - functions - circularity: contig=JAUALM020000026.1, is-circ=False
+2025-09-22 20:44:54,578 - INFO - functions - oriT: contig=JAUALM020000025.1, # oriT=0
+2025-09-22 20:44:54,578 - DEBUG - functions - circularity: contig=JAUALM020000032.1, len=30942, seq-a-len=15471, seq-b-len=15471
+2025-09-22 20:44:54,594 - INFO - functions -  mob genes: hit! contig=JAUALM020000035.1, type=profile_MOBF, start=17643, end=20513, strand=-
+2025-09-22 20:44:54,594 - INFO - functions -  mob genes: hit! contig=JAUALM020000038.1, type=T4SS_MOBP1, start=9491, end=11875, strand=+
+2025-09-22 20:44:54,594 - INFO - functions -  mob genes: hit! contig=JAUALM020000032.1, type=T4SS_MOBP1, start=23278, end=25080, strand=-
+2025-09-22 20:44:54,594 - INFO - functions - mob genes: contig=JAUALM020000032.1, # mob-genes=1
+2025-09-22 20:44:54,595 - INFO - functions - circularity: contig=JAUALM020000032.1, is-circ=False
+2025-09-22 20:44:54,638 - INFO - functions - oriT: contig=JAUALM020000026.1, # oriT=0
+2025-09-22 20:44:54,712 - INFO - functions - inc-type: contig=JAUALM020000025.1, # inc-types=0
+2025-09-22 20:44:54,724 - INFO - functions - inc-type: contig=JAUALM020000026.1, # inc-types=0
+2025-09-22 20:44:54,725 - DEBUG - functions - circularity: contig=JAUALM020000035.1, len=24998, seq-a-len=12499, seq-b-len=12499
+2025-09-22 20:44:54,740 - INFO - functions - circularity: contig=JAUALM020000035.1, is-circ=False
+2025-09-22 20:44:54,766 - INFO - functions - oriT: contig=JAUALM020000032.1, # oriT=0
+2025-09-22 20:44:54,859 - INFO - functions - inc-type: contig=JAUALM020000032.1, # inc-types=0
+2025-09-22 20:44:54,994 - INFO - functions - ref plasmids: hit! contig=JAUALM020000025.1, id=NC_007507.1, c-start=3777, c-end=72869, coverage=0.914274, identity=0.999754
+2025-09-22 20:44:54,995 - INFO - functions - ref plasmids: contig=JAUALM020000025.1, # ref plasmids=1
+2025-09-22 20:44:55,005 - INFO - functions - inc-type: contig=JAUALM020000035.1, # inc-types=0
+2025-09-22 20:44:55,006 - DEBUG - functions - circularity: contig=JAUALM020000036.1, len=19937, seq-a-len=9968, seq-b-len=9969
+2025-09-22 20:44:55,015 - INFO - functions - oriT: contig=JAUALM020000035.1, # oriT=0
+2025-09-22 20:44:55,019 - INFO - functions - circularity: contig=JAUALM020000036.1, is-circ=False
+2025-09-22 20:44:55,111 - INFO - functions - rRNAs: contig=JAUALM020000032.1, # rRNAs=0
+2025-09-22 20:44:55,131 - INFO - functions - ref plasmids: hit! contig=JAUALM020000026.1, id=NZ_CP017191.1, c-start=9289, c-end=71774, coverage=0.867750, identity=0.999840
+2025-09-22 20:44:55,132 - INFO - functions - ref plasmids: contig=JAUALM020000026.1, # ref plasmids=1
+2025-09-22 20:44:55,240 - INFO - functions - oriT: contig=JAUALM020000036.1, # oriT=0
+2025-09-22 20:44:55,240 - DEBUG - functions - circularity: contig=JAUALM020000038.1, len=18296, seq-a-len=9148, seq-b-len=9148
+2025-09-22 20:44:55,243 - INFO - functions - rRNAs: contig=JAUALM020000035.1, # rRNAs=0
+2025-09-22 20:44:55,266 - INFO - functions - circularity: contig=JAUALM020000038.1, is-circ=False
+2025-09-22 20:44:55,278 - INFO - functions - inc-type: contig=JAUALM020000036.1, # inc-types=0
+2025-09-22 20:44:55,419 - INFO - functions - oriT: contig=JAUALM020000038.1, # oriT=0
+2025-09-22 20:44:55,557 - INFO - functions - inc-type: contig=JAUALM020000038.1, # inc-types=0
+2025-09-22 20:44:55,558 - DEBUG - functions - circularity: contig=JAUALM020000040.1, len=15005, seq-a-len=7502, seq-b-len=7503
+2025-09-22 20:44:55,584 - INFO - functions - circularity: contig=JAUALM020000040.1, is-circ=False
+2025-09-22 20:44:55,590 - INFO - functions - rRNAs: contig=JAUALM020000036.1, # rRNAs=0
+2025-09-22 20:44:55,688 - INFO - functions - rRNAs: contig=JAUALM020000038.1, # rRNAs=0
+2025-09-22 20:44:55,698 - INFO - functions - ref plasmids: hit! contig=JAUALM020000032.1, id=NZ_CP020891.1, c-start=914, c-end=26453, coverage=0.825545, identity=0.990722
+2025-09-22 20:44:55,698 - INFO - functions - ref plasmids: contig=JAUALM020000032.1, # ref plasmids=1
+2025-09-22 20:44:55,800 - INFO - functions - rRNAs: contig=JAUALM020000040.1, # rRNAs=0
+2025-09-22 20:44:55,801 - DEBUG - functions - circularity: contig=JAUALM020000041.1, len=14690, seq-a-len=7345, seq-b-len=7345
+2025-09-22 20:44:55,820 - INFO - functions - oriT: contig=JAUALM020000040.1, # oriT=0
+2025-09-22 20:44:55,825 - INFO - functions - circularity: contig=JAUALM020000041.1, is-circ=False
+2025-09-22 20:44:55,835 - INFO - functions - inc-type: contig=JAUALM020000040.1, # inc-types=0
+2025-09-22 20:44:55,957 - INFO - functions - oriT: contig=JAUALM020000041.1, # oriT=0
+2025-09-22 20:44:56,062 - INFO - functions - rRNAs: contig=JAUALM020000041.1, # rRNAs=0
+2025-09-22 20:44:56,062 - DEBUG - functions - circularity: contig=JAUALM020000044.1, len=12819, seq-a-len=6409, seq-b-len=6410
+2025-09-22 20:44:56,078 - INFO - functions - inc-type: contig=JAUALM020000041.1, # inc-types=0
+2025-09-22 20:44:56,097 - INFO - functions - circularity: contig=JAUALM020000044.1, is-circ=False
+2025-09-22 20:44:56,163 - INFO - functions - ref plasmids: contig=JAUALM020000035.1, # ref plasmids=0
+2025-09-22 20:44:56,274 - INFO - functions - oriT: contig=JAUALM020000044.1, # oriT=0
+2025-09-22 20:44:56,292 - INFO - functions - rRNAs: contig=JAUALM020000044.1, # rRNAs=0
+2025-09-22 20:44:56,292 - DEBUG - functions - circularity: contig=JAUALM020000045.1, len=12712, seq-a-len=6356, seq-b-len=6356
+2025-09-22 20:44:56,312 - INFO - functions - circularity: contig=JAUALM020000045.1, is-circ=False
+2025-09-22 20:44:56,332 - INFO - functions - rRNAs: contig=JAUALM020000025.1, # rRNAs=0
+2025-09-22 20:44:56,346 - INFO - functions - inc-type: contig=JAUALM020000044.1, # inc-types=0
+2025-09-22 20:44:56,435 - INFO - functions - ref plasmids: contig=JAUALM020000036.1, # ref plasmids=0
+2025-09-22 20:44:56,468 - INFO - functions - oriT: contig=JAUALM020000045.1, # oriT=0
+2025-09-22 20:44:56,468 - DEBUG - functions - circularity: contig=JAUALM020000046.1, len=12164, seq-a-len=6082, seq-b-len=6082
+2025-09-22 20:44:56,490 - INFO - functions - circularity: contig=JAUALM020000046.1, is-circ=False
+2025-09-22 20:44:56,527 - INFO - functions - rRNAs: contig=JAUALM020000026.1, # rRNAs=0
+2025-09-22 20:44:56,561 - INFO - functions - rRNAs: contig=JAUALM020000045.1, # rRNAs=0
+2025-09-22 20:44:56,580 - INFO - functions - inc-type: contig=JAUALM020000045.1, # inc-types=0
+2025-09-22 20:44:56,685 - INFO - functions - oriT: contig=JAUALM020000046.1, # oriT=0
+2025-09-22 20:44:56,685 - DEBUG - functions - circularity: contig=JAUALM020000047.1, len=11728, seq-a-len=5864, seq-b-len=5864
+2025-09-22 20:44:56,709 - INFO - functions - circularity: contig=JAUALM020000047.1, is-circ=False
+2025-09-22 20:44:56,757 - INFO - functions - inc-type: contig=JAUALM020000046.1, # inc-types=0
+2025-09-22 20:44:56,809 - INFO - functions - rRNAs: contig=JAUALM020000046.1, # rRNAs=0
+2025-09-22 20:44:56,921 - INFO - functions - oriT: contig=JAUALM020000047.1, # oriT=0
+2025-09-22 20:44:56,971 - INFO - functions - inc-type: contig=JAUALM020000047.1, # inc-types=0
+2025-09-22 20:44:56,972 - DEBUG - functions - circularity: contig=JAUALM020000048.1, len=10598, seq-a-len=5299, seq-b-len=5299
+2025-09-22 20:44:56,989 - INFO - functions - rRNAs: contig=JAUALM020000047.1, # rRNAs=0
+2025-09-22 20:44:56,993 - INFO - functions - circularity: contig=JAUALM020000048.1, is-circ=False
+2025-09-22 20:44:57,051 - INFO - functions - ref plasmids: contig=JAUALM020000038.1, # ref plasmids=0
+2025-09-22 20:44:57,178 - INFO - functions - oriT: contig=JAUALM020000048.1, # oriT=0
+2025-09-22 20:44:57,179 - DEBUG - functions - circularity: contig=JAUALM020000050.1, len=8532, seq-a-len=4266, seq-b-len=4266
+2025-09-22 20:44:57,200 - INFO - functions - circularity: contig=JAUALM020000050.1, is-circ=False
+2025-09-22 20:44:57,249 - INFO - functions - inc-type: contig=JAUALM020000048.1, # inc-types=0
+2025-09-22 20:44:57,250 - INFO - functions - rRNAs: contig=JAUALM020000048.1, # rRNAs=0
+2025-09-22 20:44:57,354 - INFO - functions - oriT: contig=JAUALM020000050.1, # oriT=0
+2025-09-22 20:44:57,407 - INFO - functions - rRNAs: contig=JAUALM020000050.1, # rRNAs=0
+2025-09-22 20:44:57,408 - DEBUG - functions - circularity: contig=JAUALM020000051.1, len=6792, seq-a-len=3396, seq-b-len=3396
+2025-09-22 20:44:57,424 - INFO - functions - inc-type: contig=JAUALM020000050.1, # inc-types=0
+2025-09-22 20:44:57,428 - INFO - functions - circularity: contig=JAUALM020000051.1, is-circ=False
+2025-09-22 20:44:57,532 - INFO - functions - rRNAs: contig=JAUALM020000051.1, # rRNAs=0
+2025-09-22 20:44:57,658 - INFO - functions - oriT: contig=JAUALM020000051.1, # oriT=0
+2025-09-22 20:44:57,685 - INFO - functions - inc-type: contig=JAUALM020000051.1, # inc-types=0
+2025-09-22 20:44:57,685 - DEBUG - functions - circularity: contig=JAUALM020000052.1, len=6605, seq-a-len=3302, seq-b-len=3303
+2025-09-22 20:44:57,703 - INFO - functions - circularity: contig=JAUALM020000052.1, is-circ=False
+2025-09-22 20:44:57,950 - INFO - functions - inc-type: contig=JAUALM020000052.1, # inc-types=0
+2025-09-22 20:44:58,033 - INFO - functions - rRNAs: contig=JAUALM020000052.1, # rRNAs=0
+2025-09-22 20:44:58,155 - INFO - functions - oriT: contig=JAUALM020000052.1, # oriT=0
+2025-09-22 20:44:58,489 - INFO - functions - ref plasmids: contig=JAUALM020000040.1, # ref plasmids=0
+2025-09-22 20:44:58,489 - DEBUG - functions - circularity: contig=JAUALM020000053.1, len=6274, seq-a-len=3137, seq-b-len=3137
+2025-09-22 20:44:58,509 - INFO - functions - circularity: contig=JAUALM020000053.1, is-circ=False
+2025-09-22 20:44:58,771 - INFO - functions - inc-type: contig=JAUALM020000053.1, # inc-types=0
+2025-09-22 20:44:58,851 - INFO - functions - rRNAs: contig=JAUALM020000053.1, # rRNAs=0
+2025-09-22 20:44:58,976 - INFO - functions - oriT: contig=JAUALM020000053.1, # oriT=0
+2025-09-22 20:44:59,630 - DEBUG - functions - circularity: contig=JAUALM020000054.1, len=6245, seq-a-len=3122, seq-b-len=3123
+2025-09-22 20:44:59,649 - INFO - functions - circularity: contig=JAUALM020000054.1, is-circ=False
+2025-09-22 20:44:59,910 - INFO - functions - inc-type: contig=JAUALM020000054.1, # inc-types=0
+2025-09-22 20:45:00,070 - INFO - functions - rRNAs: contig=JAUALM020000054.1, # rRNAs=0
+2025-09-22 20:45:00,192 - INFO - functions - oriT: contig=JAUALM020000054.1, # oriT=0
+2025-09-22 20:45:01,006 - INFO - functions - ref plasmids: contig=JAUALM020000041.1, # ref plasmids=0
+2025-09-22 20:45:01,007 - DEBUG - functions - circularity: contig=JAUALM020000055.1, len=4575, seq-a-len=2287, seq-b-len=2288
+2025-09-22 20:45:01,018 - INFO - functions - circularity: contig=JAUALM020000055.1, is-circ=False
+2025-09-22 20:45:01,282 - INFO - functions - inc-type: contig=JAUALM020000055.1, # inc-types=0
+2025-09-22 20:45:01,465 - INFO - functions - rRNAs: contig=JAUALM020000055.1, # rRNAs=0
+2025-09-22 20:45:01,572 - INFO - functions - oriT: contig=JAUALM020000055.1, # oriT=0
+2025-09-22 20:45:02,672 - INFO - functions - ref plasmids: contig=JAUALM020000045.1, # ref plasmids=0
+2025-09-22 20:45:02,673 - DEBUG - functions - circularity: contig=JAUALM020000056.1, len=4460, seq-a-len=2230, seq-b-len=2230
+2025-09-22 20:45:02,682 - INFO - functions - circularity: contig=JAUALM020000056.1, is-circ=False
+2025-09-22 20:45:02,949 - INFO - functions - inc-type: contig=JAUALM020000056.1, # inc-types=0
+2025-09-22 20:45:03,058 - INFO - functions - rRNAs: contig=JAUALM020000056.1, # rRNAs=0
+2025-09-22 20:45:03,183 - INFO - functions - oriT: contig=JAUALM020000056.1, # oriT=0
+2025-09-22 20:45:03,602 - INFO - functions - ref plasmids: contig=JAUALM020000046.1, # ref plasmids=0
+2025-09-22 20:45:03,603 - DEBUG - functions - circularity: contig=JAUALM020000057.1, len=4262, seq-a-len=2131, seq-b-len=2131
+2025-09-22 20:45:03,622 - INFO - functions - circularity: contig=JAUALM020000057.1, is-circ=False
+2025-09-22 20:45:03,884 - INFO - functions - inc-type: contig=JAUALM020000057.1, # inc-types=0
+2025-09-22 20:45:03,982 - INFO - functions - rRNAs: contig=JAUALM020000057.1, # rRNAs=0
+2025-09-22 20:45:04,096 - INFO - functions - oriT: contig=JAUALM020000057.1, # oriT=0
+2025-09-22 20:45:04,262 - INFO - functions - ref plasmids: hit! contig=JAUALM020000047.1, id=NZ_CP018463.1, c-start=1, c-end=11728, coverage=1.000000, identity=0.999744
+2025-09-22 20:45:04,262 - INFO - functions - ref plasmids: contig=JAUALM020000047.1, # ref plasmids=1
+2025-09-22 20:45:04,262 - DEBUG - functions - circularity: contig=JAUALM020000058.1, len=4010, seq-a-len=2005, seq-b-len=2005
+2025-09-22 20:45:04,281 - INFO - functions - circularity: contig=JAUALM020000058.1, is-circ=False
+2025-09-22 20:45:04,450 - INFO - functions - ref plasmids: contig=JAUALM020000044.1, # ref plasmids=0
+2025-09-22 20:45:04,531 - INFO - functions - inc-type: contig=JAUALM020000058.1, # inc-types=0
+2025-09-22 20:45:04,537 - INFO - functions - rRNAs: contig=JAUALM020000058.1, # rRNAs=0
+2025-09-22 20:45:04,627 - INFO - functions - oriT: contig=JAUALM020000058.1, # oriT=0
+2025-09-22 20:45:04,628 - DEBUG - functions - circularity: contig=JAUALM020000059.1, len=3423, seq-a-len=1711, seq-b-len=1712
+2025-09-22 20:45:04,647 - INFO - functions - circularity: contig=JAUALM020000059.1, is-circ=False
+2025-09-22 20:45:04,737 - INFO - functions - ref plasmids: contig=JAUALM020000052.1, # ref plasmids=0
+2025-09-22 20:45:04,868 - INFO - functions - inc-type: contig=JAUALM020000059.1, # inc-types=0
+2025-09-22 20:45:04,891 - INFO - functions - ref plasmids: contig=JAUALM020000048.1, # ref plasmids=0
+2025-09-22 20:45:04,967 - INFO - functions - oriT: contig=JAUALM020000059.1, # oriT=0
+2025-09-22 20:45:04,967 - DEBUG - functions - circularity: contig=JAUALM020000060.1, len=2654, seq-a-len=1327, seq-b-len=1327
+2025-09-22 20:45:04,974 - INFO - functions - circularity: contig=JAUALM020000060.1, is-circ=False
+2025-09-22 20:45:05,237 - INFO - functions - inc-type: contig=JAUALM020000060.1, # inc-types=0
+2025-09-22 20:45:05,304 - INFO - functions - rRNAs: contig=JAUALM020000060.1, # rRNAs=0
+2025-09-22 20:45:05,399 - INFO - functions - oriT: contig=JAUALM020000060.1, # oriT=0
+2025-09-22 20:45:05,429 - INFO - functions - ref plasmids: contig=JAUALM020000053.1, # ref plasmids=0
+2025-09-22 20:45:05,429 - DEBUG - functions - circularity: contig=JAUALM020000061.1, len=2590, seq-a-len=1295, seq-b-len=1295
+2025-09-22 20:45:05,448 - INFO - functions - circularity: contig=JAUALM020000061.1, is-circ=False
+2025-09-22 20:45:05,709 - INFO - functions - inc-type: contig=JAUALM020000061.1, # inc-types=0
+2025-09-22 20:45:05,849 - INFO - functions - ref plasmids: hit! contig=JAUALM020000051.1, id=NZ_CP017010.1, c-start=439, c-end=6107, coverage=0.834658, identity=0.998060
+2025-09-22 20:45:05,849 - INFO - functions - ref plasmids: contig=JAUALM020000051.1, # ref plasmids=1
+2025-09-22 20:45:05,948 - INFO - functions - oriT: contig=JAUALM020000061.1, # oriT=0
+2025-09-22 20:45:07,485 - INFO - functions - rRNAs: hit! contig=JAUALM020000061.1, type=SSU_rRNA_bacteria, start=458, end=2004, strand=+
+2025-09-22 20:45:07,485 - INFO - functions - rRNAs: hit! contig=JAUALM020000061.1, type=LSU_rRNA_bacteria, start=2496, end=2590, strand=+
+2025-09-22 20:45:07,485 - INFO - functions - rRNAs: contig=JAUALM020000061.1, # rRNAs=2
+2025-09-22 20:45:07,486 - DEBUG - functions - circularity: contig=JAUALM020000062.1, len=2481, seq-a-len=1240, seq-b-len=1241
+2025-09-22 20:45:07,505 - INFO - functions - circularity: contig=JAUALM020000062.1, is-circ=False
+2025-09-22 20:45:07,766 - INFO - functions - inc-type: contig=JAUALM020000062.1, # inc-types=0
+2025-09-22 20:45:07,805 - INFO - functions - rRNAs: contig=JAUALM020000062.1, # rRNAs=0
+2025-09-22 20:45:07,915 - INFO - functions - oriT: contig=JAUALM020000062.1, # oriT=0
+2025-09-22 20:45:07,927 - INFO - functions - ref plasmids: hit! contig=JAUALM020000059.1, id=NZ_CP056102.1, c-start=1, c-end=2790, coverage=0.825007, identity=0.860127
+2025-09-22 20:45:07,927 - INFO - functions - ref plasmids: contig=JAUALM020000059.1, # ref plasmids=1
+2025-09-22 20:45:07,928 - DEBUG - functions - circularity: contig=JAUALM020000063.1, len=2256, seq-a-len=1128, seq-b-len=1128
+2025-09-22 20:45:07,946 - INFO - functions - circularity: contig=JAUALM020000063.1, is-circ=False
+2025-09-22 20:45:08,164 - INFO - functions - inc-type: contig=JAUALM020000063.1, # inc-types=0
+2025-09-22 20:45:08,214 - INFO - functions - rRNAs: contig=JAUALM020000063.1, # rRNAs=0
+2025-09-22 20:45:08,243 - INFO - functions - ref plasmids: contig=JAUALM020000054.1, # ref plasmids=0
+2025-09-22 20:45:08,328 - INFO - functions - oriT: contig=JAUALM020000063.1, # oriT=0
+2025-09-22 20:45:08,329 - DEBUG - functions - circularity: contig=JAUALM020000064.1, len=2109, seq-a-len=1054, seq-b-len=1055
+2025-09-22 20:45:08,348 - INFO - functions - circularity: contig=JAUALM020000064.1, is-circ=False
+2025-09-22 20:45:08,571 - INFO - functions - inc-type: contig=JAUALM020000064.1, # inc-types=0
+2025-09-22 20:45:08,637 - INFO - functions - ref plasmids: contig=JAUALM020000058.1, # ref plasmids=0
+2025-09-22 20:45:08,638 - INFO - functions - rRNAs: contig=JAUALM020000064.1, # rRNAs=0
+2025-09-22 20:45:08,657 - INFO - functions - ref plasmids: contig=JAUALM020000061.1, # ref plasmids=0
+2025-09-22 20:45:08,658 - DEBUG - functions - circularity: contig=JAUALM020000065.1, len=2072, seq-a-len=1036, seq-b-len=1036
+2025-09-22 20:45:08,666 - INFO - functions - circularity: contig=JAUALM020000065.1, is-circ=False
+2025-09-22 20:45:08,677 - INFO - functions - ref plasmids: contig=JAUALM020000060.1, # ref plasmids=0
+2025-09-22 20:45:08,748 - INFO - functions - rRNAs: contig=JAUALM020000065.1, # rRNAs=0
+2025-09-22 20:45:08,748 - INFO - functions - oriT: contig=JAUALM020000064.1, # oriT=0
+2025-09-22 20:45:08,858 - INFO - functions - oriT: contig=JAUALM020000065.1, # oriT=0
+2025-09-22 20:45:08,859 - DEBUG - functions - circularity: contig=JAUALM020000067.1, len=1798, seq-a-len=899, seq-b-len=899
+2025-09-22 20:45:08,877 - INFO - functions - circularity: contig=JAUALM020000067.1, is-circ=False
+2025-09-22 20:45:08,924 - INFO - functions - inc-type: contig=JAUALM020000065.1, # inc-types=0
+2025-09-22 20:45:08,982 - INFO - functions - rRNAs: contig=JAUALM020000067.1, # rRNAs=0
+2025-09-22 20:45:09,092 - INFO - functions - oriT: contig=JAUALM020000067.1, # oriT=0
+2025-09-22 20:45:09,121 - INFO - functions - inc-type: contig=JAUALM020000067.1, # inc-types=0
+2025-09-22 20:45:09,121 - DEBUG - functions - circularity: contig=JAUALM020000068.1, len=1721, seq-a-len=860, seq-b-len=861
+2025-09-22 20:45:09,130 - INFO - functions - circularity: contig=JAUALM020000068.1, is-circ=False
+2025-09-22 20:45:09,336 - INFO - functions - ref plasmids: hit! contig=JAUALM020000055.1, id=NZ_CP013005.1, c-start=294, c-end=4073, coverage=0.826230, identity=0.998942
+2025-09-22 20:45:09,336 - INFO - functions - ref plasmids: contig=JAUALM020000055.1, # ref plasmids=1
+2025-09-22 20:45:09,390 - INFO - functions - inc-type: contig=JAUALM020000068.1, # inc-types=0
+2025-09-22 20:45:09,393 - INFO - functions - rRNAs: contig=JAUALM020000068.1, # rRNAs=0
+2025-09-22 20:45:09,491 - INFO - functions - oriT: contig=JAUALM020000068.1, # oriT=0
+2025-09-22 20:45:09,492 - DEBUG - functions - circularity: contig=JAUALM020000069.1, len=1692, seq-a-len=846, seq-b-len=846
+2025-09-22 20:45:09,511 - INFO - functions - circularity: contig=JAUALM020000069.1, is-circ=False
+2025-09-22 20:45:09,697 - INFO - functions - ref plasmids: contig=JAUALM020000056.1, # ref plasmids=0
+2025-09-22 20:45:09,775 - INFO - functions - inc-type: contig=JAUALM020000069.1, # inc-types=0
+2025-09-22 20:45:09,789 - INFO - functions - rRNAs: contig=JAUALM020000069.1, # rRNAs=0
+2025-09-22 20:45:09,859 - INFO - functions - ref plasmids: contig=JAUALM020000057.1, # ref plasmids=0
+2025-09-22 20:45:09,859 - DEBUG - functions - circularity: contig=JAUALM020000070.1, len=1678, seq-a-len=839, seq-b-len=839
+2025-09-22 20:45:09,872 - INFO - functions - oriT: contig=JAUALM020000069.1, # oriT=0
+2025-09-22 20:45:09,878 - INFO - functions - circularity: contig=JAUALM020000070.1, is-circ=False
+2025-09-22 20:45:09,934 - INFO - functions - rRNAs: contig=JAUALM020000070.1, # rRNAs=0
+2025-09-22 20:45:10,033 - INFO - functions - oriT: contig=JAUALM020000070.1, # oriT=0
+2025-09-22 20:45:10,097 - INFO - functions - inc-type: contig=JAUALM020000070.1, # inc-types=0
+2025-09-22 20:45:10,098 - DEBUG - functions - circularity: contig=JAUALM020000071.1, len=1653, seq-a-len=826, seq-b-len=827
+2025-09-22 20:45:10,117 - INFO - functions - circularity: contig=JAUALM020000071.1, is-circ=False
+2025-09-22 20:45:10,379 - INFO - functions - inc-type: contig=JAUALM020000071.1, # inc-types=0
+2025-09-22 20:45:10,437 - INFO - functions - rRNAs: contig=JAUALM020000071.1, # rRNAs=0
+2025-09-22 20:45:10,535 - INFO - functions - oriT: contig=JAUALM020000071.1, # oriT=0
+2025-09-22 20:45:10,901 - INFO - functions - ref plasmids: contig=JAUALM020000062.1, # ref plasmids=0
+2025-09-22 20:45:10,901 - DEBUG - functions - circularity: contig=JAUALM020000072.1, len=1628, seq-a-len=814, seq-b-len=814
+2025-09-22 20:45:10,921 - INFO - functions - circularity: contig=JAUALM020000072.1, is-circ=False
+2025-09-22 20:45:11,026 - INFO - functions - ref plasmids: contig=JAUALM020000050.1, # ref plasmids=0
+2025-09-22 20:45:11,094 - INFO - functions - rRNAs: contig=JAUALM020000072.1, # rRNAs=0
+2025-09-22 20:45:11,129 - INFO - functions - inc-type: contig=JAUALM020000072.1, # inc-types=0
+2025-09-22 20:45:11,205 - INFO - functions - oriT: contig=JAUALM020000072.1, # oriT=0
+2025-09-22 20:45:11,206 - DEBUG - functions - circularity: contig=JAUALM020000073.1, len=1591, seq-a-len=795, seq-b-len=796
+2025-09-22 20:45:11,214 - INFO - functions - circularity: contig=JAUALM020000073.1, is-circ=False
+2025-09-22 20:45:11,477 - INFO - functions - inc-type: contig=JAUALM020000073.1, # inc-types=0
+2025-09-22 20:45:11,494 - INFO - functions - rRNAs: contig=JAUALM020000073.1, # rRNAs=0
+2025-09-22 20:45:11,589 - INFO - functions - ref plasmids: hit! contig=JAUALM020000068.1, id=NZ_LR824642.1, c-start=2, c-end=1721, coverage=1.040093, identity=0.917877
+2025-09-22 20:45:11,589 - INFO - functions - ref plasmids: contig=JAUALM020000068.1, # ref plasmids=1
+2025-09-22 20:45:11,607 - INFO - functions - oriT: contig=JAUALM020000073.1, # oriT=0
+2025-09-22 20:45:11,608 - DEBUG - functions - circularity: contig=JAUALM020000074.1, len=1590, seq-a-len=795, seq-b-len=795
+2025-09-22 20:45:11,627 - INFO - functions - circularity: contig=JAUALM020000074.1, is-circ=False
+2025-09-22 20:45:11,857 - INFO - functions - ref plasmids: hit! contig=JAUALM020000064.1, id=NZ_CP018472.1, c-start=1, c-end=2109, coverage=1.000000, identity=0.974870
+2025-09-22 20:45:11,857 - INFO - functions - ref plasmids: contig=JAUALM020000064.1, # ref plasmids=1
+2025-09-22 20:45:11,884 - INFO - functions - inc-type: contig=JAUALM020000074.1, # inc-types=0
+2025-09-22 20:45:11,907 - INFO - functions - rRNAs: contig=JAUALM020000074.1, # rRNAs=0
+2025-09-22 20:45:11,996 - INFO - functions - oriT: contig=JAUALM020000074.1, # oriT=0
+2025-09-22 20:45:11,997 - DEBUG - functions - circularity: contig=JAUALM020000075.1, len=1512, seq-a-len=756, seq-b-len=756
+2025-09-22 20:45:12,005 - INFO - functions - circularity: contig=JAUALM020000075.1, is-circ=False
+2025-09-22 20:45:12,079 - INFO - functions - ref plasmids: hit! contig=JAUALM020000063.1, id=NZ_CP022266.1, c-start=1, c-end=2252, coverage=0.998227, identity=0.995115
+2025-09-22 20:45:12,079 - INFO - functions - ref plasmids: contig=JAUALM020000063.1, # ref plasmids=1
+2025-09-22 20:45:12,120 - INFO - functions - ref plasmids: hit! contig=JAUALM020000067.1, id=NZ_LR824642.1, c-start=1, c-end=1798, coverage=1.000000, identity=0.988877
+2025-09-22 20:45:12,120 - INFO - functions - ref plasmids: contig=JAUALM020000067.1, # ref plasmids=1
+2025-09-22 20:45:12,135 - INFO - functions - rRNAs: contig=JAUALM020000075.1, # rRNAs=0
+2025-09-22 20:45:12,249 - INFO - functions - oriT: contig=JAUALM020000075.1, # oriT=0
+2025-09-22 20:45:12,249 - DEBUG - functions - circularity: contig=JAUALM020000077.1, len=1207, seq-a-len=603, seq-b-len=604
+2025-09-22 20:45:12,263 - INFO - functions - inc-type: contig=JAUALM020000075.1, # inc-types=0
+2025-09-22 20:45:12,268 - INFO - functions - circularity: contig=JAUALM020000077.1, is-circ=False
+2025-09-22 20:45:12,290 - INFO - functions - ref plasmids: hit! contig=JAUALM020000070.1, id=NZ_CP031060.1, c-start=1, c-end=1678, coverage=1.002980, identity=0.992870
+2025-09-22 20:45:12,290 - INFO - functions - ref plasmids: contig=JAUALM020000070.1, # ref plasmids=1
+2025-09-22 20:45:12,293 - INFO - functions - rRNAs: contig=JAUALM020000077.1, # rRNAs=0
+2025-09-22 20:45:12,366 - INFO - functions - oriT: contig=JAUALM020000077.1, # oriT=0
+2025-09-22 20:45:12,366 - DEBUG - functions - circularity: contig=JAUALM020000079.1, len=1193, seq-a-len=596, seq-b-len=597
+2025-09-22 20:45:12,373 - INFO - functions - circularity: contig=JAUALM020000079.1, is-circ=False
+2025-09-22 20:45:12,501 - INFO - functions - ref plasmids: hit! contig=JAUALM020000065.1, id=NZ_CP020887.1, c-start=1, c-end=2071, coverage=0.999517, identity=0.999034
+2025-09-22 20:45:12,501 - INFO - functions - ref plasmids: contig=JAUALM020000065.1, # ref plasmids=1
+2025-09-22 20:45:12,523 - INFO - functions - rRNAs: contig=JAUALM020000079.1, # rRNAs=0
+2025-09-22 20:45:12,526 - INFO - functions - inc-type: contig=JAUALM020000077.1, # inc-types=0
+2025-09-22 20:45:12,596 - INFO - functions - inc-type: contig=JAUALM020000079.1, # inc-types=0
+2025-09-22 20:45:12,597 - DEBUG - functions - circularity: contig=JAUALM020000081.1, len=1066, seq-a-len=533, seq-b-len=533
+2025-09-22 20:45:12,615 - INFO - functions - circularity: contig=JAUALM020000081.1, is-circ=False
+2025-09-22 20:45:12,620 - INFO - functions - oriT: contig=JAUALM020000079.1, # oriT=0
+2025-09-22 20:45:12,661 - INFO - functions - rRNAs: contig=JAUALM020000081.1, # rRNAs=0
+2025-09-22 20:45:12,756 - INFO - functions - ref plasmids: hit! contig=JAUALM020000069.1, id=NZ_CP021003.1, c-start=1, c-end=1692, coverage=1.000000, identity=0.982270
+2025-09-22 20:45:12,756 - INFO - functions - ref plasmids: contig=JAUALM020000069.1, # ref plasmids=1
+2025-09-22 20:45:12,762 - INFO - functions - oriT: contig=JAUALM020000081.1, # oriT=0
+2025-09-22 20:45:12,762 - DEBUG - functions - circularity: contig=JAUALM020000082.1, len=1025, seq-a-len=512, seq-b-len=513
+2025-09-22 20:45:12,774 - INFO - functions - circularity: contig=JAUALM020000082.1, is-circ=False
+2025-09-22 20:45:12,832 - INFO - functions - inc-type: contig=JAUALM020000081.1, # inc-types=0
+2025-09-22 20:45:12,863 - INFO - functions - rRNAs: contig=JAUALM020000082.1, # rRNAs=0
+2025-09-22 20:45:12,964 - INFO - functions - oriT: contig=JAUALM020000082.1, # oriT=0
+2025-09-22 20:45:12,976 - INFO - functions - inc-type: contig=JAUALM020000082.1, # inc-types=0
+2025-09-22 20:45:12,976 - DEBUG - functions - circularity: contig=JAUALM020000083.1, len=1004, seq-a-len=502, seq-b-len=502
+2025-09-22 20:45:12,985 - INFO - functions - circularity: contig=JAUALM020000083.1, is-circ=False
+2025-09-22 20:45:13,083 - INFO - functions - ref plasmids: contig=JAUALM020000072.1, # ref plasmids=0
+2025-09-22 20:45:13,115 - INFO - functions - rRNAs: contig=JAUALM020000083.1, # rRNAs=0
+2025-09-22 20:45:13,215 - INFO - functions - oriT: contig=JAUALM020000083.1, # oriT=0
+2025-09-22 20:45:13,246 - INFO - functions - inc-type: contig=JAUALM020000083.1, # inc-types=0
+2025-09-22 20:45:13,419 - INFO - functions - ref plasmids: hit! contig=JAUALM020000071.1, id=NZ_CP018468.1, c-start=68, c-end=1653, coverage=0.978221, identity=0.832406
+2025-09-22 20:45:13,419 - INFO - functions - ref plasmids: contig=JAUALM020000071.1, # ref plasmids=1
+2025-09-22 20:45:13,957 - INFO - functions - ref plasmids: hit! contig=JAUALM020000075.1, id=NZ_CP023161.1, c-start=1, c-end=1512, coverage=1.000000, identity=0.978836
+2025-09-22 20:45:13,958 - INFO - functions - ref plasmids: contig=JAUALM020000075.1, # ref plasmids=1
+2025-09-22 20:45:14,098 - INFO - functions - ref plasmids: contig=JAUALM020000081.1, # ref plasmids=0
+2025-09-22 20:45:14,159 - INFO - functions - ref plasmids: contig=JAUALM020000073.1, # ref plasmids=0
+2025-09-22 20:45:14,454 - INFO - functions - ref plasmids: contig=JAUALM020000083.1, # ref plasmids=0
+2025-09-22 20:45:14,523 - INFO - functions - ref plasmids: contig=JAUALM020000074.1, # ref plasmids=0
+2025-09-22 20:45:14,637 - INFO - functions - ref plasmids: contig=JAUALM020000079.1, # ref plasmids=0
+2025-09-22 20:45:14,795 - INFO - functions - ref plasmids: contig=JAUALM020000077.1, # ref plasmids=0
+2025-09-22 20:45:15,503 - INFO - functions - ref plasmids: hit! contig=JAUALM020000082.1, id=NZ_CP018726.1, c-start=1, c-end=1025, coverage=1.006829, identity=0.838178
+2025-09-22 20:45:15,503 - INFO - functions - ref plasmids: contig=JAUALM020000082.1, # ref plasmids=1
+2025-09-22 20:45:15,790 - INFO - functions - rRNAs: hit! contig=JAUALM020000059.1, type=LSU_rRNA_bacteria, start=1, end=2785, strand=+
+2025-09-22 20:45:15,790 - INFO - functions - rRNAs: hit! contig=JAUALM020000059.1, type=5S_rRNA, start=2913, end=3027, strand=+
+2025-09-22 20:45:15,790 - INFO - functions - rRNAs: contig=JAUALM020000059.1, # rRNAs=2
+2025-09-22 20:45:18,000 - INFO - functions - conj genes: hit! contig=JAUALM020000032.1, type=conjugation_PCLA_2308155, start=12085, end=14652, strand=-
+2025-09-22 20:45:18,000 - INFO - functions - conj genes: hit! contig=JAUALM020000035.1, type=conjugation_PCLA_2307724, start=7220, end=9841, strand=+
+2025-09-22 20:45:18,001 - INFO - functions - conj genes: hit! contig=JAUALM020000032.1, type=conjugation_PCLA_3191806, start=7122, end=8114, strand=-
+2025-09-22 20:45:18,001 - INFO - functions - conj genes: hit! contig=JAUALM020000026.1, type=conjugation_PCLA_3288194, start=22373, end=25420, strand=+
+2025-09-22 20:45:18,001 - INFO - functions - conj genes: hit! contig=JAUALM020000032.1, type=conjugation_PCLA_3321036, start=21216, end=23273, strand=-
+2025-09-22 20:45:18,001 - INFO - functions - conj genes: hit! contig=JAUALM020000035.1, type=conjugation_PCLA_4870261, start=20510, end=22057, strand=-
+2025-09-22 20:45:18,001 - INFO - functions - conj genes: hit! contig=JAUALM020000035.1, type=conjugation_PCLA_4875550, start=14073, end=15212, strand=+
+2025-09-22 20:45:18,001 - INFO - functions - conj genes: hit! contig=JAUALM020000038.1, type=conjugation_PCLA_4910701, start=2292, end=3371, strand=-
+2025-09-22 20:45:18,001 - INFO - functions - conj genes: hit! contig=JAUALM020000032.1, type=conjugation_PCLA_4997995, start=8141, end=8851, strand=-
+2025-09-22 20:45:18,001 - INFO - functions - conj genes: hit! contig=JAUALM020000032.1, type=conjugation_PCLA_5553079, start=5754, end=7106, strand=-
+2025-09-22 20:45:18,001 - INFO - functions - conj genes: hit! contig=JAUALM020000032.1, type=conjugation_PCLA_5904937, start=8858, end=10339, strand=-
+2025-09-22 20:45:18,001 - INFO - functions - conj genes: hit! contig=JAUALM020000038.1, type=conjugation_PCLA_884267, start=4123, end=4836, strand=-
+2025-09-22 20:45:18,001 - INFO - functions - conj genes: hit! contig=JAUALM020000035.1, type=conjugation_PCLA_896428, start=13177, end=14076, strand=+
+2025-09-22 20:45:18,001 - INFO - functions - conj genes: hit! contig=JAUALM020000035.1, type=conjugation_PCLA_927355, start=15202, end=16227, strand=+
+2025-09-22 20:45:18,002 - INFO - functions - conj genes: hit! contig=JAUALM020000025.1, type=conjugation_PCLA_941331, start=5831, end=8092, strand=-
+2025-09-22 20:45:18,002 - INFO - functions - conj genes: contig=JAUALM020000025.1, # conj-genes=1
+2025-09-22 20:45:18,018 - DEBUG - MAIN - removed tmp dir: /data/djs217/tmp/tmpab9ahdr7
+2025-09-22 20:45:18,018 - DEBUG - functions - filter: RDS > CT & plasmid hits & no rRNAs! contig=JAUALM020000026.1
+2025-09-22 20:45:18,018 - DEBUG - functions - filter: has mob hits! contig=JAUALM020000032.1
+2025-09-22 20:45:18,018 - DEBUG - functions - filter: has mob hits! contig=JAUALM020000035.1
+2025-09-22 20:45:18,018 - DEBUG - functions - filter: has mob hits! contig=JAUALM020000038.1
+2025-09-22 20:45:18,018 - DEBUG - functions - filter: RDS > SPT! contig=JAUALM020000044.1
+2025-09-22 20:45:18,018 - DEBUG - functions - filter: RDS > CT & plasmid hits & no rRNAs! contig=JAUALM020000047.1
+2025-09-22 20:45:18,018 - DEBUG - functions - filter: RDS > SPT! contig=JAUALM020000055.1
+2025-09-22 20:45:18,018 - DEBUG - functions - filter: RDS > SPT! contig=JAUALM020000067.1
+2025-09-22 20:45:18,018 - DEBUG - functions - filter: RDS > SPT! contig=JAUALM020000069.1
+2025-09-22 20:45:18,018 - DEBUG - MAIN - output: tsv=/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/10-platon/X13.platon/X13.tsv
+2025-09-22 20:45:18,019 - INFO - MAIN - plasmid: id=JAUALM020000026.1, len=72015, cov=NA, ORFs=75, RDS=0.682213, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=1, # AMRs=0, # rRNAs=0, # refs=1
+2025-09-22 20:45:18,019 - INFO - MAIN - plasmid: id=JAUALM020000032.1, len=30942, cov=NA, ORFs=35, RDS=2.410560, circ=False, incs=0, # rep=0, # mob=1, #oriT=0, # con=6, # AMRs=0, # rRNAs=0, # refs=1
+2025-09-22 20:45:18,019 - INFO - MAIN - plasmid: id=JAUALM020000035.1, len=24998, cov=NA, ORFs=27, RDS=1.026971, circ=False, incs=0, # rep=0, # mob=1, #oriT=0, # con=5, # AMRs=0, # rRNAs=0, # refs=0
+2025-09-22 20:45:18,019 - INFO - MAIN - plasmid: id=JAUALM020000038.1, len=18296, cov=NA, ORFs=22, RDS=-0.186872, circ=False, incs=0, # rep=0, # mob=1, #oriT=0, # con=2, # AMRs=0, # rRNAs=0, # refs=0
+2025-09-22 20:45:18,019 - INFO - MAIN - plasmid: id=JAUALM020000044.1, len=12819, cov=NA, ORFs=16, RDS=1.860042, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=0
+2025-09-22 20:45:18,019 - INFO - MAIN - plasmid: id=JAUALM020000047.1, len=11728, cov=NA, ORFs=13, RDS=0.472191, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2025-09-22 20:45:18,019 - INFO - MAIN - plasmid: id=JAUALM020000055.1, len=4575, cov=NA, ORFs=5, RDS=4.992521, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2025-09-22 20:45:18,019 - INFO - MAIN - plasmid: id=JAUALM020000067.1, len=1798, cov=NA, ORFs=3, RDS=1.224573, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2025-09-22 20:45:18,019 - INFO - MAIN - plasmid: id=JAUALM020000069.1, len=1692, cov=NA, ORFs=2, RDS=2.463651, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2025-09-22 20:45:18,019 - DEBUG - MAIN - output: json=/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/10-platon/X13.platon/X13.json
+2025-09-22 20:45:18,025 - DEBUG - MAIN - output: chromosomes=/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/10-platon/X13.platon/X13.chromosome.fasta
+2025-09-22 20:45:18,031 - DEBUG - MAIN - output: plasmids=/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/10-platon/X13.platon/X13.plasmid.fasta

@@ -13,5 +13,7 @@ conda activate platon_env
 conda list -n platon_env > platon_env_packages.txt
 conda env export > platon_env.yaml
 
-
-
+### Run Platon
+platon --db ./db --prefix X31 --output X31.platon --mode accuracy --verbose --threads 12 GCA_030345955.2_ASM3034595v2_genomic.fna
+platon --db ./db --prefix X13 --output X13.platon --mode accuracy --verbose --threads 12 GCA_030345975.2_ASM3034597v2_genomic.fna
+platon --db ./db --prefix X22 --output X22.platon --mode accuracy --verbose --threads 12 GCA_030345985.2_ASM3034598v2_genomic.fna 
