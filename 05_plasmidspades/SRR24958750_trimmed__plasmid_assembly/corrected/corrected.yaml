@@ -1,8 +1,0 @@
-- "left reads":
-  - "/data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed__plasmid_assembly/corrected/SRR24958750_1_val_1.fq.00.0_0.cor.fastq.gz"
-  "orientation": "fr"
-  "right reads":
-  - "/data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed__plasmid_assembly/corrected/SRR24958750_2_val_2.fq.00.0_0.cor.fastq.gz"
-  "single reads":
-  - "/data/djs217/PROJECTS/41_Xanthomonas/xanthomonas-euvesicatoria-serbia/10_plasmidspades/SRR24958750_trimmed__plasmid_assembly/corrected/SRR24958750__unpaired.00.0_0.cor.fastq.gz"
-  "type": "paired-end"
