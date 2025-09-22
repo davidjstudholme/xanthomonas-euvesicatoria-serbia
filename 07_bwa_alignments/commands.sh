@@ -127,5 +127,11 @@ for i in *.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam; do
     echo $i
     igvtools count $i $i.Xap41.tdf NC_016053.1.fasta
 done
-
-
+for i in *.versus.X13.fasta.aln.sorted.rmdup.bam; do
+    echo $i
+    igvtools count $i $i.tdf X13.fasta
+done
+for i in *.versus.X22.fasta.aln.sorted.rmdup.bam; do
+    echo $i
+    igvtools count $i $i.tdf X22.fasta
+done
