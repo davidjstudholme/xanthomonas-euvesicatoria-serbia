@@ -31,15 +31,12 @@ FastANI has been installed via [Conda](https://anaconda.com/).
 conda activate fastani_env
 conda list -n fastani_env > fastani_env_packages.txt
 conda env export > fastani_env.yaml
-fastani -h > fastani.version.txt
 ```
 
 Details of oftware versions and the Conda environment are specified in these files:
 
 - [fastani_env_packages.txt](fastani_env_packages.txt)
 - [fastani_env.yaml](fastani_env.yaml)
-- [fastani.version.txt](fastani.version.txt)
-
 
 Run FastANI
 ```
