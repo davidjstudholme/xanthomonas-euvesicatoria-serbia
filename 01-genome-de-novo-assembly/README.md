@@ -3,7 +3,7 @@
 
 ### Obtain and prepare the raw sequence data
 
-Download the genomic sequence reads from the Sequence Read Archive (SRA) using NCBI's SRA Toolkit:
+Download the genomic sequence reads from the [Sequence Read Archive](https://doi.org/10.1093/nar/gkq1019) (SRA) using NCBI's SRA Toolkit:
 
 ```
 fasterq-dump --split-files SRR24958750 SRR24958751 SRR24958752
