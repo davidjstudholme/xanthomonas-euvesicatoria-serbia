@@ -25,20 +25,25 @@ for i in *.fasta; do
 done
 ```
 
+TBLASTN against [Potnis et al. (2011)](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-146#citeas) core effectors:
 
-
-### TBLASTN against Potnis et al. (2011) core effectors
+```
 for i in *.fasta; do
     echo $i
     tblastn -db $i -query potnis_2011_core_effectors.faa -evalue 1e-10 -out potnis_2011_core_effectors.faa.versus.$i.tblastn
 done
+```
 
-
+```
 perl tabulate_blast_results.pl  euroxanth_effectors_2023-10-03.faa.versus.*.tblastn > effector_profile_euroxanth.csv
 perl tabulate_blast_results.pl potnis_2011_core_effectors.faa.versus.*.tblastn > effector_profile_potnis_core.csv
+```
 
+```
 conda activate bioperl_env
 for i in *.tblastn; do
     echo $i
     perl summarise_blast.pl $i > $i.html
 done
+```
+
