@@ -10,9 +10,16 @@ ln -s ncbi_dataset/data/GCA_*/GCA_*.fna .
 ### Make symlinks to the genome sequence files such that symlinks have informative names and appropriate extensions for input to PhaME:
 perl rename_files.pl genomes.txt
 
+In the ref directory:
 
 
 ln -s ../01_genome_assemblies/ATCC_11633.fasta
+
+In the working directory:
+
+ln -s ../01_genome_assemblies/*.contig .
+
+rm ATCC_11633.contig 
 
 
 
