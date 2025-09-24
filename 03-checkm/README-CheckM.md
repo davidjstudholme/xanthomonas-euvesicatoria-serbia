@@ -44,11 +44,13 @@ done
 
 CheckM results:
 
-- [Results in format #1](checkm_qa.1.txt)
-- [Results in format #2](checkm_qa.2.txt)
-- [Results in format #3](checkm_qa.3.txt)
-- [Results in format #4](checkm_qa.4.txt)
-- [Results in format #5](checkm_qa.5.txt)
-- [Results in format #6](checkm_qa.6.txt)
-- [Results in format #7](checkm_qa.7.txt)
-- [Results in format #8](checkm_qa.8.txt)
+- [Results in format #1](checkm_qa.1.txt) Summary of bin completeness, contamination, and strain heterogeneity
+- [Results in format #2](checkm_qa.2.txt) Extended summary of bin quality (includes GC, genome size, coding density, ...)
+- [Results in format #3](checkm_qa.3.txt) Summary of bin quality for increasingly basal lineage-specific marker sets
+- [Results in format #4](checkm_qa.4.txt) List of marker genes for each bin along with the number of times each marker was identified
+- [Results in format #5](checkm_qa.5.txt) List of bin id, marker gene id, and called gene id for each identified marker gene
+- [Results in format #6](checkm_qa.6.txt) List of marker genes present multiple times in a bin
+- [Results in format #7](checkm_qa.7.txt) List of marker genes present multiple times on the same scaffold
+- [Results in format #8](checkm_qa.8.txt) List indicating the position of each marker genes within a bin
+
+These formats are described [on the CheckM wiki](https://github.com/Ecogenomics/CheckM/wiki/Genome-Quality-Commands#qa)
