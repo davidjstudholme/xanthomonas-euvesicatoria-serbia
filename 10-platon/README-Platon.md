@@ -28,8 +28,8 @@ conda env export > platon_env.yaml
 
 Details of the Conda environment can be found in these files:
 
-- platon_env_packages.txt
-- platon_env.yaml
+- [platon_env_packages.txt](platon_env_packages.txt)
+- [platon_env.yaml](platon_env.yaml)
 
 Run Platon:
 
