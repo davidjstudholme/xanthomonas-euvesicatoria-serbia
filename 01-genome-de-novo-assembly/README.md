@@ -29,7 +29,7 @@ done
 
 ### Run [Unicycler](https://doi.org/10.1371/journal.pcbi.1005595) to assemble the cleaned sequence reads
 
-Unicycler was installed via Conda:
+Unicycler was installed via [Conda](https://anaconda.com/):
 
 ```
 conda activate unicycler_env
