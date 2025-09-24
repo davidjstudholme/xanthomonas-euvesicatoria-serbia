@@ -1,7 +1,0 @@
-- "left reads":
-  - "/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750_1_val_1.fq.gz"
-  "number": !!int "1"
-  "orientation": "fr"
-  "right reads":
-  - "/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958750_2_val_2.fq.gz"
-  "type": "paired-end"

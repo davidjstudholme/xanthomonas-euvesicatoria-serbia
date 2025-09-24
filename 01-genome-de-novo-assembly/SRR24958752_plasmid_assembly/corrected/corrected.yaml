@@ -1,8 +1,0 @@
-- "left reads":
-  - "/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958752_plasmid_assembly/corrected/SRR24958752_1_val_1.fq.00.0_0.cor.fastq.gz"
-  "orientation": "fr"
-  "right reads":
-  - "/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958752_plasmid_assembly/corrected/SRR24958752_2_val_2.fq.00.0_0.cor.fastq.gz"
-  "single reads":
-  - "/data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/01-genome-de-novo-assembly/SRR24958752_plasmid_assembly/corrected/SRR24958752__unpaired.00.0_0.cor.fastq.gz"
-  "type": "paired-end"
