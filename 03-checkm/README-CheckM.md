@@ -53,4 +53,4 @@ CheckM results:
 - [Results in format #7](checkm_qa.7.txt) List of marker genes present multiple times on the same scaffold
 - [Results in format #8](checkm_qa.8.txt) List indicating the position of each marker genes within a bin
 
-These formats are described [on the CheckM wiki](https://github.com/Ecogenomics/CheckM/wiki/Genome-Quality-Commands#qa)
+These formats are described in the [CheckM wiki](https://github.com/Ecogenomics/CheckM/wiki/Genome-Quality-Commands#qa).
