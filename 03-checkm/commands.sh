@@ -12,8 +12,15 @@ rm README.md
 
 ### Run checkm
 ### Assumes that checkm is already installed
-# conda activate checkm_env
+
+conda activate checkm_env
 checkm -h > checkm.version.txt
+conda list -n checkm_env > checkm_env_packages.txt
+conda env export > checkm_env.yaml
+
+
+
+
 checkm taxonomy_wf genus Xanthomonas . checkm_out
 for i in 1 2 3 4 5 6 7 8 ; do
     echo $i
