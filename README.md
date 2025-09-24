@@ -4,7 +4,7 @@
 
 This repository contains details of the bioinformatics methods used in our manuscript submitted to the journal _Agronomy_:
 
-1. [_De-novo_ genome assembly from Illumina reads, using Unicycler](01-genome-de-novo-assembly/README.md)
+1. [*De-novo* genome assembly from Illumina reads, using Unicycler](01-genome-de-novo-assembly/README.md)
 2. [Quality assessment of the genome assemblies, using QUAST](02-quast/README-QUAST.md)
 3. [Quality assessment of the genome assemblies, using CheckM](03-checkm/README-CheckM.md)
 4. [Phylogenomics, using PhaME](04-phylogenomics/README.md)
