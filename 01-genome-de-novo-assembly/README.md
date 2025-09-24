@@ -59,7 +59,8 @@ for i in  SRR24958750 SRR24958751 SRR24958752 ; do
 done
 ```
 
-The resulting genome assemblies were submitted to GenBank via the NCBI to BioProject [PRJNA985260](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA985260):
+The resulting genome assemblies were submitted to GenBank [via the NCBI](https://doi.org/10.1093/nar/gkae979) 
+to BioProject [PRJNA985260](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA985260):
 
 | Assemblyaccession  |	WGS accession   |    BioSample    |	Strain |
 | ---------          |   -------        |    --------     | ----   |
