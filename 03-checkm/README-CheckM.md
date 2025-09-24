@@ -44,13 +44,13 @@ done
 
 CheckM results:
 
-- [Results in format #1](checkm_qa.1.txt) Summary of bin completeness, contamination, and strain heterogeneity
-- [Results in format #2](checkm_qa.2.txt) Extended summary of bin quality (includes GC, genome size, coding density, ...)
-- [Results in format #3](checkm_qa.3.txt) Summary of bin quality for increasingly basal lineage-specific marker sets
-- [Results in format #4](checkm_qa.4.txt) List of marker genes for each bin along with the number of times each marker was identified
-- [Results in format #5](checkm_qa.5.txt) List of bin id, marker gene id, and called gene id for each identified marker gene
-- [Results in format #6](checkm_qa.6.txt) List of marker genes present multiple times in a bin
+- [Results in format #1](checkm_qa.1.txt) Summary of genome assembly completeness, contamination, and strain heterogeneity
+- [Results in format #2](checkm_qa.2.txt) Extended summary of genome assembly quality (includes GC, genome size, coding density, ...)
+- [Results in format #3](checkm_qa.3.txt) Summary of genome assembly quality for increasingly basal lineage-specific marker sets
+- [Results in format #4](checkm_qa.4.txt) List of marker genes for each genome assembly along with the number of times each marker was identified
+- [Results in format #5](checkm_qa.5.txt) List of genome assembly id, marker gene id, and called gene id for each identified marker gene
+- [Results in format #6](checkm_qa.6.txt) List of marker genes present multiple times in a genome assembly
 - [Results in format #7](checkm_qa.7.txt) List of marker genes present multiple times on the same scaffold
-- [Results in format #8](checkm_qa.8.txt) List indicating the position of each marker genes within a bin
+- [Results in format #8](checkm_qa.8.txt) List indicating the position of each marker genes within a genome assembly
 
 These formats are described in the [CheckM wiki](https://github.com/Ecogenomics/CheckM/wiki/Genome-Quality-Commands#qa).
