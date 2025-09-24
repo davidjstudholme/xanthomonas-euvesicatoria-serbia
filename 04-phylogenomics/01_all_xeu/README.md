@@ -22,9 +22,9 @@ Make symlinks to the genome sequence files such that symlinks have informative n
 perl rename_files.pl genomes.txt
 ```
 
-
 ### In the 02_ref/ directory
 
+Create a symplink to the reference genome sequence:
 ```
 ln -s ../01_genome_assemblies/ATCC_11633.fasta
 ```
@@ -32,6 +32,7 @@ ln -s ../01_genome_assemblies/ATCC_11633.fasta
 
 ### In the 03_wordir/ directory
 
+Make symlinks to the genome sequences, excuding the reference genome:
 ```
 ln -s ../01_genome_assemblies/*.contig .
 rm ATCC_11633.contig 
@@ -39,7 +40,7 @@ rm ATCC_11633.contig
 
 ### In the 04_phame/ directory
 
-This takes a while to run, so best to do it in a screen session:
+PhaME will take a long time to run, so best to do it in a screen session:
 
 ```
 screen
@@ -53,6 +54,10 @@ conda list -n phame_env > phame_env_packages.txt
 conda env export > phame_env.yaml
 ```
 
+Details of the Conda environment, with software versions:
+
+- [phame_env_packages.txt](phame_env_packages.txt)
+- [phame_env.yaml](phame_env.yaml)
 
 Run PhaME:
 
@@ -60,6 +65,6 @@ Run PhaME:
 phame ./phame.ctl
 ```
 
+### Results
 
-
-
+Results: [03_workdir/results/trees/Xeu_all.fasttree](03_workdir/results/trees/Xeu_all.fasttree)
