@@ -24,7 +24,7 @@ perl rename_files.pl genomes.txt
 ```
 
 
-fastani has been installed via [Conda](https://anaconda.com/).
+FastANI has been installed via [Conda](https://anaconda.com/).
 
 
 ```
