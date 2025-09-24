@@ -26,16 +26,6 @@ perl rename_files.pl genomes.txt
 
 fastani has been installed via [Conda](https://anaconda.com/).
 
-```
-conda activate fastani_env
-
-conda list -n fastani_env > fastani_env_packages.txt
-conda env export > fastani_env.yaml
-```
-
-
-
-FastANI has already been installed via Conda
 
 ```
 conda activate fastani_env
