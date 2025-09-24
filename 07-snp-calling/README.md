@@ -66,3 +66,8 @@ Now we are ready to generate the table of allele frequencies (considering only s
 ```
 perl get_snps_from_pileups.pl 10 *.filtered.vcf *.pileup > snps.csv
 ```
+
+Results of SNP-calling: 
+
+- [snps.csv](snps.csv) as a tab-delimted table, ready to import into a spreadsheet
+- [snps.csv.haplotype.nex](snps.csv.haplotype.nex) in Nexus format, ready to import into [PopArt](https://doi.org/10.1186/s12864-025-11206-8).
