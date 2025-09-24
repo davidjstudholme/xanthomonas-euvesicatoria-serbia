@@ -32,27 +32,32 @@ fasterq-dump SRR26670402 SRR26670404 SRR26670403 SRR26670400 SRR26670399
 fasterq-dump SRR16936518 SRR16936575 SRR16936578 SRR16936582 SRR16936540
 ```
 
-
-
 Compress the FASTQ files, using gzip:
 
 ```
 for i in *.fastq; do echo $i; gzip $i; done
 ```
 
+Perform quality control on the sequence reads prior to alignment, using [TrimGalore](http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/):
 
-### Perform some QC on the sequence reads prior to alignment
+```
 for i in SRR24958750 SRR24958751 SRR24958752 SRR23352206 SRR4714703 SRR26670402 SRR26670404 SRR26670403 SRR26670400 SRR26670399 SRR16936518 SRR16936575 SRR16936578 SRR16936582 SRR16936540; do
     trim_galore -q 30 --paired "$i"_1.fastq.gz "$i"_2.fastq.gz
 done
+```
 
-### Remove the original FASTQ files to free up some disk space
+Remove the original FASTQ files to free up some disk space:
+
+```
 for i in SRR24958750 SRR24958751 SRR24958752 SRR23352206 SRR4714703 SRR26670402 SRR26670404 SRR26670403 SRR26670400 SRR26670399 SRR16936518 SRR16936575 SRR16936578 SRR16936582 SRR16936540; do
     echo $i
     rm "$i"*.fastq.gz
 done
+```
 
-### Rename the cleaned FASTQ files
+Rename the cleaned FASTQ files:
+
+```
 mv SRR24958750_1_val_1.fq.gz X31.1.fq.gz
 mv SRR24958750_2_val_2.fq.gz X31.2.fq.gz
 mv SRR24958751_1_val_1.fq.gz X22.1.fq.gz
@@ -87,12 +92,16 @@ mv SRR16936582_1_val_1.fq.gz DC_96-5.1.fq.gz
 mv SRR16936582_2_val_2.fq.gz DC_96-5.2.fq.gz
 mv SRR16936540_1_val_1.fq.gz DC_96-3.1.fq.gz
 mv SRR16936540_2_val_2.fq.gz DC_96-3.2.fq.gz
+```
 
-### Perform BWA alignments
+
+Perform BWA-MEM alignments using custom wrapper script [do_bwa.pl](do_bwa.pl):
+
+```
 for i in 66b.fasta  85-10.fasta  LMG_930.fasta  Tu-10.fasta  X13.fasta  X22.fasta  X31.fasta  Xe173.fasta; do
     perl do_bwa.pl $i
 done
-
+```
 for i in CP018463.1.fasta CP170254.1.fasta NC_016053.1.fasta; do
     perl do_bwa.pl $i
 done
