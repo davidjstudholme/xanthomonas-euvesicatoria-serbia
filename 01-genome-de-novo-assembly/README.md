@@ -27,7 +27,7 @@ for i in  SRR24958750 SRR24958751 SRR24958752; do
 done
 ```
 
-### Run Unicycler to assemble the cleaned sequence reads
+### Run [Unicycler](https://doi.org/10.1371/journal.pcbi.1005595) to assemble the cleaned sequence reads
 
 Unicycler was installed via Conda:
 
