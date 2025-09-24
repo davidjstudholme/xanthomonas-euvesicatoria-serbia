@@ -7,7 +7,7 @@ curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/
 chmod u+x datasets
 ```
 
-File [assm_accs.txt](xanthomonas_assm_accs.txt) lists the accession numbers for the genome assemblies to be analysed. It just lists:
+File [assm_accs.txt](xanthomonas_assm_accs.txt) lists the accession numbers for the genome assemblies to be downloaded and analysed. It just lists:
 GCA_030345955.2, GCA_030345985.2 and GCA_030345975.2.
 
 
