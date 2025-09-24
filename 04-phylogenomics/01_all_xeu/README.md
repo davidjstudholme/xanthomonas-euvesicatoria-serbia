@@ -11,3 +11,8 @@ ln -s ncbi_dataset/data/GCA_*/GCA_*.fna .
 perl rename_files.pl genomes.txt
 
 
+
+ln -s ../01_genome_assemblies/ATCC_11633.fasta
+
+
+
