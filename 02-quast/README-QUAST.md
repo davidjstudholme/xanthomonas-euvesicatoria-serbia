@@ -37,3 +37,7 @@ Execute QUAST on the three genome assemblies:
 ```
 quast *.fna
 ```
+
+The results of the QUAST analysis can be found in [this folder](quast_results/results_2025_09_22_20_15_44).
+
+
