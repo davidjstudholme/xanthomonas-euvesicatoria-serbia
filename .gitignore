@@ -34,6 +34,9 @@ md5sum.txt
 
 *.gfa
 
+
+10-platon/db
+
 *quast_results/latest
 
 ### Large files in the PhaME results
@@ -46,8 +49,14 @@ md5sum.txt
 *workdir/results/temp
 
 # Large phylogenomics results
-01_phylogenomics/*/03_workdir/results/tables/
-01_phylogenomics/*/03_workdir/results/Xeu_core_stats.txt
+*_phylogenomics/*/03_workdir/results/tables/
+*_phylogenomics/*/03_workdir/results/Xeu_core_stats.txt
+04-phylogenomics/03_subset_of_cluster_6/03_workdir/results/tables/Xeu_cluster6_subset_comparisons.txt
+04-phylogenomics/02_cluster_6_only/03_workdir/results/tables/Xeu_cluster6_comparisons.txt
+04-phylogenomics/03_subset_of_cluster_6/03_workdir/results/tables/Xeu_cluster6_subset_core_stats.txt
+04-phylogenomics/02_cluster_6_only/03_workdir/results/tables/Xeu_cluster6_core_stats.txt
+
+
 
 # SNP calling indexes
 *.bwt

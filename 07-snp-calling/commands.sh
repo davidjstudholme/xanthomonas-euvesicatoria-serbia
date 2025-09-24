@@ -1,7 +1,15 @@
 
 conda create -n bcftools_env
 conda activate bcftools_env
-conda install bioconda::bcftools
+#conda install bioconda::bcftools
+
+conda list -n bcftools_env > bcftools_env_packages.txt
+conda env export > bcftools_env.yaml
+
+
+
+
+
 
 ln -s ../07_bwa_alignments/*.versus.85-10.fasta.aln.sorted.rmdup.bam* .
 ln -s ../07_bwa_alignments/85-10.fasta .

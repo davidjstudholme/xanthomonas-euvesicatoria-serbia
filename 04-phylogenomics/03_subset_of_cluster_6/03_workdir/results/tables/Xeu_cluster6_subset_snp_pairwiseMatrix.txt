@@ -1,0 +1,2 @@
+	66b	DC99P1A1_contig	DC99P1B1_contig	Tu_10_contig	VTM10_contig	VTM12_contig	VTM15_contig	VTM16_contig	VTM4_contig	X13_contig	X22_contig	X31_contig	Xcv_DC_96_3_contig	Xcv_DC_96_5_contig	Xcv_DC_97_P1A_contig	
+66b		467	461	454	501	649	469	763	696	155	385	359	263	263	361	

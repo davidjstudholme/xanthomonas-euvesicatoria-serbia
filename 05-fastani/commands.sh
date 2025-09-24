@@ -14,7 +14,7 @@ perl rename_files.pl genomes.txt
 
 ### FastANI has already been installed via Conda
 conda activate fastani_env
-conda list -n fastani_env > quast_env_packages.txt
+conda list -n fastani_env > fastani_env_packages.txt
 conda env export > fastani_env.yaml
 
 fastANI --ql query_list.txt --rl ref_list.txt -o Xeu-fastANI.short.out -t 6 --visualize --matrix

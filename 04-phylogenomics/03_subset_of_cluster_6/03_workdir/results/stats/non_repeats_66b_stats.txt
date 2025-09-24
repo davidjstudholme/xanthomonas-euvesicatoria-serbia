@@ -1,0 +1,2 @@
+Reference	Length	Non-Repeat	Repeat size
+66b	5306942	5213103	93839

@@ -1,0 +1,4 @@
+
+66b size:	5306942
+Repeats segment #:	373
+Repeats total length:	94955 (1.79%)

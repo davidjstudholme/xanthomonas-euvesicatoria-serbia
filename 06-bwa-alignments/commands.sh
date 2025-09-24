@@ -86,7 +86,12 @@ done
 ### Assume that Qualimap is installed
 conda create -n qualimap_env
 conda activate qualimap_env
-conda install bioconda::qualimap
+#conda install bioconda::qualimap
+
+conda list -n qualimap_env > qualimap_env_packages.txt
+conda env export > qualimap_env.yaml
+
+
 
 ### Generate Qualimap iput files
 for i in *versus.66b.fasta.aln.sorted.rmdup.bam; do echo $i $i; done

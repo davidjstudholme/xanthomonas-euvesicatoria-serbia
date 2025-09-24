@@ -1,0 +1,5 @@
+Reference used	66b
+Reference genome length	5306942
+Total gap length	277632
+Core genome length	5029310
+Total SNPs	897
