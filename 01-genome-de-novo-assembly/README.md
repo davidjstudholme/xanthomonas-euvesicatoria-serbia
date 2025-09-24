@@ -1,10 +1,15 @@
-Download all the sequence reads from the SRA database using NCBI's SRA Toolkit
+
+# *De-novo* assembly of the three genome sequences
+
+### Obtain and prepare the raw sequence data
+
+Download the genomic sequence reads from the Sequence Read Archive (SRA) using NCBI's SRA Toolkit:
 
 ```
 fasterq-dump --split-files SRR24958750 SRR24958751 SRR24958752
 ```
 
-Compress the downloaded FASTQ files
+Compress the downloaded FASTQ files using gzip:
 
 ```
 for i in *.fastq; do
@@ -13,7 +18,7 @@ for i in *.fastq; do
 done
 ```
 
-Perform TrimGalore on each dataset
+Perform TrimGalore on each dataset:
 
 ```
 for i in  SRR24958750 SRR24958751 SRR24958752; do
@@ -22,14 +27,21 @@ for i in  SRR24958750 SRR24958751 SRR24958752; do
 done
 ```
 
-Perform Unicycler assembly for each dataset
+### Run Unicycler to assemble the cleaned sequence reads
+
+Unicycler was installed via Conda:
 
 ```
 conda activate unicycler_env
 conda list -n unicycler_env > unicycler_env_packages.txt
 conda env export > unicycler_env.yaml
 ```
+Details of the Conda environment, with software versions:
+- [unicycler_env_packages.txt](unicycler_env_packages.txt)
+- [unicycler_env.yaml](unicycler_env.yaml)
 
+
+Perform Unicycler assembly for each of the three genomes:
 ```
 for i in  SRR24958750 SRR24958751 SRR24958752; do
     echo $i
@@ -38,7 +50,7 @@ done
 ```
 
 
-Make symbolic links to resulting assemblies
+Make symbolic links to resulting assemblies:
 
 ```
 for i in  SRR24958750 SRR24958751 SRR24958752 ; do
@@ -47,13 +59,7 @@ for i in  SRR24958750 SRR24958751 SRR24958752 ; do
 done
 ```
 
-Perform plasmidSPAdes assembly for each dataset
+The resulting genome assemblies were submitted to GenBank via the NCBi.
 
-```
-for i in SRR24958750 SRR24958751 SRR24958752; do
-    echo $i
-    plasmidspades.py -1 "$i"_1_val_1.fq.gz -2 "$i"_2_val_2.fq.gz -o "$i"_plasmid_assembly
-done
-```
 
 
