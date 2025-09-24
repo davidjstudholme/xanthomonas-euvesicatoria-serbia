@@ -7,7 +7,7 @@ curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/
 chmod u+x datasets
 ```
 
-File [assm_accs.txt](assm_accs.txt) lists the accession numbers for the genome assemblies to be analysed.
+File [assm_accs.txt](xanthomonas_assm_accs.txt) lists the accession numbers for the genome assemblies to be analysed.
 
 
 Use NCBI's datasets utility to download the three genome sequences, unzip them and make symlinks in current directory:
@@ -18,8 +18,6 @@ unzip xanthomonas_genome_assemblies.zip
 ln -s ncbi_dataset/data/GCA_*/GCA_*.fna .
 ```
 
-
-
 Platon has been installed via [Conda](https://anaconda.com/).
 
 ```
@@ -28,6 +26,10 @@ conda list -n platon_env > platon_env_packages.txt
 conda env export > platon_env.yaml
 ```
 
+Details of the Conda environment can be found in these files:
+
+- platon_env_packages.txt
+- platon_env.yaml
 
 Run Platon:
 
