@@ -1,3 +1,5 @@
+# Search9ng for plasmid sequences using [Platon](https://doi.org/10.1099/mgen.0.000398)
+
 Download NCBI's datasets utility, which is needed for obtaining the genome assemblies form the NCBI's databases:
 
 ```
@@ -6,7 +8,7 @@ chmod u+x datasets
 ```
 
 File [assm_accs.txt](assm_accs.txt) lists the accession numbers for the genome assemblies to be analysed.
-File [genomes.txt](genomes.txt) maps the accession numbers to strain names.
+File [genomes.txt](genomes.txt) maps the accession numbers to strains.
 Use NCBI's datasets utility to download the three genome sequences, unzip them and make symlinks in current directory:
 
 ```
