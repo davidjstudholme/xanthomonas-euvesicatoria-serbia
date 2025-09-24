@@ -27,7 +27,7 @@ perl rename_files.pl genomes.txt
 
 Create a symplink to the reference genome sequence:
 ```
-ln -s ../01_genome_assemblies/Xe173.fasta .
+ln -s ../01_genome_assemblies/66b.fasta .
 ```
 
 
@@ -38,7 +38,7 @@ Make symlinks to the genome sequences, excuding the reference genome:
 ln -s ../01_genome_assemblies/*.contig .
 
 ### Remove duplicate of reference genome
-rm Xe173.contig
+rm 66b.contig
 ```
 
 ### In the 04_phame/ directory
