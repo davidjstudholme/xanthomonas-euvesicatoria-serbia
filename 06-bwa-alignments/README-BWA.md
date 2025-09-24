@@ -243,4 +243,12 @@ for i in *.versus.X22.fasta.aln.sorted.rmdup.bam; do
     igvtools count $i $i.tdf X22.fasta
 done
 ```
+TDF coverage files:
 
+- [Xe173_TDF/](Xe173_TDF/)
+- [85-10_TDF/](85-10_TDF/)
+- [LMG_930_TDF/](LMG_930_TDF/)
+- [NC_016053.1_TDF/](NC_016053.1_TDF/)
+- [X13_TDF/](X13_TDF/)
+- [X22_TDF/](X22_TDF/)
+  
