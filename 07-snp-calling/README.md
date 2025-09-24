@@ -71,3 +71,10 @@ Results of SNP-calling:
 
 - [snps.csv](snps.csv) as a tab-delimted table, ready to import into a spreadsheet
 - [snps.csv.haplotype.nex](snps.csv.haplotype.nex) in Nexus format, ready to import into [PopArt](https://doi.org/10.1186/s12864-025-11206-8).
+
+Files exported from PopArt:
+
+- [Xeu.snps.csv.haplotype.nex](Xeu.snps.csv.haplotype.nex)
+- [Xeu.snps.csv.haplotype.png](Xeu.snps.csv.haplotype.png)
+- [Xeu.snps.csv.haplotype.svg](Xeu.snps.csv.haplotype.svg)
+
