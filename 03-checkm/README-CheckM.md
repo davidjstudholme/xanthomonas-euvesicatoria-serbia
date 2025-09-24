@@ -31,6 +31,9 @@ Details of oftware versions and the Conda environment are specified in these fil
 - [checkm_env.yaml](checkm_env.yaml)
 - [checkm.version.txt](checkm.version.txt)
 
+
+Run CheckM
+
 ```
 checkm taxonomy_wf genus Xanthomonas . checkm_out
 for i in 1 2 3 4 5 6 7 8 ; do
@@ -38,3 +41,11 @@ for i in 1 2 3 4 5 6 7 8 ; do
     checkm qa --out_format $i checkm_out/Xanthomonas.ms checkm_out > checkm_qa.$i.txt
 done
 ```
+
+CheckM results:
+
+- [Results in format #1](checkm_qa.1.txt)
+- 
+
+
+
