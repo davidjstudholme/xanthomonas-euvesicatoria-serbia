@@ -1,15 +1,31 @@
-ln -s ../01_genome_assemblies/*.fasta .
+# Searching genome assemblies for sequence similarity to known T3SS effectors, using TBLASTN
 
+Make symlinks to the genome assembly FASTA files:
+
+```
+ln -s ../04-phylogenomics/01_all_xeu/01_genome_assemblies/*.fasta .
+```
+
+Create BLAST databases for each genome sequence:
+
+```
 for i in *.fasta; do
     echo $i
     formatdb -pF -i $i
 done
+```
+File [euroxanth_effectors_2023-10-03.faa](euroxanth_effectors_2023-10-03.faa) was obtained from the EuroXanth [*Xanthomonas* Dokuwiki](https://doi.org/10.1094/MPMI-11-23-0184-FI).
 
-### TBLASTN againts EuroXanth effectors
+Perform TBLASTN against EuroXanth T3SS effectors:
+
+```
 for i in *.fasta; do
     echo $i
     tblastn -db $i -query euroxanth_effectors_2023-10-03.faa -evalue 1e-10 -out euroxanth_effectors_2023-10-03.faa.versus.$i.tblastn
 done
+```
+
+
 
 ### TBLASTN against Potnis et al. (2011) core effectors
 for i in *.fasta; do
