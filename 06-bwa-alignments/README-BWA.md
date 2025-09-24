@@ -125,7 +125,9 @@ Information about the Conda environment is recorded in these files:
 - [qualimap_env.yaml](qualimap_env.yaml)
 
 
-### Generate Qualimap iput files
+Generate Qualimap input files:
+
+```
 for i in *versus.66b.fasta.aln.sorted.rmdup.bam; do echo $i $i; done
 for i in *versus.66b.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > 66b.bam_list.txt
 for i in *versus.85-10.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > 85-10.bam_list.txt
@@ -139,36 +141,49 @@ for i in *versus.Xe73.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > Xe73.bam
 for i in *versus.CP018463.1.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > CP018463.1.bam_list.txt
 for i in *versus.CP170254.1.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > CP170254.1.bam_list.txt
 for i in *versus.NC_016053.1.fasta.aln.sorted.rmdup.bam; do echo $i $i; done > NC_016053.1.1.bam_list.txt
+```
 
-### Run Qualimap
+Run Qualimap:
+
+```
 qualimap multi-bamqc --run-bamqc --data LMG_930.bam_list.txt -outdir LMG_930.multi-bamqc -outformat PDF
 
 qualimap multi-bamqc --run-bamqc --data CP018463.1.bam_list.txt -outdir CP018463.1.multi-bamqc -outformat PDF
 qualimap multi-bamqc --run-bamqc --data CP170254.1.bam_list.txt -outdir CP170254.1.multi-bamqc -outformat PDF
 qualimap multi-bamqc --run-bamqc --data NC_016053.1.bam_list.txt -outdir NC_016053.1.multi-bamqc -outformat PDF
+```
 
-### Make coverage plots
+Make coverage plots:
+
+```
 for i in *.versus.Xe173.fasta.aln.sorted.rmdup.bam; do
     echo $i
     igvtools count $i $i.tdf Xe173.fasta
 done
+
 for i in *.versus.85-10.fasta.aln.sorted.rmdup.bam; do
     echo $i
     igvtools count $i $i.tdf 85-10.fasta
 done
+
 for i in *.versus.LMG_930.fasta.aln.sorted.rmdup.bam; do
     echo $i
     igvtools count $i $i.tdf LMG_930.fasta
 done
+
 for i in *.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam; do
     echo $i
     igvtools count $i $i.Xap41.tdf NC_016053.1.fasta
 done
+
 for i in *.versus.X13.fasta.aln.sorted.rmdup.bam; do
     echo $i
     igvtools count $i $i.tdf X13.fasta
 done
+
 for i in *.versus.X22.fasta.aln.sorted.rmdup.bam; do
     echo $i
     igvtools count $i $i.tdf X22.fasta
 done
+```
+
