@@ -245,10 +245,10 @@ done
 ```
 TDF coverage files:
 
-- [Xe173_TDF/](Xe173_TDF/)
-- [85-10_TDF/](85-10_TDF/)
-- [LMG_930_TDF/](LMG_930_TDF/)
-- [NC_016053.1_TDF/](NC_016053.1_TDF/)
-- [X13_TDF/](X13_TDF/)
-- [X22_TDF/](X22_TDF/)
+- [Strain Xe173 complete genome](Xe173_TDF/)
+- [Strain 85-10 complete genome/](85-10_TDF/)
+- [Strain LMG 930 complete genome/](LMG_930_TDF/)
+- [pXap41 plasmid_TDF/](NC_016053.1_TDF/)
+- [Strain X13 complete genome](X13_TDF/)
+- [Strain X22 complete genome](X22_TDF/)
   
