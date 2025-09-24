@@ -199,8 +199,7 @@ Qualimap coverage plots:
 - [X22 reads versus LMG_930](X22.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [X31 reads versus CP018463.1](X31.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [X31 reads versus CP170254.1](X31.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [X31 reads versus LMG_930](X31.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)<img width="768" height="721" alt="image" src="https://github.com/user-attachments/assets/a80b2028-0003-4491-8c18-988525b6ccf1" />
-
+- [X31 reads versus LMG_930](X31.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 
 Make [TDF files](https://github.com/igvteam/igv/wiki/TDF-Format) that can be imported into [IGV](https://igv.org/) to generate coverage plots:
 
