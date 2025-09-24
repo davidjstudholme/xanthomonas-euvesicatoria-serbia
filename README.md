@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/853709783.svg)](https://doi.org/10.5281/zenodo.17194555)
+
 # Genome sequencing of _Xanthomonas euvesicatoria_ pv. _euvesicatoria_ strains from pepper (_Capsicum annuum_ L.) reveals distinct genotypes in Serbia
 
 ### Tatjana Popović Milovanović, Shannon F. Greer, Renata Iličić, Aleksandra Jelušić, Daisy Bown, Murray Grant, Joana G. Vicente and David J. Studholme.
