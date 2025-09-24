@@ -1,4 +1,4 @@
-# Assessing quality of the three geome assemblies using [CheckM](https://doi.org/10.1101/gr.186072.114)
+# Assessing quality of the three genome assemblies using [CheckM](https://doi.org/10.1101/gr.186072.114)
 
 Download NCBI's datasets utility, which is needed for obtaining the genome assemblies form the NCBI's databases:
 
