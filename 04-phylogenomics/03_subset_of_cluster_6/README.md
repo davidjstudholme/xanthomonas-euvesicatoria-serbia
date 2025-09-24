@@ -63,4 +63,4 @@ phame ./phame.ctl
 
 ### Results
 
-Results: [03_workdir/results/trees/Xeu_cluster6_all.fasttree](03_workdir/results/trees/Xeu_cluster6_all.fasttree)
+Results: [03_workdir/results/trees/Xeu_cluster6_subset_all.fasttree](03_workdir/results/trees/Xeu_cluster6_subset_all.fasttree)
