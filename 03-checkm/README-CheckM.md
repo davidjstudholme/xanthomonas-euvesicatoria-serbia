@@ -45,7 +45,10 @@ done
 CheckM results:
 
 - [Results in format #1](checkm_qa.1.txt)
-- 
-
-
-
+- [Results in format #2](checkm_qa.2.txt)
+- [Results in format #3](checkm_qa.3.txt)
+- [Results in format #4](checkm_qa.4.txt)
+- [Results in format #5](checkm_qa.5.txt)
+- [Results in format #6](checkm_qa.6.txt)
+- [Results in format #7](checkm_qa.7.txt)
+- [Results in format #8](checkm_qa.8.txt)
