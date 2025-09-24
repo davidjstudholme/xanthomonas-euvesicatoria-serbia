@@ -49,5 +49,7 @@ Run FastANI:
 fastANI --ql query_list.txt --rl ref_list.txt -o Xeu-fastANI.short.out -t 6 --visualize --matrix
 ```
 
-The FastANI results can be found here: [Xeu-fastANI.short.out](Xeu-fastANI.short.out).
+The FastANI results can be found here:
+- [Xeu-fastANI.short.out](Xeu-fastANI.short.out) and
+- [Xeu-fastANI.short.out.matrix](Xeu-fastANI.short.out.matrix).
 
