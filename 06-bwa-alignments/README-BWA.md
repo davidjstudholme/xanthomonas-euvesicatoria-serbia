@@ -103,7 +103,7 @@ for i in 66b.fasta  85-10.fasta  LMG_930.fasta  Tu-10.fasta  X13.fasta  X22.fast
 done
 ```
 
-Qualimap is already installed via Conda:
+[Qualimap](https://doi.org/10.1093/bioinformatics/btv566) is already installed via Conda:
 
 ```
 conda create -n qualimap_env
