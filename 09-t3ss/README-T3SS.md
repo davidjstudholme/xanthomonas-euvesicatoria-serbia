@@ -16,7 +16,7 @@ done
 ```
 File [euroxanth_effectors_2023-10-03.faa](euroxanth_effectors_2023-10-03.faa) was obtained from the EuroXanth [*Xanthomonas* Dokuwiki](https://doi.org/10.1094/MPMI-11-23-0184-FI).
 
-Perform TBLASTN against EuroXanth T3SS effectors:
+Perform TBLASTN for each genome against EuroXanth T3SS effectors:
 
 ```
 for i in *.fasta; do
@@ -25,7 +25,7 @@ for i in *.fasta; do
 done
 ```
 
-TBLASTN against [Potnis et al. (2011)](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-146#citeas) core effectors:
+Perform TBLASTN for each genome against [Potnis et al. (2011)](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-12-146#citeas) core effectors:
 
 ```
 for i in *.fasta; do
@@ -34,11 +34,19 @@ for i in *.fasta; do
 done
 ```
 
+Format the TBLASTN results as tables ready for import into a spreadhseet:
+
 ```
 perl tabulate_blast_results.pl  euroxanth_effectors_2023-10-03.faa.versus.*.tblastn > effector_profile_euroxanth.csv
 perl tabulate_blast_results.pl potnis_2011_core_effectors.faa.versus.*.tblastn > effector_profile_potnis_core.csv
 ```
+Tables of results:
 
+- [effector_profile_euroxanth.csv](effector_profile_euroxanth.csv)
+- [effector_profile_potnis_core.csv](effector_profile_potnis_core.csv)
+
+Format the results as HTML:
+  
 ```
 conda activate bioperl_env
 for i in *.tblastn; do
