@@ -1,3 +1,4 @@
+# Phylogenomics using [PhaME](https://doi.org/10.1038/s41598-020-58356-1)
 
 ### In the 01_genome_assemblies/ directory
 
