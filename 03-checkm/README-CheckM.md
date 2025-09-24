@@ -55,3 +55,11 @@ CheckM results:
 - [Results in format #8](checkm_qa.8.txt) List indicating the position of each marker genes within a genome assembly
 
 These formats are described in the [CheckM wiki](https://github.com/Ecogenomics/CheckM/wiki/Genome-Quality-Commands#qa).
+
+Please also note that the NCBI curators have also run CheckM on the genome assemblies and the results can be found here:
+
+- X13: https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_030345975.2
+- X22: https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_030345985.2
+- X31: https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_030345955.2
+
+  
