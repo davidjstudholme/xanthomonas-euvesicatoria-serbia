@@ -1,4 +1,4 @@
-# Search9ng for plasmid sequences using [Platon](https://doi.org/10.1099/mgen.0.000398)
+# Searching for plasmid sequences using [Platon](https://doi.org/10.1099/mgen.0.000398)
 
 Download NCBI's datasets utility, which is needed for obtaining the genome assemblies form the NCBI's databases:
 
