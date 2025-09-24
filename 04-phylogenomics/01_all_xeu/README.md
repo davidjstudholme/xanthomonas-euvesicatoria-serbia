@@ -56,8 +56,8 @@ conda env export > phame_env.yaml
 
 Details of the Conda environment, with software versions:
 
-- [phame_env_packages.txt](phame_env_packages.txt)
-- [phame_env.yaml](phame_env.yaml)
+- [phame_env_packages.txt](04_phame/phame_env_packages.txt)
+- [phame_env.yaml](04_phame/phame_env.yaml)
 
 Run PhaME:
 
