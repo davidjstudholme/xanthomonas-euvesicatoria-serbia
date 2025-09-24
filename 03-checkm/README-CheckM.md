@@ -58,7 +58,14 @@ These formats are described in the [CheckM wiki](https://github.com/Ecogenomics/
 
 Please also note that the NCBI curators have also run CheckM on the genome assemblies and the results can be found here:
 
-- Strain X13: https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_030345975.2
-- Strain X22: https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_030345985.2
-- Strain X31: https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_030345955.2
+
+# [Strain X13](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_030345975.2): ![Screenshot of QC from NCBI site](X13.png)
+
+
+# [Strain X22](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_030345985.2): ![Screenshot of QC from NCBI site](X22.png)
+
+
+# [Strain X31](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_030345955.2): ![Screenshot of QC from NCBI site](X31.png)
+
+
 
