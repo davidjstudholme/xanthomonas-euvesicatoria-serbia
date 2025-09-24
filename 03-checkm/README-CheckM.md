@@ -7,7 +7,7 @@ curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/
 chmod u+x datasets
 ```
 
-The list of genome accession numbers for the three genomes is specified in [xanthomonas_assm_accs.txt](xanthomonas_assm_accs.txt)
+The list of genome accession numbers for the three genomes is specified in [xanthomonas_assm_accs.txt](xanthomonas_assm_accs.txt).
 Use NCBI's datasets utility to download the three genome sequences, unzip them and make symlinks in current directory:
 
 ```
