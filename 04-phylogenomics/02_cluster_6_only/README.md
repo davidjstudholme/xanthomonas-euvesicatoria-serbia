@@ -27,7 +27,7 @@ perl rename_files.pl genomes.txt
 
 Create a symplink to the reference genome sequence:
 ```
-ln -s ../01_genome_assemblies/ATCC_11633.fasta
+ln -s ../01_genome_assemblies/Xe173.fasta .
 ```
 
 
@@ -36,7 +36,9 @@ ln -s ../01_genome_assemblies/ATCC_11633.fasta
 Make symlinks to the genome sequences, excuding the reference genome:
 ```
 ln -s ../01_genome_assemblies/*.contig .
-rm ATCC_11633.contig 
+
+### Remove duplicate of reference genome
+rm Xe173.contig
 ```
 
 ### In the 04_phame/ directory
@@ -51,14 +53,7 @@ Already installed PhaME into a Conda environment:
 
 ```
 conda activate phame_env
-conda list -n phame_env > phame_env_packages.txt
-conda env export > phame_env.yaml
 ```
-
-Details of the Conda environment, with software versions:
-
-- [phame_env_packages.txt](04_phame/phame_env_packages.txt)
-- [phame_env.yaml](04_phame/phame_env.yaml)
 
 Run PhaME:
 
