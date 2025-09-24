@@ -39,3 +39,10 @@ platon --db ./db --prefix X31 --output X31.platon --mode accuracy --verbose --th
 platon --db ./db --prefix X13 --output X13.platon --mode accuracy --verbose --threads 12 GCA_030345975.2_ASM3034597v2_genomic.fna
 platon --db ./db --prefix X22 --output X22.platon --mode accuracy --verbose --threads 12 GCA_030345985.2_ASM3034598v2_genomic.fna 
 ```
+
+Platon results can be found here:
+
+- Strain X13: [X13.tsv](X13.platon/X13.tsv)
+- Strain X22: 
+- Strain X31: 
+
