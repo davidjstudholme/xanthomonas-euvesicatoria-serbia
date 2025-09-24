@@ -38,9 +38,16 @@ Details of oftware versions and the Conda environment are specified in these fil
 - [fastani_env_packages.txt](fastani_env_packages.txt)
 - [fastani_env.yaml](fastani_env.yaml)
 
-Run FastANI
+These two files list the genomes to be included in the FastANI calculations:
+- [query_list.txt](query_list.txt)
+- [ref_list.txt](ref_list.txt)
+
+
+Run FastANI:
+
 ```
 fastANI --ql query_list.txt --rl ref_list.txt -o Xeu-fastANI.short.out -t 6 --visualize --matrix
 ```
 
+The FastANI results can be found here: [Xeu-fastANI.short.out](Xeu-fastANI.short.out).
 
