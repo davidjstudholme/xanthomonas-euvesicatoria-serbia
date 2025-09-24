@@ -153,53 +153,62 @@ qualimap multi-bamqc --run-bamqc --data CP170254.1.bam_list.txt -outdir CP170254
 qualimap multi-bamqc --run-bamqc --data NC_016053.1.bam_list.txt -outdir NC_016053.1.multi-bamqc -outformat PDF
 ```
 
-Qualimap coverage plots:
+Qualimap coverage plots for _Xanthomonas euvesicatoria_ LMG930 plasmid pLMG930.2
 
 - [66b reads versus CP018463.1](66b.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [66b reads versus CP170254.1](66b.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [66b reads versus LMG_930](66b.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [DC99P1A1 reads versus CP018463.1](DC99P1A1.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [DC99P1A1 reads versus CP170254.1](DC99P1A1.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [DC99P1A1 reads versus LMG_930](DC99P1A1.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [DC99P1B1 reads versus CP018463.1](DC99P1B1.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [DC99P1B1 reads versus CP170254.1](DC99P1B1.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [DC99P1B1 reads versus LMG_930](DC99P1B1.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [DC_96-3 reads versus CP018463.1](DC_96-3.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [DC_96-3 reads versus CP170254.1](DC_96-3.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [DC_96-3 reads versus LMG_930](DC_96-3.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [DC_96-5 reads versus CP018463.1](DC_96-5.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [DC_96-5 reads versus CP170254.1](DC_96-5.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [DC_96-5 reads versus LMG_930](DC_96-5.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [DC_97_P1A reads versus CP018463.1](DC_97_P1A.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [DC_97_P1A reads versus CP170254.1](DC_97_P1A.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [DC_97_P1A reads versus LMG_930](DC_97_P1A.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [DC99P1A1 reads versus CP018463.1](DC99P1A1.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [DC99P1B1 reads versus CP018463.1](DC99P1B1.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [Tu-10 reads versus CP018463.1](Tu-10.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [Tu-10 reads versus CP170254.1](Tu-10.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [Tu-10 reads versus LMG_930](Tu-10.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [VTM10 reads versus CP018463.1](VTM10.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [VTM10 reads versus CP170254.1](VTM10.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [VTM10 reads versus LMG_930](VTM10.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [VTM12 reads versus CP018463.1](VTM12.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [VTM12 reads versus CP170254.1](VTM12.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [VTM12 reads versus LMG_930](VTM12.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [VTM15 reads versus CP018463.1](VTM15.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [VTM15 reads versus CP170254.1](VTM15.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [VTM15 reads versus LMG_930](VTM15.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [VTM16 reads versus CP018463.1](VTM16.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [VTM16 reads versus CP170254.1](VTM16.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [VTM16 reads versus LMG_930](VTM16.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [VTM4 reads versus CP018463.1](VTM4.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [VTM4 reads versus CP170254.1](VTM4.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [VTM4 reads versus LMG_930](VTM4.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [X13 reads versus CP018463.1](X13.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [X13 reads versus CP170254.1](X13.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [X13 reads versus LMG_930](X13.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [X22 reads versus CP018463.1](X22.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [X22 reads versus CP170254.1](X22.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
-- [X22 reads versus LMG_930](X22.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [X31 reads versus CP018463.1](X31.versus.CP018463.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+
+
+Qualimap coverage plots for _Xanthomonas euvesicatoria_ Xe173 75-kbp plasmid:
+
+- [66b reads versus CP170254.1](66b.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [DC_96-3 reads versus CP170254.1](DC_96-3.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [DC_96-5 reads versus CP170254.1](DC_96-5.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [DC_97_P1A reads versus CP170254.1](DC_97_P1A.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [DC99P1A1 reads versus CP170254.1](DC99P1A1.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [DC99P1B1 reads versus CP170254.1](DC99P1B1.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [Tu-10 reads versus CP170254.1](Tu-10.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [VTM10 reads versus CP170254.1](VTM10.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [VTM12 reads versus CP170254.1](VTM12.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [VTM15 reads versus CP170254.1](VTM15.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [VTM16 reads versus CP170254.1](VTM16.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [VTM4 reads versus CP170254.1](VTM4.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [X13 reads versus CP170254.1](X13.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [X22 reads versus CP170254.1](X22.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [X31 reads versus CP170254.1](X31.versus.CP170254.1.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+
+
+Qualimap coverage plots for _Xanthomonas euvesicatoria_ LMG 930 complete genome:
+  
+- [66b reads versus LMG_930](66b.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [DC_96-3 reads versus LMG_930](DC_96-3.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [DC_96-5 reads versus LMG_930](DC_96-5.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [DC_97_P1A reads versus LMG_930](DC_97_P1A.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [DC99P1A1 reads versus LMG_930](DC99P1A1.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [DC99P1B1 reads versus LMG_930](DC99P1B1.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [Tu-10 reads versus LMG_930](Tu-10.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [VTM10 reads versus LMG_930](VTM10.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [VTM12 reads versus LMG_930](VTM12.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [VTM15 reads versus LMG_930](VTM15.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [VTM16 reads versus LMG_930](VTM16.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [VTM4 reads versus LMG_930](VTM4.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [X13 reads versus LMG_930](X13.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+- [X22 reads versus LMG_930](X22.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
 - [X31 reads versus LMG_930](X31.versus.LMG_930.fasta.aln.sorted.rmdup_stats/images_qualimapReport/genome_coverage_across_reference.png)
+
 
 Make [TDF files](https://github.com/igvteam/igv/wiki/TDF-Format) that can be imported into [IGV](https://igv.org/) to generate coverage plots:
 
