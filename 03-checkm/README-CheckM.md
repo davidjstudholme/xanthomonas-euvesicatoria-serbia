@@ -27,7 +27,7 @@ conda env export > checkm_env.yaml
 
 Details of oftware versions and the Conda environment are specified in these files:
 
-- [checkm_env_packages.txt](checm_env_packages.txt)
+- [checkm_env_packages.txt](checkm_env_packages.txt)
 - [checkm_env.yaml](checkm_env.yaml)
 - [checkm.version.txt](checkm.version.txt)
 
