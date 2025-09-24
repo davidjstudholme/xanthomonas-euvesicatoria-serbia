@@ -95,25 +95,34 @@ mv SRR16936540_2_val_2.fq.gz DC_96-3.2.fq.gz
 ```
 
 
-Perform BWA-MEM alignments using custom wrapper script [do_bwa.pl](do_bwa.pl):
+Perform BWA-MEM alignments against each reference genome, using custom wrapper script [do_bwa.pl](do_bwa.pl):
 
 ```
-for i in 66b.fasta  85-10.fasta  LMG_930.fasta  Tu-10.fasta  X13.fasta  X22.fasta  X31.fasta  Xe173.fasta; do
+for i in 66b.fasta  85-10.fasta  LMG_930.fasta  Tu-10.fasta  X13.fasta  X22.fasta  X31.fasta  Xe173.fasta CP018463.1.fasta CP170254.1.fasta NC_016053.1.fasta  ; do
     perl do_bwa.pl $i
 done
 ```
-for i in CP018463.1.fasta CP170254.1.fasta NC_016053.1.fasta; do
-    perl do_bwa.pl $i
-done
 
-### Assume that Qualimap is installed
+Qualimap is already installed via Conda:
+
+```
 conda create -n qualimap_env
 conda activate qualimap_env
-#conda install bioconda::qualimap
+conda install bioconda::qualimap
+```
 
+Gather information about the Conda environment:
+
+```
+conda activate qualimap_env
 conda list -n qualimap_env > qualimap_env_packages.txt
 conda env export > qualimap_env.yaml
+```
 
+Information about the Conda environment is recorded in these files:
+
+- [qualimap_env_packages.txt](qualimap_env_packages.txt)
+- [qualimap_env.yaml](qualimap_env.yaml)
 
 
 ### Generate Qualimap iput files
