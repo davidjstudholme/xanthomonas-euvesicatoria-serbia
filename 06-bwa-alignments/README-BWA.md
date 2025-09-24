@@ -1,15 +1,16 @@
+# Aligning genomic sequence reads against reference genome sequences, using [BWA-MEM](https://doi.org/10.48550/arXiv.1303.3997)
 
 Get reference genome assemblies:
 
 ```
-ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/Xe173.fasta .
-ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/85-10.fasta .
-ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/LMG_930.fasta .
-ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/X22.fasta .
-ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/X13.fasta .
-ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/X31.fasta .
-ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/66b.fasta .
-ln -s ../01_phylogenomics/01_all_xeu/01_genome_assemblies/Tu-10.fasta .
+ln -s ../04-phylogenomics/01_all_xeu/01_genome_assemblies/Xe173.fasta .
+ln -s ../04-phylogenomics/01_all_xeu/01_genome_assemblies/85-10.fasta .
+ln -s ../04-phylogenomics/01_all_xeu/01_genome_assemblies/LMG_930.fasta .
+ln -s ../04-phylogenomics/01_all_xeu/01_genome_assemblies/X22.fasta .
+ln -s ../04-phylogenomics/01_all_xeu/01_genome_assemblies/X13.fasta .
+ln -s ../04-phylogenomics/01_all_xeu/01_genome_assemblies/X31.fasta .
+ln -s ../04-phylogenomics/01_all_xeu/01_genome_assemblies/66b.fasta .
+ln -s ../04-phylogenomics/01_all_xeu/01_genome_assemblies/Tu-10.fasta .
 ```
 
 Get Sequence reads from Sequence Read Archive (SRA):
