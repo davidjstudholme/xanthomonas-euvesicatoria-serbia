@@ -45,3 +45,10 @@ Platon results can be found here:
 - Strain X13: [X13.tsv](X13.platon/X13.tsv)
 - Strain X22: [X22.tsv](X22.platon/X22.tsv)
 - Strain X31: [X31.tsv](X31.platon/X31.tsv)
+
+Platon log files can be found here:
+
+- Strain X13: [X13.tsv](X13.platon/X13.log)
+- Strain X22: [X22.tsv](X22.platon/X22.log)
+- Strain X31: [X31.tsv](X31.platon/X31.log)
+
