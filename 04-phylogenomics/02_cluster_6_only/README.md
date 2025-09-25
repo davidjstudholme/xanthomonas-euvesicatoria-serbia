@@ -53,7 +53,8 @@ Already installed PhaME into a Conda environment:
 
 ```
 conda activate phame_env
-```
+
+The PhAME configuration file, specifying all the options and parameters, is here: [phame.ctl](04_phame/phame.ctl).```
 
 Run PhaME:
 
