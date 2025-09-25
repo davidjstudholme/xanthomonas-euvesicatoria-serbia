@@ -60,6 +60,8 @@ Details of the Conda environment, with software versions:
 - [phame_env_packages.txt](04_phame/phame_env_packages.txt)
 - [phame_env.yaml](04_phame/phame_env.yaml)
 
+The PhAME configuration file, specifying all the options and parameters, is here: [phame.ctl](phame.ctl).
+
 Run PhaME:
 
 ```
