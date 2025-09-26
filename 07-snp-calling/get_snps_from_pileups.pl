@@ -5,17 +5,10 @@ use warnings;
 my $usage = "Usage: $0  <minimum depth of read-coverage> <vcf_files> <pileup files>";
 
 my $min_depth = shift or die "$usage\n";
-#my $heterozygosity_min_freq = 0.30;
-#my $heterozygosity_max_freq = 0.70;
-#my $homozygosity_min_freq = 0.99;
-#my $absence_max_freq = 0.01;
 
 die $usage unless $min_depth =~ m/^\d+$/;
 
 warn "Only considering sites where depth >= $min_depth in all pileup files\n";
-#warn "Where allele's read-frequency >= $homozygosity_min_freq site is considered to be homozygous for that allele\n";
-#warn "Where allele's read-frequency <= $absence_max_freq allele is considered to be absent from that site\n";
-#warn "Where allele's read-frequency is >= $heterozygosity_min_freq and <= $heterozygosity_max_freq site is considered to be heterozygous\n";
 
 ### Read locations of candidate SNPs from VCF file to reduce search space
 my $no_search_space = 1;
