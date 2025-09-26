@@ -6,11 +6,6 @@ conda activate bcftools_env
 conda list -n bcftools_env > bcftools_env_packages.txt
 conda env export > bcftools_env.yaml
 
-
-
-
-
-
 ln -s ../07_bwa_alignments/*.versus.85-10.fasta.aln.sorted.rmdup.bam* .
 ln -s ../07_bwa_alignments/85-10.fasta .
 
@@ -36,5 +31,4 @@ done
 
 ### Now we are ready to generate the table of allele frequencies (considering only sites where read-coverage is at least 10x):
 perl get_snps_from_pileups.pl 10 *.filtered.vcf *.pileup > snps.csv
-
 
