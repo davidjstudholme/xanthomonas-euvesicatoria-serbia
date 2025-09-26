@@ -71,7 +71,7 @@ Results of SNP-calling:
 
 - [snps.csv](snps.csv) as a tab-delimted table, ready to import into a spreadsheet
 
-Finally, from the table of SNPs, generate a haplotype pseudos-sequence in Nexus format:
+Finally, from the table of SNPs, generate a haplotype pseudo-sequence in Nexus format using [get_haplotypes_and_aligned_fasta_from_csv.pl](get_haplotypes_and_aligned_fasta_from_csv.pl):
 
 ```
 get_haplotypes_and_aligned_fasta_from_csv.pl snps.csv
