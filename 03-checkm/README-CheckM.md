@@ -17,7 +17,7 @@ unzip xanthomonas_genome_assemblies.zip
 ln -s ncbi_dataset/data/GCA_*/GCA_*.fna .
 ```
 
-CheckM has been installed via [Conda](https://anaconda.com/).
+CheckM has been installed via [Conda](https://anaconda.com/) using ```conda install bioconda::checkm-genome```.
 
 ```
 conda activate checkm_env
