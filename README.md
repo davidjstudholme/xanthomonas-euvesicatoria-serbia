@@ -4,7 +4,7 @@
 
 ### Tatjana Popović Milovanović, Shannon F. Greer, Renata Iličić, Aleksandra Jelušić, Daisy Bown, Murray Grant, Joana G. Vicente and David J. Studholme.
 
-This repository contains details of the bioinformatics methods used in our manuscript submitted to the journal _Agronomy_:
+This repository contains details of the bioinformatics methods used in our manuscript submitted to the journal Access Microbiology:
 
 1. [*De-novo* genome assembly from Illumina reads, using Unicycler](01-genome-de-novo-assembly/README.md)
 2. [Quality assessment of the genome assemblies, using QUAST](02-quast/README-QUAST.md)
