@@ -1,0 +1,272 @@
+Number of sequences analyzed:        41
+
+Sequence 1 : parsnp_Xe173/tmp/GCF_042448555.1_ASM4244855v1_genomic.gbff.fna
+GCF_042448555.1_ASM4244855v1_genomic.gbff.fna
+Length:   5047368 bps
+ GC: 3268341.0
+ AT: 1779027.0
+Sequence 2 : except_Xe173/69-1.fasta
+69-1.fasta
+Length:   5183224 bps
+ GC: 3351940.0
+ AT: 1831284.0
+Sequence 3 : except_Xe173/20HP1608-1.fasta
+20HP1608-1.fasta
+Length:   5228540 bps
+ GC: 3380849.0
+ AT: 1847691.0
+Sequence 4 : except_Xe173/87-13.fasta
+87-13.fasta
+Length:   5316849 bps
+ GC: 3430916.0
+ AT: 1885933.0
+Sequence 5 : except_Xe173/XCVKK-C-5.fasta
+XCVKK-C-5.fasta
+Length:   5173074 bps
+ GC: 3344577.0
+ AT: 1828497.0
+Sequence 6 : except_Xe173/VTM16.fasta
+VTM16.fasta
+Length:   5244360 bps
+ GC: 3390765.0
+ AT: 1853595.0
+Sequence 7 : except_Xe173/VTM15.fasta
+VTM15.fasta
+Length:   5172604 bps
+ GC: 3342846.0
+ AT: 1829758.0
+Sequence 8 : except_Xe173/XCVCP-C-43.fasta
+XCVCP-C-43.fasta
+Length:   5169260 bps
+ GC: 3342161.0
+ AT: 1827099.0
+Sequence 9 : except_Xe173/87-7.fasta
+87-7.fasta
+Length:   5314166 bps
+ GC: 3430112.0
+ AT: 1884054.0
+Sequence 10 : except_Xe173/20HP1608-2.fasta
+20HP1608-2.fasta
+Length:   5228059 bps
+ GC: 3380524.0
+ AT: 1847535.0
+Sequence 11 : except_Xe173/XCVKK-C-1.fasta
+XCVKK-C-1.fasta
+Length:   5127467 bps
+ GC: 3316620.0
+ AT: 1810847.0
+Sequence 12 : except_Xe173/Tu-10.fasta
+Tu-10.fasta
+Length:   5126504 bps
+ GC: 3316079.0
+ AT: 1810425.0
+Sequence 13 : except_Xe173/X22.fasta
+X22.fasta
+Length:   5099034 bps
+ GC: 3298864.0
+ AT: 1800170.0
+Sequence 14 : except_Xe173/VTM12.fasta
+VTM12.fasta
+Length:   5193250 bps
+ GC: 3356396.0
+ AT: 1836854.0
+Sequence 15 : except_Xe173/DOA-2983.fasta
+DOA-2983.fasta
+Length:   5135106 bps
+ GC: 3320820.0
+ AT: 1814286.0
+Sequence 16 : except_Xe173/90-13.fasta
+90-13.fasta
+Length:   5421015 bps
+ GC: 3494547.0
+ AT: 1926468.0
+Sequence 17 : except_Xe173/XCVKK-C-3.fasta
+XCVKK-C-3.fasta
+Length:   5172475 bps
+ GC: 3344176.0
+ AT: 1828299.0
+Sequence 18 : except_Xe173/XCVKK-C-4.fasta
+XCVKK-C-4.fasta
+Length:   5169790 bps
+ GC: 3342521.0
+ AT: 1827269.0
+Sequence 19 : except_Xe173/VTM4.fasta
+VTM4.fasta
+Length:   5176495 bps
+ GC: 3346514.0
+ AT: 1829981.0
+Sequence 20 : except_Xe173/DC99P1A1.fasta
+DC99P1A1.fasta
+Length:   5302797 bps
+ GC: 3422418.0
+ AT: 1880379.0
+Sequence 21 : except_Xe173/VTM10.fasta
+VTM10.fasta
+Length:   5172799 bps
+ GC: 3343056.0
+ AT: 1829743.0
+Sequence 22 : except_Xe173/DOA-2989.fasta
+DOA-2989.fasta
+Length:   5156912 bps
+ GC: 3334032.0
+ AT: 1822880.0
+Sequence 23 : except_Xe173/XCVCP-C-51.fasta
+XCVCP-C-51.fasta
+Length:   5127097 bps
+ GC: 3316359.0
+ AT: 1810738.0
+Sequence 24 : except_Xe173/Xcv_DC_96-3.fasta
+Xcv_DC_96-3.fasta
+Length:   5098207 bps
+ GC: 3298193.0
+ AT: 1800014.0
+Sequence 25 : except_Xe173/X31.fasta
+X31.fasta
+Length:   5095014 bps
+ GC: 3296348.0
+ AT: 1798666.0
+Sequence 26 : except_Xe173/DOA-2987.fasta
+DOA-2987.fasta
+Length:   5154187 bps
+ GC: 3332364.0
+ AT: 1821823.0
+Sequence 27 : except_Xe173/DOA-1726.fasta
+DOA-1726.fasta
+Length:   5151691 bps
+ GC: 3330935.0
+ AT: 1820756.0
+Sequence 28 : except_Xe173/Xcv_DC_97_P1A.fasta
+Xcv_DC_97_P1A.fasta
+Length:   5256227 bps
+ GC: 3393692.0
+ AT: 1862535.0
+Sequence 29 : except_Xe173/XCVKK-C-2.fasta
+XCVKK-C-2.fasta
+Length:   5172103 bps
+ GC: 3343935.0
+ AT: 1828168.0
+Sequence 30 : except_Xe173/20HP1597.fasta
+20HP1597.fasta
+Length:   5252383 bps
+ GC: 3395552.0
+ AT: 1856831.0
+Sequence 31 : except_Xe173/20HP1591.fasta
+20HP1591.fasta
+Length:   5172010 bps
+ GC: 3343569.0
+ AT: 1828441.0
+Sequence 32 : except_Xe173/Xcv_DC_96-5.fasta
+Xcv_DC_96-5.fasta
+Length:   5101524 bps
+ GC: 3300333.0
+ AT: 1801191.0
+Sequence 33 : except_Xe173/X13.fasta
+X13.fasta
+Length:   5279639 bps
+ GC: 3408874.0
+ AT: 1870765.0
+Sequence 34 : except_Xe173/20HP1614.fasta
+20HP1614.fasta
+Length:   5227819 bps
+ GC: 3380369.0
+ AT: 1847450.0
+Sequence 35 : except_Xe173/20HP1615.fasta
+20HP1615.fasta
+Length:   5252294 bps
+ GC: 3395486.0
+ AT: 1856808.0
+Sequence 36 : except_Xe173/66b.fasta
+66b.fasta
+Length:   5306942 bps
+ GC: 3425938.0
+ AT: 1881004.0
+Sequence 37 : except_Xe173/DC99P1B1.fasta
+DC99P1B1.fasta
+Length:   5306535 bps
+ GC: 3424812.0
+ AT: 1881723.0
+Sequence 38 : except_Xe173/DOA-1721.fasta
+DOA-1721.fasta
+Length:   5116900 bps
+ GC: 3310202.0
+ AT: 1806698.0
+Sequence 39 : except_Xe173/DOA-2036.fasta
+DOA-2036.fasta
+Length:   5132190 bps
+ GC: 3319312.0
+ AT: 1812878.0
+Sequence 40 : except_Xe173/20HP1594.fasta
+20HP1594.fasta
+Length:   5118161 bps
+ GC: 3310749.0
+ AT: 1807412.0
+Sequence 41 : except_Xe173/62XEKK5.fasta
+62XEKK5.fasta
+Length:   5170289 bps
+ GC: 3342859.0
+ AT: 1827430.0
+d value:   300
+q value:   30
+
+Mum anchor size:   25.0
+Number of MUM anchors found:   2596
+Number of MUMs found:   97
+Total MUMs found((Anchors+MUMs)-filtered):   2587
+
+Random MUM length:   1 
+Minimum Cluster length:   21
+Number of MUMs filtered:   106
+Number of Clusters filtered:   106
+
+Number of clusters created:   648
+Average number of MUMs per cluster:   3 
+Average cluster length:   7444 bps
+Cluster coverage in sequence 1:   95.6%
+Cluster coverage in sequence 2:   93.1%
+Cluster coverage in sequence 3:   92.3%
+Cluster coverage in sequence 4:   90.7%
+Cluster coverage in sequence 5:   93.2%
+Cluster coverage in sequence 6:   92.0%
+Cluster coverage in sequence 7:   93.3%
+Cluster coverage in sequence 8:   93.3%
+Cluster coverage in sequence 9:   90.8%
+Cluster coverage in sequence 10:   92.3%
+Cluster coverage in sequence 11:   94.1%
+Cluster coverage in sequence 12:   94.1%
+Cluster coverage in sequence 13:   94.6%
+Cluster coverage in sequence 14:   92.9%
+Cluster coverage in sequence 15:   93.9%
+Cluster coverage in sequence 16:   89.0%
+Cluster coverage in sequence 17:   93.3%
+Cluster coverage in sequence 18:   93.3%
+Cluster coverage in sequence 19:   93.2%
+Cluster coverage in sequence 20:   91.0%
+Cluster coverage in sequence 21:   93.3%
+Cluster coverage in sequence 22:   93.5%
+Cluster coverage in sequence 23:   94.1%
+Cluster coverage in sequence 24:   94.6%
+Cluster coverage in sequence 25:   94.7%
+Cluster coverage in sequence 26:   93.6%
+Cluster coverage in sequence 27:   93.6%
+Cluster coverage in sequence 28:   91.8%
+Cluster coverage in sequence 29:   93.3%
+Cluster coverage in sequence 30:   91.8%
+Cluster coverage in sequence 31:   93.3%
+Cluster coverage in sequence 32:   94.6%
+Cluster coverage in sequence 33:   91.4%
+Cluster coverage in sequence 34:   92.3%
+Cluster coverage in sequence 35:   91.8%
+Cluster coverage in sequence 36:   90.9%
+Cluster coverage in sequence 37:   90.9%
+Cluster coverage in sequence 38:   94.3%
+Cluster coverage in sequence 39:   94.0%
+Cluster coverage in sequence 40:   94.2%
+Cluster coverage in sequence 41:   93.3%
+Total coverage among all sequences:   92.9%
+
+ MUM anchor search elapsed time:   109.0s 
+ MUM coarsening elapsed time:   1.0s 
+ MUM filtering elapsed time:   0.0s 
+ MUM clustering elapsed time:   0.0s 
+ Inter-clustering elapsed time:   0.0s 
+ Total running time:   110.0s 

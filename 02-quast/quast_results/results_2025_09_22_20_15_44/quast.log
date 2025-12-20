@@ -1,0 +1,72 @@
+/data/djs217/miniconda3/envs/quast_env/bin/quast GCA_030345955.2_ASM3034595v2_genomic.fna GCA_030345975.2_ASM3034597v2_genomic.fna GCA_030345985.2_ASM3034598v2_genomic.fna
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-5.15.0-153-generic-x86_64-with-glibc2.35 (linux_64)
+  Python version: 3.12.7
+  CPUs number: 32
+
+Started: 2025-09-22 20:15:44
+
+Logging to /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast/quast_results/results_2025_09_22_20_15_44/quast.log
+NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
+
+CWD: /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast
+Main parameters: 
+  MODE: default, threads: 8, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  1  GCA_030345955.2_ASM3034595v2_genomic.fna ==> GCA_030345955.2_ASM3034595v2_genomic
+  2  GCA_030345975.2_ASM3034597v2_genomic.fna ==> GCA_030345975.2_ASM3034597v2_genomic
+  3  GCA_030345985.2_ASM3034598v2_genomic.fna ==> GCA_030345985.2_ASM3034598v2_genomic
+
+2025-09-22 20:15:45
+Running Basic statistics processor...
+  Contig files: 
+    1  GCA_030345955.2_ASM3034595v2_genomic
+    2  GCA_030345975.2_ASM3034597v2_genomic
+    3  GCA_030345985.2_ASM3034598v2_genomic
+  Calculating N50 and L50...
+    1  GCA_030345955.2_ASM3034595v2_genomic, N50 = 244298, L50 = 7, auN = 276860.7, Total length = 5094518, GC % = 64.70, # N's per 100 kbp =  0.00
+    2  GCA_030345975.2_ASM3034597v2_genomic, N50 = 174751, L50 = 9, auN = 232428.5, Total length = 5279639, GC % = 64.57, # N's per 100 kbp =  0.00
+    3  GCA_030345985.2_ASM3034598v2_genomic, N50 = 294195, L50 = 6, auN = 308446.1, Total length = 5099034, GC % = 64.70, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast/quast_results/results_2025_09_22_20_15_44/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast/quast_results/results_2025_09_22_20_15_44/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast/quast_results/results_2025_09_22_20_15_44/basic_stats/GC_content_plot.pdf
+  Drawing GCA_030345955.2_ASM3034595v2_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast/quast_results/results_2025_09_22_20_15_44/basic_stats/GCA_030345955.2_ASM3034595v2_genomic_GC_content_plot.pdf
+  Drawing GCA_030345975.2_ASM3034597v2_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast/quast_results/results_2025_09_22_20_15_44/basic_stats/GCA_030345975.2_ASM3034597v2_genomic_GC_content_plot.pdf
+  Drawing GCA_030345985.2_ASM3034598v2_genomic GC content plot...
+    saved to /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast/quast_results/results_2025_09_22_20_15_44/basic_stats/GCA_030345985.2_ASM3034598v2_genomic_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2025-09-22 20:15:46
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2025-09-22 20:15:47
+RESULTS:
+  Text versions of total report are saved to /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast/quast_results/results_2025_09_22_20_15_44/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast/quast_results/results_2025_09_22_20_15_44/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast/quast_results/results_2025_09_22_20_15_44/report.html
+  PDF version (tables and plots) is saved to /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast/quast_results/results_2025_09_22_20_15_44/report.pdf
+  Icarus (contig browser) is saved to /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast/quast_results/results_2025_09_22_20_15_44/icarus.html
+  Log is saved to /data/djs217/PROJECTS/42_Xanthomonas/xanthomonas-euvesicatoria-serbia/02-quast/quast_results/results_2025_09_22_20_15_44/quast.log
+
+Finished: 2025-09-22 20:15:47
+Elapsed time: 0:00:02.730989
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

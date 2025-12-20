@@ -1,0 +1,16 @@
+
+*****************************************************
+
+parsnpAligner:: rapid whole genome SNP typing
+
+*****************************************************
+
+ParSNP: Preparing to construct global multiple alignment framework
+
+Preparing to verify and process input sequences...
+Calculating mumi distances..
+
+        Constructing compressed suffix graph...
+        Calculating pairwise MUMi distances...
+186.17user 0.81system 3:06.99elapsed 99%CPU (0avgtext+0avgdata 1469184maxresident)k
+0inputs+56outputs (0major+521233minor)pagefaults 0swaps

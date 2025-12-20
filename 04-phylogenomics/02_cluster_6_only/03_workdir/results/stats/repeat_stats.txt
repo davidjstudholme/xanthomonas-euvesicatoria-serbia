@@ -1,0 +1,4 @@
+
+Xe173 size:	5354628
+Repeats segment #:	77
+Repeats total length:	124508 (2.33%)

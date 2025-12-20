@@ -1,0 +1,15 @@
+66b.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam 66b.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+DC99P1A1.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam DC99P1A1.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+DC99P1B1.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam DC99P1B1.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+DC_96-3.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam DC_96-3.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+DC_96-5.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam DC_96-5.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+DC_97_P1A.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam DC_97_P1A.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+Tu-10.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam Tu-10.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+VTM10.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam VTM10.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+VTM12.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam VTM12.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+VTM15.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam VTM15.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+VTM16.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam VTM16.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+VTM4.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam VTM4.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+X13.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam X13.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+X22.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam X22.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam
+X31.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam X31.versus.NC_016053.1.fasta.aln.sorted.rmdup.bam

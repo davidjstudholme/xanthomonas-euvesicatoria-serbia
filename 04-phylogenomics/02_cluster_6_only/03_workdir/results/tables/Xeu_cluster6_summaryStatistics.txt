@@ -1,0 +1,5 @@
+Reference used	Xe173
+Reference genome length	5354628
+Total gap length	436880
+Core genome length	4917748
+Total SNPs	4647
