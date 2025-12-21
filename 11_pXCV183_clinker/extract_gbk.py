@@ -20,7 +20,7 @@ def find_cds_by_protein_id(record, protein_id):
 
 
 def main(pid_a, pid_b):
-    for gb_file in Path(".").glob("*.gb*"):
+    for gb_file in Path(".").glob("*.gb"):
         print(f"Processing {gb_file}")
 
         records = list(SeqIO.parse(gb_file, "genbank"))
