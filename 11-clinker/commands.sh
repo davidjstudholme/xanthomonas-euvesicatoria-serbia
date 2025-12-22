@@ -29,6 +29,6 @@ clinker -p 02.pXCV183.versus.JAUALM020000026.clinker.html JAUALM020000026.1.MFB9
 clinker -p 03.pXCV183.versus.JAUALM020000047.clinker.html JAUALM020000047.1.gb pXCV183.WP_011345622.1_to_WP_049756400.1.gbk
 
 ### Run Clinker for pXap41 analysis    
-clinker -p 01.html pXap41.CCC18705.1_to_CCC18687.1.gbk JAUALM020000038.1.gb
-clinker -p 02.html pXap41.CCC18668.1_to_CCC18687.1.gbk JAUALM020000051.1.gb JAUALM020000056.1.gb
-clinker -p 03.html pXap41.CCC18662.1_to_CCC18666.1.gbk JAUALM020000075.1.gb
+clinker -p 01.html 04.pXap41.gb JAUALM020000038.1.gb
+clinker -p 02.html 05.pXap41.gb JAUALM020000051.1.gb JAUALM020000056.1.gb
+clinker -p 03.html 06.pXap41.gb JAUALM020000075.1.gb
