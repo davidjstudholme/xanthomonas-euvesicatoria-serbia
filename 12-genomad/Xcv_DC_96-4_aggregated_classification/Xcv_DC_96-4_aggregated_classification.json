@@ -1,7 +1,0 @@
-{
-    "module": "aggregated_classification",
-    "input": "Xcv_DC_96-4.fasta",
-    "input_md5": "cdba3fe8155946eb14ce075cb1eab8a3",
-    "start_time": "2025-12-22T13:26:27.834890+00:00",
-    "parameters": {}
-}

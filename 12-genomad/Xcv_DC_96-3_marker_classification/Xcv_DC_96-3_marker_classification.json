@@ -1,7 +1,0 @@
-{
-    "module": "marker_classification",
-    "input": "Xcv_DC_96-3.fasta",
-    "input_md5": "080a1561c9b976a81802adc8e3727b37",
-    "start_time": "2025-12-22T13:24:57.348822+00:00",
-    "parameters": {}
-}

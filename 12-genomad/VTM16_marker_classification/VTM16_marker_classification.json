@@ -1,7 +1,0 @@
-{
-    "module": "marker_classification",
-    "input": "VTM16.fasta",
-    "input_md5": "cb53dfbcfcd9f92ab10e975d97607900",
-    "start_time": "2025-12-22T12:49:24.323074+00:00",
-    "parameters": {}
-}

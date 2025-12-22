@@ -13,12 +13,12 @@
 │    ├── X22_virus_genes.tsv (virus gene annotation data)                                                                                                                  │
 │    └── X22_plasmid_genes.tsv (plasmid gene annotation data)                                                                                                              │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-[12:56:30] Executing genomad summary.                                                                                                                                       
-[12:56:30] Creating the X22_summary directory.                                                                                                                              
-[12:56:30] Using scores from aggregated-classification.                                                                                                                     
-[12:56:30] 15 plasmid(s) and 1 virus(es) were identified.                                                                                                                   
-[12:56:30] Nucleotide sequences were written to X22_plasmid.fna and X22_virus.fna.                                                                                          
-[12:56:30] Protein sequences were written to X22_plasmid_proteins.faa and X22_virus_proteins.faa.                                                                           
-[12:56:30] Gene annotation data was written to X22_plasmid_genes.tsv and X22_virus_genes.tsv.                                                                               
-[12:56:30] Summary files were written to X22_plasmid_summary.tsv and X22_virus_summary.tsv.                                                                                 
-[12:56:30] geNomad summary finished!                                                                                                                                        
+[19:53:25] Executing genomad summary.                                                                                                                                       
+[19:53:25] Creating the X22_summary directory.                                                                                                                              
+[19:53:25] Using scores from aggregated-classification.                                                                                                                     
+[19:53:25] 15 plasmid(s) and 1 virus(es) were identified.                                                                                                                   
+[19:53:25] Nucleotide sequences were written to X22_plasmid.fna and X22_virus.fna.                                                                                          
+[19:53:25] Protein sequences were written to X22_plasmid_proteins.faa and X22_virus_proteins.faa.                                                                           
+[19:53:25] Gene annotation data was written to X22_plasmid_genes.tsv and X22_virus_genes.tsv.                                                                               
+[19:53:25] Summary files were written to X22_plasmid_summary.tsv and X22_virus_summary.tsv.                                                                                 
+[19:53:25] geNomad summary finished!                                                                                                                                        

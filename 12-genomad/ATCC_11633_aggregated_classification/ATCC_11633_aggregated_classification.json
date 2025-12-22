@@ -1,7 +1,0 @@
-{
-    "module": "aggregated_classification",
-    "input": "ATCC_11633.fasta",
-    "input_md5": "5d55c5bf078f3a154a3bcdff07ec61ad",
-    "start_time": "2025-12-22T12:13:47.159373+00:00",
-    "parameters": {}
-}

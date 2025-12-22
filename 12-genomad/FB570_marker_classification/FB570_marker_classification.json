@@ -1,7 +1,0 @@
-{
-    "module": "marker_classification",
-    "input": "FB570.fasta",
-    "input_md5": "a7b582cb6a740b2993c1d0abc8668885",
-    "start_time": "2025-12-22T12:27:18.540813+00:00",
-    "parameters": {}
-}

@@ -1,9 +1,9 @@
-JAUALL020000009.1_7 # 3281 # 4483 # -1 # ID=76_7;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.629	PRK09692	3.646E-45	160
-JAUALL020000013.1_142 # 162004 # 163311 # 1 # ID=5_142;partial=01;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.568	PF00589.RP35	1.537E-10	53
 JAUALL020000016.1_67 # 78826 # 79743 # 1 # ID=8_67;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.669	COG4973	2.520E-126	392
+JAUALL020000013.1_1 # 596 # 1843 # -1 # ID=5_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.502	PF00589.RP35	5.580E-14	64
+JAUALL020000004.1_376 # 425975 # 427276 # 1 # ID=34_376;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.502	PF00589.RP35	5.162E-13	61
+JAUALL020000009.1_136 # 150261 # 151475 # 1 # ID=76_136;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.615	PRK09692	2.848E-73	243
+JAUALL020000009.1_7 # 3281 # 4483 # -1 # ID=76_7;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.629	PRK09692	3.646E-45	160
 JAUALL020000018.1_43 # 46802 # 48028 # 1 # ID=10_43;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.673	PRK09692	6.354E-75	248
 JAUALL020000002.1_321 # 353440 # 354531 # 1 # ID=12_321;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.679	TIGR02225	5.438E-118	371
-JAUALL020000013.1_1 # 596 # 1843 # -1 # ID=5_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.502	PF00589.RP35	5.580E-14	64
-JAUALL020000009.1_136 # 150261 # 151475 # 1 # ID=76_136;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.615	PRK09692	2.848E-73	243
 JAUALL020000006.1_2 # 736 # 1683 # 1 # ID=56_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.650	TIGR02249	8.339E-153	469
-JAUALL020000004.1_376 # 425975 # 427276 # 1 # ID=34_376;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.502	PF00589.RP35	5.162E-13	61
+JAUALL020000013.1_142 # 162004 # 163311 # 1 # ID=5_142;partial=01;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.568	PF00589.RP35	1.537E-10	53

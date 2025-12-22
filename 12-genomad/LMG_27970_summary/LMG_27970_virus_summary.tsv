@@ -1,5 +1,0 @@
-seq_name	length	topology	coordinates	n_genes	genetic_code	virus_score	fdr	n_hallmarks	marker_enrichment	taxonomy
-JPYC01000803.1	7583	No terminal repeats	NA	15	11	0.9993	NA	4	15.1100	Viruses;Monodnaviria;Loebvirae;Hofneiviricota;Faserviricetes;Tubulavirales;Inoviridae
-JPYC01000381.1	3249	No terminal repeats	NA	6	11	0.9888	NA	0	2.7514	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;
-JPYC01001129.1	1847	No terminal repeats	NA	2	11	0.9783	NA	1	1.7183	Unclassified
-JPYC01001099.1	672	No terminal repeats	NA	2	11	0.9572	NA	1	0.9355	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;

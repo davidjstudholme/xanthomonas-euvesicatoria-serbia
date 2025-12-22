@@ -1,9 +1,0 @@
-{
-    "module": "nn_classification",
-    "input": "62XEKK5.fasta",
-    "input_md5": "48ae1e8df2e09e808695b66e8266b562",
-    "start_time": "2025-12-22T11:41:14.846856+00:00",
-    "parameters": {
-        "single_window": false
-    }
-}

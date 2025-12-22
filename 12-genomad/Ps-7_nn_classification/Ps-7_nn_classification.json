@@ -1,9 +1,0 @@
-{
-    "module": "nn_classification",
-    "input": "Ps-7.fasta",
-    "input_md5": "5dbc591aa2486181b4fb0b305925def9",
-    "start_time": "2025-12-22T12:38:10.540197+00:00",
-    "parameters": {
-        "single_window": false
-    }
-}

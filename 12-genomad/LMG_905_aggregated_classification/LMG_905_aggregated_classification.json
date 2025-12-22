@@ -1,7 +1,0 @@
-{
-    "module": "aggregated_classification",
-    "input": "LMG_905.fasta",
-    "input_md5": "038fcc723ec0b568586a305a4182ce74",
-    "start_time": "2025-12-22T12:31:25.769120+00:00",
-    "parameters": {}
-}

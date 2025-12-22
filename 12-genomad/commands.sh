@@ -6,6 +6,7 @@ chmod u+x datasets
 ./datasets download genome accession --inputfile xanthomonas_assm_accs.txt --include genome --filename xanthomonas_genome_assemblies.zip
 unzip xanthomonas_genome_assemblies.zip
 ln -s ncbi_dataset/data/GCA_*/GCA_*.fna .
+rm README.md
 
 ### Make symlinks to the genome sequence files such that symlinks have informative names and appropriate extensions for input to PhaME:
 perl rename_files.pl genomes.txt
@@ -19,7 +20,6 @@ conda list -n bwa_env > genomad_env_packages.txt
 conda env export > genomad_env.yaml
 
 genomad download-database .
-
 
 ### Run geNomad 
 for i in *.fasta ; do echo $i; genomad end-to-end --cleanup --splits 8 $i . genomad_db; done

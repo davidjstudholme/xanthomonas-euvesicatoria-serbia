@@ -9,11 +9,11 @@
 │    ├── X22_mmseqs2.tsv (MMseqs2 output file)                                                                                                                             │
 │    └── X22_proteins.faa (protein FASTA file)                                                                                                                             │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-[12:55:17] Executing genomad annotate.                                                                                                                                      
-[12:55:17] Creating the X22_annotate directory.                                                                                                                             
-[12:55:20] Proteins predicted with pyrodigal-gv were written to X22_proteins.faa.                                                                                           
-[12:56:13] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to X22_mmseqs2.tsv.                                                                     
-[12:56:13] Deleting X22_mmseqs2.                                                                                                                                            
-[12:56:13] Gene data was written to X22_genes.tsv.                                                                                                                          
-[12:56:13] Taxonomic assignment data was written to X22_taxonomy.tsv.                                                                                                       
-[12:56:13] geNomad annotate finished!                                                                                                                                       
+[19:52:12] Executing genomad annotate.                                                                                                                                      
+[19:52:12] Creating the X22_annotate directory.                                                                                                                             
+[19:52:15] Proteins predicted with pyrodigal-gv were written to X22_proteins.faa.                                                                                           
+[19:53:07] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to X22_mmseqs2.tsv.                                                                     
+[19:53:07] Deleting X22_mmseqs2.                                                                                                                                            
+[19:53:08] Gene data was written to X22_genes.tsv.                                                                                                                          
+[19:53:08] Taxonomic assignment data was written to X22_taxonomy.tsv.                                                                                                       
+[19:53:08] geNomad annotate finished!                                                                                                                                       

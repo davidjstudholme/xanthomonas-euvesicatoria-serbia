@@ -1,9 +1,0 @@
-{
-    "module": "nn_classification",
-    "input": "20HP1597.fasta",
-    "input_md5": "a41c15b1c1524e10bfd0e67cfd09d09c",
-    "start_time": "2025-12-22T11:32:35.807028+00:00",
-    "parameters": {
-        "single_window": false
-    }
-}

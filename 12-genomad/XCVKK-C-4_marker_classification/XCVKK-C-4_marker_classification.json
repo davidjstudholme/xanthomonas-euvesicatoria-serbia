@@ -1,7 +1,0 @@
-{
-    "module": "marker_classification",
-    "input": "XCVKK-C-4.fasta",
-    "input_md5": "52d4c87a141dd59483cf93ae7b7995f2",
-    "start_time": "2025-12-22T13:13:37.945981+00:00",
-    "parameters": {}
-}

@@ -1,6 +1,0 @@
-seq_name	length	topology	n_genes	genetic_code	plasmid_score	fdr	n_hallmarks	marker_enrichment	conjugation_genes	amr_genes
-JAQRDU010000037.1	14297	ITR	17	11	1.0000	NA	3	11.4351	MOBH;T_virB6;B_traI	NA
-JAQRDU010000032.1	33529	ITR	32	11	1.0000	NA	2	19.5055	NA	NA
-JAQRDU010000040.1	12418	ITR	10	11	1.0000	NA	0	4.9816	NA	NA
-JAQRDU010000029.1	41070	No terminal repeats	31	11	0.9999	NA	0	6.3270	NA	NA
-JAQRDU010000034.1	22420	ITR	23	11	0.9898	NA	0	0.3959	NA	NA

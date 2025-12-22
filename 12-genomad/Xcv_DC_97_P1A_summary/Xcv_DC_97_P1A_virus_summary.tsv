@@ -1,3 +1,0 @@
-seq_name	length	topology	coordinates	n_genes	genetic_code	virus_score	fdr	n_hallmarks	marker_enrichment	taxonomy
-JAJIWG010000114.1|provirus_1_8241	8241	Provirus	1-8241	13	11	0.9990	NA	3	12.6531	Viruses;Monodnaviria;Loebvirae;Hofneiviricota;Faserviricetes;Tubulavirales;Inoviridae
-JAJIWG010000104.1	3120	No terminal repeats	NA	6	11	0.9961	NA	2	5.8935	Viruses;Monodnaviria;Loebvirae;Hofneiviricota;Faserviricetes;Tubulavirales;Inoviridae

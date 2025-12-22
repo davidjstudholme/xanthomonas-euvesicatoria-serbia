@@ -9,11 +9,11 @@
 │    ├── X31_mmseqs2.tsv (MMseqs2 output file)                                                                                                                             │
 │    └── X31_proteins.faa (protein FASTA file)                                                                                                                             │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-[12:56:32] Executing genomad annotate.                                                                                                                                      
-[12:56:32] Creating the X31_annotate directory.                                                                                                                             
-[12:56:35] Proteins predicted with pyrodigal-gv were written to X31_proteins.faa.                                                                                           
-[12:57:27] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to X31_mmseqs2.tsv.                                                                     
-[12:57:27] Deleting X31_mmseqs2.                                                                                                                                            
-[12:57:28] Gene data was written to X31_genes.tsv.                                                                                                                          
-[12:57:28] Taxonomic assignment data was written to X31_taxonomy.tsv.                                                                                                       
-[12:57:28] geNomad annotate finished!                                                                                                                                       
+[19:53:27] Executing genomad annotate.                                                                                                                                      
+[19:53:27] Creating the X31_annotate directory.                                                                                                                             
+[19:53:30] Proteins predicted with pyrodigal-gv were written to X31_proteins.faa.                                                                                           
+[19:54:22] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to X31_mmseqs2.tsv.                                                                     
+[19:54:22] Deleting X31_mmseqs2.                                                                                                                                            
+[19:54:23] Gene data was written to X31_genes.tsv.                                                                                                                          
+[19:54:23] Taxonomic assignment data was written to X31_taxonomy.tsv.                                                                                                       
+[19:54:23] geNomad annotate finished!                                                                                                                                       

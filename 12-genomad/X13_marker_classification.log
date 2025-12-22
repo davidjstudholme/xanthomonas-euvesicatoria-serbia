@@ -14,18 +14,18 @@
 │    ├── X13_provirus_marker_classification.tsv (provirus classification: tabular format)                                                                                  │
 │    └── X13_provirus_marker_classification.npz (provirus classification: binary format)                                                                                   │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-[12:55:01] Executing genomad marker-classification.                                                                                                                         
-[12:55:01] Creating the X13_marker_classification directory.                                                                                                                
-[12:55:01] Sequence features computed.                                                                                                                                      
-[12:55:01] Sequence features in binary format written to X13_features.npz.                                                                                                  
-[12:55:01] Sequence features in tabular format written to X13_features.tsv.                                                                                                 
-[12:55:02] Provirus features computed.                                                                                                                                      
-[12:55:02] Provirus features in binary format written to X13_provirus_features.npz.                                                                                         
-[12:55:02] Provirus features in tabular format written to X13_provirus_features.tsv.                                                                                        
-[12:55:02] Sequences classified.                                                                                                                                            
-[12:55:02] Sequence classification in binary format written to X13_marker_classification.npz.                                                                               
-[12:55:02] Sequence classification in tabular format written to X13_marker_classification.tsv.                                                                              
-[12:55:02] Proviruses classified.                                                                                                                                           
-[12:55:02] Provirus classification in binary format written to X13_provirus_marker_classification.npz.                                                                      
-[12:55:02] Provirus classification in tabular format written to X13_provirus_marker_classification.tsv.                                                                     
-[12:55:02] geNomad marker-classification finished!                                                                                                                          
+[19:51:57] Executing genomad marker-classification.                                                                                                                         
+[19:51:57] Creating the X13_marker_classification directory.                                                                                                                
+[19:51:58] Sequence features computed.                                                                                                                                      
+[19:51:58] Sequence features in binary format written to X13_features.npz.                                                                                                  
+[19:51:58] Sequence features in tabular format written to X13_features.tsv.                                                                                                 
+[19:51:58] Provirus features computed.                                                                                                                                      
+[19:51:58] Provirus features in binary format written to X13_provirus_features.npz.                                                                                         
+[19:51:58] Provirus features in tabular format written to X13_provirus_features.tsv.                                                                                        
+[19:51:58] Sequences classified.                                                                                                                                            
+[19:51:58] Sequence classification in binary format written to X13_marker_classification.npz.                                                                               
+[19:51:58] Sequence classification in tabular format written to X13_marker_classification.tsv.                                                                              
+[19:51:58] Proviruses classified.                                                                                                                                           
+[19:51:59] Provirus classification in binary format written to X13_provirus_marker_classification.npz.                                                                      
+[19:51:59] Provirus classification in tabular format written to X13_provirus_marker_classification.tsv.                                                                     
+[19:51:59] geNomad marker-classification finished!                                                                                                                          

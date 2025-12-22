@@ -1,7 +1,0 @@
-{
-    "module": "marker_classification",
-    "input": "DC99P1A1.fasta",
-    "input_md5": "6f6957c9d9570c39df353a05cc0c80e9",
-    "start_time": "2025-12-22T12:14:51.175215+00:00",
-    "parameters": {}
-}

@@ -1,7 +1,0 @@
-{
-    "module": "aggregated_classification",
-    "input": "XCVKK-C-1.fasta",
-    "input_md5": "b017df1f41626b9b822eb6d99b413d53",
-    "start_time": "2025-12-22T13:10:00.422954+00:00",
-    "parameters": {}
-}

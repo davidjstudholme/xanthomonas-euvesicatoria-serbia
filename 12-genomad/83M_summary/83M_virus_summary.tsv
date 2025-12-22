@@ -1,4 +1,0 @@
-seq_name	length	topology	coordinates	n_genes	genetic_code	virus_score	fdr	n_hallmarks	marker_enrichment	taxonomy
-JSZH01000086.1|provirus_37419_47983	10565	Provirus	37419-47983	16	11	0.9985	NA	3	16.0897	Viruses;Monodnaviria;Loebvirae;Hofneiviricota;Faserviricetes;Tubulavirales;Inoviridae
-JSZH01000161.1	8961	No terminal repeats	NA	9	11	0.9482	NA	0	0.9518	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;Thumleimavirales;Hafunaviridae
-JSZH01000173.1	7836	No terminal repeats	NA	7	11	0.9307	NA	0	1.7183	Viruses;Monodnaviria;Loebvirae;Hofneiviricota;Faserviricetes;Tubulavirales;Inoviridae

@@ -1,3 +1,0 @@
-seq_name	length	topology	coordinates	n_genes	genetic_code	virus_score	fdr	n_hallmarks	marker_enrichment	taxonomy
-JBJGKZ010000048.1|provirus_4527_31911	27385	Provirus	4527-31911	47	11	0.9988	NA	11	43.8902	Viruses;Monodnaviria;Loebvirae;Hofneiviricota;Faserviricetes;Tubulavirales;Inoviridae
-JBJGKZ010000095.1	3402	No terminal repeats	NA	7	11	0.9936	NA	2	5.8935	Viruses;Monodnaviria;Loebvirae;Hofneiviricota;Faserviricetes;Tubulavirales;Inoviridae

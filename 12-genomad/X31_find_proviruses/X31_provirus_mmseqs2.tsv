@@ -1,10 +1,10 @@
+JAUALK020000014.1_142 # 162003 # 163310 # 1 # ID=6_142;partial=01;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.568	PF00589.RP35	1.537E-10	53
+JAUALK020000018.1_50 # 52765 # 53991 # 1 # ID=10_50;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.673	PRK09692	6.354E-75	248
+JAUALK020000013.1_22 # 17908 # 19209 # -1 # ID=5_22;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.502	PF00589.RP35	5.162E-13	61
+JAUALK020000002.1_321 # 353434 # 354525 # 1 # ID=12_321;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.679	TIGR02225	5.438E-118	371
+JAUALK020000018.1_89 # 97092 # 98375 # 1 # ID=10_89;partial=01;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.606	PRK09692	1.386E-52	183
+JAUALK020000004.1_2 # 735 # 1682 # 1 # ID=34_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.650	TIGR02249	8.339E-153	469
 JAUALK020000008.1_7 # 3280 # 4482 # -1 # ID=75_7;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.629	PRK09692	3.646E-45	160
 JAUALK020000008.1_135 # 150260 # 151474 # 1 # ID=75_135;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.614	PRK09692	1.296E-73	244
 JAUALK020000019.1_14 # 14384 # 15301 # -1 # ID=11_14;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.669	COG4973	2.520E-126	392
-JAUALK020000018.1_89 # 97092 # 98375 # 1 # ID=10_89;partial=01;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.606	PRK09692	1.386E-52	183
-JAUALK020000014.1_142 # 162003 # 163310 # 1 # ID=6_142;partial=01;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.568	PF00589.RP35	1.537E-10	53
-JAUALK020000018.1_50 # 52765 # 53991 # 1 # ID=10_50;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.673	PRK09692	6.354E-75	248
 JAUALK020000014.1_1 # 595 # 1842 # -1 # ID=6_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.502	PF00589.RP35	5.580E-14	64
-JAUALK020000002.1_321 # 353434 # 354525 # 1 # ID=12_321;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.679	TIGR02225	5.438E-118	371
-JAUALK020000004.1_2 # 735 # 1682 # 1 # ID=34_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.650	TIGR02249	8.339E-153	469
-JAUALK020000013.1_22 # 17908 # 19209 # -1 # ID=5_22;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.502	PF00589.RP35	5.162E-13	61

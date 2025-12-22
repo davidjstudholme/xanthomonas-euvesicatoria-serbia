@@ -1,7 +1,0 @@
-{
-    "module": "aggregated_classification",
-    "input": "20HP1608-2.fasta",
-    "input_md5": "af1be828ca94303cc2f21d6812fa37d8",
-    "start_time": "2025-12-22T11:35:11.370624+00:00",
-    "parameters": {}
-}

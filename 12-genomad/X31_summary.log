@@ -13,12 +13,12 @@
 │    ├── X31_virus_genes.tsv (virus gene annotation data)                                                                                                                  │
 │    └── X31_plasmid_genes.tsv (plasmid gene annotation data)                                                                                                              │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-[12:57:46] Executing genomad summary.                                                                                                                                       
-[12:57:46] Creating the X31_summary directory.                                                                                                                              
-[12:57:46] Using scores from aggregated-classification.                                                                                                                     
-[12:57:46] 15 plasmid(s) and 1 virus(es) were identified.                                                                                                                   
-[12:57:46] Nucleotide sequences were written to X31_plasmid.fna and X31_virus.fna.                                                                                          
-[12:57:46] Protein sequences were written to X31_plasmid_proteins.faa and X31_virus_proteins.faa.                                                                           
-[12:57:46] Gene annotation data was written to X31_plasmid_genes.tsv and X31_virus_genes.tsv.                                                                               
-[12:57:46] Summary files were written to X31_plasmid_summary.tsv and X31_virus_summary.tsv.                                                                                 
-[12:57:46] geNomad summary finished!                                                                                                                                        
+[19:54:40] Executing genomad summary.                                                                                                                                       
+[19:54:40] Creating the X31_summary directory.                                                                                                                              
+[19:54:40] Using scores from aggregated-classification.                                                                                                                     
+[19:54:40] 15 plasmid(s) and 1 virus(es) were identified.                                                                                                                   
+[19:54:40] Nucleotide sequences were written to X31_plasmid.fna and X31_virus.fna.                                                                                          
+[19:54:40] Protein sequences were written to X31_plasmid_proteins.faa and X31_virus_proteins.faa.                                                                           
+[19:54:40] Gene annotation data was written to X31_plasmid_genes.tsv and X31_virus_genes.tsv.                                                                               
+[19:54:40] Summary files were written to X31_plasmid_summary.tsv and X31_virus_summary.tsv.                                                                                 
+[19:54:40] geNomad summary finished!                                                                                                                                        

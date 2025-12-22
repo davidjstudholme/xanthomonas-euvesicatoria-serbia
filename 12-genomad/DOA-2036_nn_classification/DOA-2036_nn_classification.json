@@ -1,9 +1,0 @@
-{
-    "module": "nn_classification",
-    "input": "DOA-2036.fasta",
-    "input_md5": "af591e29ac47a4455506fc8b3e702891",
-    "start_time": "2025-12-22T12:19:56.160644+00:00",
-    "parameters": {
-        "single_window": false
-    }
-}

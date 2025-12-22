@@ -14,18 +14,18 @@
 │    ├── X31_provirus_marker_classification.tsv (provirus classification: tabular format)                                                                                  │
 │    └── X31_provirus_marker_classification.npz (provirus classification: binary format)                                                                                   │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-[12:57:32] Executing genomad marker-classification.                                                                                                                         
-[12:57:32] Creating the X31_marker_classification directory.                                                                                                                
-[12:57:33] Sequence features computed.                                                                                                                                      
-[12:57:33] Sequence features in binary format written to X31_features.npz.                                                                                                  
-[12:57:33] Sequence features in tabular format written to X31_features.tsv.                                                                                                 
-[12:57:33] Provirus features computed.                                                                                                                                      
-[12:57:33] Provirus features in binary format written to X31_provirus_features.npz.                                                                                         
-[12:57:33] Provirus features in tabular format written to X31_provirus_features.tsv.                                                                                        
-[12:57:33] Sequences classified.                                                                                                                                            
-[12:57:33] Sequence classification in binary format written to X31_marker_classification.npz.                                                                               
-[12:57:33] Sequence classification in tabular format written to X31_marker_classification.tsv.                                                                              
-[12:57:34] Proviruses classified.                                                                                                                                           
-[12:57:34] Provirus classification in binary format written to X31_provirus_marker_classification.npz.                                                                      
-[12:57:34] Provirus classification in tabular format written to X31_provirus_marker_classification.tsv.                                                                     
-[12:57:34] geNomad marker-classification finished!                                                                                                                          
+[19:54:27] Executing genomad marker-classification.                                                                                                                         
+[19:54:27] Creating the X31_marker_classification directory.                                                                                                                
+[19:54:27] Sequence features computed.                                                                                                                                      
+[19:54:27] Sequence features in binary format written to X31_features.npz.                                                                                                  
+[19:54:27] Sequence features in tabular format written to X31_features.tsv.                                                                                                 
+[19:54:28] Provirus features computed.                                                                                                                                      
+[19:54:28] Provirus features in binary format written to X31_provirus_features.npz.                                                                                         
+[19:54:28] Provirus features in tabular format written to X31_provirus_features.tsv.                                                                                        
+[19:54:28] Sequences classified.                                                                                                                                            
+[19:54:28] Sequence classification in binary format written to X31_marker_classification.npz.                                                                               
+[19:54:28] Sequence classification in tabular format written to X31_marker_classification.tsv.                                                                              
+[19:54:28] Proviruses classified.                                                                                                                                           
+[19:54:28] Provirus classification in binary format written to X31_provirus_marker_classification.npz.                                                                      
+[19:54:28] Provirus classification in tabular format written to X31_provirus_marker_classification.tsv.                                                                     
+[19:54:28] geNomad marker-classification finished!                                                                                                                          

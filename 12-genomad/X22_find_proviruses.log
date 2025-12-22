@@ -12,17 +12,17 @@
 │    ├── X22_provirus_mmseqs2.tsv (MMseqs2 output file)                                                                                                                    │
 │    └── X22_provirus_aragorn.tsv (Aragorn output file)                                                                                                                    │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-[12:56:13] Executing genomad find-proviruses.                                                                                                                               
-[12:56:13] Creating the X22_find_proviruses directory.                                                                                                                      
-[12:56:16] Integrases identified with MMseqs2 and geNomad database (v1.9) were written to X22_provirus_mmseqs2.tsv.                                                         
-[12:56:16] Deleting X22_provirus_mmseqs2.                                                                                                                                   
-[12:56:16] Deleting X22_provirus_mmseqs2_input.faa.                                                                                                                         
-[12:56:17] tRNAs identified with Aragorn were written to X22_provirus_aragorn.tsv.                                                                                          
-[12:56:17] Deleting X22_provirus_aragorn_input.fna.                                                                                                                         
-[12:56:17] Provirus regions identified.                                                                                                                                     
-[12:56:17] Provirus data was written to X22_provirus.tsv.                                                                                                                   
-[12:56:17] Provirus nucleotide sequences were written to X22_provirus.fna.                                                                                                  
-[12:56:17] Provirus protein sequences were written to X22_provirus_proteins.faa.                                                                                            
-[12:56:17] Provirus gene data was written to X22_provirus_genes.tsv.                                                                                                        
-[12:56:17] Taxonomic assignment data was written to X22_provirus_taxonomy.tsv.                                                                                              
-[12:56:17] geNomad find-proviruses finished!                                                                                                                                
+[19:53:08] Executing genomad find-proviruses.                                                                                                                               
+[19:53:08] Creating the X22_find_proviruses directory.                                                                                                                      
+[19:53:11] Integrases identified with MMseqs2 and geNomad database (v1.9) were written to X22_provirus_mmseqs2.tsv.                                                         
+[19:53:11] Deleting X22_provirus_mmseqs2.                                                                                                                                   
+[19:53:11] Deleting X22_provirus_mmseqs2_input.faa.                                                                                                                         
+[19:53:12] tRNAs identified with Aragorn were written to X22_provirus_aragorn.tsv.                                                                                          
+[19:53:12] Deleting X22_provirus_aragorn_input.fna.                                                                                                                         
+[19:53:12] Provirus regions identified.                                                                                                                                     
+[19:53:12] Provirus data was written to X22_provirus.tsv.                                                                                                                   
+[19:53:12] Provirus nucleotide sequences were written to X22_provirus.fna.                                                                                                  
+[19:53:12] Provirus protein sequences were written to X22_provirus_proteins.faa.                                                                                            
+[19:53:12] Provirus gene data was written to X22_provirus_genes.tsv.                                                                                                        
+[19:53:12] Taxonomic assignment data was written to X22_provirus_taxonomy.tsv.                                                                                              
+[19:53:12] geNomad find-proviruses finished!                                                                                                                                

@@ -1,7 +1,0 @@
-{
-    "module": "marker_classification",
-    "input": "Ps-1.fasta",
-    "input_md5": "19bd2e68f267a70bd0636e9a24762f47",
-    "start_time": "2025-12-22T12:36:50.325637+00:00",
-    "parameters": {}
-}

@@ -10,13 +10,13 @@
 │    ├── X31_provirus_aggregated_classification.tsv (provirus classification: tabular format)                                                                              │
 │    └── X31_provirus_aggregated_classification.npz (provirus classification: binary format)                                                                               │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-[12:57:46] Executing genomad aggregated-classification.                                                                                                                     
-[12:57:46] Creating the X31_aggregated_classification directory.                                                                                                            
-[12:57:46] The total marker frequencies of the input sequences were computed.                                                                                               
-[12:57:46] Sequences classified.                                                                                                                                            
-[12:57:46] Sequence classification in binary format written to X31_aggregated_classification.npz.                                                                           
-[12:57:46] Sequence classification in tabular format written to X31_aggregated_classification.tsv.                                                                          
-[12:57:46] Proviruses classified.                                                                                                                                           
-[12:57:46] Provirus classification in binary format written to X31_provirus_aggregated_classification.npz.                                                                  
-[12:57:46] Provirus classification in tabular format written to X31_provirus_aggregated_classification.tsv.                                                                 
-[12:57:46] geNomad aggregated-classification finished!                                                                                                                      
+[19:54:40] Executing genomad aggregated-classification.                                                                                                                     
+[19:54:40] Creating the X31_aggregated_classification directory.                                                                                                            
+[19:54:40] The total marker frequencies of the input sequences were computed.                                                                                               
+[19:54:40] Sequences classified.                                                                                                                                            
+[19:54:40] Sequence classification in binary format written to X31_aggregated_classification.npz.                                                                           
+[19:54:40] Sequence classification in tabular format written to X31_aggregated_classification.tsv.                                                                          
+[19:54:40] Proviruses classified.                                                                                                                                           
+[19:54:40] Provirus classification in binary format written to X31_provirus_aggregated_classification.npz.                                                                  
+[19:54:40] Provirus classification in tabular format written to X31_provirus_aggregated_classification.tsv.                                                                 
+[19:54:40] geNomad aggregated-classification finished!                                                                                                                      
