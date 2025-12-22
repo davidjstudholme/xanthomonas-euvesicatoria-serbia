@@ -1,0 +1,336 @@
+LOCUS       NC_073755               6564 bp    DNA     circular PHG 28-APR-2023
+DEFINITION  Xanthomonas phage phiXv2, complete genome.
+ACCESSION   NC_073755
+VERSION     NC_073755.1
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Xanthomonas phage phiXv2
+  ORGANISM  Xanthomonas phage phiXv2
+            Viruses; Monodnaviria; Loebvirae; Hofneiviricota; Faserviricetes;
+            Tubulavirales; Inoviridae; Lophivirus; Lophivirus Xv2.
+REFERENCE   1  (bases 1 to 6564)
+  AUTHORS   Yeh,T.
+  TITLE     Complete nucleotide sequence of filamentous phage phiXv2 that
+            integrates its genome into the chromosomal DNA of Xanthomonas
+            campestris pv. vesicatora
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 6564)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-APR-2023) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 6564)
+  AUTHORS   Yeh,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-APR-2018) Agricultural Biotechnology Laboratory,
+            Plant Health Division, Auxergen Inc., 1100 Wicomico Street, Suite
+            700, Baltimore, MD 21230, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MH206183.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..6564
+                     /organism="Xanthomonas phage phiXv2"
+                     /mol_type="genomic DNA"
+                     /isolation_source="leaf spots from pepper and tomato"
+                     /host="Xanthomonas campestris pv. vesicatora ATCC35937"
+                     /db_xref="taxon:2201472"
+     gene            1..1062
+                     /locus_tag="QII08_gp01"
+                     /db_xref="GeneID:80396761"
+     CDS             1..1062
+                     /locus_tag="QII08_gp01"
+                     /note="phiXv2 phage gII protein; phiXv2 ORF1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="replication initiation protein"
+                     /protein_id="YP_010768596.1"
+                     /db_xref="GeneID:80396761"
+                     /translation="MLPWSSTVADGTCSFCGETTVYFFPGGLCVACTGKNARIRMQEQ
+                     PTQSRELSAFDTSVGVMQAATRRTEIAAEKIQKNKRVVGTSVREFDAAHPIALTAEGQ
+                     RAALALGLVHYKTSDTRASTTGTVTIEIDPLQARAQRLRKSVITGARLHDQEAKKGSF
+                     RGAWYFLTLTYRDGSDSSPRDVSELFKRMRGHFNRLKSGRARWNRESFRYVWVGELTQ
+                     RFRPHYHVMLWVPTGMYFGKVDQRGWWPHGTTQIEKARNCVGYLAKYASKFTALTAGA
+                     FPKGFRTHGIGGLDTESKRELRWWKAPKDAREALGGEADIRKAKGGWFDRLTGEFWPS
+                     PWKVTFIFGRTFAWKVVQL"
+     gene            1059..1355
+                     /locus_tag="QII08_gp02"
+                     /db_xref="GeneID:80396750"
+     CDS             1059..1355
+                     /locus_tag="QII08_gp02"
+                     /note="phiXv2 phage gV protein; phiXv2 ORF2"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ssDNA-binding protein"
+                     /protein_id="YP_010768597.1"
+                     /db_xref="GeneID:80396750"
+                     /translation="MKVQVMSSAVAVRSFPAREGKPATHFREQTAAVLREGDFPLPFT
+                     IGLDEDQPPYGEGFYIIDPKSLQNNKFGGLEFGRRIRLLPDLTAKLQQQPAKVG"
+     gene            1387..1518
+                     /locus_tag="QII08_gp03"
+                     /db_xref="GeneID:80396751"
+     CDS             1387..1518
+                     /locus_tag="QII08_gp03"
+                     /note="phiXv2 phage gVII protein; phiXv2 ORF3"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="minor coat protein"
+                     /protein_id="YP_010768598.1"
+                     /db_xref="GeneID:80396751"
+                     /translation="MARWCPPVNRLASAAATCSSVVANTACMRWCKKRSPCPARRTP"
+     gene            1494..1610
+                     /locus_tag="QII08_gp04"
+                     /db_xref="GeneID:80396752"
+     CDS             1494..1610
+                     /locus_tag="QII08_gp04"
+                     /note="phiXv2 phage gIX protein; phiXv2 ORF4"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="minor coat protein"
+                     /protein_id="YP_010768599.1"
+                     /db_xref="GeneID:80396752"
+                     /translation="MPSKEDAVAWSTGCCGLVIVWFVLGRLAGSVAGMFNDR"
+     gene            1638..1766
+                     /locus_tag="QII08_gp05"
+                     /db_xref="GeneID:80396753"
+     CDS             1638..1766
+                     /locus_tag="QII08_gp05"
+                     /note="phiXv2 phage gVIII protein; phiXv2 ORF5"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="major coat protein B"
+                     /protein_id="YP_010768600.1"
+                     /db_xref="GeneID:80396753"
+                     /translation="MGDILTGVSGAEAATAMIAAAAIIALVGFTKWGAKKVASFFG"
+     gene            1896..2882
+                     /locus_tag="QII08_gp06"
+                     /db_xref="GeneID:80396754"
+     CDS             1896..2882
+                     /locus_tag="QII08_gp06"
+                     /note="phiXv2 phage gIII protein; phiXv2 ORF6; Phage
+                     absorption protein, minor coat protein A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="minor coat protein A"
+                     /protein_id="YP_010768601.1"
+                     /db_xref="GeneID:80396754"
+                     /translation="MITVRLVACILAVALWSCAFSANAAMCRDAADACDQGQAFLAAR
+                     MLADQRGVDLCKLVGGSNSLYKGPDVVAESAGIYNAQATCSIGGPAGAGSTFYSKTCA
+                     QRPPLIGASSSDGSGFSCDDGCFYNFTVGASGGSGMYPSGATCSAGDAPPSTPGDDGG
+                     DGDGGSDGGGDGGSDGGGDGGSDGGGDGGSDGGSDGGGDGDGDGDGDGDGDGDGDTPG
+                     DGDGTTPGQGEGGEGAPMSELYNKSGKTVESVLSKFNTQVRGTPMVAGITDFMTVPSG
+                     GSCPVFSLGASKWWNAMTINFHCGGDFLAFLRAAGWVILAIAAYAALRIAVT"
+     gene            2893..2994
+                     /locus_tag="QII08_gp07"
+                     /db_xref="GeneID:80396755"
+     CDS             2893..2994
+                     /locus_tag="QII08_gp07"
+                     /note="phiXv2 phage protein; phiXv2 ORF7; homologous to
+                     gVI"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_010768602.1"
+                     /db_xref="GeneID:80396755"
+                     /translation="MQAGWFNDFTSRLSRALKAVWDGYCDFMSELWR"
+     gene            3017..3337
+                     /locus_tag="QII08_gp08"
+                     /db_xref="GeneID:80396756"
+     CDS             3017..3337
+                     /locus_tag="QII08_gp08"
+                     /note="phiXv2 phage gVI protein; phiXv2 ORF8"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="minor coat protein B"
+                     /protein_id="YP_010768603.1"
+                     /db_xref="GeneID:80396756"
+                     /translation="MQAGWFNDLTAWLWRAVKLVWQAIVDFVGDLFVMWLEQSLAAIL
+                     YVLTLLPMPDFMKGQSIGGMLGNAGSTILWFADVFKIGPALVMIGAAMVFYLLRRVLT
+                     VGIW"
+     gene            3339..4661
+                     /locus_tag="QII08_gp09"
+                     /db_xref="GeneID:80396757"
+     CDS             3339..4661
+                     /locus_tag="QII08_gp09"
+                     /note="phiXv2 phage gI protein; phiXv2 ORF9; phage zonular
+                     occludens toxin Zot protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="zonular occludens toxin"
+                     /protein_id="YP_010768604.1"
+                     /db_xref="GeneID:80396757"
+                     /translation="MHVFNEGVPRAGKSYDAVKNHILPALKKGRRVFARLNGLRFDRI
+                     AKHLGIAESDVQSLLVLVDTKDVTKLFACTQDESGKWCIPDEFKDSLVVIDEVHEFYV
+                     NERKPLSPAVENFWALLGQNGGDAVIMTQWINRLHSAVKARIEKKNTFQKLTAIGMKG
+                     RYRVTYFHTTSPGKFEKVGGQTLKYDPAIFPLYDGYAPGAENTEVYEEGGKNVWAAMA
+                     VRAAIFIVVGGVGIYFFVHYFTKDRSDPNKPVASASQTNKPAHVGAGLANGAPSVPIQ
+                     PPPPDPLADLTQEQRYVAELASKGRIRLSARARVGDQDRAWVQWIDESNNVIEELDLT
+                     QLRALGYSVSVVTYGVRLSAGKHIMVATAWPWTAPIREKDARLYNMAPDGSGGAAGVA
+                     TVGSDGGGADRDRVRGGVIEYGPRTQGTFPDNKAYTTNTTTPATTLQM"
+     gene            4691..5083
+                     /locus_tag="QII08_gp10"
+                     /db_xref="GeneID:80396758"
+     CDS             4691..5083
+                     /locus_tag="QII08_gp10"
+                     /note="phiXv2 phage protein; phiXv2 ORF10; DUF4124
+                     domain-containing protein, putative secreted protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative secreted protein"
+                     /protein_id="YP_010768605.1"
+                     /db_xref="GeneID:80396758"
+                     /translation="MDIRAFFVVLFVASVPASAQQVFKCVSGAQVVYQSAPCPGVTAK
+                     QWDAQPEPDNPALRQRLARTAAQLRARNASPVRSGSGTYVAASSSKDRYACEVAKEGR
+                     RAAYEAAGVHRSFALSSYWDNAVQDACK"
+     gene            complement(5122..5460)
+                     /locus_tag="QII08_gp11"
+                     /db_xref="GeneID:80396759"
+     CDS             complement(5122..5460)
+                     /locus_tag="QII08_gp11"
+                     /note="phiLf phage ORF112-like protein; phiXv2 ORF11"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_010768606.1"
+                     /db_xref="GeneID:80396759"
+                     /translation="MTIDTYERVDLTGPWAGFGFQGHRFFTPEGRDIDPVGMRYWSLT
+                     CNIAREWALMMAEERERVWHARPAEVIYLRDVLRRRREMRLSVVDGAGSADRSTVIRR
+                     TRGPRGPRRG"
+     gene            complement(5457..5972)
+                     /locus_tag="QII08_gp12"
+                     /db_xref="GeneID:80396760"
+     CDS             complement(5457..5972)
+                     /locus_tag="QII08_gp12"
+                     /note="Cf1c cp8-like protein; phiXv2 ORF12; Cf1c 18.2 kDa
+                     protein-like, helix-turn-helix XRE-family DNA binding
+                     protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="helix-turn-helix XRE-family DNA binding protein"
+                     /protein_id="YP_010768607.1"
+                     /db_xref="GeneID:80396760"
+                     /translation="MPKHGCMYSFHCPLCQEKPVMDHVNNLLDTVRKSCAIPSDNMLS
+                     KKIGVTRALISGWRVGRYPVPDARIAELCAMAHLDGGEWMAKIHAEAAASPAEKALWR
+                     SVLDRLSAAAAVVALLVLAVHTGAHDALLAALSPVALTHPLYIMRSGLLTLLCALAAY
+                     QCWSLHRKRTG"
+     misc_recomb     complement(5531..5545)
+                     /recombination_class="other"
+                     /locus_tag="QII08_gp12"
+                     /note="xerc/d recombination; phage attachment site; attP"
+ORIGIN      
+        1 atgctgccat ggagttctac cgtggctgac ggcacatgct cgttctgcgg tgaaacaacc
+       61 gtctacttct ttcccggtgg cttgtgcgtc gcatgcaccg gtaaaaacgc acgcatccgc
+      121 atgcaggaac agcccacgca atcgcgtgag ttgtccgctt tcgatacgtc tgtcggcgtc
+      181 atgcaggccg ctacgcgccg cactgaaatc gccgcagaga agatccaaaa gaacaagcgt
+      241 gtggtcggca caagcgtgcg tgagttcgac gctgcccatc cgatcgcatt gaccgctgag
+      301 ggccagcgcg cagcgctggc ccttgggctt gtccattaca aaacaagtga cacgcgggcc
+      361 tctacgaccg gcaccgtgac catcgaaatc gacccgctac aagcgcgggc gcaacggctg
+      421 cgcaagtccg tgattaccgg agcacgtctg catgaccagg aagcgaaaaa aggctccttc
+      481 cggggtgcgt ggtatttcct cacgctcacc taccgtgatg gaagcgacag cagccctcgt
+      541 gacgttagcg aactatttaa acgcatgcgc ggccacttca atcgccttaa atctgggcgc
+      601 gcacggtgga accgtgaaag ctttcgttac gtatgggtcg gagagctcac ccagcgattc
+      661 cgcccgcact accacgtaat gctgtgggtt ccgacgggta tgtatttcgg caaagtcgat
+      721 caacgcggct ggtggcctca tggcacaacg caaattgaaa aagcccgcaa ctgcgtcggc
+      781 tatctcgcga aatacgcgag caagttcact gcccttacag ctggagcttt tcccaaaggc
+      841 ttccgcacac atggcattgg tggactcgat accgaatcta agcgcgagtt gcgctggtgg
+      901 aaagccccga aagatgcgcg tgaagctctc ggcggggaag cggatatccg caaagcaaag
+      961 ggcggatggt tcgacaggct taccggagag ttctggccgt ctccgtggaa agtcacattc
+     1021 attttcggcc ggacattcgc ctggaaggta gtccaactat gaaagtccaa gtcatgagtt
+     1081 ccgctgtcgc tgttcgttcc tttcctgctc gcgagggtaa gcccgcgacg catttccgtg
+     1141 agcagaccgc agcggtgttg cgcgagggag atttcccgct gccgttcacc attggccttg
+     1201 atgaggatca acccccgtac ggcgagggct tttacatcat cgaccccaag tcgttgcaga
+     1261 acaataaatt cggcggtctt gagttcggcc gtcgtattcg gctgttgcct gatctcactg
+     1321 caaagctgca acagcagccg gcaaaggttg gctgaatcat ggccgtgtgc gtagccctgc
+     1381 aagcggatgg cacgttggtg cccaccggtc aatcggttgg cgagtgcagc ggctacgtgc
+     1441 tcgtcagtgg tagcgaatac agcgtgtatg cgctggtgca agaagcgttc gccatgccca
+     1501 gcaaggagga cgccgtagcg tggtccaccg gctgctgcgg cttggtgatc gtgtggttcg
+     1561 tcctgggacg cctcgccggc agcgtcgcag gcatgttcaa cgaccggtaa atcaatcaat
+     1621 caacgaggag agtaaacatg ggtgacattc tgactggcgt gagcggtgct gaggctgcaa
+     1681 ccgcgatgat cgcagcggcc gcaatcattg ccttggtggg cttcaccaag tggggtgcca
+     1741 agaaggttgc aagcttcttc ggctaatggt ggtgagggca gggcggcgct tcggtgtcgc
+     1801 cctctctctt tcaggggtag ggcgatgatc gttctcttgt tctgtggatt catgggcgcg
+     1861 ttgtgtgggt gggcaggcgt caaggggttg gatgcgtgat aactgttcgc cttgtagcgt
+     1921 gcatccttgc ggttgcgttg tggtcatgcg cgtttagcgc caatgccgcc atgtgtagag
+     1981 atgcggctga cgcctgcgat caaggtcagg cgttcttggc tgctcgcatg ctggccgatc
+     2041 agcgcggcgt tgatttgtgc aagctagtcg gcggttccaa ttcgctttac aaggggcctg
+     2101 atgttgttgc cgagagtgct ggcatttata acgcacaggc gacgtgtagc atcggtgggc
+     2161 ctgctggtgc tggttccacg ttttacagca aaacgtgtgc ccagcgtccc cccttgattg
+     2221 gcgcgtcttc ttccgatggc agcggtttta gctgcgatga cggctgtttt tacaatttca
+     2281 ccgttggtgc atcaggcggc agcggcatgt atcccagcgg tgccacttgc tctgcgggtg
+     2341 atgcgccacc ttccacgcct ggtgatgacg gcggtgatgg cgacggcggc agcgatggtg
+     2401 gtggagatgg tggcagtgac ggtggtggag acggtggaag cgatggcggt ggtgacggtg
+     2461 gcagtgacgg tggcagtgat ggcggtggtg acggcgacgg cgatggtgat ggtgatggcg
+     2521 acggtgatgg cgacggtgat actcctggtg atggtgacgg cacgacgcct ggtcagggtg
+     2581 aaggcggcga gggcgctccc atgtccgagc tctacaataa aagcggcaag acagttgagt
+     2641 ctgtgctgag caaattcaat acgcaggtgc gcggcacgcc catggttgcc ggcatcacgg
+     2701 attttatgac tgtgccctcc ggtggatcgt gcccggtgtt ttcgctgggc gcgtcgaagt
+     2761 ggtggaacgc catgacgatc aattttcatt gtggcggcga ttttctggcg tttctgcgcg
+     2821 cggcgggctg ggtgatcctg gcgattgctg cttacgctgc gctccgtatt gctgtgacct
+     2881 gaggacgacg atatgcaagc aggttggttc aatgatttca cgtcgcgact atcacgtgcc
+     2941 ttaaaagcgg tgtgggatgg atattgcgat ttcatgtctg aattgtggcg ttgatgtgtt
+     3001 gacttgggga gacgatatgc aagcaggttg gttcaacgat ttgaccgcat ggctgtggcg
+     3061 tgcggtcaaa ctggtgtggc aggcgattgt cgatttcgtg ggcgacctgt tcgtgatgtg
+     3121 gctggaacag tcgctggctg ccattctcta cgtgttgacg ttgctgccta tgccggactt
+     3181 catgaagggc cagagcatcg gcggcatgct cggtaacgcc ggcagcacaa ttttgtggtt
+     3241 cgccgacgtg ttcaagatcg ggcctgccct ggtgatgatc ggcgcggcca tggtgttcta
+     3301 tctgttgcgt cgcgtgctga cggtcgggat ttggtgacat gcatgttttc aatgaaggtg
+     3361 tgccgcgtgc tggcaagagc tacgacgcgg taaagaatca catcctcccc gcgctcaaga
+     3421 agggccggcg tgtgttcgca cggctcaacg gcttgcgatt tgatcgcatt gccaagcacc
+     3481 tgggcattgc cgaaagcgat gtgcaaagcc tgctcgtctt ggtcgatacg aaggacgtga
+     3541 ccaagctttt tgcgtgcacg caggatgagt cgggcaagtg gtgcattccg gacgagttca
+     3601 aggattcgtt ggtcgtcatt gatgaggtgc acgagttcta cgtcaatgag cgcaagccgc
+     3661 tctcgccggc agtggagaat ttctgggcgc tgctcggcca gaacggcggc gatgcggtca
+     3721 tcatgacgca gtggatcaac cgccttcact ctgcggtcaa ggcgcgcatc gagaagaaaa
+     3781 acaccttcca gaagctcacc gccatcggca tgaagggccg atatcgcgtg acgtatttcc
+     3841 ataccacctc gccggggaag ttcgagaagg tgggcgggca gacgctcaag tacgacccgg
+     3901 ccatttttcc gctgtatgac ggctatgccc ctggtgccga aaacaccgag gtctacgaag
+     3961 agggtggcaa gaacgtctgg gcagcgatgg cggtgcgtgc tgcgatcttc atcgttgtcg
+     4021 gtggtgttgg catctacttc ttcgtgcact acttcaccaa ggatcgttcc gatccgaaca
+     4081 agcctgtggc ctcggcaagc cagaccaata agcccgcgca cgttggtgca ggcttggcaa
+     4141 atggcgcgcc aagcgtgccg atccagccgc cgccgcccga tccgctcgcc gatctcacgc
+     4201 aggaacagcg ctatgtcgcc gagcttgcca gcaagggccg tatacgactg tcggcgcgtg
+     4261 cgcgggtagg cgatcaggat cgggcgtggg tccagtggat cgacgagagc aacaacgtca
+     4321 ttgaggaatt ggacctcacg cagctgcgcg ccctgggcta tagcgtcagc gtcgttacgt
+     4381 acggcgtgcg cttgtcagct ggcaagcaca tcatggtggc gaccgcgtgg ccctggaccg
+     4441 cgcccattcg tgagaaggac gcacggctct acaacatggc ccccgatggg agcggtggcg
+     4501 ctgctggcgt tgcgaccgta gggagtgacg gcggcggcgc tgaccgcgac cgggtgcgag
+     4561 gcggtgtcat tgagtacggg ccgcgcacgc agggcacgtt cccggacaac aaggcctaca
+     4621 ccacgaacac cacgacgccg gccactacct tgcagatgta ggtagaatcc cgctctcaag
+     4681 gggagggcgt atggatattc gtgcgttttt tgttgtgctc ttcgtggctt ccgttccggc
+     4741 cagcgcccag caggttttca agtgcgtgag tggtgcgcaa gtcgtttacc agtcggctcc
+     4801 gtgtccaggc gttaccgcaa agcaatggga tgctcagcct gagccggata acccggcgtt
+     4861 gaggcaaagg cttgcccgta ccgctgcgca gcttcgcgcc cgcaatgcgt ctcctgtccg
+     4921 ttccggttct gggacctatg tggctgccag ttcttccaag gatcgctatg catgtgaggt
+     4981 tgccaaagag gggcgtcgtg cagcctatga agctgccggc gtgcatcgct ctttcgcgct
+     5041 ttccagctat tgggacaacg cagtccaaga tgcctgcaaa tgacccaggg gtgtaggggc
+     5101 atagccccta cggataacgc cttacccgcg ccgtggacct cgtggcccac gcgtcctacg
+     5161 gatcaccgtc gatcgatcgg cggaccccgc gccatccacc actgatagcc gcatttcacg
+     5221 cctgcgccgg agcacgtccc gcaggtagat cacctcggcc ggcctggcat gccacacgcg
+     5281 ctcgcgttcc tcggccatca tcagcgccca ctcgcgggcg atgttgcatg tgagcgacca
+     5341 gtaccgcatt cccaccgggt cgatatctcg gccttcggga gtgaaaaacc gatgcccctg
+     5401 gaaaccaaaa ccggcccaag ggccggtcag gtctacgcgt tcgtaggtgt caatcgtcat
+     5461 ccagtccgct tcctgtggag ggaccagcat tgataggccg ccagggcgca caggagcgtc
+     5521 aacagtccac ttcgcataat gtatagaggg tgggtaagtg ctaccggcga aagggccgct
+     5581 agcagcgcgt catgcgctcc tgtgtgcacc gccaggacca gcagcgcgac caccgcggcg
+     5641 gccgcgctta gcctgtccaa cactgatcgc catagagctt tttcagccgg cgatgcagct
+     5701 gcttcggcgt gaattttcgc catccattcg cccccgtcca gatgcgccat agcgcatagc
+     5761 tctgcaatgc gcgcgtcagg aaccgggtag cgaccaacgc gccagccgct tatcagcgcc
+     5821 cgcgtcaccc caattttctt gctcaacatg ttgtcggacg gtatggcgca tgacttgcgc
+     5881 accgtgtcaa gcaaattatt tacatggtcc atgacaggtt tttcttgaca gagaggacag
+     5941 tgaaaactat acatgcatcc gtgcttaggc aaccctaagc accgcgcacc cccggctccc
+     6001 ctccggggtc cgcgtcaagg ggcaggggag ggggcttgat ggacgtcatc gcattcgcac
+     6061 ttctcggtac cgcctgcttg gtatgcagca tcggcgcagc gcgccttgtc ggctggatct
+     6121 tggatcgccg cgacgctgcc attcttcgtc agctgcggga agacgacctg attgctcagg
+     6181 ctaggcatca ggttcgtatc gcaaacctca agcgttccgt gcgcgctgcc gctgaggctg
+     6241 aggagtgcgc atgaaagagt tcgcaaagtg catcggattt gtctgggcgc tggccgcttt
+     6301 cgtttcgctt ttcattatcg gcgcctacta ccttcctgag ccgtggacat gggtctgcgg
+     6361 tgtgttcctc ttcgtgacgc ctgccggtgt ttttgcctac ctaggcggtg ttggtcatga
+     6421 ctgacgctcc gtctgtgcaa tggctcatcg ctgccgctcg tgtgcatggc ggtccacgca
+     6481 tctacgtctt gaccatcgtc gtcaatggca atcctgtcga acagagctat ttcgcatctc
+     6541 gcaccgatgc tgctgttgca cgtg
+//
+
