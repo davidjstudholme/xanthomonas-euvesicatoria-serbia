@@ -1,0 +1,24 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.11.2). This will summarize the results across modules into a classification report.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    XVP26_summary                                                                                                                                                         │
+│    ├── XVP26_summary.json (execution parameters)                                                                                                                         │
+│    ├── XVP26_virus_summary.tsv (virus classification summary)                                                                                                            │
+│    ├── XVP26_plasmid_summary.tsv (plasmid classification summary)                                                                                                        │
+│    ├── XVP26_virus.fna (virus nucleotide FASTA file)                                                                                                                     │
+│    ├── XVP26_plasmid.fna (plasmid nucleotide FASTA file)                                                                                                                 │
+│    ├── XVP26_virus_proteins.faa (virus protein FASTA file)                                                                                                               │
+│    ├── XVP26_plasmid_proteins.faa (plasmid protein FASTA file)                                                                                                           │
+│    ├── XVP26_virus_genes.tsv (virus gene annotation data)                                                                                                                │
+│    └── XVP26_plasmid_genes.tsv (plasmid gene annotation data)                                                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[13:16:20] Executing genomad summary.                                                                                                                                       
+[13:16:20] Creating the XVP26_summary directory.                                                                                                                            
+[13:16:20] Using scores from aggregated-classification.                                                                                                                     
+[13:16:20] 6 plasmid(s) and 1 virus(es) were identified.                                                                                                                    
+[13:16:20] Nucleotide sequences were written to XVP26_plasmid.fna and XVP26_virus.fna.                                                                                      
+[13:16:20] Protein sequences were written to XVP26_plasmid_proteins.faa and XVP26_virus_proteins.faa.                                                                       
+[13:16:20] Gene annotation data was written to XVP26_plasmid_genes.tsv and XVP26_virus_genes.tsv.                                                                           
+[13:16:20] Summary files were written to XVP26_plasmid_summary.tsv and XVP26_virus_summary.tsv.                                                                             
+[13:16:20] geNomad summary finished!                                                                                                                                        

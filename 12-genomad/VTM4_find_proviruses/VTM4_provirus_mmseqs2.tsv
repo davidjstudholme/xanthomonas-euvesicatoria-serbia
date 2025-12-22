@@ -1,0 +1,8 @@
+JAWUDQ010000017.1_23 # 18076 # 19557 # -1 # ID=8_23;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.504	PF00589.RP35	6.536E-13	61
+JAWUDQ010000003.1_135 # 150387 # 151601 # 1 # ID=33_135;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.614	PRK09692	1.296E-73	244
+JAWUDQ010000011.1_132 # 149556 # 150803 # 1 # ID=2_132;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.500	PF00589.RP35	5.580E-14	64
+JAWUDQ010000024.1_63 # 67761 # 68987 # 1 # ID=16_63;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.673	PRK09692	6.354E-75	248
+JAWUDQ010000003.1_7 # 3408 # 4610 # -1 # ID=33_7;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.629	PRK09692	3.646E-45	160
+JAWUDQ010000020.1_68 # 79223 # 80140 # 1 # ID=12_68;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.669	COG4973	2.520E-126	392
+JAWUDQ010000002.1_85 # 118719 # 119810 # -1 # ID=22_85;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.680	TIGR02225	5.438E-118	371
+JAWUDQ010000022.1_3 # 863 # 1810 # 1 # ID=14_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.649	TIGR02249	8.339E-153	469

@@ -1,0 +1,2 @@
+seq_name	source_seq	start	end	length	n_genes	v_vs_c_score	in_seq_edge	integrases
+JAWUDW010000029.1|provirus_2_17695	JAWUDW010000029.1	2	17695	17694	27	29.6717	True	NA

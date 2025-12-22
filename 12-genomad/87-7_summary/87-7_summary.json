@@ -1,0 +1,18 @@
+{
+    "module": "summary",
+    "input": "87-7.fasta",
+    "input_md5": "3160ce11dcf230ec44bc6d47071ac6f7",
+    "start_time": "2025-12-22T12:08:43.592719+00:00",
+    "parameters": {
+        "min_score": 0.7,
+        "max_fdr": 0.1,
+        "min_number_genes": 1,
+        "min_plasmid_hallmarks": 0,
+        "min_plasmid_hallmarks_short_seqs": 1,
+        "min_virus_hallmarks": 0,
+        "min_virus_hallmarks_short_seqs": 1,
+        "min_plasmid_marker_enrichment": 0.1,
+        "min_virus_marker_enrichment": 0.0,
+        "max_uscg": 4
+    }
+}

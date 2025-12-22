@@ -1,0 +1,24 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.11.2). This will summarize the results across modules into a classification report.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    75-3_summary                                                                                                                                                          │
+│    ├── 75-3_summary.json (execution parameters)                                                                                                                          │
+│    ├── 75-3_virus_summary.tsv (virus classification summary)                                                                                                             │
+│    ├── 75-3_plasmid_summary.tsv (plasmid classification summary)                                                                                                         │
+│    ├── 75-3_virus.fna (virus nucleotide FASTA file)                                                                                                                      │
+│    ├── 75-3_plasmid.fna (plasmid nucleotide FASTA file)                                                                                                                  │
+│    ├── 75-3_virus_proteins.faa (virus protein FASTA file)                                                                                                                │
+│    ├── 75-3_plasmid_proteins.faa (plasmid protein FASTA file)                                                                                                            │
+│    ├── 75-3_virus_genes.tsv (virus gene annotation data)                                                                                                                 │
+│    └── 75-3_plasmid_genes.tsv (plasmid gene annotation data)                                                                                                             │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[11:54:09] Executing genomad summary.                                                                                                                                       
+[11:54:09] Creating the 75-3_summary directory.                                                                                                                             
+[11:54:09] Using scores from aggregated-classification.                                                                                                                     
+[11:54:09] 25 plasmid(s) and 1 virus(es) were identified.                                                                                                                   
+[11:54:09] Nucleotide sequences were written to 75-3_plasmid.fna and 75-3_virus.fna.                                                                                        
+[11:54:09] Protein sequences were written to 75-3_plasmid_proteins.faa and 75-3_virus_proteins.faa.                                                                         
+[11:54:09] Gene annotation data was written to 75-3_plasmid_genes.tsv and 75-3_virus_genes.tsv.                                                                             
+[11:54:09] Summary files were written to 75-3_plasmid_summary.tsv and 75-3_virus_summary.tsv.                                                                               
+[11:54:09] geNomad summary finished!                                                                                                                                        

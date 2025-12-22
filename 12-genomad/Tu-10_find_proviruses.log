@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.11.2). This will find putative proviral regions within the input sequences.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Tu-10_find_proviruses                                                                                                                                                 │
+│    ├── Tu-10_find_proviruses.json (execution parameters)                                                                                                                 │
+│    ├── Tu-10_provirus.tsv (provirus data)                                                                                                                                │
+│    ├── Tu-10_provirus.fna (provirus nucleotide sequences)                                                                                                                │
+│    ├── Tu-10_provirus_proteins.faa (provirus protein sequences)                                                                                                          │
+│    ├── Tu-10_provirus_genes.tsv (provirus gene annotation data)                                                                                                          │
+│    ├── Tu-10_provirus_taxonomy.tsv (provirus taxonomic assignment)                                                                                                       │
+│    ├── Tu-10_provirus_mmseqs2.tsv (MMseqs2 output file)                                                                                                                  │
+│    └── Tu-10_provirus_aragorn.tsv (Aragorn output file)                                                                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:43:06] Executing genomad find-proviruses.                                                                                                                               
+[12:43:06] Creating the Tu-10_find_proviruses directory.                                                                                                                    
+[12:43:08] Integrases identified with MMseqs2 and geNomad database (v1.9) were written to Tu-10_provirus_mmseqs2.tsv.                                                       
+[12:43:08] Deleting Tu-10_provirus_mmseqs2.                                                                                                                                 
+[12:43:08] Deleting Tu-10_provirus_mmseqs2_input.faa.                                                                                                                       
+[12:43:09] tRNAs identified with Aragorn were written to Tu-10_provirus_aragorn.tsv.                                                                                        
+[12:43:09] Deleting Tu-10_provirus_aragorn_input.fna.                                                                                                                       
+[12:43:09] Provirus regions identified.                                                                                                                                     
+[12:43:09] Provirus data was written to Tu-10_provirus.tsv.                                                                                                                 
+[12:43:09] Provirus nucleotide sequences were written to Tu-10_provirus.fna.                                                                                                
+[12:43:09] Provirus protein sequences were written to Tu-10_provirus_proteins.faa.                                                                                          
+[12:43:09] Provirus gene data was written to Tu-10_provirus_genes.tsv.                                                                                                      
+[12:43:09] Taxonomic assignment data was written to Tu-10_provirus_taxonomy.tsv.                                                                                            
+[12:43:09] geNomad find-proviruses finished!                                                                                                                                

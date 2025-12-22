@@ -1,0 +1,2 @@
+seq_name	source_seq	start	end	length	n_genes	v_vs_c_score	in_seq_edge	integrases
+JBJGKZ010000048.1|provirus_4527_31911	JBJGKZ010000048.1	4527	31911	27385	47	52.4302	True	NA

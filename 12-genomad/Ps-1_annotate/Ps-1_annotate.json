@@ -1,0 +1,11 @@
+{
+    "module": "annotate",
+    "input": "Ps-1.fasta",
+    "input_md5": "19bd2e68f267a70bd0636e9a24762f47",
+    "start_time": "2025-12-22T12:35:50.217536+00:00",
+    "parameters": {
+        "use_minimal_db": false,
+        "sensitivity": 4.2,
+        "evalue": 0.001
+    }
+}

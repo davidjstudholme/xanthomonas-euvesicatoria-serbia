@@ -1,0 +1,22 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad aggregated-classification (v1.11.2). This will aggregate the results of the marker-classification and nn-classification modules to classify the       │
+│  input sequences into chromosome, plasmid, or virus.                                                                                                                     │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    DOA-2036_aggregated_classification                                                                                                                                    │
+│    ├── DOA-2036_aggregated_classification.json (execution parameters)                                                                                                    │
+│    ├── DOA-2036_aggregated_classification.tsv (sequence classification: tabular format)                                                                                  │
+│    ├── DOA-2036_aggregated_classification.npz (sequence classification: binary format)                                                                                   │
+│    ├── DOA-2036_provirus_aggregated_classification.tsv (provirus classification: tabular format)                                                                         │
+│    └── DOA-2036_provirus_aggregated_classification.npz (provirus classification: binary format)                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:20:05] Executing genomad aggregated-classification.                                                                                                                     
+[12:20:05] Creating the DOA-2036_aggregated_classification directory.                                                                                                       
+[12:20:05] The total marker frequencies of the input sequences were computed.                                                                                               
+[12:20:05] Sequences classified.                                                                                                                                            
+[12:20:05] Sequence classification in binary format written to DOA-2036_aggregated_classification.npz.                                                                      
+[12:20:05] Sequence classification in tabular format written to DOA-2036_aggregated_classification.tsv.                                                                     
+[12:20:05] Proviruses classified.                                                                                                                                           
+[12:20:05] Provirus classification in binary format written to DOA-2036_provirus_aggregated_classification.npz.                                                             
+[12:20:05] Provirus classification in tabular format written to DOA-2036_provirus_aggregated_classification.tsv.                                                            
+[12:20:05] geNomad aggregated-classification finished!                                                                                                                      

@@ -1,0 +1,11 @@
+{
+    "module": "annotate",
+    "input": "Tu-10.fasta",
+    "input_md5": "eca3910750c0042241a55840ae894b1e",
+    "start_time": "2025-12-22T12:42:10.218695+00:00",
+    "parameters": {
+        "use_minimal_db": false,
+        "sensitivity": 4.2,
+        "evalue": 0.001
+    }
+}

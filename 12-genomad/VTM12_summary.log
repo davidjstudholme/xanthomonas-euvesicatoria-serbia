@@ -1,0 +1,24 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.11.2). This will summarize the results across modules into a classification report.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    VTM12_summary                                                                                                                                                         │
+│    ├── VTM12_summary.json (execution parameters)                                                                                                                         │
+│    ├── VTM12_virus_summary.tsv (virus classification summary)                                                                                                            │
+│    ├── VTM12_plasmid_summary.tsv (plasmid classification summary)                                                                                                        │
+│    ├── VTM12_virus.fna (virus nucleotide FASTA file)                                                                                                                     │
+│    ├── VTM12_plasmid.fna (plasmid nucleotide FASTA file)                                                                                                                 │
+│    ├── VTM12_virus_proteins.faa (virus protein FASTA file)                                                                                                               │
+│    ├── VTM12_plasmid_proteins.faa (plasmid protein FASTA file)                                                                                                           │
+│    ├── VTM12_virus_genes.tsv (virus gene annotation data)                                                                                                                │
+│    └── VTM12_plasmid_genes.tsv (plasmid gene annotation data)                                                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:47:04] Executing genomad summary.                                                                                                                                       
+[12:47:04] Creating the VTM12_summary directory.                                                                                                                            
+[12:47:04] Using scores from aggregated-classification.                                                                                                                     
+[12:47:04] 25 plasmid(s) and 1 virus(es) were identified.                                                                                                                   
+[12:47:04] Nucleotide sequences were written to VTM12_plasmid.fna and VTM12_virus.fna.                                                                                      
+[12:47:04] Protein sequences were written to VTM12_plasmid_proteins.faa and VTM12_virus_proteins.faa.                                                                       
+[12:47:04] Gene annotation data was written to VTM12_plasmid_genes.tsv and VTM12_virus_genes.tsv.                                                                           
+[12:47:04] Summary files were written to VTM12_plasmid_summary.tsv and VTM12_virus_summary.tsv.                                                                             
+[12:47:04] geNomad summary finished!                                                                                                                                        

@@ -1,0 +1,7 @@
+{
+    "module": "marker_classification",
+    "input": "DOA-1721.fasta",
+    "input_md5": "25fb176a3393eab6c78fd452ef9dcdfa",
+    "start_time": "2025-12-22T12:17:23.722267+00:00",
+    "parameters": {}
+}

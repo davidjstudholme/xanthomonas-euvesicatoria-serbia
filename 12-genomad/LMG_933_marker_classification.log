@@ -1,0 +1,21 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the presence of geNomad markers   │
+│  and other gene-related features.                                                                                                                                        │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    LMG_933_marker_classification                                                                                                                                         │
+│    ├── LMG_933_marker_classification.json (execution parameters)                                                                                                         │
+│    ├── LMG_933_features.tsv (sequence feature data: tabular format)                                                                                                      │
+│    ├── LMG_933_features.npz (sequence feature data: binary format)                                                                                                       │
+│    ├── LMG_933_marker_classification.tsv (sequence classification: tabular format)                                                                                       │
+│    └── LMG_933_marker_classification.npz (sequence classification: binary format)                                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:35:36] Executing genomad marker-classification.                                                                                                                         
+[12:35:36] Creating the LMG_933_marker_classification directory.                                                                                                            
+[12:35:37] Sequence features computed.                                                                                                                                      
+[12:35:37] Sequence features in binary format written to LMG_933_features.npz.                                                                                              
+[12:35:37] Sequence features in tabular format written to LMG_933_features.tsv.                                                                                             
+[12:35:37] Sequences classified.                                                                                                                                            
+[12:35:37] Sequence classification in binary format written to LMG_933_marker_classification.npz.                                                                           
+[12:35:37] Sequence classification in tabular format written to LMG_933_marker_classification.tsv.                                                                          
+[12:35:37] geNomad marker-classification finished!                                                                                                                          

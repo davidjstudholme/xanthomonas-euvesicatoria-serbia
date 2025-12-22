@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    87-21_annotate                                                                                                                                                        │
+│    ├── 87-21_annotate.json (execution parameters)                                                                                                                        │
+│    ├── 87-21_genes.tsv (gene annotation data)                                                                                                                            │
+│    ├── 87-21_taxonomy.tsv (taxonomic assignment)                                                                                                                         │
+│    ├── 87-21_mmseqs2.tsv (MMseqs2 output file)                                                                                                                           │
+│    └── 87-21_proteins.faa (protein FASTA file)                                                                                                                           │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:04:57] Executing genomad annotate.                                                                                                                                      
+[12:04:57] Creating the 87-21_annotate directory.                                                                                                                           
+[12:05:00] Proteins predicted with pyrodigal-gv were written to 87-21_proteins.faa.                                                                                         
+[12:05:53] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to 87-21_mmseqs2.tsv.                                                                   
+[12:05:53] Deleting 87-21_mmseqs2.                                                                                                                                          
+[12:05:53] Gene data was written to 87-21_genes.tsv.                                                                                                                        
+[12:05:54] Taxonomic assignment data was written to 87-21_taxonomy.tsv.                                                                                                     
+[12:05:54] geNomad annotate finished!                                                                                                                                       

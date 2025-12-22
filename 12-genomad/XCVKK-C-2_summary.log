@@ -1,0 +1,24 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.11.2). This will summarize the results across modules into a classification report.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    XCVKK-C-2_summary                                                                                                                                                     │
+│    ├── XCVKK-C-2_summary.json (execution parameters)                                                                                                                     │
+│    ├── XCVKK-C-2_virus_summary.tsv (virus classification summary)                                                                                                        │
+│    ├── XCVKK-C-2_plasmid_summary.tsv (plasmid classification summary)                                                                                                    │
+│    ├── XCVKK-C-2_virus.fna (virus nucleotide FASTA file)                                                                                                                 │
+│    ├── XCVKK-C-2_plasmid.fna (plasmid nucleotide FASTA file)                                                                                                             │
+│    ├── XCVKK-C-2_virus_proteins.faa (virus protein FASTA file)                                                                                                           │
+│    ├── XCVKK-C-2_plasmid_proteins.faa (plasmid protein FASTA file)                                                                                                       │
+│    ├── XCVKK-C-2_virus_genes.tsv (virus gene annotation data)                                                                                                            │
+│    └── XCVKK-C-2_plasmid_genes.tsv (plasmid gene annotation data)                                                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[13:11:18] Executing genomad summary.                                                                                                                                       
+[13:11:18] Creating the XCVKK-C-2_summary directory.                                                                                                                        
+[13:11:18] Using scores from aggregated-classification.                                                                                                                     
+[13:11:18] 22 plasmid(s) and 1 virus(es) were identified.                                                                                                                   
+[13:11:18] Nucleotide sequences were written to XCVKK-C-2_plasmid.fna and XCVKK-C-2_virus.fna.                                                                              
+[13:11:18] Protein sequences were written to XCVKK-C-2_plasmid_proteins.faa and XCVKK-C-2_virus_proteins.faa.                                                               
+[13:11:18] Gene annotation data was written to XCVKK-C-2_plasmid_genes.tsv and XCVKK-C-2_virus_genes.tsv.                                                                   
+[13:11:18] Summary files were written to XCVKK-C-2_plasmid_summary.tsv and XCVKK-C-2_virus_summary.tsv.                                                                     
+[13:11:18] geNomad summary finished!                                                                                                                                        

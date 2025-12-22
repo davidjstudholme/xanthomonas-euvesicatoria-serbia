@@ -1,0 +1,7 @@
+{
+    "module": "marker_classification",
+    "input": "20HP1608-1.fasta",
+    "input_md5": "6b6d75423cf00ad3a9c1a6d2ca6b8a58",
+    "start_time": "2025-12-22T11:33:48.697964+00:00",
+    "parameters": {}
+}

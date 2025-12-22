@@ -1,0 +1,17 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad aggregated-classification (v1.11.2). This will aggregate the results of the marker-classification and nn-classification modules to classify the       │
+│  input sequences into chromosome, plasmid, or virus.                                                                                                                     │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    LMG_933_aggregated_classification                                                                                                                                     │
+│    ├── LMG_933_aggregated_classification.json (execution parameters)                                                                                                     │
+│    ├── LMG_933_aggregated_classification.tsv (sequence classification: tabular format)                                                                                   │
+│    └── LMG_933_aggregated_classification.npz (sequence classification: binary format)                                                                                    │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:35:47] Executing genomad aggregated-classification.                                                                                                                     
+[12:35:47] Creating the LMG_933_aggregated_classification directory.                                                                                                        
+[12:35:47] The total marker frequencies of the input sequences were computed.                                                                                               
+[12:35:47] Sequences classified.                                                                                                                                            
+[12:35:47] Sequence classification in binary format written to LMG_933_aggregated_classification.npz.                                                                       
+[12:35:47] Sequence classification in tabular format written to LMG_933_aggregated_classification.tsv.                                                                      
+[12:35:47] geNomad aggregated-classification finished!                                                                                                                      

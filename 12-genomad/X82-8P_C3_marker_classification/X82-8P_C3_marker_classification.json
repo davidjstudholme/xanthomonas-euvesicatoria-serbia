@@ -1,0 +1,7 @@
+{
+    "module": "marker_classification",
+    "input": "X82-8P_C3.fasta",
+    "input_md5": "1a838575bda5d15c80c5d9cc695ec9d4",
+    "start_time": "2025-12-22T13:02:33.503956+00:00",
+    "parameters": {}
+}

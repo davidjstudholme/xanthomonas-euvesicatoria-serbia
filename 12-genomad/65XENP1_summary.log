@@ -1,0 +1,24 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.11.2). This will summarize the results across modules into a classification report.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    65XENP1_summary                                                                                                                                                       │
+│    ├── 65XENP1_summary.json (execution parameters)                                                                                                                       │
+│    ├── 65XENP1_virus_summary.tsv (virus classification summary)                                                                                                          │
+│    ├── 65XENP1_plasmid_summary.tsv (plasmid classification summary)                                                                                                      │
+│    ├── 65XENP1_virus.fna (virus nucleotide FASTA file)                                                                                                                   │
+│    ├── 65XENP1_plasmid.fna (plasmid nucleotide FASTA file)                                                                                                               │
+│    ├── 65XENP1_virus_proteins.faa (virus protein FASTA file)                                                                                                             │
+│    ├── 65XENP1_plasmid_proteins.faa (plasmid protein FASTA file)                                                                                                         │
+│    ├── 65XENP1_virus_genes.tsv (virus gene annotation data)                                                                                                              │
+│    └── 65XENP1_plasmid_genes.tsv (plasmid gene annotation data)                                                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[11:42:42] Executing genomad summary.                                                                                                                                       
+[11:42:42] Creating the 65XENP1_summary directory.                                                                                                                          
+[11:42:42] Using scores from aggregated-classification.                                                                                                                     
+[11:42:42] 12 plasmid(s) and 1 virus(es) were identified.                                                                                                                   
+[11:42:42] Nucleotide sequences were written to 65XENP1_plasmid.fna and 65XENP1_virus.fna.                                                                                  
+[11:42:42] Protein sequences were written to 65XENP1_plasmid_proteins.faa and 65XENP1_virus_proteins.faa.                                                                   
+[11:42:42] Gene annotation data was written to 65XENP1_plasmid_genes.tsv and 65XENP1_virus_genes.tsv.                                                                       
+[11:42:42] Summary files were written to 65XENP1_plasmid_summary.tsv and 65XENP1_virus_summary.tsv.                                                                         
+[11:42:42] geNomad summary finished!                                                                                                                                        

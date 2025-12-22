@@ -1,0 +1,11 @@
+{
+    "module": "annotate",
+    "input": "XCVKK-C-5.fasta",
+    "input_md5": "a245a0bba06f74deba07849eea90bef9",
+    "start_time": "2025-12-22T13:13:50.662829+00:00",
+    "parameters": {
+        "use_minimal_db": false,
+        "sensitivity": 4.2,
+        "evalue": 0.001
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "module": "nn_classification",
+    "input": "XCVCP-C-51.fasta",
+    "input_md5": "fab862ac6351510205a1392b51ba2f91",
+    "start_time": "2025-12-22T13:08:41.595566+00:00",
+    "parameters": {
+        "single_window": false
+    }
+}

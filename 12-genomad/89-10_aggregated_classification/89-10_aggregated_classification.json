@@ -1,0 +1,7 @@
+{
+    "module": "aggregated_classification",
+    "input": "89-10.fasta",
+    "input_md5": "9a3aba3acd64169da8d9dd0b2af71ffd",
+    "start_time": "2025-12-22T12:09:58.724562+00:00",
+    "parameters": {}
+}

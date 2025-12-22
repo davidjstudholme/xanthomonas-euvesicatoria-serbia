@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.11.2). This will find putative proviral regions within the input sequences.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    DOA-1721_find_proviruses                                                                                                                                              │
+│    ├── DOA-1721_find_proviruses.json (execution parameters)                                                                                                              │
+│    ├── DOA-1721_provirus.tsv (provirus data)                                                                                                                             │
+│    ├── DOA-1721_provirus.fna (provirus nucleotide sequences)                                                                                                             │
+│    ├── DOA-1721_provirus_proteins.faa (provirus protein sequences)                                                                                                       │
+│    ├── DOA-1721_provirus_genes.tsv (provirus gene annotation data)                                                                                                       │
+│    ├── DOA-1721_provirus_taxonomy.tsv (provirus taxonomic assignment)                                                                                                    │
+│    ├── DOA-1721_provirus_mmseqs2.tsv (MMseqs2 output file)                                                                                                               │
+│    └── DOA-1721_provirus_aragorn.tsv (Aragorn output file)                                                                                                               │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:17:19] Executing genomad find-proviruses.                                                                                                                               
+[12:17:19] Creating the DOA-1721_find_proviruses directory.                                                                                                                 
+[12:17:21] Integrases identified with MMseqs2 and geNomad database (v1.9) were written to DOA-1721_provirus_mmseqs2.tsv.                                                    
+[12:17:21] Deleting DOA-1721_provirus_mmseqs2.                                                                                                                              
+[12:17:21] Deleting DOA-1721_provirus_mmseqs2_input.faa.                                                                                                                    
+[12:17:22] tRNAs identified with Aragorn were written to DOA-1721_provirus_aragorn.tsv.                                                                                     
+[12:17:22] Deleting DOA-1721_provirus_aragorn_input.fna.                                                                                                                    
+[12:17:23] Provirus regions identified.                                                                                                                                     
+[12:17:23] Provirus data was written to DOA-1721_provirus.tsv.                                                                                                              
+[12:17:23] Provirus nucleotide sequences were written to DOA-1721_provirus.fna.                                                                                             
+[12:17:23] Provirus protein sequences were written to DOA-1721_provirus_proteins.faa.                                                                                       
+[12:17:23] Provirus gene data was written to DOA-1721_provirus_genes.tsv.                                                                                                   
+[12:17:23] Taxonomic assignment data was written to DOA-1721_provirus_taxonomy.tsv.                                                                                         
+[12:17:23] geNomad find-proviruses finished!                                                                                                                                

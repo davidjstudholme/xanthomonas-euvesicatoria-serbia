@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Tabasco1_annotate                                                                                                                                                     │
+│    ├── Tabasco1_annotate.json (execution parameters)                                                                                                                     │
+│    ├── Tabasco1_genes.tsv (gene annotation data)                                                                                                                         │
+│    ├── Tabasco1_taxonomy.tsv (taxonomic assignment)                                                                                                                      │
+│    ├── Tabasco1_mmseqs2.tsv (MMseqs2 output file)                                                                                                                        │
+│    └── Tabasco1_proteins.faa (protein FASTA file)                                                                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:38:24] Executing genomad annotate.                                                                                                                                      
+[12:38:24] Creating the Tabasco1_annotate directory.                                                                                                                        
+[12:38:26] Proteins predicted with pyrodigal-gv were written to Tabasco1_proteins.faa.                                                                                      
+[12:39:19] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to Tabasco1_mmseqs2.tsv.                                                                
+[12:39:19] Deleting Tabasco1_mmseqs2.                                                                                                                                       
+[12:39:20] Gene data was written to Tabasco1_genes.tsv.                                                                                                                     
+[12:39:20] Taxonomic assignment data was written to Tabasco1_taxonomy.tsv.                                                                                                  
+[12:39:20] geNomad annotate finished!                                                                                                                                       

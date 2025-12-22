@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    ATCC_11633_annotate                                                                                                                                                   │
+│    ├── ATCC_11633_annotate.json (execution parameters)                                                                                                                   │
+│    ├── ATCC_11633_genes.tsv (gene annotation data)                                                                                                                       │
+│    ├── ATCC_11633_taxonomy.tsv (taxonomic assignment)                                                                                                                    │
+│    ├── ATCC_11633_mmseqs2.tsv (MMseqs2 output file)                                                                                                                      │
+│    └── ATCC_11633_proteins.faa (protein FASTA file)                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:12:33] Executing genomad annotate.                                                                                                                                      
+[12:12:33] Creating the ATCC_11633_annotate directory.                                                                                                                      
+[12:12:36] Proteins predicted with pyrodigal-gv were written to ATCC_11633_proteins.faa.                                                                                    
+[12:13:29] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to ATCC_11633_mmseqs2.tsv.                                                              
+[12:13:29] Deleting ATCC_11633_mmseqs2.                                                                                                                                     
+[12:13:30] Gene data was written to ATCC_11633_genes.tsv.                                                                                                                   
+[12:13:30] Taxonomic assignment data was written to ATCC_11633_taxonomy.tsv.                                                                                                
+[12:13:30] geNomad annotate finished!                                                                                                                                       

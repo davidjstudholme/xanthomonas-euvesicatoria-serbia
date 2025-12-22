@@ -1,0 +1,22 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad aggregated-classification (v1.11.2). This will aggregate the results of the marker-classification and nn-classification modules to classify the       │
+│  input sequences into chromosome, plasmid, or virus.                                                                                                                     │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    65XENP2_aggregated_classification                                                                                                                                     │
+│    ├── 65XENP2_aggregated_classification.json (execution parameters)                                                                                                     │
+│    ├── 65XENP2_aggregated_classification.tsv (sequence classification: tabular format)                                                                                   │
+│    ├── 65XENP2_aggregated_classification.npz (sequence classification: binary format)                                                                                    │
+│    ├── 65XENP2_provirus_aggregated_classification.tsv (provirus classification: tabular format)                                                                          │
+│    └── 65XENP2_provirus_aggregated_classification.npz (provirus classification: binary format)                                                                           │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[11:43:58] Executing genomad aggregated-classification.                                                                                                                     
+[11:43:58] Creating the 65XENP2_aggregated_classification directory.                                                                                                        
+[11:43:58] The total marker frequencies of the input sequences were computed.                                                                                               
+[11:43:58] Sequences classified.                                                                                                                                            
+[11:43:58] Sequence classification in binary format written to 65XENP2_aggregated_classification.npz.                                                                       
+[11:43:58] Sequence classification in tabular format written to 65XENP2_aggregated_classification.tsv.                                                                      
+[11:43:58] Proviruses classified.                                                                                                                                           
+[11:43:58] Provirus classification in binary format written to 65XENP2_provirus_aggregated_classification.npz.                                                              
+[11:43:58] Provirus classification in tabular format written to 65XENP2_provirus_aggregated_classification.tsv.                                                             
+[11:43:58] geNomad aggregated-classification finished!                                                                                                                      

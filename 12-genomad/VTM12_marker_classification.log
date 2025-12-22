@@ -1,0 +1,21 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the presence of geNomad markers   │
+│  and other gene-related features.                                                                                                                                        │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    VTM12_marker_classification                                                                                                                                           │
+│    ├── VTM12_marker_classification.json (execution parameters)                                                                                                           │
+│    ├── VTM12_features.tsv (sequence feature data: tabular format)                                                                                                        │
+│    ├── VTM12_features.npz (sequence feature data: binary format)                                                                                                         │
+│    ├── VTM12_marker_classification.tsv (sequence classification: tabular format)                                                                                         │
+│    └── VTM12_marker_classification.npz (sequence classification: binary format)                                                                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:46:53] Executing genomad marker-classification.                                                                                                                         
+[12:46:53] Creating the VTM12_marker_classification directory.                                                                                                              
+[12:46:54] Sequence features computed.                                                                                                                                      
+[12:46:54] Sequence features in binary format written to VTM12_features.npz.                                                                                                
+[12:46:54] Sequence features in tabular format written to VTM12_features.tsv.                                                                                               
+[12:46:54] Sequences classified.                                                                                                                                            
+[12:46:54] Sequence classification in binary format written to VTM12_marker_classification.npz.                                                                             
+[12:46:54] Sequence classification in tabular format written to VTM12_marker_classification.tsv.                                                                            
+[12:46:54] geNomad marker-classification finished!                                                                                                                          

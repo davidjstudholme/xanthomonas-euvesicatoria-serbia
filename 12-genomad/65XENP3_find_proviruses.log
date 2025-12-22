@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.11.2). This will find putative proviral regions within the input sequences.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    65XENP3_find_proviruses                                                                                                                                               │
+│    ├── 65XENP3_find_proviruses.json (execution parameters)                                                                                                               │
+│    ├── 65XENP3_provirus.tsv (provirus data)                                                                                                                              │
+│    ├── 65XENP3_provirus.fna (provirus nucleotide sequences)                                                                                                              │
+│    ├── 65XENP3_provirus_proteins.faa (provirus protein sequences)                                                                                                        │
+│    ├── 65XENP3_provirus_genes.tsv (provirus gene annotation data)                                                                                                        │
+│    ├── 65XENP3_provirus_taxonomy.tsv (provirus taxonomic assignment)                                                                                                     │
+│    ├── 65XENP3_provirus_mmseqs2.tsv (MMseqs2 output file)                                                                                                                │
+│    └── 65XENP3_provirus_aragorn.tsv (Aragorn output file)                                                                                                                │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[11:44:57] Executing genomad find-proviruses.                                                                                                                               
+[11:44:57] Creating the 65XENP3_find_proviruses directory.                                                                                                                  
+[11:45:00] Integrases identified with MMseqs2 and geNomad database (v1.9) were written to 65XENP3_provirus_mmseqs2.tsv.                                                     
+[11:45:00] Deleting 65XENP3_provirus_mmseqs2.                                                                                                                               
+[11:45:00] Deleting 65XENP3_provirus_mmseqs2_input.faa.                                                                                                                     
+[11:45:01] tRNAs identified with Aragorn were written to 65XENP3_provirus_aragorn.tsv.                                                                                      
+[11:45:01] Deleting 65XENP3_provirus_aragorn_input.fna.                                                                                                                     
+[11:45:02] Provirus regions identified.                                                                                                                                     
+[11:45:02] Provirus data was written to 65XENP3_provirus.tsv.                                                                                                               
+[11:45:02] Provirus nucleotide sequences were written to 65XENP3_provirus.fna.                                                                                              
+[11:45:02] Provirus protein sequences were written to 65XENP3_provirus_proteins.faa.                                                                                        
+[11:45:02] Provirus gene data was written to 65XENP3_provirus_genes.tsv.                                                                                                    
+[11:45:02] Taxonomic assignment data was written to 65XENP3_provirus_taxonomy.tsv.                                                                                          
+[11:45:02] geNomad find-proviruses finished!                                                                                                                                

@@ -1,0 +1,18 @@
+{
+    "module": "summary",
+    "input": "XCVKK-C-3.fasta",
+    "input_md5": "34a264ae759eefd22f0ef3584303c06f",
+    "start_time": "2025-12-22T13:12:34.156860+00:00",
+    "parameters": {
+        "min_score": 0.7,
+        "max_fdr": 0.1,
+        "min_number_genes": 1,
+        "min_plasmid_hallmarks": 0,
+        "min_plasmid_hallmarks_short_seqs": 1,
+        "min_virus_hallmarks": 0,
+        "min_virus_hallmarks_short_seqs": 1,
+        "min_plasmid_marker_enrichment": 0.1,
+        "min_virus_marker_enrichment": 0.0,
+        "max_uscg": 4
+    }
+}

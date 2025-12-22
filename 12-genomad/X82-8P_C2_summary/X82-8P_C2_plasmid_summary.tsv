@@ -1,0 +1,20 @@
+seq_name	length	topology	n_genes	genetic_code	plasmid_score	fdr	n_hallmarks	marker_enrichment	conjugation_genes	amr_genes
+JBBIGI010000042.1	19761	No terminal repeats	29	11	1.0000	NA	6	13.9186	MOBP1;I_traI;I_traK;I_traL	NA
+JBBIGI010000035.1	31581	No terminal repeats	41	11	1.0000	NA	10	25.7400	T_virB9;T_virB10;T_virB1;t4cp2;virb4;T_virB5;T_virB6	NA
+JBBIGI010000052.1	9322	No terminal repeats	10	11	1.0000	NA	1	8.5656	NA	NA
+JBBIGI010000050.1	12901	No terminal repeats	15	11	1.0000	NA	2	8.5914	B_traI;T_virB6	NA
+JBBIGI010000017.1	129619	No terminal repeats	134	11	1.0000	NA	18	60.9898	MOBH;G_tfc19;G_tfc18;G_tfc22;G_tfc23;G_tfc24;virb4;G_tfc15;G_tfc14;G_tfc13;G_tfc12;G_tfc11;G_tfc10;G_tfc9;G_tfc8;G_tfc7;t4cp1;G_tfc5;T_virB1;G_tfc3;G_tfc2	NA
+JBBIGI010000074.1	1702	No terminal repeats	3	11	1.0000	NA	1	2.8437	MOBH	NA
+JBBIGI010000038.1	24427	No terminal repeats	22	11	1.0000	NA	1	9.2706	NA	NA
+JBBIGI010000045.1	17126	No terminal repeats	16	11	1.0000	NA	3	6.9401	NA	NA
+JBBIGI010000041.1	19841	No terminal repeats	19	11	0.9999	NA	6	19.3511	I_traN;I_traO;I_traP;I_traQ;I_traR;traU;I_traW;I_traY	NA
+JBBIGI010000037.1	24535	No terminal repeats	32	11	0.9999	NA	8	10.5958	T_virB10;T_virB9;T_virB8;T_virB6;T_virB5;T_virB3;T_virB2	NA
+JBBIGI010000030.1	40299	No terminal repeats	31	11	0.9999	NA	0	6.3270	NA	NA
+JBBIGI010000055.1	8570	No terminal repeats	9	11	0.9999	NA	0	3.4312	NA	NA
+JBBIGI010000049.1	13632	No terminal repeats	13	11	0.9998	NA	0	2.1332	NA	NA
+JBBIGI010000039.1	23454	No terminal repeats	20	11	0.9997	NA	2	11.7573	I_trbB;I_trbA	NA
+JBBIGI010000057.1	6751	No terminal repeats	8	11	0.9997	NA	2	5.1548	T_virB6;T_virB6	NA
+JBBIGI010000059.1	6538	No terminal repeats	9	11	0.9995	NA	1	0.8364	NA	NA
+JBBIGI010000056.1	8493	No terminal repeats	10	11	0.9992	NA	0	0.6240	NA	NA
+JBBIGI010000043.1	19664	No terminal repeats	20	11	0.9960	NA	0	0.3959	NA	NA
+JBBIGI010000051.1	12695	No terminal repeats	12	11	0.9943	NA	2	2.3152	T_virB9;T_virB8	NA

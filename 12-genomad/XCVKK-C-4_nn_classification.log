@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the nucleotide sequence.              │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    XCVKK-C-4_nn_classification                                                                                                                                           │
+│    ├── XCVKK-C-4_nn_classification.json (execution parameters)                                                                                                           │
+│    ├── XCVKK-C-4_encoded_sequences (directory containing encoded sequence data)                                                                                          │
+│    ├── XCVKK-C-4_nn_classification.tsv (contig classification: tabular format)                                                                                           │
+│    └── XCVKK-C-4_nn_classification.npz (contig classification: binary format)                                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[13:13:40] Executing genomad nn-classification.                                                                                                                             
+[13:13:40] Creating the XCVKK-C-4_nn_classification directory.                                                                                                              
+[13:13:40] Creating the XCVKK-C-4_nn_classification/XCVKK-C-4_encoded_sequences directory.                                                                                  
+[13:13:41] Encoded sequence data written to XCVKK-C-4_encoded_sequences.                                                                                                    
+[13:13:47] Sequences classified.                                                                                                                                            
+[13:13:47] Sequence classification in binary format written to XCVKK-C-4_nn_classification.npz.                                                                             
+[13:13:47] Deleting encoded sequence data.                                                                                                                                  
+[13:13:47] Sequence classification in tabular format written to XCVKK-C-4_nn_classification.tsv.                                                                            
+[13:13:47] geNomad nn-classification finished!                                                                                                                              

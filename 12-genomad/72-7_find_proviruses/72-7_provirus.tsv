@@ -1,0 +1,2 @@
+seq_name	source_seq	start	end	length	n_genes	v_vs_c_score	in_seq_edge	integrases
+JBJGLF010000036.1|provirus_2_17726	JBJGLF010000036.1	2	17726	17725	29	29.6717	True	NA

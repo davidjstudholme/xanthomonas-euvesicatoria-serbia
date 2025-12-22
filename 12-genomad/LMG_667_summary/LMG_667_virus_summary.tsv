@@ -1,0 +1,4 @@
+seq_name	length	topology	coordinates	n_genes	genetic_code	virus_score	fdr	n_hallmarks	marker_enrichment	taxonomy
+JTEH01000074.1|provirus_134_10698	10565	Provirus	134-10698	16	11	0.9985	NA	3	16.0897	Viruses;Monodnaviria;Loebvirae;Hofneiviricota;Faserviricetes;Tubulavirales;Inoviridae
+JTEH01000270.1	4007	No terminal repeats	NA	6	11	0.9801	NA	0	1.5790	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;
+JTEH01000266.1	3377	No terminal repeats	NA	3	11	0.9307	NA	0	3.4366	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;

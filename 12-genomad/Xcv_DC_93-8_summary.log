@@ -1,0 +1,24 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.11.2). This will summarize the results across modules into a classification report.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Xcv_DC_93-8_summary                                                                                                                                                   │
+│    ├── Xcv_DC_93-8_summary.json (execution parameters)                                                                                                                   │
+│    ├── Xcv_DC_93-8_virus_summary.tsv (virus classification summary)                                                                                                      │
+│    ├── Xcv_DC_93-8_plasmid_summary.tsv (plasmid classification summary)                                                                                                  │
+│    ├── Xcv_DC_93-8_virus.fna (virus nucleotide FASTA file)                                                                                                               │
+│    ├── Xcv_DC_93-8_plasmid.fna (plasmid nucleotide FASTA file)                                                                                                           │
+│    ├── Xcv_DC_93-8_virus_proteins.faa (virus protein FASTA file)                                                                                                         │
+│    ├── Xcv_DC_93-8_plasmid_proteins.faa (plasmid protein FASTA file)                                                                                                     │
+│    ├── Xcv_DC_93-8_virus_genes.tsv (virus gene annotation data)                                                                                                          │
+│    └── Xcv_DC_93-8_plasmid_genes.tsv (plasmid gene annotation data)                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[13:20:05] Executing genomad summary.                                                                                                                                       
+[13:20:05] Creating the Xcv_DC_93-8_summary directory.                                                                                                                      
+[13:20:05] Using scores from aggregated-classification.                                                                                                                     
+[13:20:05] 11 plasmid(s) and 1 virus(es) were identified.                                                                                                                   
+[13:20:05] Nucleotide sequences were written to Xcv_DC_93-8_plasmid.fna and Xcv_DC_93-8_virus.fna.                                                                          
+[13:20:05] Protein sequences were written to Xcv_DC_93-8_plasmid_proteins.faa and Xcv_DC_93-8_virus_proteins.faa.                                                           
+[13:20:05] Gene annotation data was written to Xcv_DC_93-8_plasmid_genes.tsv and Xcv_DC_93-8_virus_genes.tsv.                                                               
+[13:20:05] Summary files were written to Xcv_DC_93-8_plasmid_summary.tsv and Xcv_DC_93-8_virus_summary.tsv.                                                                 
+[13:20:05] geNomad summary finished!                                                                                                                                        

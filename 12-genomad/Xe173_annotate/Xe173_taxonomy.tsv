@@ -1,0 +1,4 @@
+seq_name	n_genes_with_taxonomy	agreement	taxid	lineage
+CP170252.1	195	0.8875	1246	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;
+CP170253.1	7	1.0000	1246	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;
+CP170254.1	1	1.0000	1246	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;

@@ -1,0 +1,5 @@
+seq_name	length	topology	coordinates	n_genes	genetic_code	virus_score	fdr	n_hallmarks	marker_enrichment	taxonomy
+JBBIGG010000071.1	5819	No terminal repeats	NA	11	11	0.9994	NA	0	7.5987	Viruses;Monodnaviria;Loebvirae;Hofneiviricota;Faserviricetes;Tubulavirales;Inoviridae
+JBBIGG010000092.1	1117	No terminal repeats	NA	2	11	0.9990	NA	2	2.6409	Viruses;Monodnaviria;Loebvirae;Hofneiviricota;Faserviricetes;Tubulavirales;Inoviridae
+JBBIGG010000060.1	9275	No terminal repeats	NA	18	11	0.9979	NA	5	16.8283	Viruses;Monodnaviria;Loebvirae;Hofneiviricota;Faserviricetes;Tubulavirales;Inoviridae
+JBBIGG010000078.1	2821	No terminal repeats	NA	6	11	0.7259	NA	0	1.7183	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;

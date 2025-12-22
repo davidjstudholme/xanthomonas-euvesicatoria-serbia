@@ -1,0 +1,7 @@
+{
+    "module": "aggregated_classification",
+    "input": "VTM4.fasta",
+    "input_md5": "6acd5d66dac6678aaf233da422341e6d",
+    "start_time": "2025-12-22T12:52:08.341409+00:00",
+    "parameters": {}
+}

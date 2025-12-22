@@ -1,0 +1,5 @@
+seq_name	length	topology	n_genes	genetic_code	plasmid_score	fdr	n_hallmarks	marker_enrichment	conjugation_genes	amr_genes
+CP170256.1	20373	No terminal repeats	23	11	1.0000	NA	3	11.5845	MOBP1;T_virB5	NA
+CP170254.1	74634	No terminal repeats	88	11	1.0000	NA	10	38.9714	t4cp2;T_virB9;T_virB8;T_virB6;T_virB5;virb4;T_virB3	NA
+CP170255.1	46001	No terminal repeats	50	11	1.0000	NA	10	20.2136	T_virB10;T_virB2;T_virB3;T_virB5;T_virB6;T_virB8;T_virB9	NA
+CP170253.1	166252	No terminal repeats	187	11	0.9998	NA	9	33.3132	I_traI;I_traK;I_traY;I_traW;I_trbA;traU;I_traN;I_traM	NA

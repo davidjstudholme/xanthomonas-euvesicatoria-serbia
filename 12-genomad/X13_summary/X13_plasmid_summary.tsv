@@ -1,0 +1,19 @@
+seq_name	length	topology	n_genes	genetic_code	plasmid_score	fdr	n_hallmarks	marker_enrichment	conjugation_genes	amr_genes
+JAUALM020000038.1	18296	No terminal repeats	22	11	1.0000	NA	6	19.5903	T_virB6;T_virB5;t4cp2;MOBP1	NA
+JAUALM020000054.1	6245	No terminal repeats	8	11	1.0000	NA	0	4.2600	NA	NA
+JAUALM020000044.1	12819	No terminal repeats	18	11	1.0000	NA	0	3.7839	NA	NA
+JAUALM020000045.1	12712	No terminal repeats	15	11	1.0000	NA	3	11.4351	MOBH;T_virB6;B_traI	NA
+JAUALM020000049.1	10249	No terminal repeats	10	11	1.0000	NA	1	8.5656	NA	NA
+JAUALM020000041.1	14690	No terminal repeats	13	11	1.0000	NA	1	4.1647	NA	NA
+JAUALM020000047.1	11728	No terminal repeats	13	11	1.0000	NA	0	8.3301	NA	NA
+JAUALM020000035.1	24998	No terminal repeats	29	11	1.0000	NA	9	20.2614	T_virB3;virb4;T_virB5;T_virB6;T_virB8;T_virB9;t4cp2	NA
+JAUALM020000057.1	4262	No terminal repeats	5	11	1.0000	NA	0	3.1140	NA	NA
+JAUALM020000032.1	30942	No terminal repeats	37	11	1.0000	NA	10	16.5936	T_virB10;T_virB9;T_virB8;T_virB6;T_virB5;T_virB3;T_virB2	NA
+JAUALM020000046.1	12164	No terminal repeats	10	11	0.9999	NA	0	4.9816	NA	NA
+JAUALM020000056.1	4460	No terminal repeats	8	11	0.9999	NA	0	1.3215	NA	NA
+JAUALM020000058.1	4010	No terminal repeats	5	11	0.9998	NA	0	1.3688	NA	NA
+JAUALM020000025.1	75578	No terminal repeats	84	11	0.9998	NA	3	15.0765	I_traY;I_traW;I_traW;I_trbA	NA
+JAUALM020000051.1	6792	No terminal repeats	7	11	0.9997	NA	0	1.2723	NA	NA
+JAUALM020000026.1	72015	No terminal repeats	81	11	0.9995	NA	6	8.4707	I_traK;I_traI;I_traM;I_traN;traU	NA
+JAUALM020000055.1	4575	No terminal repeats	5	11	0.9970	NA	0	0.4245	NA	NA
+JAUALM020000048.1	10598	No terminal repeats	8	11	0.9518	NA	0	0.3959	NA	NA

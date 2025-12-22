@@ -1,0 +1,9 @@
+{
+    "module": "nn_classification",
+    "input": "Xcv_DC_93-7.fasta",
+    "input_md5": "515bac0b01bd7a60f0bea02313232aa0",
+    "start_time": "2025-12-22T13:18:42.557529+00:00",
+    "parameters": {
+        "single_window": false
+    }
+}

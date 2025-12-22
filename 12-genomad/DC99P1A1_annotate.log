@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    DC99P1A1_annotate                                                                                                                                                     │
+│    ├── DC99P1A1_annotate.json (execution parameters)                                                                                                                     │
+│    ├── DC99P1A1_genes.tsv (gene annotation data)                                                                                                                         │
+│    ├── DC99P1A1_taxonomy.tsv (taxonomic assignment)                                                                                                                      │
+│    ├── DC99P1A1_mmseqs2.tsv (MMseqs2 output file)                                                                                                                        │
+│    └── DC99P1A1_proteins.faa (protein FASTA file)                                                                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:13:49] Executing genomad annotate.                                                                                                                                      
+[12:13:49] Creating the DC99P1A1_annotate directory.                                                                                                                        
+[12:13:52] Proteins predicted with pyrodigal-gv were written to DC99P1A1_proteins.faa.                                                                                      
+[12:14:46] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to DC99P1A1_mmseqs2.tsv.                                                                
+[12:14:46] Deleting DC99P1A1_mmseqs2.                                                                                                                                       
+[12:14:47] Gene data was written to DC99P1A1_genes.tsv.                                                                                                                     
+[12:14:47] Taxonomic assignment data was written to DC99P1A1_taxonomy.tsv.                                                                                                  
+[12:14:47] geNomad annotate finished!                                                                                                                                       

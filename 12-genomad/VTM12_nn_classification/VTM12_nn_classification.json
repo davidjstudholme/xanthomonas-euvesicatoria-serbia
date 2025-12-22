@@ -1,0 +1,9 @@
+{
+    "module": "nn_classification",
+    "input": "VTM12.fasta",
+    "input_md5": "4b088c650620198cec50e7e6001347cc",
+    "start_time": "2025-12-22T12:46:56.620746+00:00",
+    "parameters": {
+        "single_window": false
+    }
+}

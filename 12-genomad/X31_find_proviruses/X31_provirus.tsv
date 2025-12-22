@@ -1,0 +1,2 @@
+seq_name	source_seq	start	end	length	n_genes	v_vs_c_score	in_seq_edge	integrases
+JAUALK020000031.1|provirus_2_11616	JAUALK020000031.1	2	11616	11615	16	18.0966	True	NA

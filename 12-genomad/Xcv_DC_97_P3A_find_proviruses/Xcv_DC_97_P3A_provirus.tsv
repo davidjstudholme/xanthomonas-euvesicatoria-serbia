@@ -1,0 +1,2 @@
+seq_name	source_seq	start	end	length	n_genes	v_vs_c_score	in_seq_edge	integrases
+JAJIVU010000064.1|provirus_3_10579	JAJIVU010000064.1	3	10579	10577	16	18.0059	True	NA

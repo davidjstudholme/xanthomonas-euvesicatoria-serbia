@@ -1,0 +1,7 @@
+{
+    "module": "marker_classification",
+    "input": "LMG_27970.fasta",
+    "input_md5": "2b075d5a3e5ecdea0fbba69474df290c",
+    "start_time": "2025-12-22T12:28:38.282174+00:00",
+    "parameters": {}
+}

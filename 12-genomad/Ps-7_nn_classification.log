@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the nucleotide sequence.              │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Ps-7_nn_classification                                                                                                                                                │
+│    ├── Ps-7_nn_classification.json (execution parameters)                                                                                                                │
+│    ├── Ps-7_encoded_sequences (directory containing encoded sequence data)                                                                                               │
+│    ├── Ps-7_nn_classification.tsv (contig classification: tabular format)                                                                                                │
+│    ├── Ps-7_nn_classification.npz (contig classification: binary format)                                                                                                 │
+│    ├── Ps-7_encoded_proviruses (directory containing encoded sequence data)                                                                                              │
+│    ├── Ps-7_provirus_nn_classification.tsv (provirus classification: tabular format)                                                                                     │
+│    └── Ps-7_provirus_nn_classification.npz (provirus classification: binary format)                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:38:10] Executing genomad nn-classification.                                                                                                                             
+[12:38:10] Creating the Ps-7_nn_classification directory.                                                                                                                   
+[12:38:10] Creating the Ps-7_nn_classification/Ps-7_encoded_sequences directory.                                                                                            
+[12:38:11] Encoded sequence data written to Ps-7_encoded_sequences.                                                                                                         
+[12:38:11] Creating the Ps-7_nn_classification/Ps-7_encoded_proviruses directory.                                                                                           
+[12:38:11] Encoded provirus data written to Ps-7_encoded_proviruses.                                                                                                        
+[12:38:17] Sequences classified.                                                                                                                                            
+[12:38:17] Sequence classification in binary format written to Ps-7_nn_classification.npz.                                                                                  
+[12:38:17] Deleting encoded sequence data.                                                                                                                                  
+[12:38:17] Sequence classification in tabular format written to Ps-7_nn_classification.tsv.                                                                                 
+[12:38:20] Proviruses classified.                                                                                                                                           
+[12:38:20] Provirus classification in binary format written to Ps-7_provirus_nn_classification.npz.                                                                         
+[12:38:20] Deleting encoded provirus data.                                                                                                                                  
+[12:38:20] Provirus classification in tabular format written to Ps-7_provirus_nn_classification.tsv.                                                                        
+[12:38:20] geNomad nn-classification finished!                                                                                                                              

@@ -1,0 +1,31 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the presence of geNomad markers   │
+│  and other gene-related features.                                                                                                                                        │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    66b_marker_classification                                                                                                                                             │
+│    ├── 66b_marker_classification.json (execution parameters)                                                                                                             │
+│    ├── 66b_features.tsv (sequence feature data: tabular format)                                                                                                          │
+│    ├── 66b_features.npz (sequence feature data: binary format)                                                                                                           │
+│    ├── 66b_marker_classification.tsv (sequence classification: tabular format)                                                                                           │
+│    ├── 66b_marker_classification.npz (sequence classification: binary format)                                                                                            │
+│    ├── 66b_provirus_features.tsv (provirus feature data: tabular format)                                                                                                 │
+│    ├── 66b_provirus_features.npz (provirus feature data: binary format)                                                                                                  │
+│    ├── 66b_provirus_marker_classification.tsv (provirus classification: tabular format)                                                                                  │
+│    └── 66b_provirus_marker_classification.npz (provirus classification: binary format)                                                                                   │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[11:46:19] Executing genomad marker-classification.                                                                                                                         
+[11:46:19] Creating the 66b_marker_classification directory.                                                                                                                
+[11:46:20] Sequence features computed.                                                                                                                                      
+[11:46:20] Sequence features in binary format written to 66b_features.npz.                                                                                                  
+[11:46:20] Sequence features in tabular format written to 66b_features.tsv.                                                                                                 
+[11:46:21] Provirus features computed.                                                                                                                                      
+[11:46:21] Provirus features in binary format written to 66b_provirus_features.npz.                                                                                         
+[11:46:21] Provirus features in tabular format written to 66b_provirus_features.tsv.                                                                                        
+[11:46:21] Sequences classified.                                                                                                                                            
+[11:46:21] Sequence classification in binary format written to 66b_marker_classification.npz.                                                                               
+[11:46:21] Sequence classification in tabular format written to 66b_marker_classification.tsv.                                                                              
+[11:46:21] Proviruses classified.                                                                                                                                           
+[11:46:21] Provirus classification in binary format written to 66b_provirus_marker_classification.npz.                                                                      
+[11:46:21] Provirus classification in tabular format written to 66b_provirus_marker_classification.tsv.                                                                     
+[11:46:21] geNomad marker-classification finished!                                                                                                                          

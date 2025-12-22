@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    XVP26_annotate                                                                                                                                                        │
+│    ├── XVP26_annotate.json (execution parameters)                                                                                                                        │
+│    ├── XVP26_genes.tsv (gene annotation data)                                                                                                                            │
+│    ├── XVP26_taxonomy.tsv (taxonomic assignment)                                                                                                                         │
+│    ├── XVP26_mmseqs2.tsv (MMseqs2 output file)                                                                                                                           │
+│    └── XVP26_proteins.faa (protein FASTA file)                                                                                                                           │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[13:15:06] Executing genomad annotate.                                                                                                                                      
+[13:15:06] Creating the XVP26_annotate directory.                                                                                                                           
+[13:15:09] Proteins predicted with pyrodigal-gv were written to XVP26_proteins.faa.                                                                                         
+[13:16:03] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to XVP26_mmseqs2.tsv.                                                                   
+[13:16:03] Deleting XVP26_mmseqs2.                                                                                                                                          
+[13:16:03] Gene data was written to XVP26_genes.tsv.                                                                                                                        
+[13:16:03] Taxonomic assignment data was written to XVP26_taxonomy.tsv.                                                                                                     
+[13:16:03] geNomad annotate finished!                                                                                                                                       

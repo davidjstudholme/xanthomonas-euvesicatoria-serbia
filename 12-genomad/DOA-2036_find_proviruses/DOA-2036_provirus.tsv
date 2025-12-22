@@ -1,0 +1,2 @@
+seq_name	source_seq	start	end	length	n_genes	v_vs_c_score	in_seq_edge	integrases
+JBHJCL010000043.1|provirus_4400_15318	JBHJCL010000043.1	4400	15318	10919	17	15.3036	True	NA

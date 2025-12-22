@@ -1,0 +1,3 @@
+seq_name	length	topology	coordinates	n_genes	genetic_code	virus_score	fdr	n_hallmarks	marker_enrichment	taxonomy
+JAWUDQ010000043.1|provirus_4475_15322	10848	Provirus	4475-15322	17	11	0.9969	NA	2	10.6374	Viruses;Monodnaviria;Loebvirae;Hofneiviricota;Faserviricetes;Tubulavirales;Inoviridae
+JAWUDQ010000063.1	4824	No terminal repeats	NA	7	11	0.8570	NA	0	0.0000	Unclassified

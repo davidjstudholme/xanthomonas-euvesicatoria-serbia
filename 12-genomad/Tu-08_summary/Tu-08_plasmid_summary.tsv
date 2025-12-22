@@ -1,0 +1,17 @@
+seq_name	length	topology	n_genes	genetic_code	plasmid_score	fdr	n_hallmarks	marker_enrichment	conjugation_genes	amr_genes
+JAQRDX010000047.1	9808	No terminal repeats	13	11	1.0000	NA	1	4.1705	NA	NA
+JAQRDX010000044.1	13999	No terminal repeats	16	11	1.0000	NA	3	11.4351	B_traI;T_virB6;MOBH	NA
+JAQRDX010000045.1	13073	No terminal repeats	20	11	1.0000	NA	0	3.7839	NA	NA
+JAQRDX010000032.1	31460	DTR	40	11	1.0000	NA	10	24.4440	t4cp2;T_virB1;T_virB10;T_virB9;T_virB6;T_virB5;virb4	NA
+JAQRDX010000049.1	7921	No terminal repeats	11	11	1.0000	NA	1	8.8638	NA	NA
+JAQRDX010000048.1	8453	No terminal repeats	10	11	1.0000	NA	0	4.2600	NA	NA
+JAQRDX010000034.1	25252	No terminal repeats	29	11	1.0000	NA	9	20.2614	T_virB3;virb4;T_virB5;T_virB6;T_virB8;T_virB9;t4cp2	NA
+JAQRDX010000051.1	6341	No terminal repeats	9	11	1.0000	NA	0	2.1428	NA	NA
+JAQRDX010000042.1	15073	No terminal repeats	14	11	1.0000	NA	1	4.1647	NA	NA
+JAQRDX010000046.1	12438	No terminal repeats	10	11	1.0000	NA	0	4.9816	NA	NA
+JAQRDX010000027.1	41202	No terminal repeats	48	11	0.9999	NA	10	18.0106	T_virB2;T_virB3;T_virB5;T_virB6;T_virB8;T_virB9;T_virB10	NA
+JAQRDX010000028.1	41054	No terminal repeats	31	11	0.9999	NA	0	6.3270	NA	NA
+JAQRDX010000053.1	4987	No terminal repeats	6	11	0.9999	NA	0	5.0569	NA	NA
+JAQRDX010000043.1	14663	No terminal repeats	14	11	0.9969	NA	0	2.1353	NA	NA
+JAQRDX010000038.1	21726	No terminal repeats	21	11	0.9876	NA	0	0.5447	NA	NA
+JAQRDX010000054.1	4931	No terminal repeats	3	11	0.9724	NA	0	1.4171	NA	NA

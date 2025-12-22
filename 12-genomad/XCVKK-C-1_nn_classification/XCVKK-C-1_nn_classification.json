@@ -1,0 +1,9 @@
+{
+    "module": "nn_classification",
+    "input": "XCVKK-C-1.fasta",
+    "input_md5": "b017df1f41626b9b822eb6d99b413d53",
+    "start_time": "2025-12-22T13:09:53.484243+00:00",
+    "parameters": {
+        "single_window": false
+    }
+}

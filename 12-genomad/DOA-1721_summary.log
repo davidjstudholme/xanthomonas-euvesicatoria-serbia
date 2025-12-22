@@ -1,0 +1,24 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.11.2). This will summarize the results across modules into a classification report.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    DOA-1721_summary                                                                                                                                                      │
+│    ├── DOA-1721_summary.json (execution parameters)                                                                                                                      │
+│    ├── DOA-1721_virus_summary.tsv (virus classification summary)                                                                                                         │
+│    ├── DOA-1721_plasmid_summary.tsv (plasmid classification summary)                                                                                                     │
+│    ├── DOA-1721_virus.fna (virus nucleotide FASTA file)                                                                                                                  │
+│    ├── DOA-1721_plasmid.fna (plasmid nucleotide FASTA file)                                                                                                              │
+│    ├── DOA-1721_virus_proteins.faa (virus protein FASTA file)                                                                                                            │
+│    ├── DOA-1721_plasmid_proteins.faa (plasmid protein FASTA file)                                                                                                        │
+│    ├── DOA-1721_virus_genes.tsv (virus gene annotation data)                                                                                                             │
+│    └── DOA-1721_plasmid_genes.tsv (plasmid gene annotation data)                                                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:17:36] Executing genomad summary.                                                                                                                                       
+[12:17:36] Creating the DOA-1721_summary directory.                                                                                                                         
+[12:17:36] Using scores from aggregated-classification.                                                                                                                     
+[12:17:36] 17 plasmid(s) and 1 virus(es) were identified.                                                                                                                   
+[12:17:36] Nucleotide sequences were written to DOA-1721_plasmid.fna and DOA-1721_virus.fna.                                                                                
+[12:17:36] Protein sequences were written to DOA-1721_plasmid_proteins.faa and DOA-1721_virus_proteins.faa.                                                                 
+[12:17:36] Gene annotation data was written to DOA-1721_plasmid_genes.tsv and DOA-1721_virus_genes.tsv.                                                                     
+[12:17:36] Summary files were written to DOA-1721_plasmid_summary.tsv and DOA-1721_virus_summary.tsv.                                                                       
+[12:17:36] geNomad summary finished!                                                                                                                                        

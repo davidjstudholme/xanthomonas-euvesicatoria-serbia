@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.11.2). This will find putative proviral regions within the input sequences.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Tabasco1_find_proviruses                                                                                                                                              │
+│    ├── Tabasco1_find_proviruses.json (execution parameters)                                                                                                              │
+│    ├── Tabasco1_provirus.tsv (provirus data)                                                                                                                             │
+│    ├── Tabasco1_provirus.fna (provirus nucleotide sequences)                                                                                                             │
+│    ├── Tabasco1_provirus_proteins.faa (provirus protein sequences)                                                                                                       │
+│    ├── Tabasco1_provirus_genes.tsv (provirus gene annotation data)                                                                                                       │
+│    ├── Tabasco1_provirus_taxonomy.tsv (provirus taxonomic assignment)                                                                                                    │
+│    ├── Tabasco1_provirus_mmseqs2.tsv (MMseqs2 output file)                                                                                                               │
+│    └── Tabasco1_provirus_aragorn.tsv (Aragorn output file)                                                                                                               │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:39:20] Executing genomad find-proviruses.                                                                                                                               
+[12:39:20] Creating the Tabasco1_find_proviruses directory.                                                                                                                 
+[12:39:22] Integrases identified with MMseqs2 and geNomad database (v1.9) were written to Tabasco1_provirus_mmseqs2.tsv.                                                    
+[12:39:22] Deleting Tabasco1_provirus_mmseqs2.                                                                                                                              
+[12:39:22] Deleting Tabasco1_provirus_mmseqs2_input.faa.                                                                                                                    
+[12:39:23] tRNAs identified with Aragorn were written to Tabasco1_provirus_aragorn.tsv.                                                                                     
+[12:39:23] Deleting Tabasco1_provirus_aragorn_input.fna.                                                                                                                    
+[12:39:24] Provirus regions identified.                                                                                                                                     
+[12:39:24] Provirus data was written to Tabasco1_provirus.tsv.                                                                                                              
+[12:39:24] Provirus nucleotide sequences were written to Tabasco1_provirus.fna.                                                                                             
+[12:39:24] Provirus protein sequences were written to Tabasco1_provirus_proteins.faa.                                                                                       
+[12:39:24] Provirus gene data was written to Tabasco1_provirus_genes.tsv.                                                                                                   
+[12:39:24] Taxonomic assignment data was written to Tabasco1_provirus_taxonomy.tsv.                                                                                         
+[12:39:24] geNomad find-proviruses finished!                                                                                                                                

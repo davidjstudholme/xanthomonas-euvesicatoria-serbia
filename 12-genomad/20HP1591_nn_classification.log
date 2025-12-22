@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the nucleotide sequence.              │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    20HP1591_nn_classification                                                                                                                                            │
+│    ├── 20HP1591_nn_classification.json (execution parameters)                                                                                                            │
+│    ├── 20HP1591_encoded_sequences (directory containing encoded sequence data)                                                                                           │
+│    ├── 20HP1591_nn_classification.tsv (contig classification: tabular format)                                                                                            │
+│    └── 20HP1591_nn_classification.npz (contig classification: binary format)                                                                                             │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[11:29:52] Executing genomad nn-classification.                                                                                                                             
+[11:29:52] Creating the 20HP1591_nn_classification directory.                                                                                                               
+[11:29:52] Creating the 20HP1591_nn_classification/20HP1591_encoded_sequences directory.                                                                                    
+[11:29:56] Encoded sequence data written to 20HP1591_encoded_sequences.                                                                                                     
+[11:30:08] Sequences classified.                                                                                                                                            
+[11:30:08] Sequence classification in binary format written to 20HP1591_nn_classification.npz.                                                                              
+[11:30:08] Deleting encoded sequence data.                                                                                                                                  
+[11:30:08] Sequence classification in tabular format written to 20HP1591_nn_classification.tsv.                                                                             
+[11:30:08] geNomad nn-classification finished!                                                                                                                              

@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.11.2). This will find putative proviral regions within the input sequences.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    ATCC_11633_find_proviruses                                                                                                                                            │
+│    ├── ATCC_11633_find_proviruses.json (execution parameters)                                                                                                            │
+│    ├── ATCC_11633_provirus.tsv (provirus data)                                                                                                                           │
+│    ├── ATCC_11633_provirus.fna (provirus nucleotide sequences)                                                                                                           │
+│    ├── ATCC_11633_provirus_proteins.faa (provirus protein sequences)                                                                                                     │
+│    ├── ATCC_11633_provirus_genes.tsv (provirus gene annotation data)                                                                                                     │
+│    ├── ATCC_11633_provirus_taxonomy.tsv (provirus taxonomic assignment)                                                                                                  │
+│    ├── ATCC_11633_provirus_mmseqs2.tsv (MMseqs2 output file)                                                                                                             │
+│    └── ATCC_11633_provirus_aragorn.tsv (Aragorn output file)                                                                                                             │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:13:30] Executing genomad find-proviruses.                                                                                                                               
+[12:13:30] Creating the ATCC_11633_find_proviruses directory.                                                                                                               
+[12:13:32] Integrases identified with MMseqs2 and geNomad database (v1.9) were written to ATCC_11633_provirus_mmseqs2.tsv.                                                  
+[12:13:32] Deleting ATCC_11633_provirus_mmseqs2.                                                                                                                            
+[12:13:32] Deleting ATCC_11633_provirus_mmseqs2_input.faa.                                                                                                                  
+[12:13:33] tRNAs identified with Aragorn were written to ATCC_11633_provirus_aragorn.tsv.                                                                                   
+[12:13:33] Deleting ATCC_11633_provirus_aragorn_input.fna.                                                                                                                  
+[12:13:34] Provirus regions identified.                                                                                                                                     
+[12:13:34] Provirus data was written to ATCC_11633_provirus.tsv.                                                                                                            
+[12:13:34] Provirus nucleotide sequences were written to ATCC_11633_provirus.fna.                                                                                           
+[12:13:34] Provirus protein sequences were written to ATCC_11633_provirus_proteins.faa.                                                                                     
+[12:13:34] Provirus gene data was written to ATCC_11633_provirus_genes.tsv.                                                                                                 
+[12:13:34] Taxonomic assignment data was written to ATCC_11633_provirus_taxonomy.tsv.                                                                                       
+[12:13:34] geNomad find-proviruses finished!                                                                                                                                

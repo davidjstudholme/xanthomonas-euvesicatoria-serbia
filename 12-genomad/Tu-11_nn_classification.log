@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the nucleotide sequence.              │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Tu-11_nn_classification                                                                                                                                               │
+│    ├── Tu-11_nn_classification.json (execution parameters)                                                                                                               │
+│    ├── Tu-11_encoded_sequences (directory containing encoded sequence data)                                                                                              │
+│    ├── Tu-11_nn_classification.tsv (contig classification: tabular format)                                                                                               │
+│    ├── Tu-11_nn_classification.npz (contig classification: binary format)                                                                                                │
+│    ├── Tu-11_encoded_proviruses (directory containing encoded sequence data)                                                                                             │
+│    ├── Tu-11_provirus_nn_classification.tsv (provirus classification: tabular format)                                                                                    │
+│    └── Tu-11_provirus_nn_classification.npz (provirus classification: binary format)                                                                                     │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:44:28] Executing genomad nn-classification.                                                                                                                             
+[12:44:28] Creating the Tu-11_nn_classification directory.                                                                                                                  
+[12:44:28] Creating the Tu-11_nn_classification/Tu-11_encoded_sequences directory.                                                                                          
+[12:44:29] Encoded sequence data written to Tu-11_encoded_sequences.                                                                                                        
+[12:44:29] Creating the Tu-11_nn_classification/Tu-11_encoded_proviruses directory.                                                                                         
+[12:44:29] Encoded provirus data written to Tu-11_encoded_proviruses.                                                                                                       
+[12:44:35] Sequences classified.                                                                                                                                            
+[12:44:35] Sequence classification in binary format written to Tu-11_nn_classification.npz.                                                                                 
+[12:44:35] Deleting encoded sequence data.                                                                                                                                  
+[12:44:35] Sequence classification in tabular format written to Tu-11_nn_classification.tsv.                                                                                
+[12:44:37] Proviruses classified.                                                                                                                                           
+[12:44:37] Provirus classification in binary format written to Tu-11_provirus_nn_classification.npz.                                                                        
+[12:44:37] Deleting encoded provirus data.                                                                                                                                  
+[12:44:37] Provirus classification in tabular format written to Tu-11_provirus_nn_classification.tsv.                                                                       
+[12:44:37] geNomad nn-classification finished!                                                                                                                              

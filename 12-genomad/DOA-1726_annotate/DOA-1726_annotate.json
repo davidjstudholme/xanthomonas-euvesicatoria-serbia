@@ -1,0 +1,11 @@
+{
+    "module": "annotate",
+    "input": "DOA-1726.fasta",
+    "input_md5": "e690e27ca1b56c41732040a98b3ce483",
+    "start_time": "2025-12-22T12:17:39.080858+00:00",
+    "parameters": {
+        "use_minimal_db": false,
+        "sensitivity": 4.2,
+        "evalue": 0.001
+    }
+}

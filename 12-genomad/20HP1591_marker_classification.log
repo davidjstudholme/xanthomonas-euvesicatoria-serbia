@@ -1,0 +1,21 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the presence of geNomad markers   │
+│  and other gene-related features.                                                                                                                                        │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    20HP1591_marker_classification                                                                                                                                        │
+│    ├── 20HP1591_marker_classification.json (execution parameters)                                                                                                        │
+│    ├── 20HP1591_features.tsv (sequence feature data: tabular format)                                                                                                     │
+│    ├── 20HP1591_features.npz (sequence feature data: binary format)                                                                                                      │
+│    ├── 20HP1591_marker_classification.tsv (sequence classification: tabular format)                                                                                      │
+│    └── 20HP1591_marker_classification.npz (sequence classification: binary format)                                                                                       │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[11:29:15] Executing genomad marker-classification.                                                                                                                         
+[11:29:15] Creating the 20HP1591_marker_classification directory.                                                                                                           
+[11:29:15] Sequence features computed.                                                                                                                                      
+[11:29:15] Sequence features in binary format written to 20HP1591_features.npz.                                                                                             
+[11:29:15] Sequence features in tabular format written to 20HP1591_features.tsv.                                                                                            
+[11:29:16] Sequences classified.                                                                                                                                            
+[11:29:16] Sequence classification in binary format written to 20HP1591_marker_classification.npz.                                                                          
+[11:29:16] Sequence classification in tabular format written to 20HP1591_marker_classification.tsv.                                                                         
+[11:29:16] geNomad marker-classification finished!                                                                                                                          

@@ -1,0 +1,31 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the presence of geNomad markers   │
+│  and other gene-related features.                                                                                                                                        │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    LMG_667_marker_classification                                                                                                                                         │
+│    ├── LMG_667_marker_classification.json (execution parameters)                                                                                                         │
+│    ├── LMG_667_features.tsv (sequence feature data: tabular format)                                                                                                      │
+│    ├── LMG_667_features.npz (sequence feature data: binary format)                                                                                                       │
+│    ├── LMG_667_marker_classification.tsv (sequence classification: tabular format)                                                                                       │
+│    ├── LMG_667_marker_classification.npz (sequence classification: binary format)                                                                                        │
+│    ├── LMG_667_provirus_features.tsv (provirus feature data: tabular format)                                                                                             │
+│    ├── LMG_667_provirus_features.npz (provirus feature data: binary format)                                                                                              │
+│    ├── LMG_667_provirus_marker_classification.tsv (provirus classification: tabular format)                                                                              │
+│    └── LMG_667_provirus_marker_classification.npz (provirus classification: binary format)                                                                               │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:29:58] Executing genomad marker-classification.                                                                                                                         
+[12:29:58] Creating the LMG_667_marker_classification directory.                                                                                                            
+[12:29:58] Sequence features computed.                                                                                                                                      
+[12:29:58] Sequence features in binary format written to LMG_667_features.npz.                                                                                              
+[12:29:58] Sequence features in tabular format written to LMG_667_features.tsv.                                                                                             
+[12:29:59] Provirus features computed.                                                                                                                                      
+[12:29:59] Provirus features in binary format written to LMG_667_provirus_features.npz.                                                                                     
+[12:29:59] Provirus features in tabular format written to LMG_667_provirus_features.tsv.                                                                                    
+[12:29:59] Sequences classified.                                                                                                                                            
+[12:29:59] Sequence classification in binary format written to LMG_667_marker_classification.npz.                                                                           
+[12:29:59] Sequence classification in tabular format written to LMG_667_marker_classification.tsv.                                                                          
+[12:29:59] Proviruses classified.                                                                                                                                           
+[12:29:59] Provirus classification in binary format written to LMG_667_provirus_marker_classification.npz.                                                                  
+[12:29:59] Provirus classification in tabular format written to LMG_667_provirus_marker_classification.tsv.                                                                 
+[12:29:59] geNomad marker-classification finished!                                                                                                                          

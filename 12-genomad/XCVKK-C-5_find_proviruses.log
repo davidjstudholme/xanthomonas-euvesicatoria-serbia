@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.11.2). This will find putative proviral regions within the input sequences.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    XCVKK-C-5_find_proviruses                                                                                                                                             │
+│    ├── XCVKK-C-5_find_proviruses.json (execution parameters)                                                                                                             │
+│    ├── XCVKK-C-5_provirus.tsv (provirus data)                                                                                                                            │
+│    ├── XCVKK-C-5_provirus.fna (provirus nucleotide sequences)                                                                                                            │
+│    ├── XCVKK-C-5_provirus_proteins.faa (provirus protein sequences)                                                                                                      │
+│    ├── XCVKK-C-5_provirus_genes.tsv (provirus gene annotation data)                                                                                                      │
+│    ├── XCVKK-C-5_provirus_taxonomy.tsv (provirus taxonomic assignment)                                                                                                   │
+│    ├── XCVKK-C-5_provirus_mmseqs2.tsv (MMseqs2 output file)                                                                                                              │
+│    └── XCVKK-C-5_provirus_aragorn.tsv (Aragorn output file)                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[13:14:47] Executing genomad find-proviruses.                                                                                                                               
+[13:14:47] Creating the XCVKK-C-5_find_proviruses directory.                                                                                                                
+[13:14:49] Integrases identified with MMseqs2 and geNomad database (v1.9) were written to XCVKK-C-5_provirus_mmseqs2.tsv.                                                   
+[13:14:49] Deleting XCVKK-C-5_provirus_mmseqs2.                                                                                                                             
+[13:14:49] Deleting XCVKK-C-5_provirus_mmseqs2_input.faa.                                                                                                                   
+[13:14:50] tRNAs identified with Aragorn were written to XCVKK-C-5_provirus_aragorn.tsv.                                                                                    
+[13:14:50] Deleting XCVKK-C-5_provirus_aragorn_input.fna.                                                                                                                   
+[13:14:50] Provirus regions identified.                                                                                                                                     
+[13:14:50] Provirus data was written to XCVKK-C-5_provirus.tsv.                                                                                                             
+[13:14:50] Provirus nucleotide sequences were written to XCVKK-C-5_provirus.fna.                                                                                            
+[13:14:50] Provirus protein sequences were written to XCVKK-C-5_provirus_proteins.faa.                                                                                      
+[13:14:50] Provirus gene data was written to XCVKK-C-5_provirus_genes.tsv.                                                                                                  
+[13:14:51] Taxonomic assignment data was written to XCVKK-C-5_provirus_taxonomy.tsv.                                                                                        
+[13:14:51] geNomad find-proviruses finished!                                                                                                                                

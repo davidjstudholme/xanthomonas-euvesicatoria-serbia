@@ -1,0 +1,2 @@
+seq_name	source_seq	start	end	length	n_genes	v_vs_c_score	in_seq_edge	integrases
+JTEJ01000050.1|provirus_1_8764	JTEJ01000050.1	1	8764	8764	14	12.5615	True	NA

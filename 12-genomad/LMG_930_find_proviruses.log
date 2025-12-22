@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.11.2). This will find putative proviral regions within the input sequences.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    LMG_930_find_proviruses                                                                                                                                               │
+│    ├── LMG_930_find_proviruses.json (execution parameters)                                                                                                               │
+│    ├── LMG_930_provirus.tsv (provirus data)                                                                                                                              │
+│    ├── LMG_930_provirus.fna (provirus nucleotide sequences)                                                                                                              │
+│    ├── LMG_930_provirus_proteins.faa (provirus protein sequences)                                                                                                        │
+│    ├── LMG_930_provirus_genes.tsv (provirus gene annotation data)                                                                                                        │
+│    ├── LMG_930_provirus_taxonomy.tsv (provirus taxonomic assignment)                                                                                                     │
+│    ├── LMG_930_provirus_mmseqs2.tsv (MMseqs2 output file)                                                                                                                │
+│    └── LMG_930_provirus_aragorn.tsv (Aragorn output file)                                                                                                                │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:34:00] Executing genomad find-proviruses.                                                                                                                               
+[12:34:00] Creating the LMG_930_find_proviruses directory.                                                                                                                  
+[12:34:03] Integrases identified with MMseqs2 and geNomad database (v1.9) were written to LMG_930_provirus_mmseqs2.tsv.                                                     
+[12:34:03] Deleting LMG_930_provirus_mmseqs2.                                                                                                                               
+[12:34:03] Deleting LMG_930_provirus_mmseqs2_input.faa.                                                                                                                     
+[12:34:19] tRNAs identified with Aragorn were written to LMG_930_provirus_aragorn.tsv.                                                                                      
+[12:34:19] Deleting LMG_930_provirus_aragorn_input.fna.                                                                                                                     
+[12:34:20] Provirus regions identified.                                                                                                                                     
+[12:34:20] Provirus data was written to LMG_930_provirus.tsv.                                                                                                               
+[12:34:20] Provirus nucleotide sequences were written to LMG_930_provirus.fna.                                                                                              
+[12:34:20] Provirus protein sequences were written to LMG_930_provirus_proteins.faa.                                                                                        
+[12:34:20] Provirus gene data was written to LMG_930_provirus_genes.tsv.                                                                                                    
+[12:34:20] Taxonomic assignment data was written to LMG_930_provirus_taxonomy.tsv.                                                                                          
+[12:34:20] geNomad find-proviruses finished!                                                                                                                                

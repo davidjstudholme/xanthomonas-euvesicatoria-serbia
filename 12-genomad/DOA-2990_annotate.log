@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    DOA-2990_annotate                                                                                                                                                     │
+│    ├── DOA-2990_annotate.json (execution parameters)                                                                                                                     │
+│    ├── DOA-2990_genes.tsv (gene annotation data)                                                                                                                         │
+│    ├── DOA-2990_taxonomy.tsv (taxonomic assignment)                                                                                                                      │
+│    ├── DOA-2990_mmseqs2.tsv (MMseqs2 output file)                                                                                                                        │
+│    └── DOA-2990_proteins.faa (protein FASTA file)                                                                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:23:49] Executing genomad annotate.                                                                                                                                      
+[12:23:49] Creating the DOA-2990_annotate directory.                                                                                                                        
+[12:23:52] Proteins predicted with pyrodigal-gv were written to DOA-2990_proteins.faa.                                                                                      
+[12:24:45] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to DOA-2990_mmseqs2.tsv.                                                                
+[12:24:45] Deleting DOA-2990_mmseqs2.                                                                                                                                       
+[12:24:46] Gene data was written to DOA-2990_genes.tsv.                                                                                                                     
+[12:24:46] Taxonomic assignment data was written to DOA-2990_taxonomy.tsv.                                                                                                  
+[12:24:46] geNomad annotate finished!                                                                                                                                       

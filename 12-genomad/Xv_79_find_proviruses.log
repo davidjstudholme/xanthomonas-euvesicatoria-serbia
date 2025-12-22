@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.11.2). This will find putative proviral regions within the input sequences.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Xv_79_find_proviruses                                                                                                                                                 │
+│    ├── Xv_79_find_proviruses.json (execution parameters)                                                                                                                 │
+│    ├── Xv_79_provirus.tsv (provirus data)                                                                                                                                │
+│    ├── Xv_79_provirus.fna (provirus nucleotide sequences)                                                                                                                │
+│    ├── Xv_79_provirus_proteins.faa (provirus protein sequences)                                                                                                          │
+│    ├── Xv_79_provirus_genes.tsv (provirus gene annotation data)                                                                                                          │
+│    ├── Xv_79_provirus_taxonomy.tsv (provirus taxonomic assignment)                                                                                                       │
+│    ├── Xv_79_provirus_mmseqs2.tsv (MMseqs2 output file)                                                                                                                  │
+│    └── Xv_79_provirus_aragorn.tsv (Aragorn output file)                                                                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[13:39:33] Executing genomad find-proviruses.                                                                                                                               
+[13:39:33] Creating the Xv_79_find_proviruses directory.                                                                                                                    
+[13:39:35] Integrases identified with MMseqs2 and geNomad database (v1.9) were written to Xv_79_provirus_mmseqs2.tsv.                                                       
+[13:39:35] Deleting Xv_79_provirus_mmseqs2.                                                                                                                                 
+[13:39:35] Deleting Xv_79_provirus_mmseqs2_input.faa.                                                                                                                       
+[13:39:36] tRNAs identified with Aragorn were written to Xv_79_provirus_aragorn.tsv.                                                                                        
+[13:39:36] Deleting Xv_79_provirus_aragorn_input.fna.                                                                                                                       
+[13:39:36] Provirus regions identified.                                                                                                                                     
+[13:39:36] Provirus data was written to Xv_79_provirus.tsv.                                                                                                                 
+[13:39:36] Provirus nucleotide sequences were written to Xv_79_provirus.fna.                                                                                                
+[13:39:36] Provirus protein sequences were written to Xv_79_provirus_proteins.faa.                                                                                          
+[13:39:36] Provirus gene data was written to Xv_79_provirus_genes.tsv.                                                                                                      
+[13:39:36] Taxonomic assignment data was written to Xv_79_provirus_taxonomy.tsv.                                                                                            
+[13:39:36] geNomad find-proviruses finished!                                                                                                                                

@@ -1,0 +1,24 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.11.2). This will summarize the results across modules into a classification report.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    ATCC_11633_summary                                                                                                                                                    │
+│    ├── ATCC_11633_summary.json (execution parameters)                                                                                                                    │
+│    ├── ATCC_11633_virus_summary.tsv (virus classification summary)                                                                                                       │
+│    ├── ATCC_11633_plasmid_summary.tsv (plasmid classification summary)                                                                                                   │
+│    ├── ATCC_11633_virus.fna (virus nucleotide FASTA file)                                                                                                                │
+│    ├── ATCC_11633_plasmid.fna (plasmid nucleotide FASTA file)                                                                                                            │
+│    ├── ATCC_11633_virus_proteins.faa (virus protein FASTA file)                                                                                                          │
+│    ├── ATCC_11633_plasmid_proteins.faa (plasmid protein FASTA file)                                                                                                      │
+│    ├── ATCC_11633_virus_genes.tsv (virus gene annotation data)                                                                                                           │
+│    └── ATCC_11633_plasmid_genes.tsv (plasmid gene annotation data)                                                                                                       │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:13:47] Executing genomad summary.                                                                                                                                       
+[12:13:47] Creating the ATCC_11633_summary directory.                                                                                                                       
+[12:13:47] Using scores from aggregated-classification.                                                                                                                     
+[12:13:47] 23 plasmid(s) and 3 virus(es) were identified.                                                                                                                   
+[12:13:47] Nucleotide sequences were written to ATCC_11633_plasmid.fna and ATCC_11633_virus.fna.                                                                            
+[12:13:47] Protein sequences were written to ATCC_11633_plasmid_proteins.faa and ATCC_11633_virus_proteins.faa.                                                             
+[12:13:47] Gene annotation data was written to ATCC_11633_plasmid_genes.tsv and ATCC_11633_virus_genes.tsv.                                                                 
+[12:13:47] Summary files were written to ATCC_11633_plasmid_summary.tsv and ATCC_11633_virus_summary.tsv.                                                                   
+[12:13:47] geNomad summary finished!                                                                                                                                        

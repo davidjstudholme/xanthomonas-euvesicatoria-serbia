@@ -1,0 +1,11 @@
+{
+    "module": "annotate",
+    "input": "VTM10.fasta",
+    "input_md5": "b82ec2e024ec257094b45e14041b7806",
+    "start_time": "2025-12-22T12:44:39.712834+00:00",
+    "parameters": {
+        "use_minimal_db": false,
+        "sensitivity": 4.2,
+        "evalue": 0.001
+    }
+}

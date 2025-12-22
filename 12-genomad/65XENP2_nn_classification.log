@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the nucleotide sequence.              │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    65XENP2_nn_classification                                                                                                                                             │
+│    ├── 65XENP2_nn_classification.json (execution parameters)                                                                                                             │
+│    ├── 65XENP2_encoded_sequences (directory containing encoded sequence data)                                                                                            │
+│    ├── 65XENP2_nn_classification.tsv (contig classification: tabular format)                                                                                             │
+│    ├── 65XENP2_nn_classification.npz (contig classification: binary format)                                                                                              │
+│    ├── 65XENP2_encoded_proviruses (directory containing encoded sequence data)                                                                                           │
+│    ├── 65XENP2_provirus_nn_classification.tsv (provirus classification: tabular format)                                                                                  │
+│    └── 65XENP2_provirus_nn_classification.npz (provirus classification: binary format)                                                                                   │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[11:43:48] Executing genomad nn-classification.                                                                                                                             
+[11:43:48] Creating the 65XENP2_nn_classification directory.                                                                                                                
+[11:43:48] Creating the 65XENP2_nn_classification/65XENP2_encoded_sequences directory.                                                                                      
+[11:43:49] Encoded sequence data written to 65XENP2_encoded_sequences.                                                                                                      
+[11:43:49] Creating the 65XENP2_nn_classification/65XENP2_encoded_proviruses directory.                                                                                     
+[11:43:49] Encoded provirus data written to 65XENP2_encoded_proviruses.                                                                                                     
+[11:43:55] Sequences classified.                                                                                                                                            
+[11:43:55] Sequence classification in binary format written to 65XENP2_nn_classification.npz.                                                                               
+[11:43:55] Deleting encoded sequence data.                                                                                                                                  
+[11:43:55] Sequence classification in tabular format written to 65XENP2_nn_classification.tsv.                                                                              
+[11:43:58] Proviruses classified.                                                                                                                                           
+[11:43:58] Provirus classification in binary format written to 65XENP2_provirus_nn_classification.npz.                                                                      
+[11:43:58] Deleting encoded provirus data.                                                                                                                                  
+[11:43:58] Provirus classification in tabular format written to 65XENP2_provirus_nn_classification.tsv.                                                                     
+[11:43:58] geNomad nn-classification finished!                                                                                                                              

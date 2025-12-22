@@ -1,0 +1,11 @@
+JBJGLI010000008.1_2 # 491 # 1738 # -1 # ID=8_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.502	PF00589.RP35	5.580E-14	64
+JBJGLI010000063.1_1 # 2 # 883 # 1 # ID=63_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.498	PF00589.RP35	2.008E-13	61
+JBJGLI010000003.1_7 # 3408 # 4610 # -1 # ID=3_7;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.629	PRK09692	3.646E-45	160
+JBJGLI010000003.1_135 # 150368 # 151582 # 1 # ID=3_135;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.614	PRK09692	1.296E-73	244
+JBJGLI010000057.1_27 # 19523 # 20542 # -1 # ID=57_27;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.676	PF00589.RP35	1.463E-13	62
+JBJGLI010000014.1_102 # 112090 # 113406 # 1 # ID=14_102;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.604	PRK09692	1.791E-52	183
+JBJGLI010000024.1_7 # 6170 # 7087 # -1 # ID=24_7;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.669	COG4973	2.520E-126	392
+JBJGLI010000026.1_77 # 81005 # 81952 # -1 # ID=26_77;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.651	TIGR02249	8.339E-153	469
+JBJGLI010000014.1_63 # 67763 # 68989 # 1 # ID=14_63;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.674	PRK09692	6.742E-74	245
+JBJGLI010000017.1_61 # 71026 # 72117 # 1 # ID=17_61;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.679	TIGR02225	5.438E-118	371
+JBJGLI010000008.1_143 # 161884 # 163245 # 1 # ID=8_143;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.568	PF00589.RP35	1.637E-10	53

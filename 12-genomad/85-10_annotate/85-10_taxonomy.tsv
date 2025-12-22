@@ -1,0 +1,4 @@
+seq_name	n_genes_with_taxonomy	agreement	taxid	lineage
+AM039952.1	196	0.8803	1246	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;
+AM039951.1	7	1.0000	1246	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;
+AM039950.1	1	1.0000	1246	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes;;

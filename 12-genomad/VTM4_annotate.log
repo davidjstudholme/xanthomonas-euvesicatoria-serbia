@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    VTM4_annotate                                                                                                                                                         │
+│    ├── VTM4_annotate.json (execution parameters)                                                                                                                         │
+│    ├── VTM4_genes.tsv (gene annotation data)                                                                                                                             │
+│    ├── VTM4_taxonomy.tsv (taxonomic assignment)                                                                                                                          │
+│    ├── VTM4_mmseqs2.tsv (MMseqs2 output file)                                                                                                                            │
+│    └── VTM4_proteins.faa (protein FASTA file)                                                                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:50:56] Executing genomad annotate.                                                                                                                                      
+[12:50:56] Creating the VTM4_annotate directory.                                                                                                                            
+[12:50:59] Proteins predicted with pyrodigal-gv were written to VTM4_proteins.faa.                                                                                          
+[12:51:51] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to VTM4_mmseqs2.tsv.                                                                    
+[12:51:51] Deleting VTM4_mmseqs2.                                                                                                                                           
+[12:51:51] Gene data was written to VTM4_genes.tsv.                                                                                                                         
+[12:51:51] Taxonomic assignment data was written to VTM4_taxonomy.tsv.                                                                                                      
+[12:51:51] geNomad annotate finished!                                                                                                                                       

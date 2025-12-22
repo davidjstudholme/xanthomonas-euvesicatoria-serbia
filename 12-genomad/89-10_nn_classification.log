@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the nucleotide sequence.              │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    89-10_nn_classification                                                                                                                                               │
+│    ├── 89-10_nn_classification.json (execution parameters)                                                                                                               │
+│    ├── 89-10_encoded_sequences (directory containing encoded sequence data)                                                                                              │
+│    ├── 89-10_nn_classification.tsv (contig classification: tabular format)                                                                                               │
+│    ├── 89-10_nn_classification.npz (contig classification: binary format)                                                                                                │
+│    ├── 89-10_encoded_proviruses (directory containing encoded sequence data)                                                                                             │
+│    ├── 89-10_provirus_nn_classification.tsv (provirus classification: tabular format)                                                                                    │
+│    └── 89-10_provirus_nn_classification.npz (provirus classification: binary format)                                                                                     │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:09:49] Executing genomad nn-classification.                                                                                                                             
+[12:09:49] Creating the 89-10_nn_classification directory.                                                                                                                  
+[12:09:49] Creating the 89-10_nn_classification/89-10_encoded_sequences directory.                                                                                          
+[12:09:50] Encoded sequence data written to 89-10_encoded_sequences.                                                                                                        
+[12:09:50] Creating the 89-10_nn_classification/89-10_encoded_proviruses directory.                                                                                         
+[12:09:50] Encoded provirus data written to 89-10_encoded_proviruses.                                                                                                       
+[12:09:56] Sequences classified.                                                                                                                                            
+[12:09:56] Sequence classification in binary format written to 89-10_nn_classification.npz.                                                                                 
+[12:09:56] Deleting encoded sequence data.                                                                                                                                  
+[12:09:56] Sequence classification in tabular format written to 89-10_nn_classification.tsv.                                                                                
+[12:09:58] Proviruses classified.                                                                                                                                           
+[12:09:58] Provirus classification in binary format written to 89-10_provirus_nn_classification.npz.                                                                        
+[12:09:58] Deleting encoded provirus data.                                                                                                                                  
+[12:09:58] Provirus classification in tabular format written to 89-10_provirus_nn_classification.tsv.                                                                       
+[12:09:58] geNomad nn-classification finished!                                                                                                                              

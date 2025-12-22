@@ -1,0 +1,2 @@
+seq_name	source_seq	start	end	length	n_genes	v_vs_c_score	in_seq_edge	integrases
+JAJIWG010000114.1|provirus_1_8241	JAJIWG010000114.1	1	8241	8241	13	14.5694	True	NA

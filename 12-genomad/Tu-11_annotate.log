@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Tu-11_annotate                                                                                                                                                        │
+│    ├── Tu-11_annotate.json (execution parameters)                                                                                                                        │
+│    ├── Tu-11_genes.tsv (gene annotation data)                                                                                                                            │
+│    ├── Tu-11_taxonomy.tsv (taxonomic assignment)                                                                                                                         │
+│    ├── Tu-11_mmseqs2.tsv (MMseqs2 output file)                                                                                                                           │
+│    └── Tu-11_proteins.faa (protein FASTA file)                                                                                                                           │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:43:24] Executing genomad annotate.                                                                                                                                      
+[12:43:24] Creating the Tu-11_annotate directory.                                                                                                                           
+[12:43:26] Proteins predicted with pyrodigal-gv were written to Tu-11_proteins.faa.                                                                                         
+[12:44:20] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to Tu-11_mmseqs2.tsv.                                                                   
+[12:44:20] Deleting Tu-11_mmseqs2.                                                                                                                                          
+[12:44:20] Gene data was written to Tu-11_genes.tsv.                                                                                                                        
+[12:44:20] Taxonomic assignment data was written to Tu-11_taxonomy.tsv.                                                                                                     
+[12:44:20] geNomad annotate finished!                                                                                                                                       

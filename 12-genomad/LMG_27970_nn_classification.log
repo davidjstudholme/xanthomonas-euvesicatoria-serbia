@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the nucleotide sequence.              │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    LMG_27970_nn_classification                                                                                                                                           │
+│    ├── LMG_27970_nn_classification.json (execution parameters)                                                                                                           │
+│    ├── LMG_27970_encoded_sequences (directory containing encoded sequence data)                                                                                          │
+│    ├── LMG_27970_nn_classification.tsv (contig classification: tabular format)                                                                                           │
+│    └── LMG_27970_nn_classification.npz (contig classification: binary format)                                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:28:40] Executing genomad nn-classification.                                                                                                                             
+[12:28:40] Creating the LMG_27970_nn_classification directory.                                                                                                              
+[12:28:40] Creating the LMG_27970_nn_classification/LMG_27970_encoded_sequences directory.                                                                                  
+[12:28:42] Encoded sequence data written to LMG_27970_encoded_sequences.                                                                                                    
+[12:28:51] Sequences classified.                                                                                                                                            
+[12:28:51] Sequence classification in binary format written to LMG_27970_nn_classification.npz.                                                                             
+[12:28:51] Deleting encoded sequence data.                                                                                                                                  
+[12:28:52] Sequence classification in tabular format written to LMG_27970_nn_classification.tsv.                                                                            
+[12:28:52] geNomad nn-classification finished!                                                                                                                              

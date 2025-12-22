@@ -1,0 +1,24 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.11.2). This will summarize the results across modules into a classification report.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Ps-7_summary                                                                                                                                                          │
+│    ├── Ps-7_summary.json (execution parameters)                                                                                                                          │
+│    ├── Ps-7_virus_summary.tsv (virus classification summary)                                                                                                             │
+│    ├── Ps-7_plasmid_summary.tsv (plasmid classification summary)                                                                                                         │
+│    ├── Ps-7_virus.fna (virus nucleotide FASTA file)                                                                                                                      │
+│    ├── Ps-7_plasmid.fna (plasmid nucleotide FASTA file)                                                                                                                  │
+│    ├── Ps-7_virus_proteins.faa (virus protein FASTA file)                                                                                                                │
+│    ├── Ps-7_plasmid_proteins.faa (plasmid protein FASTA file)                                                                                                            │
+│    ├── Ps-7_virus_genes.tsv (virus gene annotation data)                                                                                                                 │
+│    └── Ps-7_plasmid_genes.tsv (plasmid gene annotation data)                                                                                                             │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:38:20] Executing genomad summary.                                                                                                                                       
+[12:38:20] Creating the Ps-7_summary directory.                                                                                                                             
+[12:38:20] Using scores from aggregated-classification.                                                                                                                     
+[12:38:20] 21 plasmid(s) and 1 virus(es) were identified.                                                                                                                   
+[12:38:20] Nucleotide sequences were written to Ps-7_plasmid.fna and Ps-7_virus.fna.                                                                                        
+[12:38:20] Protein sequences were written to Ps-7_plasmid_proteins.faa and Ps-7_virus_proteins.faa.                                                                         
+[12:38:20] Gene annotation data was written to Ps-7_plasmid_genes.tsv and Ps-7_virus_genes.tsv.                                                                             
+[12:38:20] Summary files were written to Ps-7_plasmid_summary.tsv and Ps-7_virus_summary.tsv.                                                                               
+[12:38:20] geNomad summary finished!                                                                                                                                        

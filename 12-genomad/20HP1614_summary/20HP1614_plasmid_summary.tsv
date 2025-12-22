@@ -1,0 +1,18 @@
+seq_name	length	topology	n_genes	genetic_code	plasmid_score	fdr	n_hallmarks	marker_enrichment	conjugation_genes	amr_genes
+JBHJBP010000040.1	13712	No terminal repeats	15	11	1.0000	NA	3	11.4351	B_traI;T_virB6;MOBH	NA
+JBHJBP010000050.1	6245	No terminal repeats	8	11	1.0000	NA	0	4.2600	NA	NA
+JBHJBP010000041.1	12807	No terminal repeats	18	11	1.0000	NA	0	3.7839	NA	NA
+JBHJBP010000031.1	31345	No terminal repeats	40	11	1.0000	NA	10	24.4440	T_virB9;T_virB10;T_virB1;t4cp2;virb4;T_virB5;T_virB6	NA
+JBHJBP010000046.1	7688	No terminal repeats	9	11	1.0000	NA	1	7.1485	NA	NA
+JBHJBP010000038.1	14819	No terminal repeats	13	11	1.0000	NA	1	4.1647	NA	NA
+JBHJBP010000051.1	6087	No terminal repeats	7	11	1.0000	NA	0	2.1428	NA	NA
+JBHJBP010000035.1	24998	No terminal repeats	30	11	1.0000	NA	9	20.2614	t4cp2;T_virB9;T_virB8;T_virB6;T_virB5;virb4;T_virB3	NA
+JBHJBP010000055.1	3961	No terminal repeats	9	11	1.0000	NA	1	6.1371	T_virB5	NA
+JBHJBP010000032.1	31059	No terminal repeats	38	11	1.0000	NA	10	16.5936	T_virB2;T_virB3;T_virB5;T_virB6;T_virB8;T_virB9;T_virB10	NA
+JBHJBP010000042.1	12164	No terminal repeats	10	11	0.9999	NA	0	4.9816	NA	NA
+JBHJBP010000045.1	7991	No terminal repeats	12	11	0.9999	NA	1	2.7002	NA	NA
+JBHJBP010000020.1	109779	No terminal repeats	97	11	0.9999	NA	18	48.6840	MOBH;G_tfc19;G_tfc18;G_tfc22;G_tfc23;G_tfc24;virb4;G_tfc15;G_tfc14;G_tfc13;G_tfc12;G_tfc11;G_tfc10;G_tfc9;G_tfc8;G_tfc7;t4cp1;G_tfc5;T_virB1;G_tfc3;G_tfc2	NA
+JBHJBP010000029.1	39719	No terminal repeats	31	11	0.9999	NA	0	6.3270	NA	NA
+JBHJBP010000057.1	2978	No terminal repeats	4	11	0.9994	NA	1	1.1639	T_virB5	NA
+JBHJBP010000024.1	62537	No terminal repeats	58	11	0.9973	NA	0	0.6677	NA	NA
+JBHJBP010000043.1	10548	No terminal repeats	8	11	0.9507	NA	0	0.3959	NA	NA

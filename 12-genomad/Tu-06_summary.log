@@ -1,0 +1,24 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.11.2). This will summarize the results across modules into a classification report.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Tu-06_summary                                                                                                                                                         │
+│    ├── Tu-06_summary.json (execution parameters)                                                                                                                         │
+│    ├── Tu-06_virus_summary.tsv (virus classification summary)                                                                                                            │
+│    ├── Tu-06_plasmid_summary.tsv (plasmid classification summary)                                                                                                        │
+│    ├── Tu-06_virus.fna (virus nucleotide FASTA file)                                                                                                                     │
+│    ├── Tu-06_plasmid.fna (plasmid nucleotide FASTA file)                                                                                                                 │
+│    ├── Tu-06_virus_proteins.faa (virus protein FASTA file)                                                                                                               │
+│    ├── Tu-06_plasmid_proteins.faa (plasmid protein FASTA file)                                                                                                           │
+│    ├── Tu-06_virus_genes.tsv (virus gene annotation data)                                                                                                                │
+│    └── Tu-06_plasmid_genes.tsv (plasmid gene annotation data)                                                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:40:53] Executing genomad summary.                                                                                                                                       
+[12:40:53] Creating the Tu-06_summary directory.                                                                                                                            
+[12:40:53] Using scores from aggregated-classification.                                                                                                                     
+[12:40:53] 7 plasmid(s) and 2 virus(es) were identified.                                                                                                                    
+[12:40:53] Nucleotide sequences were written to Tu-06_plasmid.fna and Tu-06_virus.fna.                                                                                      
+[12:40:53] Protein sequences were written to Tu-06_plasmid_proteins.faa and Tu-06_virus_proteins.faa.                                                                       
+[12:40:53] Gene annotation data was written to Tu-06_plasmid_genes.tsv and Tu-06_virus_genes.tsv.                                                                           
+[12:40:53] Summary files were written to Tu-06_plasmid_summary.tsv and Tu-06_virus_summary.tsv.                                                                             
+[12:40:53] geNomad summary finished!                                                                                                                                        

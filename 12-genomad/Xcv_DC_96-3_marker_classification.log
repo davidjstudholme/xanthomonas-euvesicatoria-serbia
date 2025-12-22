@@ -1,0 +1,31 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the presence of geNomad markers   │
+│  and other gene-related features.                                                                                                                                        │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Xcv_DC_96-3_marker_classification                                                                                                                                     │
+│    ├── Xcv_DC_96-3_marker_classification.json (execution parameters)                                                                                                     │
+│    ├── Xcv_DC_96-3_features.tsv (sequence feature data: tabular format)                                                                                                  │
+│    ├── Xcv_DC_96-3_features.npz (sequence feature data: binary format)                                                                                                   │
+│    ├── Xcv_DC_96-3_marker_classification.tsv (sequence classification: tabular format)                                                                                   │
+│    ├── Xcv_DC_96-3_marker_classification.npz (sequence classification: binary format)                                                                                    │
+│    ├── Xcv_DC_96-3_provirus_features.tsv (provirus feature data: tabular format)                                                                                         │
+│    ├── Xcv_DC_96-3_provirus_features.npz (provirus feature data: binary format)                                                                                          │
+│    ├── Xcv_DC_96-3_provirus_marker_classification.tsv (provirus classification: tabular format)                                                                          │
+│    └── Xcv_DC_96-3_provirus_marker_classification.npz (provirus classification: binary format)                                                                           │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[13:24:57] Executing genomad marker-classification.                                                                                                                         
+[13:24:57] Creating the Xcv_DC_96-3_marker_classification directory.                                                                                                        
+[13:24:57] Sequence features computed.                                                                                                                                      
+[13:24:57] Sequence features in binary format written to Xcv_DC_96-3_features.npz.                                                                                          
+[13:24:57] Sequence features in tabular format written to Xcv_DC_96-3_features.tsv.                                                                                         
+[13:24:58] Provirus features computed.                                                                                                                                      
+[13:24:58] Provirus features in binary format written to Xcv_DC_96-3_provirus_features.npz.                                                                                 
+[13:24:58] Provirus features in tabular format written to Xcv_DC_96-3_provirus_features.tsv.                                                                                
+[13:24:58] Sequences classified.                                                                                                                                            
+[13:24:58] Sequence classification in binary format written to Xcv_DC_96-3_marker_classification.npz.                                                                       
+[13:24:58] Sequence classification in tabular format written to Xcv_DC_96-3_marker_classification.tsv.                                                                      
+[13:24:58] Proviruses classified.                                                                                                                                           
+[13:24:58] Provirus classification in binary format written to Xcv_DC_96-3_provirus_marker_classification.npz.                                                              
+[13:24:58] Provirus classification in tabular format written to Xcv_DC_96-3_provirus_marker_classification.tsv.                                                             
+[13:24:58] geNomad marker-classification finished!                                                                                                                          

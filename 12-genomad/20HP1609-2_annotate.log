@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    20HP1609-2_annotate                                                                                                                                                   │
+│    ├── 20HP1609-2_annotate.json (execution parameters)                                                                                                                   │
+│    ├── 20HP1609-2_genes.tsv (gene annotation data)                                                                                                                       │
+│    ├── 20HP1609-2_taxonomy.tsv (taxonomic assignment)                                                                                                                    │
+│    ├── 20HP1609-2_mmseqs2.tsv (MMseqs2 output file)                                                                                                                      │
+│    └── 20HP1609-2_proteins.faa (protein FASTA file)                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[11:35:13] Executing genomad annotate.                                                                                                                                      
+[11:35:13] Creating the 20HP1609-2_annotate directory.                                                                                                                      
+[11:35:16] Proteins predicted with pyrodigal-gv were written to 20HP1609-2_proteins.faa.                                                                                    
+[11:36:09] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to 20HP1609-2_mmseqs2.tsv.                                                              
+[11:36:09] Deleting 20HP1609-2_mmseqs2.                                                                                                                                     
+[11:36:10] Gene data was written to 20HP1609-2_genes.tsv.                                                                                                                   
+[11:36:10] Taxonomic assignment data was written to 20HP1609-2_taxonomy.tsv.                                                                                                
+[11:36:10] geNomad annotate finished!                                                                                                                                       

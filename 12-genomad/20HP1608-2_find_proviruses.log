@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.11.2). This will find putative proviral regions within the input sequences.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    20HP1608-2_find_proviruses                                                                                                                                            │
+│    ├── 20HP1608-2_find_proviruses.json (execution parameters)                                                                                                            │
+│    ├── 20HP1608-2_provirus.tsv (provirus data)                                                                                                                           │
+│    ├── 20HP1608-2_provirus.fna (provirus nucleotide sequences)                                                                                                           │
+│    ├── 20HP1608-2_provirus_proteins.faa (provirus protein sequences)                                                                                                     │
+│    ├── 20HP1608-2_provirus_genes.tsv (provirus gene annotation data)                                                                                                     │
+│    ├── 20HP1608-2_provirus_taxonomy.tsv (provirus taxonomic assignment)                                                                                                  │
+│    ├── 20HP1608-2_provirus_mmseqs2.tsv (MMseqs2 output file)                                                                                                             │
+│    └── 20HP1608-2_provirus_aragorn.tsv (Aragorn output file)                                                                                                             │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[11:34:57] Executing genomad find-proviruses.                                                                                                                               
+[11:34:57] Creating the 20HP1608-2_find_proviruses directory.                                                                                                               
+[11:34:59] Integrases identified with MMseqs2 and geNomad database (v1.9) were written to 20HP1608-2_provirus_mmseqs2.tsv.                                                  
+[11:34:59] Deleting 20HP1608-2_provirus_mmseqs2.                                                                                                                            
+[11:34:59] Deleting 20HP1608-2_provirus_mmseqs2_input.faa.                                                                                                                  
+[11:35:00] tRNAs identified with Aragorn were written to 20HP1608-2_provirus_aragorn.tsv.                                                                                   
+[11:35:00] Deleting 20HP1608-2_provirus_aragorn_input.fna.                                                                                                                  
+[11:35:01] Provirus regions identified.                                                                                                                                     
+[11:35:01] Provirus data was written to 20HP1608-2_provirus.tsv.                                                                                                            
+[11:35:01] Provirus nucleotide sequences were written to 20HP1608-2_provirus.fna.                                                                                           
+[11:35:01] Provirus protein sequences were written to 20HP1608-2_provirus_proteins.faa.                                                                                     
+[11:35:01] Provirus gene data was written to 20HP1608-2_provirus_genes.tsv.                                                                                                 
+[11:35:01] Taxonomic assignment data was written to 20HP1608-2_provirus_taxonomy.tsv.                                                                                       
+[11:35:01] geNomad find-proviruses finished!                                                                                                                                

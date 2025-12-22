@@ -1,0 +1,17 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad aggregated-classification (v1.11.2). This will aggregate the results of the marker-classification and nn-classification modules to classify the       │
+│  input sequences into chromosome, plasmid, or virus.                                                                                                                     │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    XCVKK-C-1_aggregated_classification                                                                                                                                   │
+│    ├── XCVKK-C-1_aggregated_classification.json (execution parameters)                                                                                                   │
+│    ├── XCVKK-C-1_aggregated_classification.tsv (sequence classification: tabular format)                                                                                 │
+│    └── XCVKK-C-1_aggregated_classification.npz (sequence classification: binary format)                                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[13:10:00] Executing genomad aggregated-classification.                                                                                                                     
+[13:10:00] Creating the XCVKK-C-1_aggregated_classification directory.                                                                                                      
+[13:10:00] The total marker frequencies of the input sequences were computed.                                                                                               
+[13:10:00] Sequences classified.                                                                                                                                            
+[13:10:00] Sequence classification in binary format written to XCVKK-C-1_aggregated_classification.npz.                                                                     
+[13:10:00] Sequence classification in tabular format written to XCVKK-C-1_aggregated_classification.tsv.                                                                    
+[13:10:00] geNomad aggregated-classification finished!                                                                                                                      

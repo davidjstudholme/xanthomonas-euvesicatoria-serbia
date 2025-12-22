@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Ps-7_annotate                                                                                                                                                         │
+│    ├── Ps-7_annotate.json (execution parameters)                                                                                                                         │
+│    ├── Ps-7_genes.tsv (gene annotation data)                                                                                                                             │
+│    ├── Ps-7_taxonomy.tsv (taxonomic assignment)                                                                                                                          │
+│    ├── Ps-7_mmseqs2.tsv (MMseqs2 output file)                                                                                                                            │
+│    └── Ps-7_proteins.faa (protein FASTA file)                                                                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:37:07] Executing genomad annotate.                                                                                                                                      
+[12:37:07] Creating the Ps-7_annotate directory.                                                                                                                            
+[12:37:10] Proteins predicted with pyrodigal-gv were written to Ps-7_proteins.faa.                                                                                          
+[12:38:02] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to Ps-7_mmseqs2.tsv.                                                                    
+[12:38:02] Deleting Ps-7_mmseqs2.                                                                                                                                           
+[12:38:03] Gene data was written to Ps-7_genes.tsv.                                                                                                                         
+[12:38:03] Taxonomic assignment data was written to Ps-7_taxonomy.tsv.                                                                                                      
+[12:38:03] geNomad annotate finished!                                                                                                                                       

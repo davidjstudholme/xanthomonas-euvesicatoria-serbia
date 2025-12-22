@@ -1,0 +1,2 @@
+seq_name	source_seq	start	end	length	n_genes	v_vs_c_score	in_seq_edge	integrases
+JBHJBY010000037.1|provirus_15_17309	JBHJBY010000037.1	15	17309	17295	29	31.3499	True	NA

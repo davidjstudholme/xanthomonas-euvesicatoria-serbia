@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    62XEKK5_annotate                                                                                                                                                      │
+│    ├── 62XEKK5_annotate.json (execution parameters)                                                                                                                      │
+│    ├── 62XEKK5_genes.tsv (gene annotation data)                                                                                                                          │
+│    ├── 62XEKK5_taxonomy.tsv (taxonomic assignment)                                                                                                                       │
+│    ├── 62XEKK5_mmseqs2.tsv (MMseqs2 output file)                                                                                                                         │
+│    └── 62XEKK5_proteins.faa (protein FASTA file)                                                                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[11:40:09] Executing genomad annotate.                                                                                                                                      
+[11:40:09] Creating the 62XEKK5_annotate directory.                                                                                                                         
+[11:40:12] Proteins predicted with pyrodigal-gv were written to 62XEKK5_proteins.faa.                                                                                       
+[11:41:06] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to 62XEKK5_mmseqs2.tsv.                                                                 
+[11:41:06] Deleting 62XEKK5_mmseqs2.                                                                                                                                        
+[11:41:07] Gene data was written to 62XEKK5_genes.tsv.                                                                                                                      
+[11:41:07] Taxonomic assignment data was written to 62XEKK5_taxonomy.tsv.                                                                                                   
+[11:41:07] geNomad annotate finished!                                                                                                                                       

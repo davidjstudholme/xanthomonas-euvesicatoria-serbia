@@ -1,0 +1,6 @@
+JAJITV010000035.1_1 # 592 # 1839 # -1 # ID=62_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.502	PF00589.RP35	5.580E-14	64
+JAJITV010000018.1_59 # 64990 # 66216 # 1 # ID=44_59;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.674	PRK09692	6.742E-74	245
+JAJITV010000008.1_5 # 5965 # 7446 # -1 # ID=11_5;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.504	PF00589.RP35	6.536E-13	61
+JAJITV010000007.1_75 # 88476 # 89567 # 1 # ID=127_75;partial=00;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.679	TIGR02225	5.438E-118	371
+JAJITV010000083.1_16 # 18242 # 19189 # -1 # ID=114_16;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.651	TIGR02249	8.339E-153	469
+JAJITV010000110.1_25 # 19395 # 20669 # -1 # ID=16_25;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.685	PF00589.RP35	2.059E-12	59

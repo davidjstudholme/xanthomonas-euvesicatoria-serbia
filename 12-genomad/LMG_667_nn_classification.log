@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.11.2). This will classify the input sequences into chromosome, plasmid, or virus based on the nucleotide sequence.              │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    LMG_667_nn_classification                                                                                                                                             │
+│    ├── LMG_667_nn_classification.json (execution parameters)                                                                                                             │
+│    ├── LMG_667_encoded_sequences (directory containing encoded sequence data)                                                                                            │
+│    ├── LMG_667_nn_classification.tsv (contig classification: tabular format)                                                                                             │
+│    ├── LMG_667_nn_classification.npz (contig classification: binary format)                                                                                              │
+│    ├── LMG_667_encoded_proviruses (directory containing encoded sequence data)                                                                                           │
+│    ├── LMG_667_provirus_nn_classification.tsv (provirus classification: tabular format)                                                                                  │
+│    └── LMG_667_provirus_nn_classification.npz (provirus classification: binary format)                                                                                   │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:30:01] Executing genomad nn-classification.                                                                                                                             
+[12:30:01] Creating the LMG_667_nn_classification directory.                                                                                                                
+[12:30:01] Creating the LMG_667_nn_classification/LMG_667_encoded_sequences directory.                                                                                      
+[12:30:02] Encoded sequence data written to LMG_667_encoded_sequences.                                                                                                      
+[12:30:02] Creating the LMG_667_nn_classification/LMG_667_encoded_proviruses directory.                                                                                     
+[12:30:02] Encoded provirus data written to LMG_667_encoded_proviruses.                                                                                                     
+[12:30:09] Sequences classified.                                                                                                                                            
+[12:30:09] Sequence classification in binary format written to LMG_667_nn_classification.npz.                                                                               
+[12:30:09] Deleting encoded sequence data.                                                                                                                                  
+[12:30:09] Sequence classification in tabular format written to LMG_667_nn_classification.tsv.                                                                              
+[12:30:11] Proviruses classified.                                                                                                                                           
+[12:30:11] Provirus classification in binary format written to LMG_667_provirus_nn_classification.npz.                                                                      
+[12:30:11] Deleting encoded provirus data.                                                                                                                                  
+[12:30:11] Provirus classification in tabular format written to LMG_667_provirus_nn_classification.tsv.                                                                     
+[12:30:11] geNomad nn-classification finished!                                                                                                                              

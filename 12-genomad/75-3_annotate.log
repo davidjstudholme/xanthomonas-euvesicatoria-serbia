@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    75-3_annotate                                                                                                                                                         │
+│    ├── 75-3_annotate.json (execution parameters)                                                                                                                         │
+│    ├── 75-3_genes.tsv (gene annotation data)                                                                                                                             │
+│    ├── 75-3_taxonomy.tsv (taxonomic assignment)                                                                                                                          │
+│    ├── 75-3_mmseqs2.tsv (MMseqs2 output file)                                                                                                                            │
+│    └── 75-3_proteins.faa (protein FASTA file)                                                                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[11:52:55] Executing genomad annotate.                                                                                                                                      
+[11:52:55] Creating the 75-3_annotate directory.                                                                                                                            
+[11:52:58] Proteins predicted with pyrodigal-gv were written to 75-3_proteins.faa.                                                                                          
+[11:53:51] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to 75-3_mmseqs2.tsv.                                                                    
+[11:53:51] Deleting 75-3_mmseqs2.                                                                                                                                           
+[11:53:52] Gene data was written to 75-3_genes.tsv.                                                                                                                         
+[11:53:52] Taxonomic assignment data was written to 75-3_taxonomy.tsv.                                                                                                      
+[11:53:52] geNomad annotate finished!                                                                                                                                       

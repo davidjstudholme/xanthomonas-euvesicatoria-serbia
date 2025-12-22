@@ -1,0 +1,7 @@
+{
+    "module": "marker_classification",
+    "input": "XVP26.fasta",
+    "input_md5": "da056ed3e07f8045f1bf687d7752c7f6",
+    "start_time": "2025-12-22T13:16:08.023971+00:00",
+    "parameters": {}
+}

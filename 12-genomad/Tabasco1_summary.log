@@ -1,0 +1,24 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.11.2). This will summarize the results across modules into a classification report.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Tabasco1_summary                                                                                                                                                      │
+│    ├── Tabasco1_summary.json (execution parameters)                                                                                                                      │
+│    ├── Tabasco1_virus_summary.tsv (virus classification summary)                                                                                                         │
+│    ├── Tabasco1_plasmid_summary.tsv (plasmid classification summary)                                                                                                     │
+│    ├── Tabasco1_virus.fna (virus nucleotide FASTA file)                                                                                                                  │
+│    ├── Tabasco1_plasmid.fna (plasmid nucleotide FASTA file)                                                                                                              │
+│    ├── Tabasco1_virus_proteins.faa (virus protein FASTA file)                                                                                                            │
+│    ├── Tabasco1_plasmid_proteins.faa (plasmid protein FASTA file)                                                                                                        │
+│    ├── Tabasco1_virus_genes.tsv (virus gene annotation data)                                                                                                             │
+│    └── Tabasco1_plasmid_genes.tsv (plasmid gene annotation data)                                                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:39:37] Executing genomad summary.                                                                                                                                       
+[12:39:37] Creating the Tabasco1_summary directory.                                                                                                                         
+[12:39:37] Using scores from aggregated-classification.                                                                                                                     
+[12:39:37] 13 plasmid(s) and 2 virus(es) were identified.                                                                                                                   
+[12:39:37] Nucleotide sequences were written to Tabasco1_plasmid.fna and Tabasco1_virus.fna.                                                                                
+[12:39:37] Protein sequences were written to Tabasco1_plasmid_proteins.faa and Tabasco1_virus_proteins.faa.                                                                 
+[12:39:37] Gene annotation data was written to Tabasco1_plasmid_genes.tsv and Tabasco1_virus_genes.tsv.                                                                     
+[12:39:37] Summary files were written to Tabasco1_plasmid_summary.tsv and Tabasco1_virus_summary.tsv.                                                                       
+[12:39:37] geNomad summary finished!                                                                                                                                        

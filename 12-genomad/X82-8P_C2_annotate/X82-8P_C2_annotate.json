@@ -1,0 +1,11 @@
+{
+    "module": "annotate",
+    "input": "X82-8P_C2.fasta",
+    "input_md5": "68db785bab0a35ecceaf14521c8dc192",
+    "start_time": "2025-12-22T13:00:19.255768+00:00",
+    "parameters": {
+        "use_minimal_db": false,
+        "sensitivity": 4.2,
+        "evalue": 0.001
+    }
+}

@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    65XENP1_annotate                                                                                                                                                      │
+│    ├── 65XENP1_annotate.json (execution parameters)                                                                                                                      │
+│    ├── 65XENP1_genes.tsv (gene annotation data)                                                                                                                          │
+│    ├── 65XENP1_taxonomy.tsv (taxonomic assignment)                                                                                                                       │
+│    ├── 65XENP1_mmseqs2.tsv (MMseqs2 output file)                                                                                                                         │
+│    └── 65XENP1_proteins.faa (protein FASTA file)                                                                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[11:41:27] Executing genomad annotate.                                                                                                                                      
+[11:41:27] Creating the 65XENP1_annotate directory.                                                                                                                         
+[11:41:31] Proteins predicted with pyrodigal-gv were written to 65XENP1_proteins.faa.                                                                                       
+[11:42:24] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to 65XENP1_mmseqs2.tsv.                                                                 
+[11:42:24] Deleting 65XENP1_mmseqs2.                                                                                                                                        
+[11:42:24] Gene data was written to 65XENP1_genes.tsv.                                                                                                                      
+[11:42:24] Taxonomic assignment data was written to 65XENP1_taxonomy.tsv.                                                                                                   
+[11:42:24] geNomad annotate finished!                                                                                                                                       

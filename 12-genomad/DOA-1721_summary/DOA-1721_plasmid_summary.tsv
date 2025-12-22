@@ -1,0 +1,18 @@
+seq_name	length	topology	n_genes	genetic_code	plasmid_score	fdr	n_hallmarks	marker_enrichment	conjugation_genes	amr_genes
+JBHJCN010000049.1	6245	No terminal repeats	8	11	1.0000	NA	0	4.2600	NA	NA
+JBHJCN010000040.1	12819	No terminal repeats	18	11	1.0000	NA	0	3.7839	NA	NA
+JBHJCN010000046.1	7565	No terminal repeats	9	11	1.0000	NA	1	7.1485	NA	NA
+JBHJCN010000035.1	16184	No terminal repeats	20	11	1.0000	NA	3	10.1142	MOBP1;T_virB5	NA
+JBHJCN010000039.1	13591	No terminal repeats	16	11	1.0000	NA	5	10.2921	T_virB6;T_virB8;T_virB9;t4cp2	NA
+JBHJCN010000043.1	10774	No terminal repeats	11	11	1.0000	NA	2	5.1548	B_traI;T_virB6	NA
+JBHJCN010000045.1	8307	No terminal repeats	12	11	1.0000	NA	1	2.7002	NA	NA
+JBHJCN010000050.1	6087	No terminal repeats	7	11	1.0000	NA	0	2.1428	NA	NA
+JBHJCN010000029.1	31059	No terminal repeats	38	11	1.0000	NA	10	16.5936	T_virB10;T_virB9;T_virB8;T_virB6;T_virB5;T_virB3;T_virB2	NA
+JBHJCN010000037.1	14813	No terminal repeats	13	11	1.0000	NA	1	4.1647	NA	NA
+JBHJCN010000052.1	4733	No terminal repeats	3	11	1.0000	NA	0	3.3876	NA	NA
+JBHJCN010000042.1	11411	No terminal repeats	16	11	0.9999	NA	5	9.4377	T_virB5;virb4;T_virB3;T_virB1	NA
+JBHJCN010000041.1	12164	No terminal repeats	10	11	0.9999	NA	0	4.9816	NA	NA
+JBHJCN010000027.1	39719	No terminal repeats	31	11	0.9999	NA	0	6.3270	NA	NA
+JBHJCN010000026.1	43266	No terminal repeats	29	11	0.9994	NA	0	2.1671	NA	NA
+JBHJCN010000022.1	62499	No terminal repeats	58	11	0.9978	NA	0	0.6677	NA	NA
+JBHJCN010000044.1	10547	No terminal repeats	8	11	0.9783	NA	0	0.3959	NA	NA

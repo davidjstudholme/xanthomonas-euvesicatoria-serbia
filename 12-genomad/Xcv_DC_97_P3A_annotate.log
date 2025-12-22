@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    Xcv_DC_97_P3A_annotate                                                                                                                                                │
+│    ├── Xcv_DC_97_P3A_annotate.json (execution parameters)                                                                                                                │
+│    ├── Xcv_DC_97_P3A_genes.tsv (gene annotation data)                                                                                                                    │
+│    ├── Xcv_DC_97_P3A_taxonomy.tsv (taxonomic assignment)                                                                                                                 │
+│    ├── Xcv_DC_97_P3A_mmseqs2.tsv (MMseqs2 output file)                                                                                                                   │
+│    └── Xcv_DC_97_P3A_proteins.faa (protein FASTA file)                                                                                                                   │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[13:30:20] Executing genomad annotate.                                                                                                                                      
+[13:30:20] Creating the Xcv_DC_97_P3A_annotate directory.                                                                                                                   
+[13:30:23] Proteins predicted with pyrodigal-gv were written to Xcv_DC_97_P3A_proteins.faa.                                                                                 
+[13:31:17] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to Xcv_DC_97_P3A_mmseqs2.tsv.                                                           
+[13:31:17] Deleting Xcv_DC_97_P3A_mmseqs2.                                                                                                                                  
+[13:31:17] Gene data was written to Xcv_DC_97_P3A_genes.tsv.                                                                                                                
+[13:31:17] Taxonomic assignment data was written to Xcv_DC_97_P3A_taxonomy.tsv.                                                                                             
+[13:31:17] geNomad annotate finished!                                                                                                                                       

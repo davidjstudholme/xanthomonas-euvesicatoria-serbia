@@ -1,0 +1,19 @@
+seq_name	length	topology	n_genes	genetic_code	plasmid_score	fdr	n_hallmarks	marker_enrichment	conjugation_genes	amr_genes
+JAJIVW010000027.1	2595	No terminal repeats	3	11	1.0000	NA	2	4.4475	T_virB5	NA
+JAJIVW010000056.1	12816	No terminal repeats	18	11	1.0000	NA	0	3.7839	NA	NA
+JAJIVW010000007.1	6420	No terminal repeats	9	11	1.0000	NA	0	4.2600	NA	NA
+JAJIVW010000104.1	13735	No terminal repeats	15	11	1.0000	NA	3	11.4351	MOBH;T_virB6;B_traI	NA
+JAJIVW010000014.1	14869	No terminal repeats	13	11	1.0000	NA	1	4.1647	NA	NA
+JAJIVW010000076.1	30910	No terminal repeats	36	11	1.0000	NA	10	22.1400	T_virB1;T_virB2;T_virB3;virb4;T_virB5;T_virB6;T_virB8;T_virB9;t4cp2	NA
+JAJIVW010000082.1	9508	No terminal repeats	13	11	1.0000	NA	1	4.1705	NA	NA
+JAJIVW010000008.1	6312	No terminal repeats	8	11	1.0000	NA	0	2.1428	NA	NA
+JAJIVW010000040.1	10377	No terminal repeats	10	11	0.9999	NA	1	8.5656	NA	NA
+JAJIVW010000061.1	12158	No terminal repeats	10	11	0.9999	NA	0	4.9816	NA	NA
+JAJIVW010000098.1	7012	No terminal repeats	7	11	0.9998	NA	0	6.7752	NA	NA
+JAJIVW010000013.1	159070	No terminal repeats	175	11	0.9998	NA	8	34.4628	I_trbA;I_traW;I_traY;I_traK;I_traI;I_traM;I_traN;traU	NF000272
+JAJIVW010000053.1	40066	No terminal repeats	31	11	0.9998	NA	0	6.3270	NA	NA
+JAJIVW010000024.1	7823	No terminal repeats	8	11	0.9996	NA	2	5.1548	T_virB6;T_virB6	NA
+JAJIVW010000113.1	16504	No terminal repeats	13	11	0.9995	NA	0	1.3109	NA	NA
+JAJIVW010000006.1	20586	No terminal repeats	19	11	0.9870	NA	0	0.3959	NA	NA
+JAJIVW010000038.1	11505	No terminal repeats	9	11	0.9742	NA	1	1.5582	NA	NA
+JAJIVW010000021.1	5792	No terminal repeats	5	11	0.8913	NA	0	0.3394	NA	NA

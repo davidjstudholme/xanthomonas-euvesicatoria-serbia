@@ -1,0 +1,2 @@
+seq_name	source_seq	start	end	length	n_genes	v_vs_c_score	in_seq_edge	integrases
+JBHJCN010000036.1|provirus_16_11556	JBHJCN010000036.1	16	11556	11541	17	19.3878	True	NA

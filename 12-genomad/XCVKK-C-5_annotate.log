@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    XCVKK-C-5_annotate                                                                                                                                                    │
+│    ├── XCVKK-C-5_annotate.json (execution parameters)                                                                                                                    │
+│    ├── XCVKK-C-5_genes.tsv (gene annotation data)                                                                                                                        │
+│    ├── XCVKK-C-5_taxonomy.tsv (taxonomic assignment)                                                                                                                     │
+│    ├── XCVKK-C-5_mmseqs2.tsv (MMseqs2 output file)                                                                                                                       │
+│    └── XCVKK-C-5_proteins.faa (protein FASTA file)                                                                                                                       │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[13:13:50] Executing genomad annotate.                                                                                                                                      
+[13:13:50] Creating the XCVKK-C-5_annotate directory.                                                                                                                       
+[13:13:53] Proteins predicted with pyrodigal-gv were written to XCVKK-C-5_proteins.faa.                                                                                     
+[13:14:46] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to XCVKK-C-5_mmseqs2.tsv.                                                               
+[13:14:46] Deleting XCVKK-C-5_mmseqs2.                                                                                                                                      
+[13:14:46] Gene data was written to XCVKK-C-5_genes.tsv.                                                                                                                    
+[13:14:47] Taxonomic assignment data was written to XCVKK-C-5_taxonomy.tsv.                                                                                                 
+[13:14:47] geNomad annotate finished!                                                                                                                                       

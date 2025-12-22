@@ -1,0 +1,28 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.11.2). This will find putative proviral regions within the input sequences.                                                       │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    VTM17_find_proviruses                                                                                                                                                 │
+│    ├── VTM17_find_proviruses.json (execution parameters)                                                                                                                 │
+│    ├── VTM17_provirus.tsv (provirus data)                                                                                                                                │
+│    ├── VTM17_provirus.fna (provirus nucleotide sequences)                                                                                                                │
+│    ├── VTM17_provirus_proteins.faa (provirus protein sequences)                                                                                                          │
+│    ├── VTM17_provirus_genes.tsv (provirus gene annotation data)                                                                                                          │
+│    ├── VTM17_provirus_taxonomy.tsv (provirus taxonomic assignment)                                                                                                       │
+│    ├── VTM17_provirus_mmseqs2.tsv (MMseqs2 output file)                                                                                                                  │
+│    └── VTM17_provirus_aragorn.tsv (Aragorn output file)                                                                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:50:37] Executing genomad find-proviruses.                                                                                                                               
+[12:50:37] Creating the VTM17_find_proviruses directory.                                                                                                                    
+[12:50:39] Integrases identified with MMseqs2 and geNomad database (v1.9) were written to VTM17_provirus_mmseqs2.tsv.                                                       
+[12:50:39] Deleting VTM17_provirus_mmseqs2.                                                                                                                                 
+[12:50:39] Deleting VTM17_provirus_mmseqs2_input.faa.                                                                                                                       
+[12:50:40] tRNAs identified with Aragorn were written to VTM17_provirus_aragorn.tsv.                                                                                        
+[12:50:40] Deleting VTM17_provirus_aragorn_input.fna.                                                                                                                       
+[12:50:41] Provirus regions identified.                                                                                                                                     
+[12:50:41] Provirus data was written to VTM17_provirus.tsv.                                                                                                                 
+[12:50:41] Provirus nucleotide sequences were written to VTM17_provirus.fna.                                                                                                
+[12:50:41] Provirus protein sequences were written to VTM17_provirus_proteins.faa.                                                                                          
+[12:50:41] Provirus gene data was written to VTM17_provirus_genes.tsv.                                                                                                      
+[12:50:41] Taxonomic assignment data was written to VTM17_provirus_taxonomy.tsv.                                                                                            
+[12:50:41] geNomad find-proviruses finished!                                                                                                                                

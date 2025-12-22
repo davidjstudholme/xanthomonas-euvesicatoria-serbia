@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    DOA-1721_annotate                                                                                                                                                     │
+│    ├── DOA-1721_annotate.json (execution parameters)                                                                                                                     │
+│    ├── DOA-1721_genes.tsv (gene annotation data)                                                                                                                         │
+│    ├── DOA-1721_taxonomy.tsv (taxonomic assignment)                                                                                                                      │
+│    ├── DOA-1721_mmseqs2.tsv (MMseqs2 output file)                                                                                                                        │
+│    └── DOA-1721_proteins.faa (protein FASTA file)                                                                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:16:23] Executing genomad annotate.                                                                                                                                      
+[12:16:23] Creating the DOA-1721_annotate directory.                                                                                                                        
+[12:16:26] Proteins predicted with pyrodigal-gv were written to DOA-1721_proteins.faa.                                                                                      
+[12:17:18] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to DOA-1721_mmseqs2.tsv.                                                                
+[12:17:18] Deleting DOA-1721_mmseqs2.                                                                                                                                       
+[12:17:19] Gene data was written to DOA-1721_genes.tsv.                                                                                                                     
+[12:17:19] Taxonomic assignment data was written to DOA-1721_taxonomy.tsv.                                                                                                  
+[12:17:19] geNomad annotate finished!                                                                                                                                       

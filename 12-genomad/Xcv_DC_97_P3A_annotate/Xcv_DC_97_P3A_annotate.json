@@ -1,0 +1,11 @@
+{
+    "module": "annotate",
+    "input": "Xcv_DC_97_P3A.fasta",
+    "input_md5": "d6b143714fcdfac46075db759f9538a3",
+    "start_time": "2025-12-22T13:30:20.334916+00:00",
+    "parameters": {
+        "use_minimal_db": false,
+        "sensitivity": 4.2,
+        "evalue": 0.001
+    }
+}

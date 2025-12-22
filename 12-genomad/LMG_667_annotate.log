@@ -1,0 +1,19 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.11.2). This will perform gene calling in the input sequences and annotate the predicted proteins with geNomad's markers.                 │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    LMG_667_annotate                                                                                                                                                      │
+│    ├── LMG_667_annotate.json (execution parameters)                                                                                                                      │
+│    ├── LMG_667_genes.tsv (gene annotation data)                                                                                                                          │
+│    ├── LMG_667_taxonomy.tsv (taxonomic assignment)                                                                                                                       │
+│    ├── LMG_667_mmseqs2.tsv (MMseqs2 output file)                                                                                                                         │
+│    └── LMG_667_proteins.faa (protein FASTA file)                                                                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:28:55] Executing genomad annotate.                                                                                                                                      
+[12:28:55] Creating the LMG_667_annotate directory.                                                                                                                         
+[12:29:01] Proteins predicted with pyrodigal-gv were written to LMG_667_proteins.faa.                                                                                       
+[12:29:53] Proteins annotated with MMseqs2 and geNomad database (v1.9) were written to LMG_667_mmseqs2.tsv.                                                                 
+[12:29:53] Deleting LMG_667_mmseqs2.                                                                                                                                        
+[12:29:54] Gene data was written to LMG_667_genes.tsv.                                                                                                                      
+[12:29:54] Taxonomic assignment data was written to LMG_667_taxonomy.tsv.                                                                                                   
+[12:29:54] geNomad annotate finished!                                                                                                                                       

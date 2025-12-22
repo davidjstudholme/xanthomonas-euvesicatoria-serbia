@@ -1,0 +1,17 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad aggregated-classification (v1.11.2). This will aggregate the results of the marker-classification and nn-classification modules to classify the       │
+│  input sequences into chromosome, plasmid, or virus.                                                                                                                     │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    86-2_aggregated_classification                                                                                                                                        │
+│    ├── 86-2_aggregated_classification.json (execution parameters)                                                                                                        │
+│    ├── 86-2_aggregated_classification.tsv (sequence classification: tabular format)                                                                                      │
+│    └── 86-2_aggregated_classification.npz (sequence classification: binary format)                                                                                       │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:01:03] Executing genomad aggregated-classification.                                                                                                                     
+[12:01:03] Creating the 86-2_aggregated_classification directory.                                                                                                           
+[12:01:03] The total marker frequencies of the input sequences were computed.                                                                                               
+[12:01:03] Sequences classified.                                                                                                                                            
+[12:01:03] Sequence classification in binary format written to 86-2_aggregated_classification.npz.                                                                          
+[12:01:03] Sequence classification in tabular format written to 86-2_aggregated_classification.tsv.                                                                         
+[12:01:03] geNomad aggregated-classification finished!                                                                                                                      

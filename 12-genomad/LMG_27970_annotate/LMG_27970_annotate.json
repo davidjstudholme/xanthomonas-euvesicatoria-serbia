@@ -1,0 +1,11 @@
+{
+    "module": "annotate",
+    "input": "LMG_27970.fasta",
+    "input_md5": "2b075d5a3e5ecdea0fbba69474df290c",
+    "start_time": "2025-12-22T12:27:33.355829+00:00",
+    "parameters": {
+        "use_minimal_db": false,
+        "sensitivity": 4.2,
+        "evalue": 0.001
+    }
+}

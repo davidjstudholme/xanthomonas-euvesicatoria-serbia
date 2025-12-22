@@ -1,0 +1,22 @@
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad aggregated-classification (v1.11.2). This will aggregate the results of the marker-classification and nn-classification modules to classify the       │
+│  input sequences into chromosome, plasmid, or virus.                                                                                                                     │
+│  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                                                                                                                │
+│    87-7_aggregated_classification                                                                                                                                        │
+│    ├── 87-7_aggregated_classification.json (execution parameters)                                                                                                        │
+│    ├── 87-7_aggregated_classification.tsv (sequence classification: tabular format)                                                                                      │
+│    ├── 87-7_aggregated_classification.npz (sequence classification: binary format)                                                                                       │
+│    ├── 87-7_provirus_aggregated_classification.tsv (provirus classification: tabular format)                                                                             │
+│    └── 87-7_provirus_aggregated_classification.npz (provirus classification: binary format)                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+[12:08:43] Executing genomad aggregated-classification.                                                                                                                     
+[12:08:43] Creating the 87-7_aggregated_classification directory.                                                                                                           
+[12:08:43] The total marker frequencies of the input sequences were computed.                                                                                               
+[12:08:43] Sequences classified.                                                                                                                                            
+[12:08:43] Sequence classification in binary format written to 87-7_aggregated_classification.npz.                                                                          
+[12:08:43] Sequence classification in tabular format written to 87-7_aggregated_classification.tsv.                                                                         
+[12:08:43] Proviruses classified.                                                                                                                                           
+[12:08:43] Provirus classification in binary format written to 87-7_provirus_aggregated_classification.npz.                                                                 
+[12:08:43] Provirus classification in tabular format written to 87-7_provirus_aggregated_classification.tsv.                                                                
+[12:08:43] geNomad aggregated-classification finished!                                                                                                                      
