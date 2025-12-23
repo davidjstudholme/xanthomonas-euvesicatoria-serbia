@@ -41,7 +41,7 @@ while (my $file = shift) {
 		my $expect = $hsp->significance;
 		
 		if ($length >= 0.95 *$query_length and
-		    $frac_identical >= 0.90) {
+		    $frac_identical >= 0.95) {
 		    		    
 		    $effector_to_files{$query_acc}{$file} = $frac_identical;
 		    $file_to_effectors{$file}{$query_acc} = $frac_identical;
