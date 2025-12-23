@@ -16,7 +16,7 @@ conda create -n genomad_env
 conda activate genomad_env
 conda install bioconda::genomad
 
-conda list -n bwa_env > genomad_env_packages.txt
+conda list -n genomad_env > genomad_env_packages.txt
 conda env export > genomad_env.yaml
 
 genomad download-database .
