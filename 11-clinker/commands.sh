@@ -2,7 +2,7 @@ conda create -n clinker_env
 conda activate clinker_env
 conda install -c conda-forge clinker
 
-conda list -n bwa_env > clinker_env_packages.txt
+conda list -n clinker_env > clinker_env_packages.txt
 conda env export > clinker_env.yaml
 
 ### Clean up any old files
