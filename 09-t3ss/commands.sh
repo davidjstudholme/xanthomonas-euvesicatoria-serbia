@@ -34,8 +34,8 @@ done
 cd ..
 
 ### Parse the TBLASN results
-perl tabulate_blast_results.pl tblastn_versus_dokuwiki_effectors/euroxanth_effectors_2023-10-03.versus.*.tblastn > effector_profile_euroxanth.csv
-perl tabulate_blast_results.pl tblastn_versus_dokuwiki_effectors/potnis_2011_core_effectors.versus.*.tblastn > effector_profile_potnis_core.csv
+perl tabulate_blast_results.pl tblastn_versus_dokuwiki_effectors/euroxanth_effectors_2023-10-03.versus.*.tblastn > effector_profile_euroxanth.tsv
+perl tabulate_blast_results.pl tblastn_versus_dokuwiki_effectors/potnis_2011_core_effectors.versus.*.tblastn > effector_profile_potnis_core.tsv
 for i in tblastn_versus_dokuwiki_effectors/*.tblastn; do
     echo $i
     perl summarise_blast.pl $i > $i.html
