@@ -1,0 +1,4 @@
+
+ATCC_11633 size:	5314922
+Repeats segment #:	29
+Repeats total length:	15435 (0.29%)

@@ -1,3 +1,15 @@
+genomad_db
+test
+test_data
+proc
+PhageBoost
+DeepVirFinder
+
+*.tfrec
+*_prodigal.gff
+*_prodigal.faa
+
+
 *.fna
 *.fna.gz
 *.contig
@@ -34,7 +46,6 @@ md5sum.txt
 
 *.gfa
 
-
 10-platon/db
 
 *quast_results/latest
@@ -49,14 +60,11 @@ md5sum.txt
 *workdir/results/temp
 
 # Large phylogenomics results
-*_phylogenomics/*/03_workdir/results/tables/
-*_phylogenomics/*/03_workdir/results/Xeu_core_stats.txt
-04-phylogenomics/03_subset_of_cluster_6/03_workdir/results/tables/Xeu_cluster6_subset_comparisons.txt
-04-phylogenomics/02_cluster_6_only/03_workdir/results/tables/Xeu_cluster6_comparisons.txt
-04-phylogenomics/03_subset_of_cluster_6/03_workdir/results/tables/Xeu_cluster6_subset_core_stats.txt
-04-phylogenomics/02_cluster_6_only/03_workdir/results/tables/Xeu_cluster6_core_stats.txt
-
-
+**results/tables/
+**core_stats.txt
+**_subset_comparisons.txt
+**_comparisons.txt
+**_core_stats.txt
 
 # SNP calling indexes
 *.bwt

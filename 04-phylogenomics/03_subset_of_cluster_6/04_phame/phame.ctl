@@ -22,7 +22,7 @@
 
       aligner = bowtie # support bowtie/bwa/minimap2
 
-         tree = 1  # 0:no tree; 1:use FastTree; 2:use RAxML; 3:IQ-TREE; 4: use all
+         tree = 4  # 0:no tree; 1:use FastTree; 2:use RAxML; 3:IQ-TREE; 4: use all
     bootstrap = 1  # 0:no; 1:yes;  # Run bootstrapping  *See below
             N = 1000  # Number of bootstraps to run *See below    
   

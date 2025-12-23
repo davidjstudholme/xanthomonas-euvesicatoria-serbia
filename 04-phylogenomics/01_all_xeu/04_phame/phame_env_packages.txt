@@ -34,6 +34,7 @@ gawk                      5.3.1                hcd3d067_0    conda-forge
 gettext                   0.22.5               he02047a_3    conda-forge
 gettext-tools             0.22.5               he02047a_3    conda-forge
 giflib                    5.2.2                hd590300_0    conda-forge
+git-filter-repo           2.47.0                   pypi_0    pypi
 glib                      2.80.2               hf974151_0    conda-forge
 glib-tools                2.80.2               hb6ce0ca_0    conda-forge
 gmp                       6.3.0                hac33072_2    conda-forge

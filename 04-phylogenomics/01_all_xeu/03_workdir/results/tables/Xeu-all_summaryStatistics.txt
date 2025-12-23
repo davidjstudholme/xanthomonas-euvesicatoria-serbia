@@ -1,0 +1,5 @@
+Reference used	ATCC_11633
+Reference genome length	5314922
+Total gap length	1003694
+Core genome length	4311228
+Total SNPs	70023

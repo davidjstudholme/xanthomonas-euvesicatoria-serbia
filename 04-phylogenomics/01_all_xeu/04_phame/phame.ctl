@@ -4,7 +4,7 @@
     reference = 1  # 0:pick a random reference; 1:use given reference; 2: use ANI based reference
       reffile = ATCC_11633.fasta  # reference filename 
 
-      project = Xeu  # main alignment file name
+      project = Xeu-all  # main alignment file name
 
       cdsSNPS = 0  # 0:no cds SNPS; 1:cds SNPs
 
