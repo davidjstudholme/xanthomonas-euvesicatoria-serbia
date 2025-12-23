@@ -110,7 +110,6 @@ XVP_189_contig
 XVP_192_contig
 XVP_194_contig
 XVP_195_contig
-XVP_205_contig
 XVP_207_contig
 XVP_216_contig
 XVP_220_contig
@@ -124,7 +123,6 @@ XVP_235_contig
 XVP_238_contig
 XVP_240_contig
 XVP_242_contig
-XVP_245_contig
 XVP_251_contig
 XVP_253_contig
 XVP_255_contig
@@ -132,12 +130,6 @@ XVP_257_contig
 XVP_259_contig
 XVP_25_contig
 XVP_262_contig
-XVP_265_contig
-XVP_267_contig
-XVP_270_contig
-XVP_271_contig
-XVP_272_contig
-XVP_273_contig
 XVP_275_contig
 XVP_278_contig
 XVP_281_contig
@@ -149,8 +141,6 @@ XVP_304_contig
 XVP_306_contig
 XVP_310_contig
 XVP_312_contig
-XVP_314_contig
-XVP_315_contig
 XVP_318_contig
 XVP_320_contig
 XVP_40_contig

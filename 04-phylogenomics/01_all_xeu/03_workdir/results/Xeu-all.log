@@ -1,7 +1,7 @@
 
 Running self-nucmer on /data/djs217/PROJECTS/53_Xeu/04-phylogenomics/01_all_xeu/03_workdir/files/ATCC_11633.fna
-[RUNNING:] nucmer --maxmatch --nosimplify --prefix=seq_seq3301027 /data/djs217/PROJECTS/53_Xeu/04-phylogenomics/01_all_xeu/03_workdir/files/ATCC_11633.fna /data/djs217/PROJECTS/53_Xeu/04-phylogenomics/01_all_xeu/03_workdir/files/ATCC_11633.fna 2>/dev/null
-[RUNNING:] show-coords -r -I 97 -L 75 -T seq_seq3301027.delta | awk '$1 != $3 || $2 != $4 && $8==$9 {print}' > seq_seq3301027.coords
+[RUNNING:] nucmer --maxmatch --nosimplify --prefix=seq_seq3420473 /data/djs217/PROJECTS/53_Xeu/04-phylogenomics/01_all_xeu/03_workdir/files/ATCC_11633.fna /data/djs217/PROJECTS/53_Xeu/04-phylogenomics/01_all_xeu/03_workdir/files/ATCC_11633.fna 2>/dev/null
+[RUNNING:] show-coords -r -I 97 -L 75 -T seq_seq3420473.delta | awk '$1 != $3 || $2 != $4 && $8==$9 {print}' > seq_seq3420473.coords
 
 Repeat coords for all references found.
 Self-NUCmer complete
@@ -26,7 +26,6 @@ Running nucmer on ATCC_11633_XVP_287_contig
 Running nucmer on ATCC_11633_XVP_189_contig
 Running nucmer on ATCC_11633_Xe173_contig
 Running nucmer on ATCC_11633_XVP_156_contig
-Running nucmer on ATCC_11633_XVP_314_contig
 Running nucmer on ATCC_11633_86_46_contig
 Running nucmer on ATCC_11633_X31_contig
 Running nucmer on ATCC_11633_XVP_222_contig
@@ -34,11 +33,9 @@ Running nucmer on ATCC_11633_85_10_contig
 Running nucmer on ATCC_11633_87_21_contig
 Running nucmer on ATCC_11633_XVP_318_contig
 Running nucmer on ATCC_11633_XVP_181_contig
-Running nucmer on ATCC_11633_XVP_272_contig
 Running nucmer on ATCC_11633_XVP_253_contig
 Running nucmer on ATCC_11633_Tu_06_contig
 Running nucmer on ATCC_11633_85_16_contig
-Running nucmer on ATCC_11633_XVP_267_contig
 Running nucmer on ATCC_11633_Xcv_DC_96_4_contig
 Running nucmer on ATCC_11633_Xcv_DC_97_P3A_contig
 Running nucmer on ATCC_11633_XVP_166_contig
@@ -55,7 +52,6 @@ Running nucmer on ATCC_11633_XVP_155_contig
 Running nucmer on ATCC_11633_XVP_42_contig
 Running nucmer on ATCC_11633_X82_8P_C1_contig
 Running nucmer on ATCC_11633_87_7_contig
-Running nucmer on ATCC_11633_XVP_245_contig
 Running nucmer on ATCC_11633_XVP_207_contig
 Running nucmer on ATCC_11633_XVP_128_contig
 Running nucmer on ATCC_11633_XVP_77_contig
@@ -75,19 +71,16 @@ Running nucmer on ATCC_11633_FB570_contig
 Running nucmer on ATCC_11633_XVP_262_contig
 Running nucmer on ATCC_11633_XVP_259_contig
 Running nucmer on ATCC_11633_XVP_255_contig
-Running nucmer on ATCC_11633_XVP_205_contig
 Running nucmer on ATCC_11633_65XENP3_contig
 Running nucmer on ATCC_11633_Xv_72_contig
 Running nucmer on ATCC_11633_Xcv_DC_93_9_contig
 Running nucmer on ATCC_11633_LMG_930_contig
 Running nucmer on ATCC_11633_XCVKK_C_4_contig
-Running nucmer on ATCC_11633_XVP_270_contig
 Running nucmer on ATCC_11633_XVP_162_contig
 Running nucmer on ATCC_11633_Xcv_DC_93_7_contig
 Running nucmer on ATCC_11633_X82_8P_C6_contig
 Running nucmer on ATCC_11633_VTM4_contig
 Running nucmer on ATCC_11633_XVP_257_contig
-Running nucmer on ATCC_11633_XVP_271_contig
 Running nucmer on ATCC_11633_Xcv_DC_93_8_contig
 Running nucmer on ATCC_11633_LMG_909_contig
 Running nucmer on ATCC_11633_DOA_2989_contig
@@ -152,7 +145,6 @@ Running nucmer on ATCC_11633_XVP_220_contig
 Running nucmer on ATCC_11633_XVP_170_contig
 Running nucmer on ATCC_11633_XVP_40_contig
 Running nucmer on ATCC_11633_Tu_08_contig
-Running nucmer on ATCC_11633_XVP_273_contig
 Running nucmer on ATCC_11633_Xv_79_contig
 Running nucmer on ATCC_11633_XVP_224_contig
 Running nucmer on ATCC_11633_LMG_905_contig
@@ -188,13 +180,11 @@ Running nucmer on ATCC_11633_20HP1615_contig
 Running nucmer on ATCC_11633_89_10_contig
 Running nucmer on ATCC_11633_XVP_160_contig
 Running nucmer on ATCC_11633_XVP_165_contig
-Running nucmer on ATCC_11633_XVP_315_contig
 Running nucmer on ATCC_11633_XVP_104_contig
 Running nucmer on ATCC_11633_DOA_2987_contig
 Running nucmer on ATCC_11633_87_47_contig
 Running nucmer on ATCC_11633_XVP_161_contig
 Running nucmer on ATCC_11633_X82_8P_C4_contig
-Running nucmer on ATCC_11633_XVP_265_contig
 Running nucmer on ATCC_11633_XVP_285_contig
 Running nucmer on ATCC_11633_XVP_99_contig
 Running nucmer on ATCC_11633_20HP1608_2_contig
@@ -208,192 +198,182 @@ NUCmer on all contig/draft genomes complete.
 buildSNPDB.pl -i /data/djs217/PROJECTS/53_Xeu/04-phylogenomics/01_all_xeu/03_workdir/results -r /data/djs217/PROJECTS/53_Xeu/04-phylogenomics/01_all_xeu/03_workdir/files/ATCC_11633.fna -l /data/djs217/PROJECTS/53_Xeu/04-phylogenomics/01_all_xeu/03_workdir/working_list.txt -p Xeu-all -c 0 -g 0.1 2>>/data/djs217/PROJECTS/53_Xeu/04-phylogenomics/01_all_xeu/03_workdir/results/Xeu-all.error >> /data/djs217/PROJECTS/53_Xeu/04-phylogenomics/01_all_xeu/03_workdir/results/Xeu-all.log
 
 Reading Gaps file.
-70_7_contig covered 0.96038 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_224_contig covered 0.94790 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_314_contig covered 0.87501 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_DC_98_P2A_contig covered 0.95344 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_DC_93_8_contig covered 0.93786 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_99_contig covered 0.95435 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xv157_contig covered 0.94794 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_56_contig covered 0.93892 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_155_contig covered 0.97666 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_273_contig covered 0.87814 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XCVKK_C_1_contig covered 0.94154 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_240_contig covered 0.94247 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Tu_06_contig covered 0.94145 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_295_contig covered 0.95307 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-LMG_667_contig covered 0.95212 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-X82_8P_C2_contig covered 0.95119 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_156_contig covered 0.97669 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_238_contig covered 0.94688 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_179_contig covered 0.95309 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_187_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xe173_contig covered 0.93841 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-DOA_1726_contig covered 0.94663 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-20HP1615_contig covered 0.94895 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_194_contig covered 0.94458 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_162_contig covered 0.97629 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-62XEKK5_contig covered 0.94161 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-VTM15_contig covered 0.94237 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_DC_97_P3A_contig covered 0.94191 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-87_13_contig covered 0.94706 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-20HP1591_contig covered 0.94908 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_189_contig covered 0.94508 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-87_7_contig covered 0.95271 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-LMG_930_contig covered 0.97220 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-LMG_909_contig covered 0.94203 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_88_contig covered 0.94440 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-20HP1608_1_contig covered 0.94723 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_DC_97_P2A_contig covered 0.94176 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_77_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-X22_contig covered 0.94021 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_DC_93_7_contig covered 0.93802 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-86_2_contig covered 0.95653 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-VTM4_contig covered 0.94627 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_DC_97_P1A_contig covered 0.94090 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_290_contig covered 0.94667 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_304_contig covered 0.95786 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-20HP1613_contig covered 0.95019 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_245_contig covered 0.87504 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XCVKK_C_4_contig covered 0.94160 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-VTM17_contig covered 0.94453 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_139_contig covered 0.94458 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_278_contig covered 0.93609 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-LMG_27970_contig covered 0.94541 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-20HP1609_2_contig covered 0.94723 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_207_contig covered 0.94359 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-86_46_contig covered 0.97768 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_DC_96_3_contig covered 0.94024 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-86_22_contig covered 0.93731 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_281_contig covered 0.93606 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-85_16_contig covered 0.93110 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_312_contig covered 0.93598 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-20HP1597_contig covered 0.94895 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_158_contig covered 0.97633 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_174_contig covered 0.95920 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_222_contig covered 0.94069 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_DC_96_4_contig covered 0.95391 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-87_47_contig covered 0.95381 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_96_contig covered 0.95972 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_285_contig covered 0.93606 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XCVKK_C_2_contig covered 0.94172 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Tu_11_contig covered 0.94180 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-REPEATS covered 0.99710 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-65XENP2_contig covered 0.94886 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_270_contig covered 0.87814 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_DC_96_1_contig covered 0.95407 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_235_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-87_21_contig covered 0.94677 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-X82_8P_C1_contig covered 0.95957 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-WHRI_8301_contig covered 0.95388 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-80_5_contig covered 0.94756 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_257_contig covered 0.95429 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP26_contig covered 0.93289 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_265_contig covered 0.87808 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-89_10_contig covered 0.94768 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-X82_8P_C6_contig covered 0.95957 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-VTM12_contig covered 0.94780 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_259_contig covered 0.94230 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_164_contig covered 0.97668 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-VTM10_contig covered 0.94237 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_192_contig covered 0.94689 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-83M_contig covered 0.94086 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-DOA_2990_contig covered 0.95003 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_128_contig covered 0.97669 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-X82_8P_C4_contig covered 0.95956 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-LMG_933_contig covered 0.94106 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_275_contig covered 0.94677 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-20HP1608_2_contig covered 0.94721 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-69_1_contig covered 0.94591 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_271_contig covered 0.87831 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-20HP1594_contig covered 0.94065 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_315_contig covered 0.87440 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-DOA_2989_contig covered 0.94665 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-E3_contig covered 0.97771 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_183_contig covered 0.94745 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_216_contig covered 0.95313 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_178_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_91_contig covered 0.97663 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-DOA_2987_contig covered 0.94639 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_226_contig covered 0.94929 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_232_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-89_16_contig covered 0.95417 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-FB570_contig covered 0.95389 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 XVP_262_contig covered 0.94195 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_104_contig covered 0.94890 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_163_contig covered 0.97669 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Tu_08_contig covered 0.94179 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-VTM16_contig covered 0.94725 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-65XENP1_contig covered 0.94889 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_DC_96_5_contig covered 0.94067 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-DOA_1721_contig covered 0.94059 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_205_contig covered 0.87007 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_195_contig covered 0.94453 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_220_contig covered 0.95309 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_306_contig covered 0.94677 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_168_contig covered 0.94852 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_287_contig covered 0.95430 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_310_contig covered 0.94195 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_25_contig covered 0.97677 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XCVCP_C_51_contig covered 0.94151 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_DC_93_9_contig covered 0.93793 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_66_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Ps_7_contig covered 0.95334 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_272_contig covered 0.87813 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xv_72_contig covered 0.95323 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-20HP1614_contig covered 0.94723 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xv_79_contig covered 0.94835 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-72_7_contig covered 0.95345 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_320_contig covered 0.94071 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_251_contig covered 0.95315 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-85_10_contig covered 0.94138 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-69_24_contig covered 0.96928 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_267_contig covered 0.87814 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-X82_8P_C5_contig covered 0.95957 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XCVKK_C_3_contig covered 0.94172 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_255_contig covered 0.95428 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_160_contig covered 0.97669 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_228_contig covered 0.96298 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_318_contig covered 0.94074 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+20HP1615_contig covered 0.94895 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 XVP_253_contig covered 0.95294 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_51_contig covered 0.95432 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-DOA_2983_contig covered 0.94231 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-DC99P1A1_contig covered 0.94696 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_DC_93_6_contig covered 0.95402 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_71_contig covered 0.95425 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_102_contig covered 0.94896 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Ps_1_contig covered 0.94192 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_40_contig covered 0.94669 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_234_contig covered 0.95430 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-X82_8P_contig covered 0.94786 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-66b_contig covered 0.94057 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-X13_contig covered 0.94004 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_DC_96_2_contig covered 0.94764 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_112_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_170_contig covered 0.95919 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_82_contig covered 0.94896 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_161_contig covered 0.97635 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 65XENP3_contig covered 0.94889 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_157_contig covered 0.97666 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Tu_10_contig covered 0.94118 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Xcv_Sspep_92_contig covered 0.94207 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_165_contig covered 0.93973 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_242_contig covered 0.94196 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-Tabasco1_contig covered 0.94881 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-ATCC_11633 covered 1.00000 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-90_13_contig covered 0.96579 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-DOA_2036_contig covered 0.94209 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-X82_8P_C3_contig covered 0.95943 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XCVKK_C_5_contig covered 0.94172 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_181_contig covered 0.95308 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-LMG_905_contig covered 0.93834 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 X31_contig covered 0.93943 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XVP_166_contig covered 0.95309 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_275_contig covered 0.94677 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_320_contig covered 0.94071 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_158_contig covered 0.97633 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+LMG_909_contig covered 0.94203 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_281_contig covered 0.93606 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+VTM16_contig covered 0.94725 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_DC_97_P3A_contig covered 0.94191 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_228_contig covered 0.96298 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+66b_contig covered 0.94057 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_25_contig covered 0.97677 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_82_contig covered 0.94896 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_DC_98_P2A_contig covered 0.95344 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+62XEKK5_contig covered 0.94161 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+86_46_contig covered 0.97768 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_287_contig covered 0.95430 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_285_contig covered 0.93606 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_DC_96_4_contig covered 0.95391 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_DC_96_2_contig covered 0.94764 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+70_7_contig covered 0.96038 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_40_contig covered 0.94669 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+90_13_contig covered 0.96579 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+87_21_contig covered 0.94677 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_51_contig covered 0.95432 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+VTM10_contig covered 0.94237 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 75_3_contig covered 0.95356 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-DC99P1B1_contig covered 0.94700 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-XCVCP_C_43_contig covered 0.94160 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
-71_21_contig covered 0.93535 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_DC_97_P1A_contig covered 0.94090 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+DOA_2983_contig covered 0.94231 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_232_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_DC_93_7_contig covered 0.93802 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_DC_93_9_contig covered 0.93793 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+X82_8P_C3_contig covered 0.95943 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+REPEATS covered 0.99710 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_77_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_DC_96_1_contig covered 0.95407 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+20HP1597_contig covered 0.94895 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_306_contig covered 0.94677 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+20HP1614_contig covered 0.94723 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+ATCC_11633 covered 1.00000 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_166_contig covered 0.95309 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_235_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_155_contig covered 0.97666 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_157_contig covered 0.97666 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+X82_8P_C1_contig covered 0.95957 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Tu_10_contig covered 0.94118 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_99_contig covered 0.95435 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_163_contig covered 0.97669 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+72_7_contig covered 0.95345 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_242_contig covered 0.94196 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_278_contig covered 0.93609 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_240_contig covered 0.94247 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+X82_8P_C5_contig covered 0.95957 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+LMG_905_contig covered 0.93834 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_220_contig covered 0.95309 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Tabasco1_contig covered 0.94881 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_112_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_222_contig covered 0.94069 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_88_contig covered 0.94440 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_66_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_102_contig covered 0.94896 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_183_contig covered 0.94745 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+X13_contig covered 0.94004 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+WHRI_8301_contig covered 0.95388 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+LMG_667_contig covered 0.95212 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_DC_96_5_contig covered 0.94067 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_174_contig covered 0.95920 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Tu_06_contig covered 0.94145 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_91_contig covered 0.97663 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+20HP1591_contig covered 0.94908 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+X22_contig covered 0.94021 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_304_contig covered 0.95786 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_216_contig covered 0.95313 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_164_contig covered 0.97668 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+X82_8P_C6_contig covered 0.95957 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xe173_contig covered 0.93841 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+87_47_contig covered 0.95381 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_195_contig covered 0.94453 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Tu_08_contig covered 0.94179 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_238_contig covered 0.94688 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Tu_11_contig covered 0.94180 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+E3_contig covered 0.97771 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+DOA_2036_contig covered 0.94209 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+LMG_933_contig covered 0.94106 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_192_contig covered 0.94689 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+VTM17_contig covered 0.94453 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+X82_8P_C4_contig covered 0.95956 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+20HP1609_2_contig covered 0.94723 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+20HP1613_contig covered 0.95019 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XCVKK_C_2_contig covered 0.94172 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+DC99P1A1_contig covered 0.94696 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_234_contig covered 0.95430 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_179_contig covered 0.95309 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+86_2_contig covered 0.95653 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_251_contig covered 0.95315 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP26_contig covered 0.93289 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+X82_8P_contig covered 0.94786 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_207_contig covered 0.94359 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+VTM4_contig covered 0.94627 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+65XENP1_contig covered 0.94889 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_DC_96_3_contig covered 0.94024 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+87_7_contig covered 0.95271 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+85_10_contig covered 0.94138 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_318_contig covered 0.94074 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_178_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+FB570_contig covered 0.95389 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+65XENP2_contig covered 0.94886 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_DC_97_P2A_contig covered 0.94176 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XCVKK_C_4_contig covered 0.94160 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_168_contig covered 0.94852 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_189_contig covered 0.94508 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+89_10_contig covered 0.94768 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_257_contig covered 0.95429 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_255_contig covered 0.95428 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+X82_8P_C2_contig covered 0.95119 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_Sspep_92_contig covered 0.94207 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_56_contig covered 0.93892 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+20HP1608_1_contig covered 0.94723 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XCVKK_C_1_contig covered 0.94154 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+89_16_contig covered 0.95417 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_290_contig covered 0.94667 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+LMG_27970_contig covered 0.94541 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+DOA_2990_contig covered 0.95003 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_DC_93_8_contig covered 0.93786 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_295_contig covered 0.95307 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+DOA_2987_contig covered 0.94639 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+85_16_contig covered 0.93110 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+69_24_contig covered 0.96928 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xv_79_contig covered 0.94835 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XCVKK_C_5_contig covered 0.94172 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+87_13_contig covered 0.94706 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+71_21_contig covered 0.93587 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xcv_DC_93_6_contig covered 0.95402 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_156_contig covered 0.97669 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_226_contig covered 0.94929 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+DOA_1726_contig covered 0.94663 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xv157_contig covered 0.94794 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_71_contig covered 0.95425 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_139_contig covered 0.94458 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+DOA_1721_contig covered 0.94059 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 XVP_81_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Xv_72_contig covered 0.95323 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_161_contig covered 0.97635 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XCVCP_C_43_contig covered 0.94160 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_187_contig covered 0.95436 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_259_contig covered 0.94230 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+83M_contig covered 0.94086 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+VTM12_contig covered 0.94780 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_128_contig covered 0.97669 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_194_contig covered 0.94458 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+DC99P1B1_contig covered 0.94700 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_165_contig covered 0.93973 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_170_contig covered 0.95919 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_310_contig covered 0.94195 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Ps_7_contig covered 0.95334 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_312_contig covered 0.93598 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_181_contig covered 0.95308 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_162_contig covered 0.97629 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XCVCP_C_51_contig covered 0.94151 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XCVKK_C_3_contig covered 0.94172 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+Ps_1_contig covered 0.94192 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_160_contig covered 0.97669 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_224_contig covered 0.94790 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+20HP1594_contig covered 0.94065 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+69_1_contig covered 0.94591 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_96_contig covered 0.95972 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+XVP_104_contig covered 0.94890 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+86_22_contig covered 0.93731 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+80_5_contig covered 0.94756 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+LMG_930_contig covered 0.97220 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+VTM15_contig covered 0.94237 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+DOA_2989_contig covered 0.94665 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
+20HP1608_2_contig covered 0.94721 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 XVP_42_contig covered 0.95433 of the ATCC_11633 (<cutoff = 0.1). It will be used to build SNP tree and matrix.
 Printing Summary Statistics.
 Creating SNP alignment.
