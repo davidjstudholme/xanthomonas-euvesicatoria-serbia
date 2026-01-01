@@ -25,7 +25,7 @@ This repository contains details of the bioinformatics methods used in our manus
 Key results files:
 
 1. [Phylogenomics of the whole set of _X. euvesicatoria_ pv. _euvesciatoria_ strains](04-phylogenomics/01_all_xeu/03_workdir/results)
-   - [Tree file built using FastTree](04-phylogenomics/01_all_xeu/03_workdir/results/trees/Xeu-all_all.fasttree) [FastTree in iTOl](https://itol.embl.de/tree/14417323151477701766484756)
+   - [Tree file built using FastTree](04-phylogenomics/01_all_xeu/03_workdir/results/trees/Xeu-all_all.fasttree) [FastTree in iTOL](https://itol.embl.de/tree/14417323151477701766484756)
    - [Tree file built using IQ-Tree](04-phylogenomics/01_all_xeu/03_workdir/results/trees/Xeu-all.IQ-tree_all_snp_alignment.fna.contree) [IQ-TREE in iTOL](https://itol.embl.de/tree/14417323152163721767265233)
    - [Tree file built using RAxML](04-phylogenomics/01_all_xeu/03_workdir/results/trees/RAxML_bipartitionsBranchLabels.Xeu-all.RAxML_all_best) [RAxML tree in iTOL](https://itol.embl.de/tree/14417323152126031767264832) 
 2. [Phylogenomics of the strains in Kaur Group I](04-phylogenomics/02_cluster_6_only/03_workdir/results)
