@@ -32,7 +32,7 @@ Key results files:
 3. [Phylogenomics of a subset of strains in Kaur Group I](04-phylogenomics/03_subset_of_cluster_6/03_workdir/results)  
 4. [FastANI pairwise scores](05-fastani/Xeu-fastANI.short.out)
 5. [Read mapping across plasmid pLMG930.2](06-bwa-alignments/CP018463.1.multi-bamqc/report.pdf)
-6. [Read mapping across un-named 75-kbplasmid 2 from strain Xe173 ](06-bwa-alignments/CP170254.1.multi-bamqc/report.pdf)
+6. [Read mapping across un-named 75-kb plasmid 2 from strain Xe173 ](06-bwa-alignments/CP170254.1.multi-bamqc/report.pdf)
 7. [SNPs among closely-related strains, in NEXUS format](07-snp-calling/snps.csv.haplotype.nex)
 8. [TBLASTN coverages of T3SS effector sequences in genome assemblies](09-t3ss/effector_profile_euroxanth.tsv)
 
