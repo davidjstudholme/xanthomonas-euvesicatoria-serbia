@@ -25,6 +25,9 @@ This repository contains details of the bioinformatics methods used in our manus
 Key results files:
 
 1. [Phylogenomics of the whole set of _X. euvesicatoria_ pv. _euvesciatoria_ strains](04-phylogenomics/01_all_xeu/03_workdir/results)
+   - Tree built using FastTree
+   - Tree built using IQ-Tree
+   - Tree built using RAxML 
 2. [Phylogenomics of the strains in Kaur Group I](04-phylogenomics/02_cluster_6_only/03_workdir/results)
 3. [Phylogenomics of a subset of strains in Kaur Group I](04-phylogenomics/03_subset_of_cluster_6/03_workdir/results)  
 4. [FastANI pairwise scores](05-fastani/Xeu-fastANI.short.out)
