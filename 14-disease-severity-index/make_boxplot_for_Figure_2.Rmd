@@ -1,0 +1,97 @@
+---
+title: "Make boxplot for Figure 2"
+output: html_document
+---
+
+---
+title: "Disease Severity Index Comparison"
+output:
+  html_document:
+    toc: false
+    number_sections: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE
+)
+
+library(tidyr)
+library(ggplot2)
+library(agricolae)
+
+# Assumes disease.index.values exists with columns X13, X22, X31
+
+disease.index.values <- read.delim("disease-index-values.tsv")
+
+df_long <- pivot_longer(
+disease.index.values,
+cols = c(X13, X22, X31),
+names_to = "Index",
+values_to = "Value"
+)
+
+
+# One-way ANOVA
+
+anova_model <- aov(Value ~ Index, data = df_long)
+summary(anova_model)
+
+# Fisher's LSD post hoc test
+
+lsd <- LSD.test(anova_model, "Index", p.adj = "none")
+
+letters_df <- data.frame(
+  Index = rownames(lsd$groups),
+  Letters = lsd$groups$groups
+)
+
+p <- ggplot(df_long, aes(x = Index, y = Value)) +
+geom_boxplot(
+  width = 0.6,
+  outlier.shape = 21,
+  outlier.size = 2,
+  outlier.alpha = 0.6
+  ) +
+  geom_jitter(
+  width = 0.12,
+  size = 1.5,
+  alpha = 0.4
+  ) +
+  geom_text(
+    data = letters_df,
+    aes(
+      x = Index,
+      y = max(df_long$Value) * 1.05,
+      label = Letters
+      ),
+    size = 5
+    ) +
+theme_classic(base_size = 14) +
+labs(
+x = NULL,
+y = "Disease severity index"
+) +
+theme(
+  axis.text.x = element_text(size = 12),
+  axis.text.y = element_text(size = 12),
+  axis.title.y = element_text(size = 13)
+)
+
+p
+
+
+ggsave(
+  filename = "disease_severity_index_boxplot.pdf",
+  plot = p,
+  width = 4,
+  height = 4,
+  units = "in"
+  )
+
+```
+
+
+
