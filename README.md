@@ -21,6 +21,7 @@ This repository contains details of the bioinformatics methods used in our manus
 10. [Identifying plasmid-like contigs with geNomad](12-genomad/commands.sh)
 11. [Visualising plasmid sequence comparisons using clinker](11-clinker/commands.sh)
 12. [Visualising prophage sequence comparisons using clinker](13-prophage/commands.sh)
+13. [Plotting the disease severity index values for Figure 2](14-disease-severity-index/make_boxplot_for_Figure_2.Rmd)
 
 Key results files:
 
